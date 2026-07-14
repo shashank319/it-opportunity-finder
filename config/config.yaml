@@ -39,8 +39,10 @@ sources:
         posted_date: issuancedate
         due_date: closingdate
         set_aside: lsbrpindicator       # local small-business flag
-      # This dataset has no per-row URL, so we link to the county bid portal.
-      source_url: "https://www.montgomerycountymd.gov/PRO/bids-solicitations.html"
+      # This dataset has no per-row URL, so we link to the county's official
+      # solicitations hub. Find the specific bid there by its solicitation
+      # number (shown in the title / on the dashboard).
+      source_url: "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts"
 
     # ---- EXAMPLE (disabled): NYC City Record Online --------------------------
     # Mixed dataset (personnel + procurement). If you enable it, filter to
