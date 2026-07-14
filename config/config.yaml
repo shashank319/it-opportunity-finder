@@ -1,0 +1,316 @@
+# =============================================================================
+# IT Opportunity Finder — configuration
+# =============================================================================
+# This is the ONE file a non-technical teammate edits to tune the tool.
+# Nothing here is secret. API keys/passwords live in GitHub Actions Secrets,
+# NEVER in this file.
+#
+# Scope reminder: STATE, COUNTY, and CITY (SLED) sources ONLY. No federal.
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# SOURCES — where opportunities come from. Each is a pluggable adapter.
+# -----------------------------------------------------------------------------
+sources:
+
+  # --- Socrata (SODA) open-data datasets -------------------------------------
+  # Generic reader for any Socrata portal. Add a city/state by copying a block.
+  # Find datasets at: https://<domain>/browse  or the Socrata discovery API:
+  #   https://api.us.socrata.com/api/catalog/v1?q=solicitation&only=dataset
+  # field_map maps THAT dataset's column names -> our normalized fields.
+  socrata_datasets:
+
+    # ---- LIVE, WORKING, NO API KEY: a real county solicitations feed. --------
+    # Montgomery County, Maryland publishes active solicitations (RFP/IFB) here.
+    - name: "Montgomery County MD — Solicitations"
+      enabled: true
+      domain: data.montgomerycountymd.gov
+      dataset_id: eeq6-nnwe
+      state: MD
+      where: "status='Active'"          # only currently-open solicitations
+      order: "issuancedate DESC"
+      limit: 1000
+      field_map:
+        id: number                      # solicitation number (stable id)
+        title: description              # this dataset's "description" IS the title
+        description: description
+        agency: department
+        posted_date: issuancedate
+        due_date: closingdate
+        set_aside: lsbrpindicator       # local small-business flag
+      # This dataset has no per-row URL, so we link to the county bid portal.
+      source_url: "https://www.montgomerycountymd.gov/PRO/bids-solicitations.html"
+
+    # ---- EXAMPLE (disabled): NYC City Record Online --------------------------
+    # Mixed dataset (personnel + procurement). If you enable it, filter to
+    # procurement notices via `where`. Left OFF because it needs tuning.
+    - name: "New York City — City Record (Procurement)"
+      enabled: false
+      domain: data.cityofnewyork.us
+      dataset_id: dg92-zbpx
+      state: NY
+      where: "section_name='Procurement'"
+      order: "start_date DESC"
+      limit: 1000
+      field_map:
+        id: request_id
+        title: short_title
+        description: additional_description_1
+        agency: agency_name
+        posted_date: start_date
+        due_date: end_date
+      source_url: "https://a856-cityrecord.nyc.gov/"
+
+  # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
+  # Reads a dedicated Gmail inbox for alert emails from shared procurement
+  # platforms. Turn `enabled: true` AFTER you set up GMAIL_TOKEN_JSON (README).
+  # Add a new alert provider by adding a platform block — no code change.
+  gmail_alerts:
+    enabled: false
+    name: "Email Alerts (Gmail)"
+    lookback_days: 3          # look back this many days each run (cron is daily)
+    max_messages: 200
+    # extra_query: "label:bid-alerts"   # optional: restrict to a Gmail label
+
+    platforms:
+      # For each platform: match by sender (from_contains), and pull bid-detail
+      # links whose URL contains one of link_contains. Optional regexes can pull
+      # a deadline/agency out of the email body. Tune these as real alerts arrive.
+      - name: PlanetBids
+        enabled: true
+        from_contains: ["planetbids.com"]
+        link_contains: ["planetbids.com/portal", "vendors.planetbids.com"]
+
+      - name: Bonfire
+        enabled: true
+        from_contains: ["bonfirehub.com", "gobonfire.com"]
+        link_contains: ["bonfirehub.com/opportunities", "bonfirehub.com/portal"]
+
+      - name: DemandStar
+        enabled: true
+        from_contains: ["demandstar.com"]
+        link_contains: ["demandstar.com"]
+
+      - name: OpenGov
+        enabled: true
+        from_contains: ["opengov.com", "procurement.opengov.com"]
+        link_contains: ["procurement.opengov.com"]
+
+      - name: Periscope / BidSync
+        enabled: true
+        from_contains: ["bidsync.com", "periscopeholdings.com", "public.periscopeholdings.com"]
+        link_contains: ["bidsync.com", "periscopeholdings.com"]
+
+      - name: Public Purchase
+        enabled: true
+        from_contains: ["publicpurchase.com"]
+        link_contains: ["publicpurchase.com"]
+
+      - name: Vendor Registry
+        enabled: true
+        from_contains: ["vendorregistry.com"]
+        link_contains: ["vendorregistry.com"]
+
+      - name: BidNet
+        enabled: true
+        from_contains: ["bidnetdirect.com", "bidnet.com"]
+        link_contains: ["bidnetdirect.com"]
+
+      - name: Ionwave
+        enabled: true
+        from_contains: ["ionwave.net"]
+        link_contains: ["ionwave.net"]
+
+
+# -----------------------------------------------------------------------------
+# FILTERING — high recall, light touch. INCLUDE on IT keyword OR IT code;
+# then drop ONLY clearly non-IT physical work (unless a strong software term
+# is also present, in which case KEEP and let a human decide).
+# -----------------------------------------------------------------------------
+filtering:
+
+  # Include if the title/description contains ANY of these (case-insensitive).
+  include_keywords:
+    - software
+    - application
+    - app
+    - system
+    - systems
+    - cloud
+    - saas
+    - paas
+    - iaas
+    - migration
+    - modernization
+    - modernize
+    - development
+    - developer
+    - integration
+    - portal
+    - website
+    - web
+    - database
+    - data
+    - analytics
+    - license
+    - digital
+    - automation
+    - rpa
+    - workflow
+    - platform
+    - api
+    - ecm
+    - content management
+    - document management
+    - records management
+    - laserfiche
+    - mendix
+    - low-code
+    - low code
+    - ".net"
+    - dotnet
+    - java
+    - python
+    - devops
+    - cybersecurity
+    - it services
+    - information technology
+    - crm
+    - erp
+    - sharepoint
+    - servicenow
+    - ai
+    - artificial intelligence
+    - machine learning
+    - chatbot
+    - hosting
+    - programming
+    - computer
+    - e-government
+    - egovernment
+    - gis software
+    - gis
+
+  # Include if any of these codes appear in naics/psc/set_aside fields.
+  # Substring match — listing "43" catches UNSPSC 43xxxxxx software/IT.
+  # NAICS: IT services & data. NIGP: 208 software, 920 data processing,
+  # 209 computer hardware/peripherals. Edit freely.
+  include_codes:
+    # --- IT NAICS ---
+    - "541511"   # custom computer programming
+    - "541512"   # computer systems design
+    - "541519"   # other computer related services
+    - "518210"   # data processing / hosting
+    - "511210"   # software publishers
+    - "541513"   # computer facilities management
+    - "541611"   # admin/management consulting
+    - "611420"   # computer training
+    # --- UNSPSC software/IT family (prefix match) ---
+    - "43"       # 43xxxxxx IT & software
+    # --- NIGP commodity codes ---
+    - "208"      # computer software
+    - "920"      # data processing / IT services
+    - "209"      # computer hardware & peripherals
+
+  # Drop ONLY if one of these matches AND no strong-software term is present.
+  exclude_keywords:
+    - cabling
+    - cable installation
+    - wiring
+    - electrical
+    - conduit
+    - fiber installation
+    - network hardware installation
+    - structured cabling
+    - desktop hardware
+    - pc hardware
+    - roadwork
+    - road construction
+    - paving
+    - hvac
+    - plumbing
+    - janitorial
+    - landscaping
+    - construction
+    - furniture
+    - uniforms
+    - catering
+    - vehicle
+    - fuel
+    - generator
+
+  # If ANY of these appears, we KEEP the item even when an exclude term matches.
+  # (These are the unambiguous "this is really software" signals.)
+  strong_software_keywords:
+    - software
+    - application
+    - saas
+    - cloud
+    - laserfiche
+    - mendix
+    - low-code
+    - low code
+    - ".net"
+    - dotnet
+    - java
+    - api
+    - database
+    - erp
+    - crm
+    - modernization
+    - migration
+    - integration
+    - analytics
+    - information technology
+    - it services
+    - web application
+    - custom software
+
+
+# -----------------------------------------------------------------------------
+# SCORING — 0-100, used ONLY for sorting. It never hides anything.
+# score = base + per_hit*(#include hits) + tier1_weight*(#tier1 hits) + code_bonus
+# -----------------------------------------------------------------------------
+scoring:
+  base: 30
+  per_hit: 6
+  tier1_weight: 15
+  code_hit_bonus: 20
+  # Tier-1 = our sweet-spot capabilities; these push the score up the most.
+  tier1_keywords:
+    - laserfiche
+    - mendix
+    - low-code
+    - low code
+    - ".net"
+    - dotnet
+    - java
+    - software
+    - cloud
+    - saas
+    - modernization
+    - migration
+    - integration
+    - custom software
+    - document management
+    - content management
+    - erp
+    - crm
+
+
+# -----------------------------------------------------------------------------
+# HISTORY — how long to remember seen opportunities (for cross-day dedupe).
+# -----------------------------------------------------------------------------
+history:
+  retention_days: 180
+
+
+# -----------------------------------------------------------------------------
+# OPTIONAL Claude classifier for borderline IT-vs-non-IT calls.
+# OFF by default so the baseline cost is $0 (pure keyword/code filtering).
+# (Wiring is a later step; this flag is here so the config shape is stable.)
+# -----------------------------------------------------------------------------
+claude_classifier:
+  enabled: false
+  model: claude-haiku-4-5-20251001

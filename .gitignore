@@ -1,0 +1,17 @@
+# Never commit secrets or local credential files.
+*.env
+.env
+token.json
+credentials.json
+gmail_token.json
+client_secret*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store

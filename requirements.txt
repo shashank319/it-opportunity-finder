@@ -1,0 +1,10 @@
+# Runtime dependencies (all free / open-source).
+requests>=2.31          # HTTP for Socrata + email providers
+PyYAML>=6.0             # read config.yaml
+python-dateutil>=2.8    # robust date parsing
+
+# Gmail bid-alert ingestion (only needed when gmail_alerts is enabled).
+google-api-python-client>=2.100
+google-auth>=2.23
+google-auth-oauthlib>=1.1      # used by scripts/gmail_setup.py (one-time local auth)
+beautifulsoup4>=4.12           # parse links out of HTML alert emails

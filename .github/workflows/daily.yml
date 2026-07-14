@@ -1,0 +1,68 @@
+# =============================================================================
+# Daily runner — GitHub Actions (free tier).
+# Runs every morning, plus a manual "Run workflow" button (workflow_dispatch).
+# Steps: install deps -> run the tool -> commit the refreshed data files ->
+# (email is sent by the tool itself during the run).
+# =============================================================================
+name: Daily IT Opportunity Run
+
+on:
+  schedule:
+    # 12:00 UTC daily (~7-8am US Eastern). Change the cron to retime it.
+    - cron: "0 12 * * *"
+  workflow_dispatch:        # lets you click "Run workflow" any time
+
+# The job commits opportunities.json + history.json back to the repo.
+permissions:
+  contents: write
+
+# Never run two daily jobs at once (avoids commit races).
+concurrency:
+  group: daily-run
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run IT Opportunity Finder
+        env:
+          # --- Email (set the ones your chosen provider needs) ---
+          EMAIL_PROVIDER: ${{ secrets.EMAIL_PROVIDER }}   # resend | brevo | smtp
+          EMAIL_TO:       ${{ secrets.EMAIL_TO }}          # comma-separated recipients
+          EMAIL_FROM:     ${{ secrets.EMAIL_FROM }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BREVO_API_KEY:  ${{ secrets.BREVO_API_KEY }}
+          SMTP_HOST:      ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:      ${{ secrets.SMTP_PORT }}
+          SMTP_USER:      ${{ secrets.SMTP_USER }}
+          SMTP_PASS:      ${{ secrets.SMTP_PASS }}
+          # --- Sources (optional) ---
+          GMAIL_TOKEN_JSON:   ${{ secrets.GMAIL_TOKEN_JSON }}   # enables Gmail alerts
+          SOCRATA_APP_TOKEN:  ${{ secrets.SOCRATA_APP_TOKEN }}  # optional, raises limits
+        run: python -m src.main
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/opportunities.json data/history.json
+          # Only commit if something actually changed.
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily opportunities update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
