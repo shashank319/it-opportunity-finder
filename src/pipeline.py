@@ -15,9 +15,37 @@ non-technical teammate can tune them without touching code.
 from __future__ import annotations
 
 import re
+from datetime import date, datetime, timedelta, timezone
 
 from .models import Opportunity
 from .util import today_iso
+
+
+def _parse_iso(value: str):
+    """Parse a 'YYYY-MM-DD' string to a date, or None if blank/unparseable."""
+    if value and len(value) >= 10:
+        try:
+            return date.fromisoformat(value[:10])
+        except ValueError:
+            return None
+    return None
+
+
+def is_active(opp: Opportunity, today: date, stale_after_days: int) -> bool:
+    """True if this looks like a CURRENTLY-OPEN opportunity (accepting bids).
+
+    * Has a deadline  -> keep only if the deadline is today or later.
+    * No deadline     -> keep only if it was posted within `stale_after_days`
+                         (so we don't show years-old notices with no date).
+    * No dates at all -> keep (we can't tell; let a human decide).
+    """
+    due = _parse_iso(opp.due_date)
+    if due is not None:
+        return due >= today                      # open if deadline hasn't passed
+    posted = _parse_iso(opp.posted_date)
+    if posted is not None:
+        return posted >= today - timedelta(days=stale_after_days)
+    return True
 
 
 def _compile_terms(terms):
@@ -57,6 +85,10 @@ class Filters:
         # Codes that count as IT (NAICS / UNSPSC prefixes / NIGP). Matched as
         # substrings so "43xxxxxx" style prefixes work if you list "43".
         self.include_codes = [str(c).lower() for c in f.get("include_codes", [])]
+
+        # "Active only" date filter (see is_active()).
+        self.drop_expired = bool(f.get("drop_expired", True))
+        self.stale_after_days = int(f.get("stale_after_days", 150))
 
         sc = config.get("scoring", {})
         self.tier1_keywords = _compile_terms(sc.get("tier1_keywords", []))
@@ -136,6 +168,7 @@ def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[l
     """
     filters = Filters(config)
     today = today_iso()
+    today_date = datetime.now(timezone.utc).date()
 
     kept: list[Opportunity] = []
     seen_primary: set[str] = set()
@@ -144,6 +177,10 @@ def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[l
     for opp in raw:
         keep, score, matched = keep_and_score(opp, filters)
         if not keep:
+            continue
+
+        # Active-only: drop opportunities whose bidding window has clearly closed.
+        if filters.drop_expired and not is_active(opp, today_date, filters.stale_after_days):
             continue
 
         pkey = _dedupe_key(opp)

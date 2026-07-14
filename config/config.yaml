@@ -93,7 +93,9 @@ sources:
       where: "solicitation=true"
       order: "creation_date DESC"
       limit: 500
-      field_map: { id: contract_no, title: contract_description, description: type, agency: type, posted_date: creation_date, due_date: fiscal_year_date }
+      # No true bid-deadline column here, so we leave due_date blank and rely on
+      # post-date recency (the active-only filter) instead of a fake deadline.
+      field_map: { id: contract_no, title: contract_description, description: type, agency: type, posted_date: creation_date }
       source_url: "https://www.mesaaz.gov/business/purchasing"
 
     # ---- SOUTH / SOUTH-CENTRAL ----
@@ -127,7 +129,8 @@ sources:
       where: ""
       order: "timestamp DESC"
       limit: 500
-      field_map: { id: solicitation_number, title: description, description: description, agency: agency_name, posted_date: timestamp, due_date: timestamp, url: solicitation_document }
+      # timestamp is a post/scrape time, not a bid deadline — leave due_date blank.
+      field_map: { id: solicitation_number, title: description, description: description, agency: agency_name, posted_date: timestamp, url: solicitation_document }
       source_url: "https://comptroller.texas.gov/purchasing/"
 
     - name: "Texas DOT — Plan Holders (Open Lettings)"
@@ -190,7 +193,7 @@ sources:
       source_url: "https://mmp.delaware.gov/Bids/"
 
     - name: "Delaware — Recently Closed Bids (Statewide)"
-      enabled: true
+      enabled: false
       domain: data.delaware.gov
       dataset_id: yhim-4378
       state: DE
@@ -201,7 +204,7 @@ sources:
       source_url: "https://mmp.delaware.gov/Bids/"
 
     - name: "Montgomery County MD — Proposed Awardee (Solicitations)"
-      enabled: true
+      enabled: false
       domain: data.montgomerycountymd.gov
       dataset_id: ecp6-b47r
       state: MD
@@ -224,7 +227,7 @@ sources:
 
     # ---- MIDWEST ----
     - name: "Cook County IL — Intent to Award"
-      enabled: true
+      enabled: false
       domain: datacatalog.cookcountyil.gov
       dataset_id: bgq7-v7ms
       state: IL
@@ -235,7 +238,7 @@ sources:
       source_url: "https://www.cookcountyil.gov/service/view-bid-opportunities"
 
     - name: "Cook County IL — Bid Tabulations"
-      enabled: true
+      enabled: false
       domain: datacatalog.cookcountyil.gov
       dataset_id: 32au-zaqn
       state: IL
@@ -270,7 +273,7 @@ sources:
     # ---- SOUTHEAST (contract-notice feeds — thin Socrata coverage here, but
     #      each row carries the RFP/IFB solicitation reference) ----
     - name: "Richmond VA — City Contracts (RFP/IFB)"
-      enabled: true
+      enabled: false
       domain: data.richmondgov.com
       dataset_id: xqn7-jvv2
       state: VA
@@ -281,7 +284,7 @@ sources:
       source_url: "https://www.rva.gov/procurement-services"
 
     - name: "Atlanta GA — Contracts (RFP/IFB)"
-      enabled: true
+      enabled: false
       domain: atlanta.data.socrata.com
       dataset_id: s39g-udq5
       state: GA
@@ -519,6 +522,14 @@ filtering:
     - mowing
     - food distribution
     - food service
+
+  # --- Active-only date filter -----------------------------------------------
+  # Show only opportunities that are still ACCEPTING BIDS.
+  #   * If an item has a deadline, keep it only if the deadline is today/later.
+  #   * If it has no deadline, keep it only if posted within stale_after_days.
+  # Set drop_expired: false to see everything (including closed/old ones).
+  drop_expired: true
+  stale_after_days: 150
 
   # If ANY of these appears, we KEEP the item even when an exclude term matches.
   # (These are the unambiguous "this is really software" signals.)
