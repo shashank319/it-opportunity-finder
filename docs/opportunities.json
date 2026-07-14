@@ -1,6 +1,82 @@
 {
-  "generated_at": null,
-  "counts": { "total": 0, "new": 0 },
-  "health": { "ok": 0, "total": 0, "sources": [] },
-  "opportunities": []
+  "generated_at": "2026-07-14T04:29:49.975229+00:00",
+  "counts": {
+    "total": 3,
+    "new": 3
+  },
+  "health": {
+    "ok": 1,
+    "total": 1,
+    "sources": [
+      {
+        "source": "Montgomery County MD — Solicitations",
+        "ok": true,
+        "count": 22,
+        "error": ""
+      }
+    ]
+  },
+  "opportunities": [
+    {
+      "id": "eeq6-nnwe:1188169",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "Video Streaming and Legislative Content Management Services",
+      "description": "Video Streaming and Legislative Content Management Services",
+      "agency": "Technology and Enterprise Business Solutions",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/PRO/bids-solicitations.html",
+      "naics": "",
+      "psc": "",
+      "set_aside": "Y",
+      "posted_date": "2026-06-04",
+      "due_date": "2026-07-20",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "content management"
+      ]
+    },
+    {
+      "id": "eeq6-nnwe:1193673",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "Law Enforcement Records Management System (LE-RMS)",
+      "description": "Law Enforcement Records Management System (LE-RMS)",
+      "agency": "Police",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/PRO/bids-solicitations.html",
+      "naics": "",
+      "psc": "",
+      "set_aside": "N",
+      "posted_date": "2026-06-26",
+      "due_date": "2026-07-27",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "system",
+        "records management"
+      ]
+    },
+    {
+      "id": "eeq6-nnwe:1192419",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "Energy Code Information Technology, Services & Consulting",
+      "description": "Energy Code Information Technology, Services & Consulting",
+      "agency": "Department of Permitting Services",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/PRO/bids-solicitations.html",
+      "naics": "",
+      "psc": "",
+      "set_aside": "N",
+      "posted_date": "2026-06-23",
+      "due_date": "2026-08-07",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "information technology"
+      ]
+    }
+  ]
 }
