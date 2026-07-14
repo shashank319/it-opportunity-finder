@@ -49,7 +49,25 @@ def today_iso() -> str:
 
 
 def clean_text(value) -> str:
-    """Collapse whitespace and strip. Safe on None."""
+    """Strip HTML, collapse whitespace, and trim. Safe on None.
+
+    Some open-data feeds (e.g. NYC City Record) store rich-text HTML in their
+    description fields. We strip tags so (a) the dashboard shows clean text and
+    (b) keyword matching doesn't trip over markup like <span style=...>.
+    """
     if value is None:
         return ""
-    return re.sub(r"\s+", " ", str(value)).strip()
+    text = str(value)
+    if "<" in text and ">" in text:
+        text = re.sub(r"<[^>]+>", " ", text)   # remove HTML tags
+        text = _unescape_entities(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _unescape_entities(text: str) -> str:
+    """Turn the few common HTML entities into plain characters."""
+    try:
+        import html
+        return html.unescape(text)
+    except Exception:
+        return text

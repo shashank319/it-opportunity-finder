@@ -44,25 +44,276 @@ sources:
       # number (shown in the title / on the dashboard).
       source_url: "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts"
 
-    # ---- EXAMPLE (disabled): NYC City Record Online --------------------------
-    # Mixed dataset (personnel + procurement). If you enable it, filter to
-    # procurement notices via `where`. Left OFF because it needs tuning.
+    # =========================================================================
+    # More live, verified, no-key feeds across the U.S. (added in bulk).
+    # Every one below was checked to be live and return rows. Mix of true
+    # OPEN-solicitation feeds and a couple of contract-notice feeds for
+    # geographic coverage. Disable any you don't want by setting enabled: false.
+    # =========================================================================
+
+    # ---- WEST ----
+    - name: "Los Angeles County CA — RAMP Open Bids"
+      enabled: true
+      domain: data.lacity.org
+      dataset_id: hf3r-utnq
+      state: CA
+      where: "stagename='Open'"
+      order: "bidpost DESC"
+      limit: 500
+      field_map: { id: rampid, title: title, description: category, agency: department, posted_date: bidpost, due_date: closedate, url: url }
+      source_url: "https://www.rampla.org/s/"
+
+    - name: "San Francisco CA — Open Bids"
+      enabled: true
+      domain: data.sfgov.org
+      dataset_id: eshn-8t3a
+      state: CA
+      where: "status='Open'"
+      order: "open_date DESC"
+      limit: 500
+      field_map: { id: event_id, title: title, description: type, agency: department, posted_date: open_date, due_date: due_date, url: sfcitypartner_link }
+      source_url: "https://sfcitypartner.sfgov.org/"
+
+    - name: "Oregon — Active Statewide Price Agreements"
+      enabled: true
+      domain: data.oregon.gov
+      dataset_id: knjg-wn2a
+      state: OR
+      where: ""
+      order: "blanket_begin_date DESC"
+      limit: 500
+      field_map: { id: po_nbr, title: blanket_description, description: nigp_codes, agency: org_name, posted_date: blanket_begin_date, due_date: blanket_end_date }
+      source_url: "https://oregonbuys.gov/"
+
+    - name: "Mesa AZ — Purchasing Solicitations"
+      enabled: true
+      domain: citydata.mesaaz.gov
+      dataset_id: dfcn-ivuc
+      state: AZ
+      where: "solicitation=true"
+      order: "creation_date DESC"
+      limit: 500
+      field_map: { id: contract_no, title: contract_description, description: type, agency: type, posted_date: creation_date, due_date: fiscal_year_date }
+      source_url: "https://www.mesaaz.gov/business/purchasing"
+
+    # ---- SOUTH / SOUTH-CENTRAL ----
+    - name: "Baton Rouge LA — Upcoming Procurement"
+      enabled: true
+      domain: data.brla.gov
+      dataset_id: e5pk-us93
+      state: LA
+      where: ""
+      order: "anticipated_ad_date DESC"
+      limit: 500
+      field_map: { id: contract_desc, title: contract_desc, description: project_description, agency: department, posted_date: anticipated_ad_date, due_date: anticipated_ad_date }
+      source_url: "https://www.brla.gov/298/Purchasing-Division"
+
+    - name: "Baton Rouge LA — Bid Openings"
+      enabled: true
+      domain: data.brla.gov
+      dataset_id: u9zk-8nix
+      state: LA
+      where: ""
+      order: "bid_date DESC"
+      limit: 500
+      field_map: { id: unique_id, title: description, description: note, agency: department_name, posted_date: bid_date, due_date: bid_date }
+      source_url: "https://www.brla.gov/298/Purchasing-Division"
+
+    - name: "Texas — Spot Bid Fair FY2026"
+      enabled: true
+      domain: data.texas.gov
+      dataset_id: 3iy3-r5vp
+      state: TX
+      where: ""
+      order: "timestamp DESC"
+      limit: 500
+      field_map: { id: solicitation_number, title: description, description: description, agency: agency_name, posted_date: timestamp, due_date: timestamp, url: solicitation_document }
+      source_url: "https://comptroller.texas.gov/purchasing/"
+
+    - name: "Texas DOT — Plan Holders (Open Lettings)"
+      enabled: true
+      domain: data.texas.gov
+      dataset_id: jd6h-b87p
+      state: TX
+      where: ""
+      order: "bid_received_until_date_and_time DESC"
+      limit: 500
+      field_map: { id: controlling_project_id_ccsj, title: proposal_request, description: project_type, agency: district_division, posted_date: bid_received_until_date_and_time, due_date: bid_received_until_date_and_time }
+      source_url: "https://www.txdot.gov/business/letting-bids.html"
+
+    # ---- NORTHEAST ----
     - name: "New York City — City Record (Procurement)"
-      enabled: false
+      enabled: true
       domain: data.cityofnewyork.us
       dataset_id: dg92-zbpx
       state: NY
       where: "section_name='Procurement'"
       order: "start_date DESC"
-      limit: 1000
-      field_map:
-        id: request_id
-        title: short_title
-        description: additional_description_1
-        agency: agency_name
-        posted_date: start_date
-        due_date: end_date
+      limit: 500
+      # NOTE: this feed's long-description field is mostly boilerplate ("go to
+      # our website to download..."), which caused false matches. We judge NYC
+      # items on their real title instead, so the subject drives inclusion.
+      field_map: { id: request_id, title: short_title, description: short_title, agency: agency_name, posted_date: start_date, due_date: end_date }
       source_url: "https://a856-cityrecord.nyc.gov/"
+
+    - name: "New York City — Current RFP (MOCS)"
+      enabled: true
+      domain: data.cityofnewyork.us
+      dataset_id: bzjf-rmtp
+      state: NY
+      where: ""
+      order: "due_date DESC"
+      limit: 500
+      field_map: { id: solicitation_number, title: services, description: services, agency: department, posted_date: data_as_of_date, due_date: due_date }
+      source_url: "https://www.nyc.gov/site/mocs/index.page"
+
+    - name: "New York State — SUCF Advertised Procurements"
+      enabled: true
+      domain: data.ny.gov
+      dataset_id: vtxv-3j2b
+      state: NY
+      where: ""
+      order: "contract_advertise_date DESC"
+      limit: 500
+      field_map: { id: project, title: project_title, description: project_title, agency: campus_name, posted_date: contract_advertise_date, due_date: proposal_due_date }
+      source_url: "https://www.sucf.suny.edu/"
+
+    - name: "Delaware — Open Bids (Statewide)"
+      enabled: true
+      domain: data.delaware.gov
+      dataset_id: 2hnj-zwix
+      state: DE
+      where: ""
+      order: "deadlinedate DESC"
+      limit: 500
+      field_map: { id: contractnumber, title: contracttitle, description: contracttitle, agency: agencycode, posted_date: opendate, due_date: deadlinedate, url: bidurl }
+      source_url: "https://mmp.delaware.gov/Bids/"
+
+    - name: "Delaware — Recently Closed Bids (Statewide)"
+      enabled: true
+      domain: data.delaware.gov
+      dataset_id: yhim-4378
+      state: DE
+      where: ""
+      order: "deadlinedate DESC"
+      limit: 500
+      field_map: { id: contractnumber, title: contracttitle, description: contracttitle, agency: agencycode, posted_date: opendate, due_date: deadlinedate, url: bidurl }
+      source_url: "https://mmp.delaware.gov/Bids/"
+
+    - name: "Montgomery County MD — Proposed Awardee (Solicitations)"
+      enabled: true
+      domain: data.montgomerycountymd.gov
+      dataset_id: ecp6-b47r
+      state: MD
+      where: "cancelled='N'"
+      order: "date_published DESC"
+      limit: 500
+      field_map: { id: solicitation_number, title: description, description: award_item, agency: dept_name, posted_date: date_published, due_date: date_published }
+      source_url: "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts"
+
+    - name: "Montgomery County MD — Open Solicitations (Contracts)"
+      enabled: true
+      domain: data.montgomerycountymd.gov
+      dataset_id: vmu2-pnrc
+      state: MD
+      where: "contracttype='Open Solicitation'"
+      order: "execution DESC"
+      limit: 500
+      field_map: { id: solicitationnumber, title: contractdesc, description: contractdesc, agency: deptname, posted_date: execution, due_date: expiration }
+      source_url: "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts"
+
+    # ---- MIDWEST ----
+    - name: "Cook County IL — Intent to Award"
+      enabled: true
+      domain: datacatalog.cookcountyil.gov
+      dataset_id: bgq7-v7ms
+      state: IL
+      where: ""
+      order: "posting_date DESC"
+      limit: 500
+      field_map: { id: contract_number, title: description, description: recommended_action, agency: department, posted_date: posting_date, due_date: posting_date, url: link }
+      source_url: "https://www.cookcountyil.gov/service/view-bid-opportunities"
+
+    - name: "Cook County IL — Bid Tabulations"
+      enabled: true
+      domain: datacatalog.cookcountyil.gov
+      dataset_id: 32au-zaqn
+      state: IL
+      where: ""
+      order: "bid_opening_date DESC"
+      limit: 500
+      field_map: { id: contract_number, title: project_name, description: procurement_type, agency: department_name, posted_date: bid_opening_date, due_date: bid_opening_date }
+      source_url: "https://www.cookcountyil.gov/service/view-bid-opportunities"
+
+    - name: "Cincinnati OH — Business Opportunities (Bids & RFPs)"
+      enabled: true
+      domain: data.cincinnati-oh.gov
+      dataset_id: pid3-z56k
+      state: OH
+      where: ""
+      order: "date_due DESC"
+      limit: 500
+      field_map: { id: bid_project_number, title: project_name, description: procurement_type, agency: requesting_department, posted_date: date_due, due_date: date_due, url: bid_booklet_pdf }
+      source_url: "https://www.cincinnati-oh.gov/purchasing/bid-opportunities/"
+
+    - name: "Illinois — Capital Dev Board Future Solicitations"
+      enabled: true
+      domain: illinois-edp.data.socrata.com
+      dataset_id: 6rb8-ntpm
+      state: IL
+      where: ""
+      order: "estimated_bid_date DESC"
+      limit: 500
+      field_map: { id: project_number, title: description, description: approximate_cost, agency: location_name, posted_date: estimated_bid_date, due_date: estimated_bid_date }
+      source_url: "https://cdb.illinois.gov/business/architects-engineers.html"
+
+    # ---- SOUTHEAST (contract-notice feeds — thin Socrata coverage here, but
+    #      each row carries the RFP/IFB solicitation reference) ----
+    - name: "Richmond VA — City Contracts (RFP/IFB)"
+      enabled: true
+      domain: data.richmondgov.com
+      dataset_id: xqn7-jvv2
+      state: VA
+      where: ""
+      order: "effective_from DESC"
+      limit: 500
+      field_map: { id: contract_number, title: description, description: description, agency: agency_department, posted_date: effective_from, due_date: effective_to }
+      source_url: "https://www.rva.gov/procurement-services"
+
+    - name: "Atlanta GA — Contracts (RFP/IFB)"
+      enabled: true
+      domain: atlanta.data.socrata.com
+      dataset_id: s39g-udq5
+      state: GA
+      where: ""
+      order: "legislation_date DESC"
+      limit: 500
+      field_map: { id: contract_number, title: contract_name, description: contract_name, agency: department, posted_date: legislation_date, due_date: contract_end_date }
+      source_url: "https://www.atlantaga.gov/government/departments/department-of-procurement"
+
+    # ---- Awarded-contract datasets (OFF by default: these are historical
+    #      *awards*, not open opportunities — flip on only if you want them). ----
+    - name: "Austin TX — Contracts (awarded — historical)"
+      enabled: false
+      domain: datahub.austintexas.gov
+      dataset_id: 84ih-p28j
+      state: TX
+      where: ""
+      order: "efbgn_dt DESC"
+      limit: 500
+      field_map: { id: doc_id, title: doc_dscr, description: cat_dscr, agency: contract_contact_nm, posted_date: efbgn_dt, due_date: brd_awd_dt }
+      source_url: "https://www.austintexas.gov/department/purchasing"
+
+    - name: "Cook County IL — Awarded Contracts (historical)"
+      enabled: false
+      domain: datacatalog.cookcountyil.gov
+      dataset_id: qh8j-6k63
+      state: IL
+      where: ""
+      order: "start_date DESC"
+      limit: 500
+      field_map: { id: contract_number, title: description, description: category, agency: lead_department, posted_date: start_date, due_date: end_date }
+      source_url: "https://www.cookcountyil.gov/service/procurement-contracts"
 
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement
@@ -241,6 +492,33 @@ filtering:
     - vehicle
     - fuel
     - generator
+    # --- Construction / facilities / physical work (your firm does none of it) ---
+    - renovate
+    - renovation
+    - rehabilitate
+    - rehab
+    - roof
+    - roofing
+    - facade
+    - masonry
+    - concrete
+    - demolition
+    - boiler
+    - chiller
+    - elevator
+    - escalator
+    - heating
+    - mechanical
+    - sidewalk
+    - sewer
+    - bridge
+    - asphalt
+    - painting
+    - flooring
+    - grounds maintenance
+    - mowing
+    - food distribution
+    - food service
 
   # If ANY of these appears, we KEEP the item even when an exclude term matches.
   # (These are the unambiguous "this is really software" signals.)
