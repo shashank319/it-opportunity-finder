@@ -14,6 +14,9 @@ from __future__ import annotations
 from .socrata import SocrataSource
 from .gmail_alerts import GmailAlertsSource
 from .samgov import SamGovSource
+from .planetbids import PlanetBidsSource
+from .opengov import OpenGovSource
+from .arcgis import ArcGisSource
 
 
 def build_sources(config: dict) -> list:
@@ -35,5 +38,20 @@ def build_sources(config: dict) -> list:
     samgov_cfg = sources_cfg.get("samgov", {})
     if samgov_cfg.get("enabled", False):
         sources.append(SamGovSource(samgov_cfg))
+
+    # --- PlanetBids agency portals (one adapter, many agencies) ---
+    planetbids_cfg = sources_cfg.get("planetbids", {})
+    if planetbids_cfg.get("enabled", False):
+        sources.append(PlanetBidsSource(planetbids_cfg))
+
+    # --- OpenGov Procurement portals (one adapter, many agencies) ---
+    opengov_cfg = sources_cfg.get("opengov", {})
+    if opengov_cfg.get("enabled", False):
+        sources.append(OpenGovSource(opengov_cfg))
+
+    # --- ArcGIS feature layers (zero or more) ---
+    for layer in sources_cfg.get("arcgis_layers", []):
+        if layer.get("enabled", True):
+            sources.append(ArcGisSource(layer))
 
     return sources

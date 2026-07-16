@@ -170,6 +170,23 @@ show or hide federal with the **State** filter. To turn federal off entirely,
 set `sources.samgov.enabled: false`. Rate limits are modest, so keep the
 `naics_codes` list short (the tool makes one request per code per day).
 
+## Adding more agencies: PlanetBids & OpenGov
+
+Two adapters pull directly from procurement-platform portals (public, no login):
+
+- **PlanetBids** (`sources.planetbids.agencies`) — add an agency by its numeric
+  portalId (the number in `vendors.planetbids.com/portal/<portalId>/...`).
+- **OpenGov** (`sources.opengov.agencies`) — add an agency by its slug (the name
+  in `procurement.opengov.com/portal/<slug>`).
+
+Both platforms are used by thousands of governments, so you grow coverage just
+by adding entries — no code changes. Each entry is one agency. (These hit public
+portal endpoints; if a platform changes its site, that source is logged and
+skipped without affecting the rest.)
+
+**ArcGIS layers** (`sources.arcgis_layers`) work like Socrata: give it a layer
+`query_url` + a `field_map`. Ships with Washington, D.C.'s live solicitations.
+
 ## Optional: add another Socrata open-data feed
 
 Find a dataset (many cities/states publish bids/solicitations/contracts):

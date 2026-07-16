@@ -339,6 +339,52 @@ sources:
     # Notice types: p=presolicitation, o=solicitation, k=combined, r=sources sought.
     notice_types: ["p", "o", "k", "r"]
 
+  # --- PlanetBids agency portals --------------------------------------------
+  # Public JSON API per agency (no login). Add an agency by adding its portalId
+  # (the number in its portal URL: vendors.planetbids.com/portal/<portalId>/...).
+  # One request per agency; grows to any number of agencies.
+  planetbids:
+    enabled: true
+    name: "PlanetBids"
+    open_stages: ["Bidding"]     # which stage counts as "accepting bids"
+    agencies:
+      - { portal_id: 15300, agency: "City of Sacramento, CA", state: CA }
+      - { portal_id: 13982, agency: "Port of San Diego, CA", state: CA }
+      - { portal_id: 27411, agency: "Inland Empire Utilities Agency, CA", state: CA }
+      - { portal_id: 45619, agency: "City of Inglewood, CA", state: CA }
+      - { portal_id: 15810, agency: "City of Long Beach, CA", state: CA }
+      - { portal_id: 16151, agency: "Santa Clara Valley Water District, CA", state: CA }
+
+  # --- OpenGov Procurement portals ------------------------------------------
+  # Public "embed" page per agency (no login). Add an agency by adding its slug
+  # (the name in its portal URL: procurement.opengov.com/portal/<slug>).
+  opengov:
+    enabled: true
+    name: "OpenGov"
+    agencies:
+      - { slug: santa-monica-ca, agency: "City of Santa Monica, CA", state: CA }
+      - { slug: pasadena, agency: "City of Pasadena, CA", state: CA }
+      - { slug: santacruzca, agency: "City of Santa Cruz, CA", state: CA }
+      - { slug: phoenix, agency: "City of Phoenix, AZ", state: AZ }
+      - { slug: saccounty, agency: "County of Sacramento, CA", state: CA }
+      - { slug: ocgov, agency: "County of Orange, CA", state: CA }
+      - { slug: acgov, agency: "County of Alameda, CA", state: CA }
+      - { slug: smcgov, agency: "County of San Mateo, CA", state: CA }
+      - { slug: lacda, agency: "LA County Development Authority, CA", state: CA }
+
+  # --- ArcGIS feature layers -------------------------------------------------
+  # Some governments publish open solicitations as an ArcGIS layer with a public
+  # query API. Add one by copying a block (query_url + field_map).
+  arcgis_layers:
+    - name: "Washington DC — Solicitations (PASS)"
+      enabled: true
+      state: DC
+      query_url: "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Government_Operations/MapServer/19/query"
+      where: "EVENTDISPLAYSTATUS='OPEN'"
+      field_map: { id: SOLICITATIONNUMBER, title: SOLICITATIONTITLE, description: SYNOPSIS, agency: AGENCY_NAME, due_date: CLOSEDATE }
+      date_fields: ["due_date"]
+      source_url: "https://ocp.dc.gov/service/solicitations"
+
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement
   # platforms. Turn `enabled: true` AFTER you set up GMAIL_TOKEN_JSON (README).
