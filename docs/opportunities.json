@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-16T07:19:58.814603+00:00",
+  "generated_at": "2026-07-16T07:47:59.416440+00:00",
   "counts": {
-    "total": 83,
-    "new": 0
+    "total": 164,
+    "new": 81
   },
   "health": {
-    "ok": 16,
-    "total": 17,
+    "ok": 19,
+    "total": 20,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
@@ -108,11 +108,236 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=***REDACTED***&postedFrom=07%2F13%2F2026&postedTo=07%2F16%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541513"
+        "error": "RuntimeError: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?postedFrom=07%2F13%2F2026&postedTo=07%2F16%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+      },
+      {
+        "source": "PlanetBids",
+        "ok": true,
+        "count": 24,
+        "error": ""
+      },
+      {
+        "source": "OpenGov",
+        "ok": true,
+        "count": 150,
+        "error": ""
+      },
+      {
+        "source": "Washington DC — Solicitations (PASS)",
+        "ok": true,
+        "count": 33,
+        "error": ""
       }
     ]
   },
   "opportunities": [
+    {
+      "id": "opengov:smcgov:254962",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Enterprise Master Patient Index (EMPI)",
+      "description": "The County of San Mateo Health Administration is comprised of 10 Divisions providing health and welfare across San Mateo County including (a) Administration & Central Finance, (b) Aging & Disability Services, (c) Behavioral Health & Recovery Services, (d) Correctional Health, (e) Emergency Medical Services, (f) Environmental Health, (g) Family Health, (h) Health Information Technology, (i) Public Health, Policy & Planning, (j) San Mateo Medical Center. San Mateo County Health is seeking a next-generation Enterprise Master Person Index (EMPI) solution to modernize and strengthen its identity management capabilities across the organization. The primary objective is to replace the current system (Rhapsody) with a more advanced platform that delivers significantly higher patient matching accuracy through the use of modern techniques such as referential matching and machine learning, while also supporting contemporary interoperability standards like FHIR. A key focus is reducing the reliance on manual data stewardship by automating identity resolution processes, thereby improving operational efficiency, patient safety, and data integrity. This initiative will also involve a comprehensive migration from the existing identity ecosystem, including the Rhapsody integration engine, to a more scalable, cloud-based, and cost-effective environment. The new solution is expected to provide seamless integration with existing clinical and administrative systems, enable real-time data exchange, and support a growing portfolio of digital health applications. Additionally, the upgraded EMPI will serve as a foundational component for enterprise analytics, population health initiatives, and coordinated care efforts by ensuring a consistent and accurate longitudinal patient record across all systems.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/254962",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00458",
+      "posted_date": "2026-04-09",
+      "due_date": "2026-07-24",
+      "it_score": 100,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "systems",
+        "cloud",
+        "migration",
+        "modernize",
+        "integration",
+        "data",
+        "analytics",
+        "digital",
+        "platform",
+        "information technology",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "opengov:saccounty:278263",
+      "source_name": "OpenGov — County of Sacramento, CA",
+      "title": "Application Security Testing (AST) Platform",
+      "description": "The Sacramento County Contract & Purchasing Services Division is releasing a Request for Bid (RFB) on behalf of the Department of Technology to procure an Application Security Testing (AST) platform capable of supporting secure software development across multiple programming languages and development environments. The solution must provide integrated capabilities for Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Software Composition Analysis (SCA), and AI‑assisted remediation to identify, prioritize, and remediate vulnerabilities throughout the development lifecycle. The platform should offer seamless integration with modern source‑code management systems and CI/CD pipelines, support enterprise authentication (including SSO), and include licensing models appropriate for developer‑centric or application‑centric usage. Preference will be given to solutions with FedRAMP or GOVRAMP authorization and robust reporting suitable for audit, compliance, and operational security functions.",
+      "agency": "County of Sacramento",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/saccounty/projects/278263",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFB-0064",
+      "posted_date": "2026-06-24",
+      "due_date": "2026-08-08",
+      "it_score": 100,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "application",
+        "systems",
+        "development",
+        "developer",
+        "integration",
+        "platform",
+        "ai",
+        "programming"
+      ]
+    },
+    {
+      "id": "opengov:lacda:267335",
+      "source_name": "OpenGov — LA County Development Authority, CA",
+      "title": "LA County Project 150, 151, & 152",
+      "description": "july 13, 2026 NOTICE TO BIDDERS FOR JOB ORDER CONTRACT NUMBERS 150, 151, & 152 LA COUNTY PROJECTS IFB NUMBER LACDA26-043 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 150, 151 & 152 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a bid, each bidder thereby agrees that, if awarded a contract, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all bids. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s bid. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the bid. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2:00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program County Lobbyist Ordinance. Defaulted Property Tax Reduction Program. Equal Employment Opportunity (EEO) Act. Fair Chance Employment Hiring Practices Policy. Greater Avenues for Independence (GAIN) Program and General Relief Opportunity for Work (GROW) Program. State Prevailing Wage Requirements – Labor Code Section1770 et seq. Jury Service Program Local Worker Targeted Hiring Policy Prevailing Wages: State Public Works Contractor Registration Law (SB 854). Safely Surrendered Baby Law Zero Tolerance Human Trafficking Policy JOC Catalog Restriction Compliance with Senate Bill 854 (DIR Registration) APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
+      "agency": "Los Angeles County Development Authority, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/lacda/projects/267335",
+      "naics": "",
+      "psc": "",
+      "set_aside": "LACDA26-43",
+      "posted_date": "2026-05-18",
+      "due_date": "2026-08-17",
+      "it_score": 100,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "system",
+        "development",
+        "website",
+        "data",
+        "license"
+      ]
+    },
+    {
+      "id": "opengov:lacda:267105",
+      "source_name": "OpenGov — LA County Development Authority, CA",
+      "title": "LA County (CDBG Projects) Job Order Contracts Numbers 153, 154, & 155",
+      "description": "July 13, 2026 NOTICE TO BIDDERS FOR JOB ORDER CONTRACT NUMBERS 153, 154, & 155 LA COUNTY (CDBG Projects) IFB NUMBER LACDA26-044 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 153, 154, & 155 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) Attachment B and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a bid, each bidder thereby agrees that, if awarded a contract Attachment A, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all proposals. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s bid. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the bid. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2 :00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Please email Susana.Oliveros@lacda.org to confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. This is a federal assisted construction/service contract, and Federal labor standards, including Davis-Bacon and related acts, State Prevailing Wage Requirements and, California Labor Code 1770, will be enforced. The higher of the two wages will prevail. Section 3 of the Housing and Development Act of 1968 California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Current and Active California Department of Industrial Relations Registration Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program (County Code Chapter 2.200) Build America, Buy America Act (BABAA) Federal Lobbyist Requirements Claims History Disclosures Federal Labor Standards Provision Defaulted Property Tax Reduction Program (Reference: County Code Chapter 2.206). Equal Employment Opportunity (EEO) Act Fair Chance Employment Hiring Practices Policy Compliance with County’s Zero Tolerance Human Trafficking Jury Service Program Safely Surrendered Baby Law JOC Catalog Restriction APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
+      "agency": "Los Angeles County Development Authority, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/lacda/projects/267105",
+      "naics": "",
+      "psc": "",
+      "set_aside": "LACDA26-44",
+      "posted_date": "2026-05-18",
+      "due_date": "2026-08-17",
+      "it_score": 81,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "system",
+        "development",
+        "website",
+        "data",
+        "license"
+      ]
+    },
+    {
+      "id": "opengov:lacda:264980",
+      "source_name": "OpenGov — LA County Development Authority, CA",
+      "title": "Housing Management Job Order Contracts Numbers 144, 145, 146, 147, 148, & 149",
+      "description": "July 13, 2026 NOTICE TO BIDDERS FOR HOUSING MANAGEMENT JOB ORDER CONTRACT NUMBERS 144, 145, 146, 147, 148, & 149 IFB NUMBER LACDA26-042 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 144, 145, 146, 147, 148 & 149 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a bid, each bidder thereby agrees that, if awarded a contract, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all proposals. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s proposal. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the Proposals. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2 :00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Please email Susana.Oliveros@lacda.org to confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. This is a federal assisted construction/service contract, and Federal labor standards, including Davis-Bacon and related acts, State Prevailing Wage Requirements and, California Labor Code 1770, will be enforced. The higher of the two wages will prevail. Section 3 of the Housing and Development Act of 1968 California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Current and Active California Department of Industrial Relations Registration Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program (County Code Chapter 2.200) Build America, Buy America Act (BABAA) Federal Lobbyist Requirements Claims History Disclosures Federal Labor Standards Provision Defaulted Property Tax Reduction Program (Reference: County Code Chapter 2.206). Equal Employment Opportunity (EEO) Act Fair Chance Employment Hiring Practices Policy Compliance with County’s Zero Tolerance Human Trafficking Jury Service Program Safely Surrendered Baby Law JOC Catalog Restriction APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
+      "agency": "Los Angeles County Development Authority, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/lacda/projects/264980",
+      "naics": "",
+      "psc": "",
+      "set_aside": "LACDA26-42",
+      "posted_date": "2026-05-11",
+      "due_date": "2026-08-17",
+      "it_score": 81,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "system",
+        "development",
+        "website",
+        "data",
+        "license"
+      ]
+    },
+    {
+      "id": "opengov:lacda:262398",
+      "source_name": "OpenGov — LA County Development Authority, CA",
+      "title": "CCE Grant Job Order Contracts Numbers 156, 157, 158, 159, 160, & 161",
+      "description": "July 13, 2026 NOTICE TO BIDDERS FOR JOB ORDER CONTRACT NUMBERS 156, 157, 158, 159, 160, & 161 CCE GRANT IFB NUMBER LACDA26-045 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 156, 157, 158, 159, 160, & 161 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a proposal, each bidder thereby agrees that, if awarded a contract, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all bids. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s bid. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the bids. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2:00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. This is a state, county, and/or local assisted construction/service contract and State Prevailing Wage Requirements and California Labor Code 1770, will be enforced. California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Current and Active California Department of Industrial Relations Registration Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program (County Code Chapter 2.200) Claims History Disclosures Defaulted Property Tax Reduction Program (Reference: County Code Chapter 2.206). Equal Employment Opportunity (EEO) Act Fair Chance Employment Hiring Practices Policy Compliance with County’s Zero Tolerance Human Trafficking Jury Service Program Safely Surrendered Baby Law JOC Catalog Restriction Review solicitation documents for all requirements. APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
+      "agency": "Los Angeles County Development Authority, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/lacda/projects/262398",
+      "naics": "",
+      "psc": "",
+      "set_aside": "LACDA26-045",
+      "posted_date": "2026-05-04",
+      "due_date": "2026-08-17",
+      "it_score": 81,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "system",
+        "development",
+        "website",
+        "data",
+        "license"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:242213",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Request for Proposal for Time Survey Software",
+      "description": "County of San Mateo (SMC) Health Administration (County Health) is soliciting proposals from qualified vendors to provide, implement, configure, and support a commercial off-the-shelf (COTS) time survey software solution to support staff time reporting and allocation for participation in the County-Based Medi-Cal Administrative Activities (CMAA) Program, as well as Federal Financial Participation (FFP) and Women, Infants and Children (WIC) programs, and other state and federally funded reimbursement and grant programs. The proposed solution must provide a configurable, user friendly platform that enables County staff to record, review, approve, and report time associated with program-specific activities. The system must integrate with the County’s payroll and timekeeping systems, Automated Time Keeping System (ATKS), to automate the import of employee and organizational data and reduce manual data entry. At a minimum, the solution should support: Role-based user access and security permissions; Configurable time survey activities, coding structures, and data fields; Employee and supervisory review and approval workflows; Automated data imports from ATKS; Standard and ad hoc reporting capabilities; Exportable reports and data files to support state and federal claiming requirements; Audit trails and record retention functionality; and Compliance with applicable data security, confidentiality, and privacy requirements. County Health administers multiple programs that receive funding through state and federal grants and reimbursement programs. These funding sources require documentation and reporting of staff time devoted to specific activities. As reporting requirements continue to evolve, County Health seeks a solution that improves data accuracy, streamlines administrative processes, enhances reporting capabilities, and supports compliance with applicable program requirements. County Health intends to award a contract to the proposer whose solution best meets the requirements set forth in this solicitation and provides the best overall value to the County.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/242213",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00385",
+      "posted_date": "2026-03-02",
+      "due_date": "2026-08-01",
+      "it_score": 75,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "system",
+        "systems",
+        "data",
+        "platform"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:263760",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Street Outreach Data Management System",
+      "description": "Project Overview The County of Orange (County) seeks to implement a secure, centralized, cloud-based electronic operations management system designed to support the full lifecycle of the County’s Outreach & Engagement (O&E) Program serving individuals experiencing homelessness. The proposed system will function as a comprehensive operational platform that supports the intake, triage, and dispatch of outreach requests; real-time geographic mapping of outreach activity; client engagement and service tracking; shelter bed coordination; interagency referral management; and performance monitoring. The intent of this initiative is to modernize the street outreach program’s operational infrastructure by replacing fragmented tracking processes with a unified system that improves service coordination, strengthens data integrity, and enables real-time operational decision-making. The system will provide leadership and program administrators with actionable data that supports deployment of outreach resources, monitoring program performance, and compliance with federal, state, and local reporting requirements. The selected vendor shall provide a secure, scalable platform capable of supporting geographically dispersed field teams and multiple partner agencies engaged in the County’s homelessness response system. The system must enable data collection in both field and office environments, support mobile functionality, and allow authorized users to access real-time operational information while maintaining strict security and privacy protections. The proposed system will integrate operational data across outreach engagement, service referrals, and housing placement activities to create a comprehensive picture of outreach efforts across the County. Through this implementation, the County aims to strengthen accountability, improve response coordination, and support measurable outcomes related to engagement, service connection, and housing placement for unsheltered individuals.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/263760",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFI 23-000115",
+      "posted_date": "2026-05-06",
+      "due_date": "2026-08-05",
+      "it_score": 75,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "cloud",
+        "modernize",
+        "data",
+        "platform"
+      ]
+    },
     {
       "id": "hf3r-utnq:230842",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
@@ -135,6 +360,71 @@
       ]
     },
     {
+      "id": "opengov:santa-monica-ca:277845",
+      "source_name": "OpenGov — City of Santa Monica, CA",
+      "title": "Public Record Tracking Software",
+      "description": "The City of Santa Monica (the “City”) seeks an online Software as a Service (SaaS) solution from a qualified vendor, to provide public record tracking software to assist with public records requests.",
+      "agency": "City of Santa Monica",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/277845",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00036",
+      "posted_date": "2026-06-23",
+      "due_date": "2026-08-17",
+      "it_score": 72,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "saas"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:243020",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Data Exchange Framework (DxF) and Social Health Information Exchange (SHIE)",
+      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. The County of San Mateo Health Administration is comprised of 10 Divisions providing health and welfare across San Mateo County including (a) Administration & Central Finance, (b) Aging & Disability Services, (c) Behavioral Health & Recovery Services, (d) Correctional Health, (e) Emergency Medical Services, (f) Environmental Health, (g) Family Health, (h) Health Information Technology, (i) Public Health, Policy & Planning, (j) San Mateo Medical Center.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/243020",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00398",
+      "posted_date": "2026-03-04",
+      "due_date": "2026-07-17",
+      "it_score": 69,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "data",
+        "information technology",
+        "computer"
+      ]
+    },
+    {
+      "id": "opengov:santa-monica-ca:273609",
+      "source_name": "OpenGov — City of Santa Monica, CA",
+      "title": "Real-time bus arrival predictions and alerts for BBB customers",
+      "description": "The City of Santa Monica, (the \"City”) seeks proposals from qualified firms to provide a comprehensive software-as-a-service system that will allow the city of Santa Monica’s Big Blue Bus (BBB) to improve the customer experience in every interaction with its service.",
+      "agency": "City of Santa Monica",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/273609",
+      "naics": "",
+      "psc": "",
+      "set_aside": "483",
+      "posted_date": "2026-06-09",
+      "due_date": "2026-07-21",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "system"
+      ]
+    },
+    {
       "id": "hf3r-utnq:230880",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200012 - 733002 180003 SECURITY DATA - SaaS- CRIBL RENEW (BRAND ONLY) - Closing: 7/23/2026 12:00 PM",
@@ -153,6 +443,111 @@
       "matched_keywords": [
         "saas",
         "data"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:271697",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Emergency Plan Portfolio Support Services",
+      "description": "The City of Phoenix invites sealed offers from qualified consultants to provide professional services supporting the review, update, standardization, organization, storage strategy, testing, exercising, and ongoing maintenance of its emergency planning portfolio. The portfolio includes, but is not limited to, the Continuity of Operations Plan (COOP), Emergency Response Plans (ERP), Emergency Action Plans (EAP), Business Continuity Plan (BCP), associated annexes, playbooks, quick-reference guides, and any additional Water Services emergency plans or supporting documents identified during the course of the project. All plans must be reviewed and updated to ensure full compliance with applicable Local, State and Federal regulations. This Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be upon November 1st, 2026 which is on or after the ordinance approved start date or the contract term start date that the Phoenix City Council approves or the Effective Date, whichever is later. The term of this Agreement will be for 5 years, beginning on the Commencement Date, with no options to extend. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/271697",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP GGS-26-0364",
+      "posted_date": "2026-06-02",
+      "due_date": "2026-07-29",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal",
+        "erp"
+      ]
+    },
+    {
+      "id": "opengov:santa-monica-ca:272633",
+      "source_name": "OpenGov — City of Santa Monica, CA",
+      "title": "Citywide Audio-Visual Systems Integration, Maintenance, and Support Services",
+      "description": "The City of Santa Monica (the “City”) is seeking proposals from qualified audio-visual (AV) systems integrators to provide comprehensive, citywide AV services in support of conference rooms, event spaces, and other City facilities.",
+      "agency": "City of Santa Monica",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/272633",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00034",
+      "posted_date": "2026-06-04",
+      "due_date": "2026-08-03",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "systems",
+        "integration"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:269899",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Parking Citations and Permit Management Solution",
+      "description": "The City of Pasadena extends an invitation to qualified Proposers to submit a proposal for a comprehensive Parking Citation, Parking Enforcement, and Permit Management Software including processing services for parking citations and management of the Residential Permit Program in accordance with this Request for Proposal (RFP). It is the intent of the City to enter into a five -year management solution agreement with a company that can demonstrate the ability and willingness to partner with the City to provide system solution of services stated in the RFP. The contract may be extended for two optional one-year extension periods subject to the approval of the City Manager. Definitions The words (A) \"City\", (B) \"Department\", (C) \"Director\", or (D) \"Contractor\", as used in this RFP, shall be understood to refer respectively to (A) the City of Pasadena, California; (B) the several departments therein; (C) the directors of the several City departments; or any of their properly authorized assistants; and ( D) the person, firm or corporation with whom the contract is made by said City or the agent or legal representative who may be appointed to represent such person, firm or corporation in the signing and performance of said contract.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/269899",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0341",
+      "posted_date": "2026-05-27",
+      "due_date": "2026-08-05",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "system"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:272862",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Interface Engine (V6.2026)",
+      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/272862",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00555",
+      "posted_date": "2026-06-05",
+      "due_date": "2026-08-28",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "software",
+        "computer"
+      ]
+    },
+    {
+      "id": "opengov:acgov:262266",
+      "source_name": "OpenGov — County of Alameda, CA",
+      "title": "RFP No. 902705 Network Systems Modernization",
+      "description": "It is the intent of these specifications, terms, and conditions to describe network systems modernization being requested by the County. The County intends to award a three (3) year contract (with the option to renew for two (2) years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
+      "agency": "County of Alameda, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/acgov/projects/262266",
+      "naics": "",
+      "psc": "",
+      "set_aside": "902705",
+      "posted_date": "2026-05-01",
+      "due_date": "2026-08-31",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "systems",
+        "modernization"
       ]
     },
     {
@@ -195,6 +590,90 @@
       "matched_keywords": [
         "software",
         "development"
+      ]
+    },
+    {
+      "id": "arcgis:DCRL-2022-I-0078",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "Quality Assurance Quality Control Program",
+      "description": "The District of Columbia (\u001aDistrict\u001a), Office of Contracting and Procurement on behalf of the Child and Family Services Agency (\u001aCFSA\u001a) issues the Request for Information (RFI) to for interested organizations to provide responses and questions regarding the CFSA plans to procure services of a contractor to design and implement a quality assurance and quality control program for its implementation of a Comprehensive Child Welfare Information System (CCWIS) using Microsoft Dynamics Customer Relation Management System (CRM).",
+      "agency": "Child and Family Services Agency",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "crm"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:278957",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Architect-Engineer (A-E) Cost Estimating Design Support Services – Task Order Contracts",
+      "description": "The County of Orange (County), consisting of 22 agencies and departments, and the Orange County Flood Control District (District) deliver a broad range of services to the residents of Orange County. Services provided include public protection, public health, infrastructure maintenance, and community and social services. As the District relies on County staff to carry out its duties, the District will also be included as a party to any contract(s) resulting from this solicitation. It is the primary responsibility of the County’s public works department (OC Public Works) to enrich the community through efficient delivery and maintenance of public works infrastructure, planning, capital improvement and development services. Department Name intends to pre-qualify firms to provide services for Architect-Engineer (A-E) and A-E related County-wide and District-wide services for their various maintenance and capital projects. To satisfy this need, this Request for Qualification (RFQ) process will enable the County to establish Qualified Vendor Lists (QVL) for A-E disciplines to provide those services. The Qualified Vendor List (QVL) will be established through this (RFQ) process and will result in Board of Supervisors awarded contracts with a term of three (3) years. At the conclusion of the contract term, the County may issue a new solicitation to provide additional Contractors the opportunity to compete for future services The County reserves the right, at its sole discretion, to make multiple awards to respondents for services requested in this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/278957",
+      "naics": "",
+      "psc": "",
+      "set_aside": "080-3092006-RE",
+      "posted_date": "2026-06-25",
+      "due_date": "2026-09-18",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:271239",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Commercial Real Estate Market Data and Analytics Platform for San Mateo County Mass Appraisal Assessments",
+      "description": "This solicitation seeks to obtain subscription-based, unlimited access to the proposer’s existing Commercial Real Estate Sales and Market Data and Analytics Platform through an online interface (hereinafter referred to as the “CRE Database Platform”). The CRE database platform will be utilized by the Assessor’s commercial appraisal staff to support the mass appraisal and valuation of commercial and industrial properties in San Mateo County using the Sales Comparison and Income Approaches to value. Accordingly, the Assessor’s Office invites proposals from qualified vendors with a demonstrated ability and proven track record of providing a comprehensive, defensible, and scalable CRE database platform for commercial and industrial properties. At the conclusion of this procurement process, the Assessor’s Office will select the platform that best satisfies the requirements of this solicitation and provides the greatest overall value to the County. The selected CRE database platform will support, among other functions, the Sales Comparison and Income Approaches to value in the mass appraisal of the County’s diverse commercial and industrial property base.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/271239",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-06-01",
+      "due_date": "2026-07-22",
+      "it_score": 54,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "database",
+        "data",
+        "analytics",
+        "platform"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:275193",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Absolute Secure Access Licenses",
+      "description": "The County of San Mateo is seeking quotations for: Product: Absolute Secure Access Type: Cloud-hosted subscription Quantity: 600 users/licenses Subscription Term: 12 months / 24 months / 36 months options Includes 24/7 vendor support and tiered SLA for emergency response Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/275193",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFQ-00570",
+      "posted_date": "2026-06-12",
+      "due_date": "2026-07-18",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "cloud"
       ]
     },
     {
@@ -358,6 +837,50 @@
       ]
     },
     {
+      "id": "opengov:ocgov:251879",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Service and Maintenance of ID Bureau Digital Imaging Equipment",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/251879",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3051501-NB",
+      "posted_date": "2026-03-31",
+      "due_date": "2026-07-30",
+      "it_score": 48,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal",
+        "digital"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:245868",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Integrated Procurement and Financial Workflow Solution RFI",
+      "description": "The County of San Mateo's Procurement Department is conducting market research to better understand available solutions that can support an integrated procurement and financial workflow lifecycle. The purpose of this RFI is to gather information from vendors regarding current systems, capabilities, and best practices in the marketplace. The County of San Mateo is located in the heart of the Silicon Valley. As such, the County is committed to remaining informed of new technologies and evolving industry standards, and to conducting due diligence to verify its procurement processes reflect modern, efficient, and innovative practices. All interested vendors should submit for this RFI, as it is not a requirement to have all the functionality listed. No contract will be awarded as part of this Request for Information (RFI). This RFI solicitation document is being issued for market research to obtain general information from suppliers about their products, services, and capabilities to assist the County in the development and issuance of a potential future Request for Proposal (RFP) solicitation for the Procurement Department. Proposers may be requested to perform product demonstrations.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/245868",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFI-00413",
+      "posted_date": "2026-03-12",
+      "due_date": "2026-08-08",
+      "it_score": 48,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "systems",
+        "development",
+        "workflow"
+      ]
+    },
+    {
       "id": "hf3r-utnq:229459",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "Website Development Services and Accessibility Remediation and Captioning Services",
@@ -380,6 +903,174 @@
       ]
     },
     {
+      "id": "opengov:santacruzca:278109",
+      "source_name": "OpenGov — City of Santa Cruz, CA",
+      "title": "Parks and Recreation Department Organizational Assessment Services",
+      "description": "The City of Santa Cruz is seeking proposals from qualified consulting firms to conduct a comprehensive organizational assessment of the Parks and Recreation Department. The Department provides a wide range of services and programs to the community, including park maintenance, recreation programming, facility operations, special events, and other public-facing services that support the quality of life for residents and visitors. The City is seeking an independent evaluation of the Department's organizational structure, staffing, service delivery model, operational effectiveness, and long-term sustainability. The assessment will identify opportunities to improve alignment among departmental priorities, available resources, community needs, and the City's Strategic Plan, while ensuring the Department is positioned to effectively deliver services now and into the future. The selected consultant will conduct document review, stakeholder engagement, organizational and operational analysis, benchmarking, and development of recommendations. The assessment is expected to provide practical, fiscally responsible, and implementable recommendations that support organizational effectiveness, operational efficiency, service delivery, and long-term sustainability within existing or reasonably anticipated staffing and budget resources. A detailed description of the requested services, project assumptions, deliverables, qualifications, and project schedule is provided in the Preliminary Scope of Services.",
+      "agency": "City of Santa Cruz",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santacruzca/projects/278109",
+      "naics": "",
+      "psc": "",
+      "set_aside": "PR-0314",
+      "posted_date": "2026-06-23",
+      "due_date": "2026-07-18",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "development",
+        "programming"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:279163",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Canon VB-H47 Network Cameras",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/279163",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-060-3090403-JG",
+      "posted_date": "2026-06-26",
+      "due_date": "2026-07-22",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:252835",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "RFP-017-2841304-JC - On-Call Rapid-Build Structures for Emergency Preparedness",
+      "description": "The County of Orange, Department Name (hereinafter referred to as “County”), is soliciting proposals from qualified firms (hereinafter referred to as “Respondents”) for Description of Services . Respondents must meet the minimum qualifications and requirements as set forth within the RFP and be capable of providing services identified in the Scope of Work herein. The proposed schedule below is subject to change. Any changes to the schedule for the RFP process will be issued to all Respondents via addenda on the County's eProcurement Portal. This is a fully electronic Request for Proposals (RFP). Respondents must submit their proposals online via the County’s online bidding system. Only electronic proposals will be accepted. Facsimile and e-mail proposals will NOT be allowed. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation by Question Submission Date , before Question Submission Time as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation. Verbal clarifications or responses will not be considered binding.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/252835",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP-017-2841304-JC",
+      "posted_date": "2026-04-02",
+      "due_date": "2026-07-22",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:271744",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Evofinder Extended Warranties",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/271744",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3079002-NB",
+      "posted_date": "2026-06-02",
+      "due_date": "2026-07-23",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:265490",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Consulting Services for Public Safety Technology Project Management and Implementation Support Services",
+      "description": "The County of Orange, Department Name (hereinafter referred to as “County”), is soliciting proposals from qualified firms (hereinafter referred to as “Respondents”) for Description of Services . Respondents must meet the minimum qualifications and requirements as set forth within the RFP and be capable of providing services identified in the Scope of Work herein. The proposed schedule below is subject to change. Any changes to the schedule for the RFP process will be issued to all Respondents via addenda on the County's eProcurement Portal. This is a fully electronic Request for Proposals (RFP). Respondents must submit their proposals online via the County’s online bidding system. Only electronic proposals will be accepted. Facsimile and e-mail proposals will NOT be allowed. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation by Question Submission Date , before Question Submission Time as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation. Verbal clarifications or responses will not be considered binding.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/265490",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3067803-OP",
+      "posted_date": "2026-05-12",
+      "due_date": "2026-07-23",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:265146",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Maintenance and Repair for Thermo Fisher DNA instruments",
+      "description": "Department information – The San Mateo County Sheriff's Office Forensic Laboratory is a full service forensic laboratory serving the cities and unincorporated areas within the County of San Mateo. One of the services provided by the laboratory is forensic DNA analysis. In the DNA Unit, there are multiple instruments that are used within the laboratory to extract DNA, to analyze DNA, and to develop DNA profiles. To ensure uninterrupted operations, optimal performance, and to prevent major breakdowns before they happen, the laboratory requires instruments to receive annual or biannual preventative maintenance. In addition, in the event of a malfunction or breakage, the laboratory needs to have a service contract in place for emergency repairs. Scope of Work The Contractor shall provide scheduled annual preventative maintenance and service coverage for repair to include the following: 1. Parts, labor, and travel for remedial repair. 2. Planned annual or biannual preventative maintenance (PM) visit(s). 3. Guaranteed priority response time of 3 business days or less after receipt of a service call. 4. Priority telephone and email access to instrument technical support. 5. Telephone and email access to application technical support. All services must be performed by qualified technicians. The Contractor is responsible for providing all tools, equipment and materials necessary to complete the work. Services must be scheduled in coordination with laboratory staff to minimize disruptions. Once the services are complete, the Contractor must submit all documentation including service reports within five business days. In addition, technicians will be asked to provide a DNA reference sample for quality control purposes to identify possible contamination. The instruments requiring a service contract with scheduled annual preventative maintenance as well as annual service coverage for repair are: Two 3500 Genetic Analyzers (One PM annually) Two Nimbus HID NPI (Two PMs annually) Two Kingfisher Presto 96 DW (One PM annually) One QuantStudio 5, 0.2ML block (One PM annually) One 7500 Real time PCR System (One PM annually) This may be a line item award in which more than one vendor may be selected.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/265146",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-05-12",
+      "due_date": "2026-07-23",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "application",
+        "system"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:278574",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Industrial Hardware",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/278574",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB 080-3042001-GD",
+      "posted_date": "2026-06-25",
+      "due_date": "2026-07-24",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:278430",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Results-Based Accountability Training Solicitation (RBA)",
+      "description": "The County is seeking proposals from qualified individuals or organizations to design and deliver an in-person Results-Based Accountability (RBA) training for County staff and community members. The purpose of this training is to build shared understanding of fundamental principles, language, and capacity to apply RBA through an equity-centered public health lens. The County seeks a training approach that support participants in: Understanding the principles and application of Results-Based Accountability (RBA) Using disaggregated data to identify inequities and opportunities for improvement Applying equity-centered strategies to improve population and program outcomes Recognizing and addressing structural and institutional barriers that contribute to health inequities Building shared accountability across County staff and community partners Centering community voice, lived experience, and partnership in public health decision-making The County is particularly interested in approaches that are interactive, practice-oriented, and accessible to participants with varying levels of familiarity with results-based planning, performance measurements and equity-related concepts. The County seeks training covering the Results-Based Accountability framework and related application in public health and equity contexts. Proposers are not required to hold certification from, be licensed by, or be affiliated with any specific commercial provider or trademark holder, provided they can demonstrate successful experience teaching the relevant concepts and facilitating their application in practice.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/278430",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP - Informal-00586",
+      "posted_date": "2026-06-24",
+      "due_date": "2026-07-24",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "application",
+        "data"
+      ]
+    },
+    {
       "id": "eeq6-nnwe:1193673",
       "source_name": "Montgomery County MD — Solicitations",
       "title": "Law Enforcement Records Management System (LE-RMS)",
@@ -398,6 +1089,384 @@
       "matched_keywords": [
         "system",
         "records management"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:283190",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "ORIGINAL EQUIPMENT MANUFACTURER (OEM) GENERAL MOTORS / CHEVROLET PARTS",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/283190",
+      "naics": "",
+      "psc": "",
+      "set_aside": "080-3101202-AC",
+      "posted_date": "2026-07-13",
+      "due_date": "2026-07-27",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:268021",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Uninterruptible Power System (UPS) Maintenance and Repair",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/268021",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-080-3075104-RN",
+      "posted_date": "2026-05-20",
+      "due_date": "2026-07-27",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:275635",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Powerex SEQ200740HPAJ Compressor Maintenance",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/275635",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3002501-MB3",
+      "posted_date": "2026-06-15",
+      "due_date": "2026-07-28",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:248051",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Passenger Flow Management Solution and Services",
+      "description": "The City of Phoenix invites sealed offers for delivering a turn-key passenger flow management system at Phoenix Sky Harbor International Airport for a seven (7) year contract term, commencing on or about January 1, 2027, in accordance with the specifications and provisions contained herein or the “Effective Date” which is upon award by City Council, conditioned upon signature and recording by the City Clerk’s department, as required by the Phoenix City Charter. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offerors may use the support bubble on the bottom-right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation, please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term, including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/248051",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP 26-0285",
+      "posted_date": "2026-03-18",
+      "due_date": "2026-07-30",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:276538",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Yoga and Fitness Training Services",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/276538",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-026-3087803-JN",
+      "posted_date": "2026-06-17",
+      "due_date": "2026-07-30",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:273978",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Online NoveList Package Subscription",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/273978",
+      "naics": "",
+      "psc": "",
+      "set_aside": "012-3070502-MA",
+      "posted_date": "2026-06-09",
+      "due_date": "2026-07-30",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:252667",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Pickup of Used Oil, Oil Filters, & Oil Absorbent Bilge Pads",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/252667",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB 042-3057605-JB",
+      "posted_date": "2026-04-02",
+      "due_date": "2026-07-31",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:264444",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Plain, Printed, and Custom Envelopes",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/264444",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-017-3066601-JL",
+      "posted_date": "2026-05-08",
+      "due_date": "2026-08-03",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:245714",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Airport IT Systems Design Services",
+      "description": "As a regional service provider, the County of Orange (County), consisting of 25 departments (and its respective divisions) delivers a broad range of services to the citizens of Orange County. Services provided include public protection, public health, infrastructure maintenance, and community and social services. It is the primary responsibility of the County’s Department Name department to enrich the community through efficient delivery and maintenance of public works infrastructure, planning, capital improvement, and development services. Department Name intends to pre-qualify firms to provide Airport IT Systems Design Services. To satisfy this need, it is Department Name ’s intent that this RFQ process will enable the County to establish Qualified Vendor Lists (QVL) for Airport IT Systems Design Services. The County reserves the right, at its sole discretion, to make multiple awards to respondents for services requested in this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/245714",
+      "naics": "",
+      "psc": "",
+      "set_aside": "280-3026801-CP",
+      "posted_date": "2026-03-11",
+      "due_date": "2026-08-04",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "systems",
+        "development"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:283235",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "PROJECT NO. ICT27-01 Private Wireless Network",
+      "description": "Description: The Burbank-Glendale-Pasadena Airport Authority (“Authority”), owner/operator of the Bob Hope Airport (commonly known as Hollywood Burbank Airport) (“BUR”), is soliciting proposals from qualified firms to design and implement a Private Wireless Network at Hollywood Burbank Airport. Q&A Deadline: All questions/requests for interpretation must be received by July 24, 2026 at 4:00 P.M. via PlanetBids. Pre-Proposal Meeting: There will be a mandatory Pre-Proposal Virtual Conference (“Teleconference”) on July 21, 2026, at 10:00 a.m. Pacific Standard Time. Meeting link can be found in the PlanetBids solicitation. Due: Proposals shall be submitted electronically to the Authority exclusively through PlanetBids by 4:00 P.M. on August 5, 2026. Contact: RFP documents can be obtained via the PlanetBids website. https://www.planetbids.com/portal/portal.cfm?CompanyID=21910. All communications during the procurement process shall be to the exclusive attention of Francisco Flores, Senior Procurement Specialist, through the PlanetBids portal.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/283235",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-Announcement-0411",
+      "posted_date": "2026-07-13",
+      "due_date": "2026-08-05",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal",
+        "website"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:268525",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Telecom Line Audit and Optimization Assessment",
+      "description": "This Request for Information (RFI) is issued as a means of discovery and information gathering for an opportunity to explore offerings in the marketplace that could potentially assist the City of Phoenix (City) Information Technology Services in reducing costs and optimizing expenses through the review of the City's legacy telecommunications services. The RFI is for planning purposes only and should not be construed as a solicitation nor should it be construed as an obligation on the part of the City to make any purchases. This RFI should not be construed as a means to pre-qualify vendors. This is not a formal solicitation, but a request for interested parties to provide information as specified herein. Participation in this RFI is voluntary. No purchases will be made as a result of this request. Any price information provided shall be used for general comparison purposes only. Do not include applicable state and local taxes. OBTAINING A COPY OF THE RFI AND ADDENDA Interested parties may download the complete RFI and addenda from https://procurement.opengov.com/portal/phoenix . Internet access is available at all public libraries.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/268525",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFI 26-0508",
+      "posted_date": "2026-05-21",
+      "due_date": "2026-08-07",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal",
+        "information technology"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:256190",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Child Abuse Medical Services",
+      "description": "The County of Orange, Department Name (hereinafter referred to as “County”), is soliciting proposals from qualified firms (hereinafter referred to as “Respondents”) for Description of Services . Respondents must meet the minimum qualifications and requirements as set forth within the RFP and be capable of providing services identified in the Scope of Work herein. The proposed schedule below is subject to change. Any changes to the schedule for the RFP process will be issued to all Respondents via addenda on the County's eProcurement Portal. This is a fully electronic Request for Proposals (RFP). Respondents must submit their proposals online via the County’s online bidding system. Only electronic proposals will be accepted. Facsimile and e-mail proposals will NOT be allowed. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation by Question Submission Date , before Question Submission Time as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation. Verbal clarifications or responses will not be considered binding.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/256190",
+      "naics": "",
+      "psc": "",
+      "set_aside": "063-3051102-AH",
+      "posted_date": "2026-04-14",
+      "due_date": "2026-08-07",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:265474",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "EPA PROTOCOL CALIBRATION AND AUDIT GASES",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/265474",
+      "naics": "",
+      "psc": "",
+      "set_aside": "080-3068001-RE",
+      "posted_date": "2026-05-12",
+      "due_date": "2026-08-10",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:acgov:280702",
+      "source_name": "OpenGov — County of Alameda, CA",
+      "title": "902731- ALAMEDA COUNTY YOUTH INTERVENTION AND SUPPORT SERVICES CENTER",
+      "description": "It is the intent of these specifications, terms, and conditions to describe comprehensive, culturally responsive, trauma-informed, evidence-based clinical needs assessments and case planning services for youth ages 8 to 17 referred to the My FUTURE Center as requested by the Alameda County Probation Department (ACPD). The selected provider will deliver timely, individualized interventions that address multi-domain youth and family needs, promote positive developmental outcomes, reduce justice system involvement, and support community reintegration. The My FUTURE Center reflects the County’s commitment to helping youth move toward stability, belonging, and long-term success. FUTURE stands for: F ocused on strengths U plifting youth voice T ransformative support U nified connections R esilience development E mpowerment for success Together, these principles reflect a youth-centered, trauma-informed, and culturally responsive approach that builds on each young person’s strengths, elevates youth and family voice, and connects participants to meaningful supports that promote healing, growth, and opportunity. Services will be delivered in close collaboration with youth and families, juvenile justice stakeholders, schools, community-based organizations (CBOs), mentors, restorative justice programs, and other service partners. Alameda County seeks a Contractor to support a sustainable, family-centered, and trauma-informed youth development model consistent with County policies and best practices. The County intends to award a three (3)-year contract, with the option to renew for two (2) additional years, to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements. A Bidder may be a single vendor that provides services, or a group of vendors working collaboratively to provide services. Collaborating vendors must name a single, lead prime Bidder that will submit on behalf of the collaborating vendors. The prime Bidder/Contractor must coordinate all fiscal and administrative duties as needed to provide services under the contract resulting from this RFP. If awarded, it is the prime Bidder that will enter into a contract with the County.",
+      "agency": "County of Alameda, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/acgov/projects/280702",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-01",
+      "due_date": "2026-08-10",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "development"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:279311",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Equipment Rental Without Operator",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/279311",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3093401-MB",
+      "posted_date": "2026-06-26",
+      "due_date": "2026-08-14",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:277284",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Fencing Repair Services",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/277284",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3089802-MB",
+      "posted_date": "2026-06-19",
+      "due_date": "2026-08-14",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:275740",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Operations Control Center & Data Collection Services",
+      "description": "The City of Phoenix invites sealed offers for Description . The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be on or about July 1, 2027. The term of this Agreement will be for five (5) years, beginning on the Commencement Date, with one two-year option to extend , which may be exercised by the City in its sole discretion . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/275740",
+      "naics": "",
+      "psc": "",
+      "set_aside": "PTD26-003",
+      "posted_date": "2026-06-15",
+      "due_date": "2026-09-03",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal",
+        "data"
+      ]
+    },
+    {
+      "id": "opengov:saccounty:281692",
+      "source_name": "OpenGov — County of Sacramento, CA",
+      "title": "Request for Proposals - Facilities Condition Assessment (FCA) and Asset Management Services for Sacramento County Department of Airports",
+      "description": "The County of Sacramento (County) owns and/or operates four airports in Sacramento County, including Sacramento International Airport (SMF or Airport), Mather Airport (MHR), Sacramento Executive Airport (SAC), and Franklin Field (F72) through the Department of Airports (SCDA or Department). SCDA is issuing this Request for Proposals (RFP) to solicit proposals from qualified firms to provide comprehensive Airport Facilities Condition Assessment (FCA) and Asset Management Services across its airport system. SCDA is seeking professional services to perform an Airport Facilities Condition Assessment (FCA) and provide related Asset Management Services across its airport system. The intent of this effort is to establish a reliable, decision-ready baseline of facility condition, asset lifecycle status, risk, and reinvestment needs across SMF, MHR, SAC, and F72. The services described in this RFP will support SCDA’s maintenance planning, Critical Equipment Replacement Program (CERP), and phased capital planning for short-term (0 to 5 years), mid-term (5 to 10 years), and long-term (10 to 20 years) priorities. A key outcome of this engagement is the delivery of accurate, structured asset and condition data that is fully compatible with SCDA’s enterprise platforms, including ProDIGIQ Asset Management System (AMS) and ProDIGIQ Computerized Maintenance Management System (CMMS). The data must support consistent asset hierarchies, condition scoring, and lifecycle modeling. The data must also align with SCDA’s existing ProDIGIQ AMS QR-code/barcode generation and asset identification standards, enabling scan-to-asset linkage for inspections, preventive maintenance, and work order history.",
+      "agency": "County of Sacramento",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/saccounty/projects/281692",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-WW-03",
+      "posted_date": "2026-07-07",
+      "due_date": "2026-09-08",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system",
+        "data"
       ]
     },
     {
@@ -506,6 +1575,86 @@
       ]
     },
     {
+      "id": "opengov:smcgov:280172",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "On-Call Gate Installation, Repair, and Maintenance Services",
+      "description": "The County of San Mateo Parks Department is seeking quotations for on-call maintenance, repair, and limited replacement services for gate systems located at various County facilities. This includes, but is not limited to, electric gate operators and arms, access control gate components, gate hardware, and solar-powered gate systems that support gate operation. The County is seeking qualified contractors capable of providing timely response for troubleshooting, repair, and restoration of gate functionality to ensure continued safe and reliable access control at County sites. Fencing repair and replacement services are expressly excluded from this scope. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor. Labor shall be billed in increments not greater than 0.25 hours.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/280172",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-06-30",
+      "due_date": "2026-07-16",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "systems"
+      ]
+    },
+    {
+      "id": "opengov:santa-monica-ca:277982",
+      "source_name": "OpenGov — City of Santa Monica, CA",
+      "title": "SP2806 Resilient Sports Field Study",
+      "description": "The City of Santa Monica, (referred to hereafter as “the City”) is inviting proposals from qualified persons or firms interested in 'Project Title to be received via the City's e-Procurement Portal no later than 'Proposal Submission Date , 'Proposal Submission Time PST.",
+      "agency": "City of Santa Monica",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/277982",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SP2806",
+      "posted_date": "2026-06-23",
+      "due_date": "2026-07-17",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:265754",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Thermoplastic Pavement Marking Raw Material",
+      "description": "The City of Phoenix invites sealed offers for thermoplastic pavement marking raw material. The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be upon February 15, 2027 o r the Effective Date, whichever is later. The term of this Agreement will be for five years, beginning on the Commencement Date, with no options to extend . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/265754",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-26-0348",
+      "posted_date": "2026-05-13",
+      "due_date": "2026-07-17",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:santa-monica-ca:274382",
+      "source_name": "OpenGov — City of Santa Monica, CA",
+      "title": "Design Services for 14th Street Two-way Protected Bikeway",
+      "description": "The City of Santa Monica, (referred to hereafter as “the City”) is inviting proposals from qualified persons or firms interested in 'Project ID , 'Project Title to be received via the City's e-Procurement Portal no later than 'Proposal Submission Date , 'Proposal Submission Time PST.",
+      "agency": "City of Santa Monica",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/274382",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SP2805",
+      "posted_date": "2026-06-10",
+      "due_date": "2026-07-18",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
       "id": "hf3r-utnq:230834",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200008 - 27000521-COMPUTER - BACKUP APPLIANCE - RUBRIK RENEWAL - Closing: 7/20/2026 12:00 PM",
@@ -523,6 +1672,26 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "computer"
+      ]
+    },
+    {
+      "id": "arcgis:Doc836626",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "RFTOB Batch 2635 Interior (DHCD BOA Vendors Only)",
+      "description": "RFTOB Batch 2635 Interior (DHCD BOA Vendors Only)",
+      "agency": "Department of Housing and Community Development",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-07-20",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "development"
       ]
     },
     {
@@ -566,6 +1735,106 @@
       ]
     },
     {
+      "id": "opengov:pasadena:264001",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "On-Call Survey Consultant Services",
+      "description": "The City is seeking the services of a qualified firm to provide on-call survey consultant services. The selected consultant will perform subdivision map checking services, legal description preparation, and boundary survey work for various private development projects as directed by the City on an as needed basis. In addition, the selected consultant will perform land surveying field work and associated office work for various City projects as directed by the City on an as needed basis.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/264001",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0295",
+      "posted_date": "2026-05-07",
+      "due_date": "2026-07-22",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:255768",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Copper Pipe",
+      "description": "The City of Phoenix invites sealed offers for Description . The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be upon the contract term start date that the Phoenix City Council approves or the Effective Date, whichever is later. The term of this Agreement will be for five years, beginning on the Commencement Date, with no options to extend. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/255768",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-26-0311",
+      "posted_date": "2026-04-13",
+      "due_date": "2026-07-22",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "arcgis:Doc836756",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "RFTOB Batch 2643 Interior (DHCD BOA Vendors Only)",
+      "description": "RFTOB Batch 2643 Interior (DHCD BOA Vendors Only)",
+      "agency": "Department of Housing and Community Development",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-07-22",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "opengov:saccounty:266678",
+      "source_name": "OpenGov — County of Sacramento, CA",
+      "title": "DHA Bell Street New Surveillance System",
+      "description": "The Project includes, without limitation, furnishing all necessary labor, materials, equipment and other incidental and appurtenant Work necessary to satisfactorily complete the Project, as more specifically described in specifications. This Work will be performed in strict conformance with the specifications, permits from regulatory agencies with jurisdiction, and applicable regulations. The quantity of Work to be performed and materials to be furnished are approximations only, being given as a basis for the comparison of Bids. Actual quantities of Work to be performed may vary at the discretion of the County.",
+      "agency": "County of Sacramento",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/saccounty/projects/266678",
+      "naics": "",
+      "psc": "",
+      "set_aside": "41013",
+      "posted_date": "2026-05-15",
+      "due_date": "2026-07-23",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:284449",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Contracted Administrative Investigative Services",
+      "description": "The County of San Mateo is seeking quotations for: Contracted Administrative Investigative Services The San Mateo County Sheriff's Office is seeking competitive bids from highly qualified providers to conduct highly confidential administrative investigations as needed. The investigative services will include, but not limited to, the following: Interview witnesses, subject employees and complainants Review documentary evidence such as reports, emails, text messages, related video/audio recordings, body worn camera footage, surveillance footage and other digital media types, or any other material identified as evidence. Generate reports related to the investigation to include an introduction, written summary of interviews, transcripts, summary of investigation, findings (if requested), notice of IA (if requested), notice of intent to discipline (if requested), required notifications pursuant to the Peace Officer Bill of Rights, letter of intent/discipline (if requested) and document counseling memos (if requested). Timekeeping and breakdown of invoice for use with internal affairs case cost tracking, conduct audits, evaluations, and/or general consultation (if requested). Provide routine updates to Sheriff's Office representative as to the progress of assigned cases. Confidentiality : Any selected Contractor acknowledges that the existence and the terms of this Agreement and any oral or written information exchanged between the County and Contractor in connection with the preparation and performance of this Agreement are regarded as confidential information and shall not be disclosed to any third party.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/284449",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP - Informal-00004",
+      "posted_date": "2026-07-15",
+      "due_date": "2026-07-23",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
       "id": "hf3r-utnq:230892",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200015 - 00043-ARMADA ATLAS PLATFORM AND STARLINK HARDWARE - BRAND SP - Closing: 7/24/2026 12:00 PM",
@@ -583,6 +1852,46 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "platform"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:256149",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Exclusive Pouring Rights At The Phoenix Convention Center, Symphony Hall and Orpheum Theatre",
+      "description": "The City of Phoenix invites sealed offers for Exclusive Pouring Rights at the Phoenix Convention Center, Symphony Hall and Orpheum Theater of non-alcoholic bottled, canned, and fountain beverage products within the Phoenix Convention Center, Venues, and City-managed parking facilities (“Facilities”). The agreement will include a five (5) year term with one (1) five (5) -year renewal option. The contract will commence on or about January 1, 2027, in accordance with the specifications and provisions contained herein, or on the “Effective Date,” which is upon award by City Council, conditioned upon signature and recording by the City Clerk’s Department as required by the Phoenix City Code, whichever is later. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/256149",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RCS PCC 26-0314",
+      "posted_date": "2026-04-14",
+      "due_date": "2026-07-24",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:277467",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Consultants for the Community Health Assessment (CHA) community engagement strategy",
+      "description": "San Mateo County Health (SMC Health) seeks competitive quotes from local community based non-profit organizations serving as trusted messenger organizations in the County of San Mateo. Organizations who are trusted messengers have experience being a liaison between Community and the County of San Mateo. We are seeking partnership with three (3) trusted messenger organizations to provide expertise in engaging the community for the upcoming Community Health Assessment (CHA). The CHA is a process that brings together a wide array of community health and quality of life indicators for San Mateo County residents that are gathered from both primary and secondary data sources. The CHA allows community and SMC Health to identify and prioritize the health needs of those who live, work, and play in the County of San Mateo. The contractor will support in planning and implementation of strategies to engage residents of the County of San Mateo around the next CHA, which is scheduled to conclude in December 2028. Planning will begin upon execution of the contract, with surveys, key informant interviews, community information sessions, and data analysis planned in 2027 – 2028. California Department of Public Health identifies the following priority populations: Low-income individuals and families Immigrants and refugees Limited English Proficient (LEP) populations Communities of color (including but not limited to: Black/African American, Latino/x, Native American/Alaska Native, Asian American, Native Hawaiian, and Pacific Islander populations) LGBTQ+ communities People with disabilities People with mental health conditions Individuals who are incarcerated or formerly incarcerated Children, youth, and young adults Older adults/seniors Rural and geographically isolated communities People experiencing homelessness Residents of neighborhoods with high social, economic, or environmental burdens",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/277467",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP - Informal-00585",
+      "posted_date": "2026-06-22",
+      "due_date": "2026-07-24",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -606,6 +1915,26 @@
       ]
     },
     {
+      "id": "opengov:smcgov:276008",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Specialty Therapeutic Bed Rental Services",
+      "description": "San Mateo Medical Center (SMMC) is a public hospital and clinic system fully accredited by The Joint Commission. SMMC operates outpatient clinics throughout San Mateo County, an acute-care hospital, and long-term care facilities in San Mateo and Burlingame. San Mateo Medical Center serves the health care needs of all residents of San Mateo County, with an emphasis on education and prevention, and without regard for ability to pay. The County of San Mateo is seeking proposals for Project Title .",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/276008",
+      "naics": "",
+      "psc": "",
+      "set_aside": "66000-2526-254",
+      "posted_date": "2026-06-16",
+      "due_date": "2026-07-27",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
       "id": "2hnj-zwix:DSU260714-ACADEMICMG",
       "source_name": "Delaware — Open Bids (Statewide)",
       "title": "Academic Management Platform",
@@ -623,6 +1952,66 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "platform"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:264204",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Cooling Tower Water Treatment Services",
+      "description": "The City of Phoenix invites electronic offers for Cooling Tower Water Treatment Services. The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be on or about October 1, 2026 or the Effective Date, whichever is later. The term of this Agreement will be for three (3) years, beginning on the Commencement Date, with two 1-year options to extend, which may be exercised by the City in its sole discretion. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/264204",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB 27-FMD-013",
+      "posted_date": "2026-05-07",
+      "due_date": "2026-07-29",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:222518",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Fire Sprinkler Inspection, Testing, and Maintenance",
+      "description": "The City of Phoenix invites sealed offers Description for a Contract Term commencing on or about Contract Start Date , in accordance with the specifications and provisions contained herein or the “Effective Date” which is upon award by City Council, conditioned upon signature and recording by the City Clerk’s department, as required by the Phoenix City Code, whichever is later. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/222518",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-PCC-26-0184",
+      "posted_date": "2025-12-12",
+      "due_date": "2026-07-29",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:261140",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Manhole Pest Control Services",
+      "description": "The City of Phoenix invites sealed offers for Description . The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be upon [specific date, which is on or after the ordinance approved start date or the contract term start date that the Phoenix City Council approves] or the Effective Date, whichever is later. The term of this Agreement will be for X years, beginning on the Commencement Date, with [no options to extend] or [X Y-year options to extend, which may be exercised by the City in its sole discretion] . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/261140",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-27-0400",
+      "posted_date": "2026-04-29",
+      "due_date": "2026-07-30",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
       ]
     },
     {
@@ -646,6 +2035,86 @@
       ]
     },
     {
+      "id": "opengov:phoenix:277573",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Worker's Compensation Third Party Administration (TPA) Claims Management Services",
+      "description": "The City of Phoenix invites sealed offers for Description . The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be [July 1, 2027, which is on or after the ordinance approved start date} or the Effective Date, whichever is later. The term of this Agreement will be for five years, beginning on the Commencement Date, with no options to extend . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/277573",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP PS-27-0005",
+      "posted_date": "2026-06-22",
+      "due_date": "2026-07-31",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:180212",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Terminal 3 Food & Beverage Concessions Operator (Small Business Opportunity) Micro Restaurant and Mobile Kiosk",
+      "description": "The City of Phoenix (City), Aviation Department (Aviation) is seeking Responses from qualified small businesses (as defined in Section 2.3 Food & Beverage General Standards and Concepts) in good standing to operate and manage a Food & Beverage (F&B) Micro Restaurant and a Mobile Kiosk concession with City provided equipment, as listed in Micro Restaurant and Mobile Kiosk Equipment List, Attachment DD & EE, at two different Terminal 3 (T3) Pre-Security locations at Phoenix Sky Harbor International Airport (PHX or Airport). The Successful Respondent will enter into a Concession Lease Agreement (Lease) with the City. The Draft Lease , Attachment A, wherein the Premises that will be operated and managed by the Successful Respondent are identified. The Premises Map , Attachment B & C , will be operated and managed by the Successful Respondent. There will be one Successful Respondent who will operate both the Micro Restaurant and Mobile Kiosk concessions. City will not have more than one Successful Respondent for this Solicitation. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/180212",
+      "naics": "",
+      "psc": "",
+      "set_aside": "AVN RCS-26-0047",
+      "posted_date": "2025-06-26",
+      "due_date": "2026-07-31",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:saccounty:276835",
+      "source_name": "OpenGov — County of Sacramento, CA",
+      "title": "Banking Treasury Management Services",
+      "description": "The Sacramento County Employees’ Retirement System (SCERS) is requesting proposals (“RFP”) from eligible and qualified banking institutions (the “bank”) for Banking Treasury Management services. SCERS does not currently maintain a dedicated banking services structure, the selected provider will be establishing these services as a new implementation.",
+      "agency": "County of Sacramento",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/saccounty/projects/276835",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-GEN-0062",
+      "posted_date": "2026-06-18",
+      "due_date": "2026-07-31",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "opengov:saccounty:280233",
+      "source_name": "OpenGov — County of Sacramento, CA",
+      "title": "Lowboy Equipment Trailer",
+      "description": "SUMMARY: The County of Sacramento is seeking bids from vendors to provide and deliver one (1) new thirty-five (35) ton capacity, low deck, detachable gooseneck, outside frame, two (2) axle, eight (8) wheel equipment trailer with air-ride suspension and rear flip-tail, air-operated ramps. TRADE-IN BID : This Request for Bids (RFB) includes a trade-in option for a used County-owned 2006 Cozad 35-Ton detachable gooseneck trailer, which is described in section IV. of the Specifications attached to this RFB. Bidders are not required to bid on the trade-in unit. All bids are welcomed. Bid responses will not be rejected for excluding a trade-in bid; however, stand-alone offers to purchase the trailer outright without a bid proposal for the sale of a new trailer will not be accepted. INSURANCE REQUIREMENTS: See Section 11 of this RFB for insurance requirements. ATTACHMENTS: The following documents are attached to this RFB: Specification 94T-189 Bidder's Basic Data Sheet Draft Purchase Order QUESTIONS: Submit all questions in the Question/Answer section of this RFB.",
+      "agency": "County of Sacramento",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/saccounty/projects/280233",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFB-0067",
+      "posted_date": "2026-06-30",
+      "due_date": "2026-08-03",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
       "id": "hf3r-utnq:230864",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-26200966 - CLIENT ACTIVITY TRACKING SYSTEM - 3 YEAR AGREEMENT - Closing: 8/6/2026 12:00 PM",
@@ -661,6 +2130,26 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:281148",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Home Security System Installation and Monitoring Services for Elected Officials",
+      "description": "The City of Pasadena is requesting pricing information from qualified and experienced home security companies on home security system packages for its councilmembers. Through this Request for Information (RFI), the City seeks to evaluate current industry offerings, including system technologies, monitoring services, package options and pricing, installation methods, and optional value‑added features. The City Council Department will ultimately maintain a list of three home security system vendors from which councilmembers may select the system that best suits their needs. The purpose of this RFI is to provide the City's elected officials with high quality home security and monitoring services to enhance their security. Respondents are invited to submit detailed proposals that clearly describe their equipment options, installation process, monitoring services, and any innovative home security solutions and related costs that align with the City’s objectives. All proposals must follow the requirements and format outlined in this RFI.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/281148",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFI-0401",
+      "posted_date": "2026-07-06",
+      "due_date": "2026-08-06",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
       "matched_keywords": [
         "system"
       ]
@@ -686,6 +2175,86 @@
       ]
     },
     {
+      "id": "opengov:phoenix:250708",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Investigative Services",
+      "description": "The City of Phoenix invites sealed offers for Investigative Services for a five-year contract commencing on or about January 1, 2027, in accordance with the specifications and provisions contained herein or the “Effective Date” which is upon award by City Council, conditioned upon signature and recording by the City Clerk’s department, as required by the Phoenix City Code, whichever is later. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/250708",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFQu-26-0293",
+      "posted_date": "2026-03-26",
+      "due_date": "2026-08-07",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:246850",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Pan - Tilt - Zoom (PTZ) Cameras",
+      "description": "The City of Phoenix invites sealed offers for Pan - Tilt - Zoom (PTZ) cameras for a five-year term commencing on or about September 1, 2026, in accordance with the specifications and provisions contained herein or the “Effective Date” which is upon award by City Council, conditioned upon signature and recording by the City Clerk’s department, as required by the Phoenix City Code, whichever is later. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/246850",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-26-0280",
+      "posted_date": "2026-03-16",
+      "due_date": "2026-08-07",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:270539",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Diagnostic Imaging PACS (Picture Archiving and Communication System)",
+      "description": "San Mateo Medical Center (SMMC) is a public hospital and clinic system fully accredited by The Joint Commission. SMMC operates outpatient clinics throughout San Mateo County, an acute-care hospital, and long-term care facilities in San Mateo and Burlingame. San Mateo Medical Center serves the health care needs of all residents of San Mateo County, with an emphasis on education and prevention, and without regard for ability to pay. The County of San Mateo is seeking proposals for Project Title .",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/270539",
+      "naics": "",
+      "psc": "",
+      "set_aside": "66000-2526-251",
+      "posted_date": "2026-05-29",
+      "due_date": "2026-08-07",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:264615",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Housing Services – Property Management, Master Leasing, and Housing Based Supports",
+      "description": "The City of Phoenix invites sealed offers to provide housing services including property management and master leasing or housing based on site support services serving individuals or families experiencing or exiting homelessness . The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be upon October 1, 2026 or the Effective Date, whichever is later. The term of this Agreement will be for 1 years, beginning on the Commencement Date, with 4 - 1 year options to extend, which may be exercised by the City in its sole discretion . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/264615",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFQu-26-0341",
+      "posted_date": "2026-05-08",
+      "due_date": "2026-08-08",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
       "id": "hf3r-utnq:230713",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "LA-RICS 029 - LA-RICS Managed Information Technology (IT) Services IFB - Closing: 8/11/2026 4:00 PM",
@@ -703,6 +2272,106 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "information technology"
+      ]
+    },
+    {
+      "id": "opengov:acgov:275735",
+      "source_name": "OpenGov — County of Alameda, CA",
+      "title": "902772 Foam Fire Suppression System Inspections, Maintenance and Repair Services",
+      "description": "It is the intent of these specifications, terms, and conditions to describe as-needed Foam Fire Suppression System Inspections, Maintenance, and Repair Services at the Alameda County Household Hazardous Waste collection facility located at 2100 E. 7th St. in Oakland being requested by the County. The County intends to award a three (3) year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements. These specifications, terms, and conditions are to procure the most environmentally preferable products with equivalent or higher performance and at an equal or lower cost than traditional products. Specific requirements from the County’s Sustainability Program related to this RFP are included in the appropriate sections.",
+      "agency": "County of Alameda, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/acgov/projects/275735",
+      "naics": "",
+      "psc": "",
+      "set_aside": "902772",
+      "posted_date": "2026-06-15",
+      "due_date": "2026-08-11",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "planetbids:16151:143522",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "ULTRASONIC FLOW MEASURING SYSTEMS",
+      "description": "RFB-PR-476283",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/143522",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-08",
+      "due_date": "2026-08-12",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "systems"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:274462",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Supply of Industrial Pipe, Miscellaneous Fittings, and Equipment",
+      "description": "The City of Phoenix invites sealed offers for supply of pipe, miscellaneous fittings, and equipment for a three-year term, with two (2) one-year options to extend, commencing on or about December 1, 2026, in accordance with the specifications and provisions contained herein or the “Effective Date” which is upon award by City Council, conditioned upon signature and recording by the City Clerk’s department, as required by the Phoenix City Code, whichever is later. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/274462",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB 26-SW-0379",
+      "posted_date": "2026-06-10",
+      "due_date": "2026-08-12",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:278364",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Architect-Engineer (A-E) Flood Control Engineering Services – Task Order Contracts",
+      "description": "The County of Orange (County), consisting of 22 agencies and departments, and the Orange County Flood Control District (District) deliver a broad range of services to the residents of Orange County. Services provided include public protection, public health, infrastructure maintenance, and community and social services. As the District relies on County staff to carry out its duties, the District will also be included as a party to any contract(s) resulting from this solicitation. It is the primary responsibility of the County’s public works department (OC Public Works) to enrich the community through efficient delivery and maintenance of public works infrastructure, planning, capital improvement and development services. Department Name intends to pre-qualify firms to provide services for Architect-Engineer (A-E) and A-E related County-wide and District-wide services for their various maintenance and capital projects. To satisfy this need, this Request for Qualification (RFQ) process will enable the County to establish Qualified Vendor Lists (QVL) for A-E disciplines to provide those services. The Qualified Vendor List (QVL) will be established through this (RFQ) process and will result in Board of Supervisors awarded contracts with a term of three (3) years. At the conclusion of the contract term, the County may issue a new solicitation to provide additional Contractors the opportunity to compete for future services The County reserves the right, at its sole discretion, to make multiple awards to respondents for services requested in this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/278364",
+      "naics": "",
+      "psc": "",
+      "set_aside": "080-3091002-RE",
+      "posted_date": "2026-06-24",
+      "due_date": "2026-08-13",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "opengov:santacruzca:273401",
+      "source_name": "OpenGov — City of Santa Cruz, CA",
+      "title": "SculpTOUR Downtown Rotating Public Art Program Curator",
+      "description": "Introduction The City of Santa Cruz Office of Economic Development invites qualified curators or curatorial teams to submit proposals to lead the artistic direction, artist selection, and exhibition management for SculpTour , an outdoor rotating sculpture exhibition program designed to enhance public space, support artists with highly visable gallery space, and engage the community. Project Goals Present high‑quality, diverse, and engaging sculptural works Activate public spaces and enhance cultural vibrancy Support artists in the sale of their works Provide accessible art experiences for residents and visitors Strengthen the city’s identity as a cultural destination Purpose of the RFP The purpose of this Request for Proposals (RFP) is to solicit qualified individuals or teams to serve as the Curator for SculpTour , responsible for artist selection, exhibition planning, installation oversight, community education about the program and gallery space, and coordination with the City staff.",
+      "agency": "City of Santa Cruz",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santacruzca/projects/273401",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP No. DEPT HERE-0312",
+      "posted_date": "2026-06-08",
+      "due_date": "2026-08-14",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "development"
       ]
     },
     {
@@ -766,6 +2435,26 @@
       ]
     },
     {
+      "id": "planetbids:16151:138984",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Replacement of Metropolitan Water District's current Telephone System",
+      "description": "RFP-AS-468092",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/138984",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-06",
+      "due_date": "2026-08-28",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
       "id": "knjg-wn2a:PO-10700-00024253",
       "source_name": "Oregon — Active Statewide Price Agreements",
       "title": "Oregon Virtual School District Learning Management System",
@@ -803,6 +2492,46 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "system"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:176727",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Terminal 3 North 2 Concourse Food & Beverage (F&B) Concessions",
+      "description": "The City of Phoenix (City) Aviation Department (Aviation) is seeking responses from qualified Respondents to operate and manage Food & Beverage (F&B) concession spaces in the Terminal 3 North 2 Concourse (T3N2) at Phoenix Sky Harbor International Airport (Airport or PHX). The available F&B concession spaces are: Package 1 : Two (2) Quick-Serve Restaurant Concepts, a Café Bar, and Beverage Vending Machines – Total: 6,091 square feet N2-FB1 - Two (2) Quick-Serve Restaurant Concepts: 2,377 square feet N2-FB2 - Café Bar: 3,645 square feet Beverage Vending Machines (Alcove) - total 69 square feet which consist of ( A : 34 square feet + B : 35 square feet) Package 2 : Coffee Focus plus Café (Small Business Opportunity Only) Small Business Opportunity as defined in Section 1.5 N2-FB3 - 1,198 square feet Package 3 : Full-Service Restaurant with Bar N2-FB4 - 2,267 square feet The Successful Respondents will enter into a Concession Lease Agreement (Lease) with the City. Copies of the draft Leases are attached as Attachment A (Package 1), Attachment B (Package 2), and Attachment C (Package 3). The Premises, identified in Attachment D (Package 1), Attachment E (Package 2), and Attachment F (Package 3) will be developed, operated, and managed by the Successful Respondents. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/176727",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RCS 26-0040",
+      "posted_date": "2025-06-11",
+      "due_date": "2026-09-02",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:phoenix:165230",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Terminal 3 North 2 Concourse Retail Concessions",
+      "description": "The City of Phoenix (City) Aviation Department (Aviation) is seeking responses from qualified Respondents to operate and manage Retail concession spaces in the Terminal 3 North 2 Concourse (T3N2) at Phoenix Sky Harbor International Airport (Airport or PHX). The available Retail concession spaces are: Package 1 : News, Gift, and Convenience Store – 3,202 square feet in N2-R1 Package 2 : Specialty Retail Boutique-Style Store – 1,198 square feet in N2-R2 The Successful Respondents will enter into a Concession Lease Agreement (Lease) with the City. Copies of the draft Leases are attached as Attachment A (Package 1) and Attachment B (Package 2). The Premises, identified in Attachment C (Package 1) and Attachment D (Package 2), will be developed, operated, and managed by the Successful Respondents. This solicitation is available through the City’s Procurement Portal. For technical support issues related to the Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/165230",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RCS-26-0041",
+      "posted_date": "2025-04-24",
+      "due_date": "2026-09-02",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "portal"
       ]
     },
     {
