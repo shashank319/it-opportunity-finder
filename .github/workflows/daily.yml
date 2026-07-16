@@ -52,6 +52,7 @@ jobs:
           # --- Sources (optional) ---
           GMAIL_TOKEN_JSON:   ${{ secrets.GMAIL_TOKEN_JSON }}   # enables Gmail alerts
           SOCRATA_APP_TOKEN:  ${{ secrets.SOCRATA_APP_TOKEN }}  # optional, raises limits
+          SAM_API_KEY:        ${{ secrets.SAM_API_KEY }}        # enables SAM.gov federal source
         run: python -m src.main
 
       - name: Commit refreshed data

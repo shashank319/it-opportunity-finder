@@ -318,6 +318,26 @@ sources:
       field_map: { id: contract_number, title: description, description: category, agency: lead_department, posted_date: start_date, due_date: end_date }
       source_url: "https://www.cookcountyil.gov/service/procurement-contracts"
 
+  # --- SAM.gov FEDERAL opportunities (the one federal source) ----------------
+  # Every record is tagged state = "US-FED" so you can filter federal in/out on
+  # the dashboard. Needs a free API key in the GitHub secret SAM_API_KEY (README).
+  # Set enabled: false to hide federal and go back to SLED-only.
+  samgov:
+    enabled: true
+    name: "SAM.gov (Federal)"
+    lookback_days: 3            # pull notices posted in the last N days
+    limit: 1000
+    # One API request per NAICS code — keep this list short (rate limits).
+    naics_codes:
+      - "541511"   # custom computer programming
+      - "541512"   # computer systems design
+      - "541519"   # other computer related services
+      - "518210"   # data processing / hosting
+      - "511210"   # software publishers
+      - "541513"   # computer facilities management
+    # Notice types: p=presolicitation, o=solicitation, k=combined, r=sources sought.
+    notice_types: ["p", "o", "k", "r"]
+
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement
   # platforms. Turn `enabled: true` AFTER you set up GMAIL_TOKEN_JSON (README).

@@ -11,7 +11,9 @@ It runs entirely on **free tiers** — GitHub Actions (scheduler), a committed
 JSON file (data store), GitHub Pages (dashboard), and a free email provider.
 **Baseline cost: $0/month.**
 
-> **Scope:** state / county / city only. **No federal sources** (no SAM.gov).
+> **Scope:** state / county / city (SLED) sources, **plus an optional SAM.gov
+> federal source** (tagged `US-FED`, toggled on/off in config). *Federal was added
+> later at the owner's request; it can be disabled to return to SLED-only.*
 > **Recall-first:** it catches broadly and only strips out clearly non-IT work.
 > The score is for *sorting* — **your team decides what to bid.**
 
@@ -153,6 +155,20 @@ As real alert emails arrive, tune each platform's `link_contains` / optional
 one opportunity per alert email so nothing is lost.
 
 ---
+
+## Optional: SAM.gov federal source
+
+Federal opportunities from SAM.gov are enabled in `config.yaml`
+(`sources.samgov.enabled: true`) but need a free API key:
+
+1. Sign in at <https://sam.gov/>, open your **Account Details → API Key**, and
+   generate a **Public API key**.
+2. Add it as a GitHub Actions secret named **`SAM_API_KEY`**.
+
+Every SAM.gov record is tagged `state = US-FED`, so on the dashboard you can
+show or hide federal with the **State** filter. To turn federal off entirely,
+set `sources.samgov.enabled: false`. Rate limits are modest, so keep the
+`naics_codes` list short (the tool makes one request per code per day).
 
 ## Optional: add another Socrata open-data feed
 

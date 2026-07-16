@@ -13,6 +13,7 @@ from __future__ import annotations
 
 from .socrata import SocrataSource
 from .gmail_alerts import GmailAlertsSource
+from .samgov import SamGovSource
 
 
 def build_sources(config: dict) -> list:
@@ -29,5 +30,10 @@ def build_sources(config: dict) -> list:
     gmail_cfg = sources_cfg.get("gmail_alerts", {})
     if gmail_cfg.get("enabled", False):
         sources.append(GmailAlertsSource(gmail_cfg))
+
+    # --- SAM.gov federal opportunities (the one federal source) ---
+    samgov_cfg = sources_cfg.get("samgov", {})
+    if samgov_cfg.get("enabled", False):
+        sources.append(SamGovSource(samgov_cfg))
 
     return sources
