@@ -58,13 +58,16 @@ class SamGovSource(Source):
         posted_from = (today - timedelta(days=self.lookback_days)).strftime("%m/%d/%Y")
         posted_to = today.strftime("%m/%d/%Y")
 
+        # IMPORTANT: pass the key as a HEADER, never as a query param, so it can
+        # never end up in a URL that a request/error message might expose.
+        headers = {"X-Api-Key": api_key, "Accept": "application/json"}
+
         seen: dict[str, Opportunity] = {}
         # If no NAICS configured, do a single broad pull (date + notice type only).
         naics_list = self.naics_codes or [None]
 
         for naics in naics_list:
             params = {
-                "api_key": api_key,
                 "postedFrom": posted_from,
                 "postedTo": posted_to,
                 "limit": self.limit,
@@ -74,9 +77,16 @@ class SamGovSource(Source):
             if naics:
                 params["ncode"] = naics
 
-            resp = requests.get(SAM_SEARCH_URL, params=params, timeout=self.timeout)
-            resp.raise_for_status()
-            data = resp.json()
+            try:
+                resp = requests.get(
+                    SAM_SEARCH_URL, params=params, headers=headers, timeout=self.timeout
+                )
+                resp.raise_for_status()
+                data = resp.json()
+            except Exception as e:
+                # Defense in depth: make 100% sure the key never appears in an
+                # error message (which is logged into the public health file).
+                raise RuntimeError(str(e).replace(api_key, "***REDACTED***")) from None
 
             for rec in data.get("opportunitiesData", []) or []:
                 opp = self._to_opportunity(rec)

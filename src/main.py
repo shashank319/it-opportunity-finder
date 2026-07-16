@@ -117,18 +117,36 @@ def _write_output(output: dict) -> None:
 
 
 def _assert_no_secrets(output: dict) -> None:
-    """Cheap guard: the public JSON must never contain anything key-shaped.
+    """Guard: the public JSON must never contain a secret. Two layers:
 
-    We scan the serialized output for the NAMES of our secret env vars and for
-    obvious token prefixes. If found, we blank the file rather than commit a leak.
+    1. GENERIC (most important): if the ACTUAL VALUE of any known secret env var
+       appears anywhere in the output, stop. This catches leaks in any format —
+       e.g. a key accidentally included in an error message.
+    2. Heuristic: obvious token prefixes / secret-ish substrings.
+
+    If anything matches we raise, so a broken/leaky run fails loudly instead of
+    committing a secret to the public repo.
     """
-    blob = json.dumps(output).lower()
+    blob = json.dumps(output)
+    blob_lower = blob.lower()
+
+    # Layer 1 — actual secret values (the reliable check).
+    secret_vars = [
+        "SAM_API_KEY", "RESEND_API_KEY", "BREVO_API_KEY", "SMTP_PASS",
+        "GMAIL_TOKEN_JSON", "SOCRATA_APP_TOKEN", "ANTHROPIC_API_KEY",
+    ]
+    for var in secret_vars:
+        val = os.environ.get(var, "")
+        if val and len(val) >= 8 and val in blob:
+            raise SystemExit(f"SAFETY STOP: value of secret {var} found in output — refusing to write.")
+
+    # Layer 2 — heuristic prefixes/keywords.
     suspicious = [
         "resend_api_key", "brevo_api_key", "smtp_pass", "gmail_token_json",
         "socrata_app_token", "anthropic_api_key", "re_live_", "xkeysib-",
-        "refresh_token", "client_secret",
+        "refresh_token", "client_secret", "x-api-key", "api_key=", "sam-2", "sam-0",
     ]
-    hit = [s for s in suspicious if s in blob]
+    hit = [s for s in suspicious if s in blob_lower]
     if hit:
         raise SystemExit(f"SAFETY STOP: output looks like it contains secrets: {hit}")
 

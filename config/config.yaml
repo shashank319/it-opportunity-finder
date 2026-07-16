@@ -327,14 +327,15 @@ sources:
     name: "SAM.gov (Federal)"
     lookback_days: 3            # pull notices posted in the last N days
     limit: 1000
-    # One API request per NAICS code — keep this list short (rate limits).
+    # One API request per NAICS code. A non-registered SAM key allows only ~10
+    # requests/DAY, so keep this list SHORT (4 = 4 requests/day, leaving headroom
+    # for manual re-runs). Registering your entity (UEI) at SAM.gov raises the
+    # limit to ~1,000/day — then you can safely add more codes.
     naics_codes:
       - "541511"   # custom computer programming
       - "541512"   # computer systems design
       - "541519"   # other computer related services
       - "518210"   # data processing / hosting
-      - "511210"   # software publishers
-      - "541513"   # computer facilities management
     # Notice types: p=presolicitation, o=solicitation, k=combined, r=sources sought.
     notice_types: ["p", "o", "k", "r"]
 
