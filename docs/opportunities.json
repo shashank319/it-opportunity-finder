@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-15T13:06:24.370539+00:00",
+  "generated_at": "2026-07-16T07:17:57.543528+00:00",
   "counts": {
-    "total": 94,
-    "new": 14
+    "total": 83,
+    "new": 1
   },
   "health": {
     "ok": 16,
-    "total": 16,
+    "total": 17,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 350,
+        "count": 352,
         "error": ""
       },
       {
@@ -103,6 +103,12 @@
         "ok": true,
         "count": 42,
         "error": ""
+      },
+      {
+        "source": "SAM.gov (Federal)",
+        "ok": false,
+        "count": 0,
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?api_key=***REDACTED***&postedFrom=07%2F13%2F2026&postedTo=07%2F16%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541513"
       }
     ]
   },
@@ -192,46 +198,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:230804",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200002 - 27000354-SOFTWARE - RENEWAL - HACKNOTICE (BRAND ONLY) - Closing: 7/15/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000hPovJIAS'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-02",
-      "due_date": "2026-07-15",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709018",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "2026283 - Komprise Multi-Year Software Renewal",
-      "description": "2026283 - Komprise Multi-Year Software Renewal",
-      "agency": "Investigation",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "eeq6-nnwe:1188169",
       "source_name": "Montgomery County MD — Solicitations",
       "title": "Video Streaming and Legislative Content Management Services",
@@ -265,7 +231,7 @@
       "posted_date": "2026-07-14",
       "due_date": "2026-07-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-15",
       "matched_keywords": [
         "software"
@@ -305,7 +271,7 @@
       "posted_date": "2026-07-14",
       "due_date": "2026-07-27",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-15",
       "matched_keywords": [
         "software"
@@ -325,7 +291,7 @@
       "posted_date": "2026-07-10",
       "due_date": "2026-08-21",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-15",
       "matched_keywords": [
         "modernization"
@@ -540,206 +506,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:20260709008",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Based CD - Bronx 04 Elementary School",
-      "description": "COMPASS Center Based CD - Bronx 04 Elementary School",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709013",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Base - Queens 06 Middle School",
-      "description": "COMPASS Center Base - Queens 06 Middle School",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709010",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Base CD - Queens 13 Middle School",
-      "description": "COMPASS Center Base CD - Queens 13 Middle School",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260708025",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Notice of Award to Unwind Hospitality LLC for the development, operation, and maintenance of a snack bar and merchandise concession with the option of a full-service restaurant at the Orchard Beach Pavilion",
-      "description": "Notice of Award to Unwind Hospitality LLC for the development, operation, and maintenance of a snack bar and merchandise concession with the option of a full-service restaurant at the Orchard Beach Pavilion",
-      "agency": "Parks and Recreation",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709017",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Systems Requirements Analyst",
-      "description": "Systems Requirements Analyst",
-      "agency": "Transportation",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "systems"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709014",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Based CD - Bronx 03 Elementary",
-      "description": "COMPASS Center Based CD - Bronx 03 Elementary",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709007",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "CMS Violence Prevention Mentoring Program",
-      "description": "CMS Violence Prevention Mentoring Program",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709009",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Based - Queens 12 & Bronx 09 Middle School",
-      "description": "COMPASS Center Based - Queens 12 & Bronx 09 Middle School",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709012",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Based CD - Bronx 3 Elementary School",
-      "description": "COMPASS Center Based CD - Bronx 3 Elementary School",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260709011",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Based CD - Queens 06 Elementary",
-      "description": "COMPASS Center Based CD - Queens 06 Elementary",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-15",
-      "due_date": "2026-07-15",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-07-15",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
       "id": "hf3r-utnq:230834",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200008 - 27000521-COMPUTER - BACKUP APPLIANCE - RUBRIK RENEWAL - Closing: 7/20/2026 12:00 PM",
@@ -757,6 +523,26 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "computer"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:230937",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200027 - 15811S/41071-BERLA LICENSE RENEWALS - BRAND SPECIFIC - Closing: 7/21/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000i8JKIIA2'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-15",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
