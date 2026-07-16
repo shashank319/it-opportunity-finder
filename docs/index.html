@@ -10,56 +10,67 @@
   <header>
     <div class="wrap">
       <h1>IT Opportunity Finder</h1>
-      <p class="sub">State, county &amp; city (SLED) IT / software opportunities.
+      <p class="sub">State, county &amp; city (SLED) + federal IT / software opportunities.
         <span id="meta"></span></p>
       <p id="health" class="health"></p>
+
+      <!-- Tab navigation -->
+      <nav class="tabs">
+        <button class="tab active" data-view="all">All Opportunities <span id="tab-all-count" class="tabcount"></span></button>
+        <button class="tab" data-view="products">Product Opportunities <span id="tab-prod-count" class="tabcount"></span></button>
+      </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <!-- Controls -->
-    <div class="controls">
-      <input type="search" id="q" placeholder="Search title, agency, description…" autocomplete="off">
-      <select id="state"><option value="">All states</option></select>
-      <select id="source"><option value="">All sources</option></select>
-      <select id="agency"><option value="">All agencies</option></select>
-      <select id="sort">
-        <option value="score">Sort: Score (high→low)</option>
-        <option value="deadline">Sort: Deadline (soonest)</option>
-        <option value="posted">Sort: Posted (newest)</option>
-      </select>
-      <label class="chk"><input type="checkbox" id="soon"> Deadline &lt; 14 days</label>
-      <label class="chk"><input type="checkbox" id="newonly"> New (24h)</label>
-      <label class="score-filter">Min score
-        <input type="range" id="minscore" min="0" max="100" value="0" step="5">
-        <span id="minscoreval">0</span>
-      </label>
-    </div>
+    <!-- =================== TAB 1: ALL OPPORTUNITIES =================== -->
+    <section id="view-all">
+      <div class="controls">
+        <input type="search" id="q" placeholder="Search title, agency, description…" autocomplete="off">
+        <select id="state"><option value="">All states</option></select>
+        <select id="source"><option value="">All sources</option></select>
+        <select id="agency"><option value="">All agencies</option></select>
+        <select id="sort">
+          <option value="score">Sort: Score (high→low)</option>
+          <option value="deadline">Sort: Deadline (soonest)</option>
+          <option value="posted">Sort: Posted (newest)</option>
+        </select>
+        <label class="chk"><input type="checkbox" id="soon"> Deadline &lt; 14 days</label>
+        <label class="chk"><input type="checkbox" id="newonly"> New (24h)</label>
+        <label class="score-filter">Min score
+          <input type="range" id="minscore" min="0" max="100" value="0" step="5">
+          <span id="minscoreval">0</span>
+        </label>
+      </div>
 
-    <p id="count" class="count"></p>
+      <p id="count" class="count"></p>
 
-    <!-- Results table (collapses to cards on mobile via CSS) -->
-    <table id="table">
-      <thead>
-        <tr>
-          <th>Opportunity</th>
-          <th>State</th>
-          <th>Source</th>
-          <th>Code</th>
-          <th>Set-aside</th>
-          <th>Posted</th>
-          <th>Due</th>
-          <th>Score</th>
-        </tr>
-      </thead>
-      <tbody id="rows"></tbody>
-    </table>
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Opportunity</th><th>State</th><th>Source</th><th>Code</th>
+            <th>Set-aside</th><th>Posted</th><th>Due</th><th>Score</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <p id="empty" class="empty" hidden>No opportunities match your filters.</p>
+    </section>
 
-    <p id="empty" class="empty" hidden>No opportunities match your filters.</p>
+    <!-- =================== TAB 2: PRODUCT OPPORTUNITIES =================== -->
+    <section id="view-products" hidden>
+      <p class="intro">
+        Software needs that <b>many governments</b> are asking for — ranked by how many
+        distinct agencies &amp; states want each. A problem faced by many is a strong
+        candidate to <b>build once and sell to many</b>. Expand a theme to see the real RFPs.
+      </p>
+      <div id="themes"></div>
+      <p id="themes-empty" class="empty" hidden>No multi-agency themes yet — add more sources to surface recurring demand.</p>
+    </section>
   </main>
 
   <footer class="wrap">
-    <p>Scores are for sorting only — your team decides what to bid. Data is public
+    <p>Scores are for sorting only — your team decides what to bid or build. Data is public
        procurement info. No login, no tracking.</p>
   </footer>
 

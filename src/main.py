@@ -30,6 +30,7 @@ from datetime import datetime, timezone
 from .config_loader import load_config
 from .sources.registry import build_sources
 from .pipeline import run_pipeline
+from .products import build_product_themes
 from .history import load_history, save_history
 from .email_digest import send_digest
 from .models import Opportunity
@@ -82,7 +83,9 @@ def main(argv=None) -> int:
     new_items = [o for o in kept if o.is_new]
     print(f"   {len(kept)} kept after filtering; {len(new_items)} new since last run.")
 
-    print("4) Writing dashboard data (docs/opportunities.json)...")
+    print("4) Building product opportunities + writing dashboard data...")
+    product_themes = build_product_themes(kept, config)
+    print(f"   {len(product_themes)} product themes with multi-agency demand.")
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "counts": {"total": len(kept), "new": len(new_items)},
@@ -91,6 +94,7 @@ def main(argv=None) -> int:
             "total": len(health),
             "sources": health,
         },
+        "product_themes": product_themes,
         "opportunities": [o.to_dict() for o in kept],
     }
     _write_output(output)

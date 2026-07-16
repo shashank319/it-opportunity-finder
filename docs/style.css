@@ -13,6 +13,34 @@ h1 { margin: 0; font-size: 22px; }
 .sub { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
 .health { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
 
+/* Tabs */
+.tabs { display: flex; gap: 6px; margin: 14px 0 0; }
+.tab { border: 1px solid var(--line); background: #fff; color: var(--muted);
+  padding: 9px 16px; border-radius: 8px 8px 0 0; font-size: 15px; font-weight: 600;
+  cursor: pointer; border-bottom: none; }
+.tab.active { color: var(--brand); background: var(--bg); border-color: var(--line);
+  box-shadow: inset 0 -3px 0 var(--brand); }
+.tabcount { display: inline-block; background: #eef2ff; color: var(--brand);
+  font-size: 12px; padding: 0 7px; border-radius: 999px; margin-left: 4px; }
+
+.intro { color: var(--muted); font-size: 14px; margin: 18px 0 12px; line-height: 1.5; }
+
+/* Product theme cards */
+.theme { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+  margin-bottom: 10px; overflow: hidden; }
+.theme-head { display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 16px; cursor: pointer; }
+.theme-head:hover { background: #f9fafb; }
+.theme-name { font-size: 16px; font-weight: 700; display: block; }
+.theme-stats { color: var(--muted); font-size: 13px; }
+.theme-stats b { color: var(--ink); }
+.chevron { color: var(--muted); font-size: 14px; }
+.theme-examples { list-style: none; margin: 0; padding: 4px 16px 14px; border-top: 1px solid var(--line); }
+.theme-examples li { padding: 7px 0; border-bottom: 1px solid #f3f4f6; }
+.theme-examples a { color: var(--brand); text-decoration: none; font-weight: 600; }
+.theme-examples a:hover { text-decoration: underline; }
+.ex-meta { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+
 .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
   margin: 18px 0 10px; }
 .controls input[type="search"] { flex: 1 1 260px; min-width: 200px; }

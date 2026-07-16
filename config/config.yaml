@@ -665,6 +665,45 @@ history:
 
 
 # -----------------------------------------------------------------------------
+# PRODUCT OPPORTUNITIES — group opportunities into software "themes" and rank
+# them by how many DISTINCT agencies/states are asking. A theme wanted by many
+# governments is a strong candidate to build once and sell to many (a product).
+# Edit the themes/keywords freely; each keyword is matched as a whole word.
+# -----------------------------------------------------------------------------
+product_themes:
+  min_agencies: 2        # only surface a theme if >= this many distinct agencies want it
+  themes:
+    - name: "Permitting & Licensing"
+      keywords: [permit, permitting, license, licensing, "code enforcement", "land management"]
+    - name: "Records & Document Management (ECM)"
+      keywords: ["records management", "document management", "content management", ecm, laserfiche, digitization, imaging, scanning]
+    - name: "Public Records / FOIA Tracking"
+      keywords: ["public record", "public records", foia, "records request"]
+    - name: "311 / Case & Constituent Management"
+      keywords: [311, "case management", "service request", constituent, "citizen request"]
+    - name: "Agenda / Meeting / Legislative"
+      keywords: [agenda, "meeting management", legislative, minutes, boardbook]
+    - name: "GIS / Mapping"
+      keywords: [gis, mapping, geospatial]
+    - name: "Payments / Billing / Citations"
+      keywords: [payment, payments, billing, citation, citations, cashiering, "utility billing"]
+    - name: "ERP / Finance / HR"
+      keywords: [erp, "financial system", "financial management", payroll, "human resources", hris, "time survey", timekeeping]
+    - name: "Asset / Work Order (EAM/CMMS)"
+      keywords: ["asset management", "work order", "maintenance management", cmms, eam, "fleet management"]
+    - name: "Data / Analytics / Dashboards"
+      keywords: ["data management", "data platform", analytics, "data warehouse", "business intelligence", dashboard, "data exchange", "master patient index"]
+    - name: "Website / Portal / Digital Services"
+      keywords: [website, "web portal", "digital service", "e-government", egovernment, "online portal"]
+    - name: "Cybersecurity"
+      keywords: [cybersecurity, "security assessment", siem, vulnerability, "penetration test", "security testing"]
+    - name: "Health & Human Services Systems"
+      keywords: [eligibility, benefits, medicaid, "child welfare", "human services", "social services"]
+    - name: "Cloud Migration & Modernization"
+      keywords: [migration, modernization, modernize, "legacy system", "cloud migration"]
+
+
+# -----------------------------------------------------------------------------
 # OPTIONAL Claude classifier for borderline IT-vs-non-IT calls.
 # OFF by default so the baseline cost is $0 (pure keyword/code filtering).
 # (Wiring is a later step; this flag is here so the config shape is stable.)

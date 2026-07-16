@@ -33,6 +33,7 @@
 
   function init(data) {
     STATE.all = data.opportunities || [];
+    STATE.themes = data.product_themes || [];
 
     // Header meta + health line.
     var gen = data.generated_at ? new Date(data.generated_at) : null;
@@ -60,7 +61,64 @@
       $("minscoreval").textContent = $("minscore").value;
     });
 
+    // Tab counts + switching.
+    $("tab-all-count").textContent = STATE.all.length;
+    $("tab-prod-count").textContent = STATE.themes.length;
+    var tabs = document.querySelectorAll(".tab");
+    tabs.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        tabs.forEach(function (b) { b.classList.remove("active"); });
+        btn.classList.add("active");
+        var view = btn.getAttribute("data-view");
+        $("view-all").hidden = (view !== "all");
+        $("view-products").hidden = (view !== "products");
+      });
+    });
+
     render();
+    renderThemes();
+  }
+
+  // --- Product Opportunities tab ------------------------------------------
+  function renderThemes() {
+    var wrap = $("themes");
+    wrap.innerHTML = "";
+    $("themes-empty").hidden = STATE.themes.length > 0;
+
+    STATE.themes.forEach(function (t) {
+      var card = document.createElement("div");
+      card.className = "theme";
+
+      var ex = (t.examples || []).map(function (e) {
+        var link = e.url ? esc(e.url) : "#";
+        return '<li><a href="' + link + '" target="_blank" rel="noopener">' + esc(e.title) + '</a>' +
+          '<span class="ex-meta">' + esc(e.agency || "—") + ' · ' + esc(e.state || "—") +
+          ' · score ' + (e.it_score || 0) + (e.due_date ? ' · due ' + esc(e.due_date) : '') + '</span></li>';
+      }).join("");
+
+      card.innerHTML =
+        '<div class="theme-head">' +
+          '<div>' +
+            '<span class="theme-name">' + esc(t.name) + '</span>' +
+            '<span class="theme-stats">' +
+              '<b>' + t.agency_count + '</b> agencies · <b>' + t.state_count + '</b> states · ' +
+              t.opportunity_count + ' projects' +
+            '</span>' +
+          '</div>' +
+          '<span class="chevron">▸</span>' +
+        '</div>' +
+        '<ul class="theme-examples" hidden>' + ex + '</ul>';
+
+      var head = card.querySelector(".theme-head");
+      var list = card.querySelector(".theme-examples");
+      var chev = card.querySelector(".chevron");
+      head.addEventListener("click", function () {
+        var open = list.hidden;
+        list.hidden = !open;
+        chev.textContent = open ? "▾" : "▸";
+      });
+      wrap.appendChild(card);
+    });
   }
 
   function uniq(arr) {
