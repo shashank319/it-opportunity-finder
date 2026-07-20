@@ -50,9 +50,15 @@
     populateSelect("state", uniq(STATE.all.map(function (o) { return o.state; })));
     populateSelect("source", uniq(STATE.all.map(function (o) { return o.source_name; })));
     populateSelect("agency", uniq(STATE.all.map(function (o) { return o.agency; })));
+    // Codes: split each item's naics/psc into individual tokens and list them.
+    var codeSet = {};
+    STATE.all.forEach(function (o) {
+      codeTokens(o).forEach(function (t) { codeSet[t] = true; });
+    });
+    populateSelect("code", Object.keys(codeSet).sort());
 
     // Wire up controls — any change re-renders.
-    ["q", "state", "source", "agency", "sort", "soon", "newonly", "minscore"]
+    ["q", "state", "source", "agency", "code", "sort", "soon", "newonly", "minscore"]
       .forEach(function (id) {
         $(id).addEventListener("input", render);
         $(id).addEventListener("change", render);
@@ -124,6 +130,11 @@
   function uniq(arr) {
     return Array.from(new Set(arr.filter(Boolean))).sort();
   }
+  // Split an opportunity's NAICS + PSC/NIGP fields into individual code tokens.
+  function codeTokens(o) {
+    return ((o.naics || "") + " " + (o.psc || ""))
+      .split(/[\s,;]+/).filter(Boolean);
+  }
   function populateSelect(id, values) {
     var sel = $(id);
     values.forEach(function (v) {
@@ -139,6 +150,7 @@
     var state = $("state").value;
     var source = $("source").value;
     var agency = $("agency").value;
+    var code = $("code").value;
     var soon = $("soon").checked;
     var newonly = $("newonly").checked;
     var minscore = parseInt($("minscore").value, 10) || 0;
@@ -148,6 +160,7 @@
       if (state && o.state !== state) return false;
       if (source && o.source_name !== source) return false;
       if (agency && o.agency !== agency) return false;
+      if (code && codeTokens(o).indexOf(code) === -1) return false;
       if (newonly && !o.is_new) return false;
       if ((o.it_score || 0) < minscore) return false;
       if (soon) {

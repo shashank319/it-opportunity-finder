@@ -104,6 +104,9 @@ class PlanetBidsSource(Source):
             agency=agency_name,
             state=state,
             url=f"https://vendors.planetbids.com/portal/{portal_id}/bo/bo-detail/{bid_id}",
+            # PlanetBids tags bids with NIGP commodity codes — capture them so
+            # they show and are filterable on the dashboard.
+            psc=clean_text(attr.get("categoryIds")),
             posted_date=to_iso_date(attr.get("issueDate")),
             due_date=to_iso_date(attr.get("bidDueDate")),
         )
