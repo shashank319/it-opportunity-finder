@@ -71,7 +71,15 @@ tbody tr:hover { background: #f9fafb; }
 .badge.new { background: #dcfce7; color: var(--new); }
 .badge.soon { background: #fee2e2; color: var(--soon); }
 .score { font-weight: 700; }
-.empty { text-align: center; color: var(--muted); padding: 30px; }
+.empty { text-align: center; color: var(--muted); padding: 46px 20px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+.empty h3 { color: var(--ink); margin: 8px 0 4px; font-size: 18px; }
+.empty p { max-width: 520px; margin: 0 auto; line-height: 1.5; }
+.empty-icon { font-size: 32px; }
+.btn { margin-top: 16px; padding: 9px 18px; border: 1px solid var(--brand);
+  background: var(--brand); color: #fff; border-radius: 8px; cursor: pointer;
+  font-size: 14px; font-weight: 600; }
+.btn:hover { opacity: .9; }
 
 footer { color: var(--muted); font-size: 12px; padding: 24px 0 40px; }
 

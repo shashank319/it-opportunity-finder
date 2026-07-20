@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>IT Opportunity Finder</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <header>
@@ -55,7 +55,12 @@
         </thead>
         <tbody id="rows"></tbody>
       </table>
-      <p id="empty" class="empty" hidden>No opportunities match your filters.</p>
+      <div id="empty" class="empty" hidden>
+        <div class="empty-icon">🔍</div>
+        <h3>No results found</h3>
+        <p id="empty-msg">No opportunities match your current filters.</p>
+        <button id="clear-filters" class="btn">Clear all filters</button>
+      </div>
     </section>
 
     <!-- =================== TAB 2: PRODUCT OPPORTUNITIES =================== -->
@@ -75,6 +80,6 @@
        procurement info. No login, no tracking.</p>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

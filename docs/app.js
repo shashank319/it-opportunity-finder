@@ -74,6 +74,17 @@
       $("minscoreval").textContent = $("minscore").value;
     });
 
+    // "Clear all filters" button in the no-results state.
+    $("clear-filters").addEventListener("click", function () {
+      ["q", "state", "source", "agency", "code"].forEach(function (id) { $(id).value = ""; });
+      $("soon").checked = false;
+      $("newonly").checked = false;
+      $("minscore").value = 0;
+      $("minscoreval").textContent = "0";
+      $("sort").value = "score";
+      render();
+    });
+
     // Tab counts + switching.
     $("tab-all-count").textContent = STATE.all.length;
     $("tab-prod-count").textContent = STATE.themes.length;
@@ -196,6 +207,19 @@
       }
       return (b.it_score || 0) - (a.it_score || 0); // score
     });
+
+    // Helpful message when nothing matches — especially for a code with 0 results.
+    if (rows.length === 0) {
+      var msg = "No opportunities match your current filters. Try clearing some.";
+      if (code) {
+        var ref = STATE.codeRef.filter(function (c) { return c.code === code; })[0];
+        var label = ref ? (ref.type + " " + ref.code + " — " + ref.name) : code;
+        msg = "No current opportunities are tagged with " + label + ". " +
+          "Most state/county/city feeds don't publish codes, so code filters mainly catch " +
+          "federal & PlanetBids projects — try clearing the code filter or using search.";
+      }
+      $("empty-msg").textContent = msg;
+    }
 
     STATE.view = rows;
     draw(rows);
