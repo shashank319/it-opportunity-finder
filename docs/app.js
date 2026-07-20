@@ -34,7 +34,7 @@
   function init(data) {
     STATE.all = data.opportunities || [];
     STATE.themes = data.product_themes || [];
-    STATE.itCodes = data.it_code_prefixes || [];
+    STATE.codeRef = data.it_code_reference || [];
 
     // Header meta + health line.
     var gen = data.generated_at ? new Date(data.generated_at) : null;
@@ -51,14 +51,18 @@
     populateSelect("state", uniq(STATE.all.map(function (o) { return o.state; })));
     populateSelect("source", uniq(STATE.all.map(function (o) { return o.source_name; })));
     populateSelect("agency", uniq(STATE.all.map(function (o) { return o.agency; })));
-    // Codes: split each item's naics/psc into tokens, but keep ONLY IT codes
-    // (those matching an IT code family from config) so the dropdown isn't
-    // polluted by incidental non-IT commodity tags.
-    var codeSet = {};
-    STATE.all.forEach(function (o) {
-      codeTokens(o).forEach(function (t) { if (isItCode(t)) codeSet[t] = true; });
+    // Codes: show the FULL labeled IT code list (NAICS/NIGP/PSC/UNSPSC) with a
+    // live count of how many projects match each. A project matches a code if
+    // one of its NAICS/PSC tokens starts with that code (so NIGP 208 matches a
+    // project tagged 20880). value = code; label = "TYPE code — name (count)".
+    var codeSel = $("code");
+    STATE.codeRef.forEach(function (c) {
+      var count = STATE.all.filter(function (o) { return matchesCode(o, c.code); }).length;
+      var opt = document.createElement("option");
+      opt.value = c.code;
+      opt.textContent = c.type + " " + c.code + " — " + c.name + " (" + count + ")";
+      codeSel.appendChild(opt);
     });
-    populateSelect("code", Object.keys(codeSet).sort());
 
     // Wire up controls — any change re-renders.
     ["q", "state", "source", "agency", "code", "sort", "soon", "newonly", "minscore"]
@@ -138,10 +142,10 @@
     return ((o.naics || "") + " " + (o.psc || ""))
       .split(/[\s,;]+/).filter(Boolean);
   }
-  // Is this code token in one of our IT code families? (NAICS IT, NIGP 208/209/920,
-  // UNSPSC 43, etc. — the include_codes list from config.) Matched as a prefix.
-  function isItCode(token) {
-    return STATE.itCodes.some(function (p) { return token.indexOf(p) === 0; });
+  // Does any of an opportunity's code tokens start with `code`?
+  // (prefix match so NIGP class 208 matches a class-item token like 20880)
+  function matchesCode(o, code) {
+    return codeTokens(o).some(function (t) { return t.indexOf(code) === 0; });
   }
   function populateSelect(id, values) {
     var sel = $(id);
@@ -168,7 +172,7 @@
       if (state && o.state !== state) return false;
       if (source && o.source_name !== source) return false;
       if (agency && o.agency !== agency) return false;
-      if (code && codeTokens(o).indexOf(code) === -1) return false;
+      if (code && !matchesCode(o, code)) return false;
       if (newonly && !o.is_new) return false;
       if ((o.it_score || 0) < minscore) return false;
       if (soon) {

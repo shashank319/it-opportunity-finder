@@ -665,6 +665,41 @@ history:
 
 
 # -----------------------------------------------------------------------------
+# IT CODE REFERENCE — the labeled list shown in the dashboard "Code" dropdown.
+# Each entry has a type (NAICS / NIGP / PSC / UNSPSC), the code, and a name.
+# These are the IT/SOFTWARE codes we care about (not hardware). The dashboard
+# shows every one of these with a live count of how many projects match today.
+# Codes only appear on federal (NAICS/PSC) and PlanetBids (NIGP) projects; most
+# local feeds carry no codes, so many will show a count of 0 — that's expected.
+# -----------------------------------------------------------------------------
+it_code_reference:
+  # --- NAICS (U.S. industry codes) ---
+  - { type: NAICS, code: "541511", name: "Custom Computer Programming Services" }
+  - { type: NAICS, code: "541512", name: "Computer Systems Design Services" }
+  - { type: NAICS, code: "541513", name: "Computer Facilities Management Services" }
+  - { type: NAICS, code: "541519", name: "Other Computer Related Services" }
+  - { type: NAICS, code: "518210", name: "Data Processing, Hosting & Related Services" }
+  - { type: NAICS, code: "511210", name: "Software Publishers" }
+  - { type: NAICS, code: "541611", name: "Admin & General Management Consulting" }
+  - { type: NAICS, code: "611420", name: "Computer Training" }
+  # --- NIGP (local-government commodity codes — software & IT services) ---
+  - { type: NIGP, code: "208", name: "Computer Software — Microcomputers (incl. cloud)" }
+  - { type: NIGP, code: "209", name: "Computer Software — Mini/Mainframe" }
+  - { type: NIGP, code: "920", name: "Data Processing, Programming & Software Services" }
+  # --- PSC (federal product/service codes) ---
+  - { type: PSC, code: "DA01", name: "IT — Application Development Services" }
+  - { type: PSC, code: "DA10", name: "IT — Application (SaaS) Services" }
+  - { type: PSC, code: "D302", name: "IT Systems Development (legacy)" }
+  - { type: PSC, code: "D307", name: "IT Systems Analysis (legacy)" }
+  - { type: PSC, code: "D306", name: "IT Programming (legacy)" }
+  - { type: PSC, code: "D308", name: "Programming Services (legacy)" }
+  - { type: PSC, code: "D310", name: "IT Support / Security Services (legacy)" }
+  - { type: PSC, code: "7030", name: "IT Software (product)" }
+  # --- UNSPSC (broad IT/software family) ---
+  - { type: UNSPSC, code: "43", name: "IT, Software & Telecom (43xxxxxx)" }
+
+
+# -----------------------------------------------------------------------------
 # PRODUCT OPPORTUNITIES — group opportunities into software "themes" and rank
 # them by how many DISTINCT agencies/states are asking. A theme wanted by many
 # governments is a strong candidate to build once and sell to many (a product).

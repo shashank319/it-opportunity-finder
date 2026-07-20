@@ -95,9 +95,8 @@ def main(argv=None) -> int:
             "sources": health,
         },
         "product_themes": product_themes,
-        # The IT code families (from config), so the dashboard's code dropdown
-        # can show ONLY IT-relevant codes and hide incidental non-IT tags.
-        "it_code_prefixes": [str(c) for c in config.get("filtering", {}).get("include_codes", [])],
+        # The labeled IT code list (from config) for the dashboard code dropdown.
+        "it_code_reference": config.get("it_code_reference", []),
         "opportunities": [o.to_dict() for o in kept],
     }
     _write_output(output)
