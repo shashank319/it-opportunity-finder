@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-20T23:13:53.557269+00:00",
+  "generated_at": "2026-07-20T23:29:38.885837+00:00",
   "counts": {
     "total": 180,
     "new": 0
   },
   "health": {
-    "ok": 19,
+    "ok": 18,
     "total": 20,
     "sources": [
       {
@@ -70,9 +70,9 @@
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": true,
-        "count": 103,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -108,7 +108,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?postedFrom=07%2F17%2F2026&postedTo=07%2F20%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=518210"
+        "error": "RuntimeError: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?postedFrom=07%2F17%2F2026&postedTo=07%2F20%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -395,19 +395,107 @@
       ]
     }
   ],
-  "it_code_prefixes": [
-    "541511",
-    "541512",
-    "541519",
-    "518210",
-    "511210",
-    "541513",
-    "541611",
-    "611420",
-    "43",
-    "208",
-    "920",
-    "209"
+  "it_code_reference": [
+    {
+      "type": "NAICS",
+      "code": "541511",
+      "name": "Custom Computer Programming Services"
+    },
+    {
+      "type": "NAICS",
+      "code": "541512",
+      "name": "Computer Systems Design Services"
+    },
+    {
+      "type": "NAICS",
+      "code": "541513",
+      "name": "Computer Facilities Management Services"
+    },
+    {
+      "type": "NAICS",
+      "code": "541519",
+      "name": "Other Computer Related Services"
+    },
+    {
+      "type": "NAICS",
+      "code": "518210",
+      "name": "Data Processing, Hosting & Related Services"
+    },
+    {
+      "type": "NAICS",
+      "code": "511210",
+      "name": "Software Publishers"
+    },
+    {
+      "type": "NAICS",
+      "code": "541611",
+      "name": "Admin & General Management Consulting"
+    },
+    {
+      "type": "NAICS",
+      "code": "611420",
+      "name": "Computer Training"
+    },
+    {
+      "type": "NIGP",
+      "code": "208",
+      "name": "Computer Software — Microcomputers (incl. cloud)"
+    },
+    {
+      "type": "NIGP",
+      "code": "209",
+      "name": "Computer Software — Mini/Mainframe"
+    },
+    {
+      "type": "NIGP",
+      "code": "920",
+      "name": "Data Processing, Programming & Software Services"
+    },
+    {
+      "type": "PSC",
+      "code": "DA01",
+      "name": "IT — Application Development Services"
+    },
+    {
+      "type": "PSC",
+      "code": "DA10",
+      "name": "IT — Application (SaaS) Services"
+    },
+    {
+      "type": "PSC",
+      "code": "D302",
+      "name": "IT Systems Development (legacy)"
+    },
+    {
+      "type": "PSC",
+      "code": "D307",
+      "name": "IT Systems Analysis (legacy)"
+    },
+    {
+      "type": "PSC",
+      "code": "D306",
+      "name": "IT Programming (legacy)"
+    },
+    {
+      "type": "PSC",
+      "code": "D308",
+      "name": "Programming Services (legacy)"
+    },
+    {
+      "type": "PSC",
+      "code": "D310",
+      "name": "IT Support / Security Services (legacy)"
+    },
+    {
+      "type": "PSC",
+      "code": "7030",
+      "name": "IT Software (product)"
+    },
+    {
+      "type": "UNSPSC",
+      "code": "43",
+      "name": "IT, Software & Telecom (43xxxxxx)"
+    }
   ],
   "opportunities": [
     {
