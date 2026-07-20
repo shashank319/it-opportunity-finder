@@ -34,6 +34,7 @@
   function init(data) {
     STATE.all = data.opportunities || [];
     STATE.themes = data.product_themes || [];
+    STATE.itCodes = data.it_code_prefixes || [];
 
     // Header meta + health line.
     var gen = data.generated_at ? new Date(data.generated_at) : null;
@@ -50,10 +51,12 @@
     populateSelect("state", uniq(STATE.all.map(function (o) { return o.state; })));
     populateSelect("source", uniq(STATE.all.map(function (o) { return o.source_name; })));
     populateSelect("agency", uniq(STATE.all.map(function (o) { return o.agency; })));
-    // Codes: split each item's naics/psc into individual tokens and list them.
+    // Codes: split each item's naics/psc into tokens, but keep ONLY IT codes
+    // (those matching an IT code family from config) so the dropdown isn't
+    // polluted by incidental non-IT commodity tags.
     var codeSet = {};
     STATE.all.forEach(function (o) {
-      codeTokens(o).forEach(function (t) { codeSet[t] = true; });
+      codeTokens(o).forEach(function (t) { if (isItCode(t)) codeSet[t] = true; });
     });
     populateSelect("code", Object.keys(codeSet).sort());
 
@@ -134,6 +137,11 @@
   function codeTokens(o) {
     return ((o.naics || "") + " " + (o.psc || ""))
       .split(/[\s,;]+/).filter(Boolean);
+  }
+  // Is this code token in one of our IT code families? (NAICS IT, NIGP 208/209/920,
+  // UNSPSC 43, etc. — the include_codes list from config.) Matched as a prefix.
+  function isItCode(token) {
+    return STATE.itCodes.some(function (p) { return token.indexOf(p) === 0; });
   }
   function populateSelect(id, values) {
     var sel = $(id);
