@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-20T23:29:38.885837+00:00",
+  "generated_at": "2026-07-21T13:13:12.327678+00:00",
   "counts": {
-    "total": 180,
-    "new": 0
+    "total": 182,
+    "new": 11
   },
   "health": {
-    "ok": 18,
+    "ok": 19,
     "total": 20,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 19,
+        "count": 18,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 364,
+        "count": 362,
         "error": ""
       },
       {
@@ -70,9 +70,9 @@
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 103,
+        "error": ""
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -108,7 +108,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 429 Client Error: Too Many Requests for url: https://api.sam.gov/opportunities/v2/search?postedFrom=07%2F17%2F2026&postedTo=07%2F20%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 504 Server Error: Gateway Time-out for url: https://api.sam.gov/opportunities/v2/search?postedFrom=07%2F18%2F2026&postedTo=07%2F21%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -125,7 +125,7 @@
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 47,
+        "count": 39,
         "error": ""
       }
     ]
@@ -133,25 +133,15 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 8,
-      "agency_count": 5,
-      "state_count": 3,
+      "opportunity_count": 7,
+      "agency_count": 4,
+      "state_count": 2,
       "states": [
         "CA",
-        "DE",
-        "NY"
+        "DE"
       ],
-      "demand_score": 18,
+      "demand_score": 14,
       "examples": [
-        {
-          "title": "Acronis Cyber Protection Software License",
-          "agency": "Health and Mental Hygiene",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "2026-07-20",
-          "it_score": 57,
-          "source_name": "New York City — City Record (Procurement)"
-        },
         {
           "title": "OCA PRT | TM3 Kahua Software License and Services",
           "agency": "Office of Contract Administration",
@@ -198,19 +188,19 @@
           "source_name": "San Francisco CA — Open Bids"
         },
         {
-          "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
+          "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
           "agency": "Los Angeles County",
           "state": "CA",
-          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
+          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
           "due_date": "2026-07-29",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
+          "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
           "agency": "Los Angeles County",
           "state": "CA",
-          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
+          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
           "due_date": "2026-07-29",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -219,24 +209,15 @@
     },
     {
       "name": "Records & Document Management (ECM)",
-      "opportunity_count": 5,
-      "agency_count": 5,
+      "opportunity_count": 4,
+      "agency_count": 4,
       "state_count": 2,
       "states": [
         "CA",
         "MD"
       ],
-      "demand_score": 17,
+      "demand_score": 14,
       "examples": [
-        {
-          "title": "Video Streaming and Legislative Content Management Services",
-          "agency": "Technology and Enterprise Business Solutions",
-          "state": "MD",
-          "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-          "due_date": "2026-07-20",
-          "it_score": 51,
-          "source_name": "Montgomery County MD — Solicitations"
-        },
         {
           "title": "Service and Maintenance of ID Bureau Digital Imaging Equipment",
           "agency": "County of Orange",
@@ -767,27 +748,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:20260713036",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Acronis Cyber Protection Software License",
-      "description": "Acronis Cyber Protection Software License",
-      "agency": "Health and Mental Hygiene",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2026-07-20",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "software",
-        "license"
-      ]
-    },
-    {
       "id": "opengov:santa-monica-ca:273609",
       "source_name": "OpenGov — City of Santa Monica, CA",
       "title": "Real-time bus arrival predictions and alerts for BBB customers",
@@ -1121,26 +1081,6 @@
         "data",
         "analytics",
         "platform"
-      ]
-    },
-    {
-      "id": "eeq6-nnwe:1188169",
-      "source_name": "Montgomery County MD — Solicitations",
-      "title": "Video Streaming and Legislative Content Management Services",
-      "description": "Video Streaming and Legislative Content Management Services",
-      "agency": "Technology and Enterprise Business Solutions",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Y",
-      "posted_date": "2026-06-04",
-      "due_date": "2026-07-20",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "content management"
       ]
     },
     {
@@ -2027,27 +1967,6 @@
       ]
     },
     {
-      "id": "vmu2-pnrc:1029633",
-      "source_name": "Montgomery County MD — Open Solicitations (Contracts)",
-      "title": "Recreation Instructor – AI and Computer Coaching",
-      "description": "Recreation Instructor – AI and Computer Coaching",
-      "agency": "Department of Recreation",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-21",
-      "due_date": "2029-03-31",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "ai",
-        "computer"
-      ]
-    },
-    {
       "id": "3iy3-r5vp:5185",
       "source_name": "Texas — Spot Bid Fair FY2026",
       "title": "Peslv - 2 pack 27 inch privacy screen for computer monitor 16:9 aspect ratio",
@@ -2086,146 +2005,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "system",
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260702010",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Maintenance and Technical Support for GIS Renewal #1",
-      "description": "Maintenance and Technical Support for GIS Renewal #1",
-      "agency": "Fire Department",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2026-07-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "gis"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260713035",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Support & Maintenance for Security System",
-      "description": "Support & Maintenance for Security System",
-      "agency": "Administrative Trials and Hearings",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2026-07-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260714011",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Neighborhood Youth Team Sports FY26 NA",
-      "description": "Neighborhood Youth Team Sports FY26 NA",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2026-07-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260713038",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Locking Systems for DOC Detention Facilities",
-      "description": "Locking Systems for DOC Detention Facilities",
-      "agency": "Correction",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2026-07-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "systems"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260714010",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "COMPASS Center Based Elementary School",
-      "description": "COMPASS Center Based Elementary School",
-      "agency": "Youth and Community Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2026-07-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20260713037",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "B-East RFP",
-      "description": "B-East RFP",
-      "agency": "Economic Development Corporation",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2026-07-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "arcgis:Doc836626",
-      "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "RFTOB Batch 2635 Interior (DHCD BOA Vendors Only)",
-      "description": "RFTOB Batch 2635 Interior (DHCD BOA Vendors Only)",
-      "agency": "Department of Housing and Community Development",
-      "state": "DC",
-      "url": "https://ocp.dc.gov/service/solicitations",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-07-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
         "development"
       ]
     },
@@ -2270,6 +2049,206 @@
       ]
     },
     {
+      "id": "dg92-zbpx:20260713030",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Consultant Services, Life Sciences Education RFP",
+      "description": "Consultant Services, Life Sciences Education RFP",
+      "agency": "Economic Development Corporation",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715018",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "COMPASS Center-Based CD- Queens 1 Elementary",
+      "description": "COMPASS Center-Based CD- Queens 1 Elementary",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715015",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "COMPASS Center Based Middle",
+      "description": "COMPASS Center Based Middle",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715014",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "COMPASS Center Based Middle School - Manhattan 03",
+      "description": "COMPASS Center Based Middle School - Manhattan 03",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715013",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "COMPASS Center Based CD - Bronx 06 Elementary School",
+      "description": "COMPASS Center Based CD - Bronx 06 Elementary School",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715009",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "OH-88: Owls Head WWTP Final Settling System Rehabilitation",
+      "description": "OH-88: Owls Head WWTP Final Settling System Rehabilitation",
+      "agency": "Environmental Protection",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260714018",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "HPD FY27 Housing Ambassador Request for Expression of Interest",
+      "description": "HPD FY27 Housing Ambassador Request for Expression of Interest",
+      "agency": "Housing Preservation and Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715017",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "COMPASS Center Based - Queens 01 Middle School",
+      "description": "COMPASS Center Based - Queens 01 Middle School",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715038",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "FY27 COMPASS School Based NAQ",
+      "description": "FY27 COMPASS School Based NAQ",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20260715016",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "COMPASS Center Based CD - Brooklyn 18 Middle School",
+      "description": "COMPASS Center Based CD - Brooklyn 18 Middle School",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-07-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
       "id": "6rb8-ntpm:120-245-083",
       "source_name": "Illinois — Capital Dev Board Future Solicitations",
       "title": "Replace Fire Alarm System",
@@ -2287,26 +2266,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "system"
-      ]
-    },
-    {
-      "id": "arcgis:Doc838501",
-      "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "FY-26 DCSAA Laptop- Computer Order SPR (DCSS Preferred)",
-      "description": "FY-26 DCSAA Laptop- Computer Order SPR (DCSS Preferred)",
-      "agency": "District of Columbia State Athletics Commission",
-      "state": "DC",
-      "url": "https://ocp.dc.gov/service/solicitations",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-07-21",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-20",
-      "matched_keywords": [
-        "computer"
       ]
     },
     {
@@ -2367,6 +2326,26 @@
       "first_seen": "2026-07-16",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "arcgis:Doc838501",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "FY-26 DCSAA Laptop- Computer Order SPR (DCSS Preferred)",
+      "description": "FY-26 DCSAA Laptop- Computer Order SPR (DCSS Preferred)",
+      "agency": "District of Columbia State Athletics Commission",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-07-22",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-07-20",
+      "matched_keywords": [
+        "computer"
       ]
     },
     {
@@ -2510,13 +2489,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:230971",
+      "id": "hf3r-utnq:230972",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
+      "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -2530,13 +2509,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:230972",
+      "id": "hf3r-utnq:230971",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
+      "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -3430,6 +3409,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:228705",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Civil Case and Matter Management System",
+      "description": "Personal Services",
+      "agency": "Attorney, Office of the City",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000bQLptIAG'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-09-29",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-21",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
       "id": "knjg-wn2a:PO-10700-00004526",
       "source_name": "Oregon — Active Statewide Price Agreements",
       "title": "1624 - Data Communications Products/Services - Infra. Network Equipment",
@@ -3687,6 +3686,26 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "information technology"
+      ]
+    },
+    {
+      "id": "vmu2-pnrc:1029633",
+      "source_name": "Montgomery County MD — Open Solicitations (Contracts)",
+      "title": "Recreation Instructor – Performing & Creative Arts, Movement, Sports, and Fitness, Educational and TR Programming",
+      "description": "Recreation Instructor – Performing & Creative Arts, Movement, Sports, and Fitness, Educational and TR Programming",
+      "agency": "Department of Recreation",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-20",
+      "due_date": "2029-03-31",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "programming"
       ]
     },
     {
