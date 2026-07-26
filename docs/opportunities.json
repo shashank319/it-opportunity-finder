@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-25T12:57:02.905023+00:00",
+  "generated_at": "2026-07-26T12:57:06.429472+00:00",
   "counts": {
-    "total": 216,
-    "new": 19
+    "total": 207,
+    "new": 2
   },
   "health": {
     "ok": 20,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 359,
+        "count": 362,
         "error": ""
       },
       {
@@ -107,7 +107,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 47,
+        "count": 32,
         "error": ""
       },
       {
@@ -189,19 +189,19 @@
           "source_name": "Delaware — Open Bids (Statewide)"
         },
         {
-          "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
+          "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
           "agency": "Los Angeles County",
           "state": "CA",
-          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
+          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
           "due_date": "2026-07-29",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
+          "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
           "agency": "Los Angeles County",
           "state": "CA",
-          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
+          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
           "due_date": "2026-07-29",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -521,29 +521,6 @@
       ]
     },
     {
-      "id": "samgov:052ce68548d945098b4fb8fd7f992918",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Cloud-Based Platform for Screening System Data Sharing Consortium (SSDSC) for the Department of Homeland Security (DHS) Transportation Security Laboratory (TSL)",
-      "description": "Cloud-Based Platform for Screening System Data Sharing Consortium (SSDSC) for the Department of Homeland Security (DHS) Transportation Security Laboratory (TSL)",
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.OFFICE OF PROCUREMENT OPERATIONS.SCI TECH ACQ DIV",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/052ce68548d945098b4fb8fd7f992918/view",
-      "naics": "518210",
-      "psc": "DH01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-08-18",
-      "it_score": 89,
-      "is_new": false,
-      "first_seen": "2026-07-23",
-      "matched_keywords": [
-        "system",
-        "cloud",
-        "data",
-        "platform"
-      ]
-    },
-    {
       "id": "opengov:lacda:267105",
       "source_name": "OpenGov — LA County Development Authority, CA",
       "title": "LA County (CDBG Projects) Job Order Contracts Numbers 153, 154, & 155",
@@ -827,28 +804,8 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-07-29",
       "it_score": 71,
-      "is_new": true,
-      "first_seen": "2026-07-25",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:38b2dcdadc524da2ba547c335d9f5848",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Instrument Manager OEM Laboratory Middleware Software Solution",
-      "description": "Instrument Manager OEM Laboratory Middleware Software Solution",
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY HCD WEST",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/38b2dcdadc524da2ba547c335d9f5848/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-07-29",
-      "it_score": 71,
       "is_new": false,
-      "first_seen": "2026-07-23",
+      "first_seen": "2026-07-25",
       "matched_keywords": [
         "software"
       ]
@@ -887,7 +844,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-24",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "cloud"
@@ -978,27 +935,6 @@
       "matched_keywords": [
         "digital",
         "platform"
-      ]
-    },
-    {
-      "id": "samgov:6674357ef9dd45598d0e0b06c3b935d9",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Knowledge Management System and Services (KMSS)",
-      "description": "Knowledge Management System and Services (KMSS)",
-      "agency": "HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF.HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF.CPO : IT OPERATIONS SUPPORT DIVISION; NOF",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/6674357ef9dd45598d0e0b06c3b935d9/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-08-21",
-      "it_score": 62,
-      "is_new": false,
-      "first_seen": "2026-07-23",
-      "matched_keywords": [
-        "system",
-        "development"
       ]
     },
     {
@@ -1293,66 +1229,6 @@
       ]
     },
     {
-      "id": "samgov:ac4ee29b02d84e9fb152198dd65d0b3e",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Portal Connector Annual Licenses Solicitation",
-      "description": "Portal Connector Annual Licenses Solicitation",
-      "agency": "INTERIOR, DEPARTMENT OF THE.DEPARTMENTAL OFFICES.IBC ACQ SVCS DIRECTORATE (00004)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/ac4ee29b02d84e9fb152198dd65d0b3e/view",
-      "naics": "518210",
-      "psc": "DA10",
-      "set_aside": "",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-08-03",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-07-23",
-      "matched_keywords": [
-        "portal"
-      ]
-    },
-    {
-      "id": "samgov:a8f95d39ed0745039dd69d6085067d22",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Procurement of APX N70 Radios and Equipment",
-      "description": "Procurement of APX N70 Radios and Equipment",
-      "agency": "JUSTICE, DEPARTMENT OF.FEDERAL PRISON SYSTEM / BUREAU OF PRISONS.MSTC GLYNCO",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/a8f95d39ed0745039dd69d6085067d22/view",
-      "naics": "541519",
-      "psc": "6940",
-      "set_aside": "Total Small Business Set-Aside (FAR 19.5)",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-08-05",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-07-23",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "samgov:0b2726255a0a461ea1aacd2ef9cab807",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Microsoft Unified Support for PAESSP",
-      "description": "Microsoft Unified Support for PAESSP",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.SSP.PAE STRATEGIC SYSTEMS PROGRAMS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/0b2726255a0a461ea1aacd2ef9cab807/view",
-      "naics": "541511",
-      "psc": "DG01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-08-06",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-07-23",
-      "matched_keywords": [
-        "systems"
-      ]
-    },
-    {
       "id": "samgov:08f887b4a9fc4bada90957fd87388f06",
       "source_name": "SAM.gov (Federal)",
       "title": "Manufacturing Execution System",
@@ -1366,7 +1242,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-07",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "system"
@@ -1486,8 +1362,28 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-07-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231120",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200055 - 26-2245 - MANAGE SOFTWARE-SEE ATTACHED SPECS. - Closing: 7/31/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iiXqAIAU'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-25",
+      "due_date": "2026-07-31",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-07-26",
       "matched_keywords": [
         "software"
       ]
@@ -1506,27 +1402,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-06",
       "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-07-25",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:231088",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200053 - SOFTWARE HOUSE C-CURE 9000 - ANNUAL MAINTENANCE & TESTING - Closing: 8/6/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000ifFHtIAM'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-24",
-      "due_date": "2026-08-06",
-      "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "software"
@@ -1546,7 +1422,27 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-06",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231088",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200053 - SOFTWARE HOUSE C-CURE 9000 - ANNUAL MAINTENANCE & TESTING - Closing: 8/6/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000ifFHtIAM'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-24",
+      "due_date": "2026-08-06",
+      "it_score": 51,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "software"
@@ -1669,42 +1565,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:7979c18f33bf4a32890ecee6c187f376",
-      "source_name": "SAM.gov (Federal)",
-      "title": "15108 DCSA Combo (Supply)",
-      "description": "15108 DCSA Combo (Supply)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8222 AFSC OL H PZIE",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/7979c18f33bf4a32890ecee6c187f376/view",
-      "naics": "541519",
-      "psc": "7E20",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-07-27",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-07-22",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:53531eb807c946a6b99ab55740b77f9e",
-      "source_name": "SAM.gov (Federal)",
-      "title": "FY26-30 A32 Whooster LE DaaS access and search credits",
-      "description": "FY26-30 A32 Whooster LE DaaS access and search credits",
-      "agency": "JUSTICE, DEPARTMENT OF.US MARSHALS SERVICE.DEPT OF JUSTICE-US MARSHAL SERVICE",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/53531eb807c946a6b99ab55740b77f9e/view",
-      "naics": "541519",
-      "psc": "7B22",
-      "set_aside": "",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-07-27",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-07-23",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:db1727dd73fd47308b76416b25a5949d",
       "source_name": "SAM.gov (Federal)",
       "title": "R499--MEDICAL CODING",
@@ -1718,7 +1578,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-07-29",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": []
     },
@@ -1736,7 +1596,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-07-29",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": []
     },
@@ -1756,24 +1616,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-07-24",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:997e1b4cadc74ad99aeeea029f01fa14",
-      "source_name": "SAM.gov (Federal)",
-      "title": "VoIP Desk Phones",
-      "description": "VoIP Desk Phones",
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/997e1b4cadc74ad99aeeea029f01fa14/view",
-      "naics": "541519",
-      "psc": "7G20",
-      "set_aside": "",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-07-30",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-07-22",
       "matched_keywords": []
     },
     {
@@ -1808,7 +1650,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-07-31",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": []
     },
@@ -1952,26 +1794,8 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-10",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-07-25",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:d8f78bfca0494769a041ae0dd03182ac",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DMEA Enterprise Program Support",
-      "description": "DMEA Enterprise Program Support",
-      "agency": "DEPT OF DEFENSE.DEFENSE MICROELECTRONICS ACTIVITY (DMEA).DEFENSE MICROELECTRONICS ACTIVITY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d8f78bfca0494769a041ae0dd03182ac/view",
-      "naics": "541512",
-      "psc": "DF01",
-      "set_aside": "Women-Owned Small Business",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-08-10",
-      "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-07-23",
+      "first_seen": "2026-07-25",
       "matched_keywords": []
     },
     {
@@ -1988,7 +1812,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-12",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": []
     },
@@ -2024,7 +1848,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": []
     },
@@ -2047,24 +1871,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:c1f08ca8ee7343a0b86db8b1302a80bf",
-      "source_name": "SAM.gov (Federal)",
-      "title": "REQUEST FOR INFORMATION (RFI) - Intelligent Coding Assistance Tool",
-      "description": "REQUEST FOR INFORMATION (RFI) - Intelligent Coding Assistance Tool",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.CENTERS FOR MEDICARE AND MEDICAID SERVICES.OFC OF ACQUISITION AND GRANTS MGMT",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/c1f08ca8ee7343a0b86db8b1302a80bf/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-08-20",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-07-22",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:a2e9f30d7a4046c8963c9db701b0e452",
       "source_name": "SAM.gov (Federal)",
       "title": "National Laboratory of the Rockies AUDIO/VISUAL IMPROVEMENTS",
@@ -2078,7 +1884,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-21",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": []
     },
@@ -2792,13 +2598,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:230972",
+      "id": "hf3r-utnq:230971",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
+      "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -2812,13 +2618,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:230971",
+      "id": "hf3r-utnq:230972",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200033 - DIGICERT SW LICENSE RENEWAL - Closing: 7/29/2026 12:00 PM",
+      "title": "RFB-IS-27200032 - SALESFORCE LICENSE RENEWAL (BRAND ONLY) - Closing: 7/29/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKXIA0'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iBiKYIA0'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -3272,6 +3078,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:231119",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200054 - DATABASE ANNUAL SUBSCRIPTION RENEWAL - Closing: 8/10/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000iiXq9IAE'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-25",
+      "due_date": "2026-08-10",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-07-26",
+      "matched_keywords": [
+        "database"
+      ]
+    },
+    {
       "id": "hf3r-utnq:230713",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "LA-RICS 029 - LA-RICS Managed Information Technology (IT) Services IFB - Closing: 8/11/2026 4:00 PM",
@@ -3465,7 +3291,7 @@
       "posted_date": "2026-07-24",
       "due_date": "2026-08-15",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "systems"
@@ -3485,7 +3311,7 @@
       "posted_date": "2026-07-08",
       "due_date": "2026-08-17",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "development"
@@ -3585,7 +3411,7 @@
       "posted_date": "2026-07-16",
       "due_date": "2026-08-21",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "portal"
@@ -3625,7 +3451,7 @@
       "posted_date": "2026-02-20",
       "due_date": "2026-08-26",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "portal"
@@ -3685,7 +3511,7 @@
       "posted_date": "2026-07-20",
       "due_date": "2026-08-28",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-25",
       "matched_keywords": [
         "system"
