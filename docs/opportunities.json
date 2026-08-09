@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-08T12:22:36.409664+00:00",
+  "generated_at": "2026-08-09T12:26:30.450596+00:00",
   "counts": {
-    "total": 218,
-    "new": 31
+    "total": 206,
+    "new": 0
   },
   "health": {
-    "ok": 20,
+    "ok": 19,
     "total": 20,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 374,
+        "count": 377,
         "error": ""
       },
       {
@@ -58,9 +58,9 @@
       },
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
-        "ok": true,
-        "count": 338,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.texas.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "New York City — City Record (Procurement)",
@@ -107,7 +107,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 61,
+        "count": 47,
         "error": ""
       },
       {
@@ -133,25 +133,16 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 5,
-      "agency_count": 5,
+      "opportunity_count": 4,
+      "agency_count": 4,
       "state_count": 3,
       "states": [
         "CA",
         "DE",
         "US-FED"
       ],
-      "demand_score": 18,
+      "demand_score": 15,
       "examples": [
-        {
-          "title": "Priority Dispatch ProQA Software License Renewal",
-          "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC PEARL HARBOR.NAVSUP FLT LOG CTR PEARL HARBOR",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/4a0b273fd6654d8aa6a266afe7c88510/view",
-          "due_date": "2026-08-14",
-          "it_score": 77,
-          "source_name": "SAM.gov (Federal)"
-        },
         {
           "title": "D--WebKnossos Enterprise Software License",
           "agency": "INTERIOR, DEPARTMENT OF THE.DEPARTMENTAL OFFICES.IBC ACQ SVCS DIRECTORATE (00004)",
@@ -187,64 +178,6 @@
           "due_date": "2026-08-14",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Cloud Migration & Modernization",
-      "opportunity_count": 5,
-      "agency_count": 5,
-      "state_count": 2,
-      "states": [
-        "DE",
-        "US-FED"
-      ],
-      "demand_score": 17,
-      "examples": [
-        {
-          "title": "D--IMT MT HYDROMET MODERNIZATION SOFTWARE",
-          "agency": "INTERIOR, DEPARTMENT OF THE.BUREAU OF RECLAMATION.GREAT PLAINS REGIONAL OFFICE",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/a06bbba4a9774898b96bb78c2f441f37/view",
-          "due_date": "2026-08-17",
-          "it_score": 92,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Data, Analytics, and AI Modernization Services",
-          "agency": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view",
-          "due_date": "2026-08-18",
-          "it_score": 89,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Information Technology (IT) Modernization - eFax Services",
-          "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR).OMAS STRATEGIC BUYING CENTER - HHS MISSION",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/1f012f53d7a046f2bb69e1509674c859/view",
-          "due_date": "2026-08-17",
-          "it_score": 77,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Warehouse Modernization",
-          "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/f296c526b14543b3999b3a12f99e3532/view",
-          "due_date": "2026-08-12",
-          "it_score": 71,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Permitting Modernization",
-          "agency": "NAT",
-          "state": "DE",
-          "url": "{'url': 'https://mmp.delaware.gov/Bids/Details/9239'}",
-          "due_date": "2026-08-21",
-          "it_score": 51,
-          "source_name": "Delaware — Open Bids (Statewide)"
         }
       ]
     },
@@ -285,6 +218,46 @@
           "url": "{'url': 'https://mmp.delaware.gov/Bids/Details/9231'}",
           "due_date": "2026-09-17",
           "it_score": 36,
+          "source_name": "Delaware — Open Bids (Statewide)"
+        }
+      ]
+    },
+    {
+      "name": "Cloud Migration & Modernization",
+      "opportunity_count": 3,
+      "agency_count": 3,
+      "state_count": 2,
+      "states": [
+        "DE",
+        "US-FED"
+      ],
+      "demand_score": 11,
+      "examples": [
+        {
+          "title": "D--IMT MT HYDROMET MODERNIZATION SOFTWARE",
+          "agency": "INTERIOR, DEPARTMENT OF THE.BUREAU OF RECLAMATION.GREAT PLAINS REGIONAL OFFICE",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/a06bbba4a9774898b96bb78c2f441f37/view",
+          "due_date": "2026-08-17",
+          "it_score": 92,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "Information Technology (IT) Modernization - eFax Services",
+          "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR).OMAS STRATEGIC BUYING CENTER - HHS MISSION",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/1f012f53d7a046f2bb69e1509674c859/view",
+          "due_date": "2026-08-17",
+          "it_score": 77,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "Permitting Modernization",
+          "agency": "NAT",
+          "state": "DE",
+          "url": "{'url': 'https://mmp.delaware.gov/Bids/Details/9239'}",
+          "due_date": "2026-08-21",
+          "it_score": 51,
           "source_name": "Delaware — Open Bids (Statewide)"
         }
       ]
@@ -515,34 +488,11 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-17",
       "it_score": 92,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "software",
         "modernization"
-      ]
-    },
-    {
-      "id": "samgov:8db7f77a98854f8e814817a16245fd6e",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Data, Analytics, and AI Modernization Services",
-      "description": "Data, Analytics, and AI Modernization Services",
-      "agency": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/8db7f77a98854f8e814817a16245fd6e/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-18",
-      "it_score": 89,
-      "is_new": false,
-      "first_seen": "2026-08-05",
-      "matched_keywords": [
-        "modernization",
-        "data",
-        "analytics",
-        "ai"
       ]
     },
     {
@@ -655,32 +605,11 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-11",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "system",
         "cloud"
-      ]
-    },
-    {
-      "id": "samgov:4a0b273fd6654d8aa6a266afe7c88510",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Priority Dispatch ProQA Software License Renewal",
-      "description": "Priority Dispatch ProQA Software License Renewal",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC PEARL HARBOR.NAVSUP FLT LOG CTR PEARL HARBOR",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/4a0b273fd6654d8aa6a266afe7c88510/view",
-      "naics": "541519",
-      "psc": "DA10",
-      "set_aside": "",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-14",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-08-06",
-      "matched_keywords": [
-        "software",
-        "license"
       ]
     },
     {
@@ -697,7 +626,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-17",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "modernization",
@@ -805,50 +734,10 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-11",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "software"
-      ]
-    },
-    {
-      "id": "samgov:970c66c88c2d4523bb6688c1d14aabd3",
-      "source_name": "SAM.gov (Federal)",
-      "title": "FY26-30 A46 TD 26306 - Articulate360 software subscription renewal",
-      "description": "FY26-30 A46 TD 26306 - Articulate360 software subscription renewal",
-      "agency": "JUSTICE, DEPARTMENT OF.US MARSHALS SERVICE.DEPT OF JUSTICE US MARSHAL SERVICE",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/970c66c88c2d4523bb6688c1d14aabd3/view",
-      "naics": "541519",
-      "psc": "7B22",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-11",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-08-05",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:f296c526b14543b3999b3a12f99e3532",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Warehouse Modernization",
-      "description": "Warehouse Modernization",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/f296c526b14543b3999b3a12f99e3532/view",
-      "naics": "541512",
-      "psc": "DA10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-12",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-08-05",
-      "matched_keywords": [
-        "modernization"
       ]
     },
     {
@@ -885,7 +774,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-21",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "integration"
@@ -905,7 +794,7 @@
       "posted_date": "2026-08-07",
       "due_date": "",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "integration"
@@ -1036,7 +925,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-17",
       "it_score": 62,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "systems",
@@ -1245,7 +1134,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-11",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "system"
@@ -1265,7 +1154,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-12",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "data"
@@ -1285,7 +1174,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-12",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "data"
@@ -1365,7 +1254,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-14",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "information technology"
@@ -1385,7 +1274,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-17",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "information technology"
@@ -1412,26 +1301,6 @@
       ]
     },
     {
-      "id": "samgov:6718a1c90be94b468df9c8d2c8e92dc7",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Human Performance and Student Management System (HP-SMS)",
-      "description": "Human Performance and Student Management System (HP-SMS)",
-      "agency": "DEPT OF DEFENSE.US SPECIAL OPERATIONS COMMAND (USSOCOM).HQ USASOC CONTRACTING",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/6718a1c90be94b468df9c8d2c8e92dc7/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-20",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-06",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
       "id": "samgov:876b1388e52543b4a9c092f0e268124c",
       "source_name": "SAM.gov (Federal)",
       "title": "Water Management Programming",
@@ -1445,7 +1314,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-21",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "programming"
@@ -1632,26 +1501,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231334",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200081 - MAINFRAME - SOFTWARE - RENEWAL - SIERRA AUTHORIZED RESELLERS - Closing: 8/20/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000jTxu2IAC'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-07",
-      "due_date": "2026-08-20",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-08-08",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:231335",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200077 - 1090032 SOFTWARE - SUBSCRIPTION COMMVAULT - MULTI-YEAR - Closing: 8/20/2026 12:00 PM",
@@ -1665,7 +1514,27 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
+      "first_seen": "2026-08-08",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231334",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200081 - MAINFRAME - SOFTWARE - RENEWAL - SIERRA AUTHORIZED RESELLERS - Closing: 8/20/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000jTxu2IAC'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-08-07",
+      "due_date": "2026-08-20",
+      "it_score": 51,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "software"
@@ -1785,7 +1654,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-10",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -1821,7 +1690,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-11",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -1844,42 +1713,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:a3279b089059400eb0c592647895a401",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Audiovisual and networking hardware upgrade",
-      "description": "Audiovisual and networking hardware upgrade",
-      "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA SHARED SERVICES CENTER",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/a3279b089059400eb0c592647895a401/view",
-      "naics": "541519",
-      "psc": "7B20",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-11",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-06",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:14b26c0723eb4e56890595057ac1a207",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Audiovisual, lighting, and networking hardware upgrade",
-      "description": "Audiovisual, lighting, and networking hardware upgrade",
-      "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA SHARED SERVICES CENTER",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/14b26c0723eb4e56890595057ac1a207/view",
-      "naics": "541519",
-      "psc": "7B20",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-11",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-06",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:8819a77d5f5f450e848be83aef8d52b7",
       "source_name": "SAM.gov (Federal)",
       "title": "Request for Proposal - Cellebrite Products",
@@ -1893,7 +1726,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-12",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -1911,26 +1744,8 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-12",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-08-08",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:aaf7923654ec4410bcebc5d06dbd5464",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Screening Information Request (SIR) for the Strategic Sourcing for the Acquisition of Various Supplies and Equipment (SAVES)",
-      "description": "Screening Information Request (SIR) for the Strategic Sourcing for the Acquisition of Various Supplies and Equipment (SAVES)",
-      "agency": "TRANSPORTATION, DEPARTMENT OF.FEDERAL AVIATION ADMINISTRATION.697DCK REGIONAL ACQUISITIONS SVCS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/aaf7923654ec4410bcebc5d06dbd5464/view",
-      "naics": "541519",
-      "psc": "7C20",
-      "set_aside": "Small Business Set Aside - Partial",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-12",
-      "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-08-06",
+      "first_seen": "2026-08-08",
       "matched_keywords": []
     },
     {
@@ -1947,7 +1762,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-13",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -1983,7 +1798,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-14",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -2024,24 +1839,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:39c9526eadb04833a356435d55ba3261",
-      "source_name": "SAM.gov (Federal)",
-      "title": "NPSC Clinical Laboratory Scientist Services at the NNMC",
-      "description": "NPSC Clinical Laboratory Scientist Services at the NNMC",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.NAVAJO AREA INDIAN HEALTH SVC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/39c9526eadb04833a356435d55ba3261/view",
-      "naics": "518210",
-      "psc": "R799",
-      "set_aside": "Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services)",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-14",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-06",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:2020d4ae7e774d169915e5da8ce3cc4b",
       "source_name": "SAM.gov (Federal)",
       "title": "Technical and Programmatic Support Services (TPSS) III IDIQ MATOC",
@@ -2055,7 +1852,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -2073,7 +1870,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -2091,26 +1888,8 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-18",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-08-08",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:0b3185c8044941b1a91f6c6b9e3f0230",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-      "description": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/0b3185c8044941b1a91f6c6b9e3f0230/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-19",
-      "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-08-06",
+      "first_seen": "2026-08-08",
       "matched_keywords": []
     },
     {
@@ -2127,7 +1906,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-19",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -2181,26 +1960,8 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-20",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-08-08",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:51bcc31353704fbe94baafce4f4d2a03",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Advance Clustering Technologies HPC Cluster BPA",
-      "description": "Advance Clustering Technologies HPC Cluster BPA",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC CARDEROCK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/51bcc31353704fbe94baafce4f4d2a03/view",
-      "naics": "541519",
-      "psc": "7B21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-20",
-      "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-08-06",
+      "first_seen": "2026-08-08",
       "matched_keywords": []
     },
     {
@@ -2271,7 +2032,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-08-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -2291,24 +2052,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-08-01",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:3533417574274529907f43cc6a6eae64",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Requirement for Terminal Instrument Procedures (TERPS)",
-      "description": "Requirement for Terminal Instrument Procedures (TERPS)",
-      "agency": "DEPT OF DEFENSE.NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY (NGA).NATL GEOSPATIAL-INTELLIGENCE AGENCY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/3533417574274529907f43cc6a6eae64/view",
-      "naics": "541511",
-      "psc": "DA10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-08-25",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-06",
       "matched_keywords": []
     },
     {
@@ -2361,7 +2104,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-09-03",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": []
     },
@@ -3363,7 +3106,7 @@
       "posted_date": "2026-08-05",
       "due_date": "2026-08-22",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "development"
@@ -4043,7 +3786,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-09-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "system"
@@ -4063,7 +3806,7 @@
       "posted_date": "2026-08-06",
       "due_date": "2026-10-09",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08",
       "matched_keywords": [
         "development"
