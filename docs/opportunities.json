@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T12:19:10.867702+00:00",
+  "generated_at": "2026-08-18T12:20:50.979827+00:00",
   "counts": {
-    "total": 206,
-    "new": 9
+    "total": 219,
+    "new": 36
   },
   "health": {
     "ok": 20,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 391,
+        "count": 386,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 428,
+        "count": 457,
         "error": ""
       },
       {
@@ -101,31 +101,31 @@
       {
         "source": "Illinois — Capital Dev Board Future Solicitations",
         "ok": true,
-        "count": 49,
+        "count": 47,
         "error": ""
       },
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 18,
+        "count": 35,
         "error": ""
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 39,
+        "count": 37,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 153,
+        "count": 149,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 42,
+        "count": 47,
         "error": ""
       }
     ]
@@ -133,31 +133,22 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 4,
-      "agency_count": 4,
+      "opportunity_count": 3,
+      "agency_count": 3,
       "state_count": 3,
       "states": [
         "CA",
         "DE",
         "US-FED"
       ],
-      "demand_score": 15,
+      "demand_score": 12,
       "examples": [
         {
-          "title": "Data, Analytics, and AI Modernization Services",
-          "agency": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY",
+          "title": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
+          "agency": "HOMELAND SECURITY, DEPARTMENT OF.OFFICE OF PROCUREMENT OPERATIONS.DEPARTMENTAL OPERATIONS ACQUISITIONS DIVISION I",
           "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view",
-          "due_date": "2026-08-25",
-          "it_score": 89,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Information Technology (IT) Modernization - eFax Services",
-          "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR).OMAS STRATEGIC BUYING CENTER - HHS MISSION",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/7a6b2a9b894a46cb90417d207e914021/view",
-          "due_date": "2026-08-20",
+          "url": "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
+          "due_date": "2026-08-26",
           "it_score": 77,
           "source_name": "SAM.gov (Federal)"
         },
@@ -183,7 +174,7 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 6,
+      "opportunity_count": 5,
       "agency_count": 3,
       "state_count": 2,
       "states": [
@@ -192,15 +183,6 @@
       ],
       "demand_score": 11,
       "examples": [
-        {
-          "title": "OCA DAT| TM3 – Everlaw Software License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "{'url': 'https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000011994&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV'}",
-          "due_date": "2026-08-17",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
         {
           "title": "Parking Citations and Permit Management Solution",
           "agency": "City of Pasadena",
@@ -282,6 +264,37 @@
           "state": "CA",
           "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000DurVHIAZ'}",
           "due_date": "2026-09-28",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
+    {
+      "name": "Records & Document Management (ECM)",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 2,
+      "states": [
+        "CA",
+        "US-FED"
+      ],
+      "demand_score": 8,
+      "examples": [
+        {
+          "title": "USAFA Herbarium Digitization Project",
+          "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCE ACADEMY.FA7000 10 CONS LGC",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/76a7dc6e90b340e085393d2583dcb9b9/view",
+          "due_date": "2026-08-20",
+          "it_score": 50,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA'}",
+          "due_date": "2028-04-01",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
@@ -453,31 +466,6 @@
   ],
   "opportunities": [
     {
-      "id": "opengov:lacda:267335",
-      "source_name": "OpenGov — LA County Development Authority, CA",
-      "title": "LA County Project 150, 151, & 152",
-      "description": "july 13, 2026 NOTICE TO BIDDERS FOR JOB ORDER CONTRACT NUMBERS 150, 151, & 152 LA COUNTY PROJECTS IFB NUMBER LACDA26-043 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 150, 151 & 152 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a bid, each bidder thereby agrees that, if awarded a contract, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all bids. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s bid. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the bid. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2:00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program County Lobbyist Ordinance. Defaulted Property Tax Reduction Program. Equal Employment Opportunity (EEO) Act. Fair Chance Employment Hiring Practices Policy. Greater Avenues for Independence (GAIN) Program and General Relief Opportunity for Work (GROW) Program. State Prevailing Wage Requirements – Labor Code Section1770 et seq. Jury Service Program Local Worker Targeted Hiring Policy Prevailing Wages: State Public Works Contractor Registration Law (SB 854). Safely Surrendered Baby Law Zero Tolerance Human Trafficking Policy JOC Catalog Restriction Compliance with Senate Bill 854 (DIR Registration) APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
-      "agency": "Los Angeles County Development Authority, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/lacda/projects/267335",
-      "naics": "",
-      "psc": "",
-      "set_aside": "LACDA26-43",
-      "posted_date": "2026-05-18",
-      "due_date": "2026-08-17",
-      "it_score": 100,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
-        "software",
-        "system",
-        "development",
-        "website",
-        "data",
-        "license"
-      ]
-    },
-    {
       "id": "opengov:smcgov:279366",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Corrections Grade Tablets & Educational Software",
@@ -502,164 +490,106 @@
       ]
     },
     {
-      "id": "samgov:f4f776cc876d4ec682fc8e2afa6108d8",
+      "id": "samgov:ff9d55d6a268428081b54dc02f5bf2c1",
       "source_name": "SAM.gov (Federal)",
-      "title": "Data, Analytics, and AI Modernization Services",
-      "description": "Data, Analytics, and AI Modernization Services",
-      "agency": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY",
+      "title": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
+      "description": "AI TECHNOLOGIES FOR PROCUREMENT MODERNIZATION COMMERCIAL SOLUTIONS OPENING (CSO)",
+      "agency": "HOMELAND SECURITY, DEPARTMENT OF.OFFICE OF PROCUREMENT OPERATIONS.DEPARTMENTAL OPERATIONS ACQUISITIONS DIVISION I",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/f4f776cc876d4ec682fc8e2afa6108d8/view",
+      "url": "https://sam.gov/workspace/contract/opp/ff9d55d6a268428081b54dc02f5bf2c1/view",
       "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-25",
-      "it_score": 89,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "psc": "7B20",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-26",
+      "it_score": 77,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
         "modernization",
-        "data",
-        "analytics",
         "ai"
       ]
     },
     {
-      "id": "opengov:lacda:267105",
-      "source_name": "OpenGov — LA County Development Authority, CA",
-      "title": "LA County (CDBG Projects) Job Order Contracts Numbers 153, 154, & 155",
-      "description": "July 13, 2026 NOTICE TO BIDDERS FOR JOB ORDER CONTRACT NUMBERS 153, 154, & 155 LA COUNTY (CDBG Projects) IFB NUMBER LACDA26-044 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 153, 154, & 155 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) Attachment B and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a bid, each bidder thereby agrees that, if awarded a contract Attachment A, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all proposals. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s bid. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the bid. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2 :00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Please email Susana.Oliveros@lacda.org to confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. This is a federal assisted construction/service contract, and Federal labor standards, including Davis-Bacon and related acts, State Prevailing Wage Requirements and, California Labor Code 1770, will be enforced. The higher of the two wages will prevail. Section 3 of the Housing and Development Act of 1968 California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Current and Active California Department of Industrial Relations Registration Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program (County Code Chapter 2.200) Build America, Buy America Act (BABAA) Federal Lobbyist Requirements Claims History Disclosures Federal Labor Standards Provision Defaulted Property Tax Reduction Program (Reference: County Code Chapter 2.206). Equal Employment Opportunity (EEO) Act Fair Chance Employment Hiring Practices Policy Compliance with County’s Zero Tolerance Human Trafficking Jury Service Program Safely Surrendered Baby Law JOC Catalog Restriction APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
-      "agency": "Los Angeles County Development Authority, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/lacda/projects/267105",
-      "naics": "",
-      "psc": "",
-      "set_aside": "LACDA26-44",
-      "posted_date": "2026-05-18",
-      "due_date": "2026-08-17",
-      "it_score": 81,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
-        "software",
-        "system",
-        "development",
-        "website",
-        "data",
-        "license"
-      ]
-    },
-    {
-      "id": "opengov:lacda:264980",
-      "source_name": "OpenGov — LA County Development Authority, CA",
-      "title": "Housing Management Job Order Contracts Numbers 144, 145, 146, 147, 148, & 149",
-      "description": "July 13, 2026 NOTICE TO BIDDERS FOR HOUSING MANAGEMENT JOB ORDER CONTRACT NUMBERS 144, 145, 146, 147, 148, & 149 IFB NUMBER LACDA26-042 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 144, 145, 146, 147, 148 & 149 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a bid, each bidder thereby agrees that, if awarded a contract, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all proposals. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s proposal. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the Proposals. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2 :00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Please email Susana.Oliveros@lacda.org to confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. This is a federal assisted construction/service contract, and Federal labor standards, including Davis-Bacon and related acts, State Prevailing Wage Requirements and, California Labor Code 1770, will be enforced. The higher of the two wages will prevail. Section 3 of the Housing and Development Act of 1968 California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Current and Active California Department of Industrial Relations Registration Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program (County Code Chapter 2.200) Build America, Buy America Act (BABAA) Federal Lobbyist Requirements Claims History Disclosures Federal Labor Standards Provision Defaulted Property Tax Reduction Program (Reference: County Code Chapter 2.206). Equal Employment Opportunity (EEO) Act Fair Chance Employment Hiring Practices Policy Compliance with County’s Zero Tolerance Human Trafficking Jury Service Program Safely Surrendered Baby Law JOC Catalog Restriction APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
-      "agency": "Los Angeles County Development Authority, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/lacda/projects/264980",
-      "naics": "",
-      "psc": "",
-      "set_aside": "LACDA26-42",
-      "posted_date": "2026-05-11",
-      "due_date": "2026-08-17",
-      "it_score": 81,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
-        "software",
-        "system",
-        "development",
-        "website",
-        "data",
-        "license"
-      ]
-    },
-    {
-      "id": "opengov:lacda:262398",
-      "source_name": "OpenGov — LA County Development Authority, CA",
-      "title": "CCE Grant Job Order Contracts Numbers 156, 157, 158, 159, 160, & 161",
-      "description": "July 13, 2026 NOTICE TO BIDDERS FOR JOB ORDER CONTRACT NUMBERS 156, 157, 158, 159, 160, & 161 CCE GRANT IFB NUMBER LACDA26-045 Notice is hereby given that bids will be received by the Los Angeles County Development Authority (LACDA) until the date indicate d below under Solicitation Requirements for J ob Order Contract Numbers 156, 157, 158, 159, 160, & 161 for construction services . The term of the contracts will be for one (1) year or the expenditure of the maximum contract value ($6,402,606.00), whichever comes first. Provided however, that if a work order is issued by LACDA prior to the expiration of the annual contract period, the contract term shall be automatically extended solely to allow the original scope of such work order to be completed. There is no minimum contract value. Bidders must answer all questions in the solicitation package. Failure to submit accurate and complete responses may result in a determination that the bidder is non-responsible. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) and contract documents. The Invitation for Bid (IFB) package containing all submission requirements may be downloaded from the LACDA ’s Procurement System website at www.opengov.com . In submitting a proposal, each bidder thereby agrees that, if awarded a contract, it shall execute a standard LACDA contract, a sample of which is attached to the bid package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any bidder who refuses to execute said standard LACDA contract. Bidders shall guarantee their bid for a minimum of 270 days. Bidders must submit separate bids for each JOC Contract number. A Job Order Contract (hereinafter called JOC) is a competitively bid, firm fixed priced indefinite quantity contract pursuant to which the Contractor may perform an ongoing series of individual projects at different locations throughout the County of Los Angeles. It includes a collection of detailed repair remodeling, refurbishment, alteration and other construction tasks and specifications that have established unit prices. Ordering is accomplished by the issuance of a Work Order against the Contract. The work of this Contract will be set forth in the Detailed Scope of Work referenced in the individual Work Orders. The Gordian JOC SolutionTM includes Gordian’s proprietary JOC Software and JOC Applications, construction cost data, and Construction Task Catalog® which shall be used by the Contractor solely for the purpose of fulfilling its obligations under this Contract, including the preparation and submission of Job Order Bid, Price Proposals, subcontractor lists, and other requirements specified by the Owner. Details on the JOC program are available in this solicitation package under Work Ordering Procedure. The LACDA reserves the right to reject any and all bids. This bid is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s bid. LACDA reserves the right to issue supplementary information or guidelines related to this IFB. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the bids. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. SOLICIATION REQUIREMENTS : Bid Deadline : August 17 , 2026, 2:00 p.m. M andatory (Virtual) Pre Bid Meeting : July 27, 2026 , 2:00 p.m. Via Microsoft Teams. Confirm attendance before July 24, 2026. CONTRACT REQUIREMENTS: All pertinent regulations, ordinances, and statutes of the LACDA, State of California, and County of Los Angeles will be rigidly enforced including by reference, but not limited to: Insurances (Please refer to the Sample LACDA Construction Contract for required values and additional requirements). General Liability Insurance with Additional Insured Endorsement (shall include Completed Operations and be on a primary and non-contributory basis). Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers Compensation Liability Insurance , shall be Statutory and include Employer's liability, and a waiver of subrogation. This is a state, county, and/or local assisted construction/service contract and State Prevailing Wage Requirements and California Labor Code 1770, will be enforced. California CSLB: B-General Building Contractor. Bid Bond: 5%. Performance and Payment Bonds: 100%. Current and Active California Department of Industrial Relations Registration Acceptance of The Gordian Group's License and User Agreement. Child Support Compliance Program (County Code Chapter 2.200) Claims History Disclosures Defaulted Property Tax Reduction Program (Reference: County Code Chapter 2.206). Equal Employment Opportunity (EEO) Act Fair Chance Employment Hiring Practices Policy Compliance with County’s Zero Tolerance Human Trafficking Jury Service Program Safely Surrendered Baby Law JOC Catalog Restriction Review solicitation documents for all requirements. APPROVED BY: Ken Lee, Manager Los Angeles County Development Authority",
-      "agency": "Los Angeles County Development Authority, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/lacda/projects/262398",
-      "naics": "",
-      "psc": "",
-      "set_aside": "LACDA26-045",
-      "posted_date": "2026-05-04",
-      "due_date": "2026-08-17",
-      "it_score": 81,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
-        "software",
-        "system",
-        "development",
-        "website",
-        "data",
-        "license"
-      ]
-    },
-    {
-      "id": "samgov:e8fb30b0971743949b7616e74b219255",
+      "id": "samgov:57783181490543c2a97d9cd1518f7925",
       "source_name": "SAM.gov (Federal)",
-      "title": "Indian Health Service - Cisco Network Equipment and Software Maintenance",
-      "description": "Indian Health Service - Cisco Network Equipment and Software Maintenance",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR).OMAS STRATEGIC BUYING CENTER - INFORMATION TECHNOLOGY",
+      "title": "DA01--Software maintenance and support services for existing MyPath tools in support of VA Puget Sound Healthcare System, Seattle, WA",
+      "description": "DA01--Software maintenance and support services for existing MyPath tools in support of VA Puget Sound Healthcare System, Seattle, WA",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/e8fb30b0971743949b7616e74b219255/view",
+      "url": "https://sam.gov/workspace/contract/opp/57783181490543c2a97d9cd1518f7925/view",
+      "naics": "541511",
+      "psc": "DA01",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-27",
+      "it_score": 77,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "software",
+        "system"
+      ]
+    },
+    {
+      "id": "samgov:c898c12afef74a6f9cca30045f0d076a",
+      "source_name": "SAM.gov (Federal)",
+      "title": "R499--(New) VISN-22 Project Management Information System SaaS (VA-26-00059514)",
+      "description": "R499--(New) VISN-22 Project Management Information System SaaS (VA-26-00059514)",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/c898c12afef74a6f9cca30045f0d076a/view",
       "naics": "541519",
-      "psc": "7B22",
-      "set_aside": "Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services)",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-18",
+      "psc": "R499",
+      "set_aside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+      "posted_date": "2026-08-17",
+      "due_date": "",
       "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
-        "software",
-        "information technology"
-      ]
-    },
-    {
-      "id": "samgov:7a6b2a9b894a46cb90417d207e914021",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Information Technology (IT) Modernization - eFax Services",
-      "description": "Information Technology (IT) Modernization - eFax Services",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR).OMAS STRATEGIC BUYING CENTER - HHS MISSION",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/7a6b2a9b894a46cb90417d207e914021/view",
-      "naics": "518210",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-20",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-08-15",
-      "matched_keywords": [
-        "modernization",
-        "information technology"
-      ]
-    },
-    {
-      "id": "opengov:santa-monica-ca:277845",
-      "source_name": "OpenGov — City of Santa Monica, CA",
-      "title": "Public Record Tracking Software",
-      "description": "The City of Santa Monica (the “City”) seeks an online Software as a Service (SaaS) solution from a qualified vendor, to provide public record tracking software to assist with public records requests.",
-      "agency": "City of Santa Monica",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/277845",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-00036",
-      "posted_date": "2026-06-23",
-      "due_date": "2026-08-17",
-      "it_score": 72,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
-        "software",
+        "system",
         "saas"
+      ]
+    },
+    {
+      "id": "samgov:0cff72605f064bb485f3e62cb15ed239",
+      "source_name": "SAM.gov (Federal)",
+      "title": "ayData Software Services",
+      "description": "ayData Software Services",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA SHIPYARD.NORFOLK NAVAL SHIPYARD GF",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/0cff72605f064bb485f3e62cb15ed239/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-19",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "samgov:e3ed31ca9afe47b49f102a399d7a3bd2",
+      "source_name": "SAM.gov (Federal)",
+      "title": "DA01--VA Enterprise Cloud Brokerage Service",
+      "description": "DA01--VA Enterprise Cloud Brokerage Service",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/e3ed31ca9afe47b49f102a399d7a3bd2/view",
+      "naics": "518210",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-31",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "cloud"
       ]
     },
     {
@@ -752,24 +682,66 @@
       ]
     },
     {
-      "id": "samgov:fa0630b52e8643468f1c7d0cba7ba961",
+      "id": "samgov:4592ad2fa55b4a829629ff9fe7ff0f4e",
       "source_name": "SAM.gov (Federal)",
-      "title": "Enterprise Artificial Intelligence (AI) Strategy",
-      "description": "Enterprise Artificial Intelligence (AI) Strategy",
-      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
+      "title": "MRO API Web Services",
+      "description": "MRO API Web Services",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCORP I&L.COMMANDER",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/fa0630b52e8643468f1c7d0cba7ba961/view",
-      "naics": "541519",
-      "psc": "DF01",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-09-28",
+      "url": "https://sam.gov/workspace/contract/opp/4592ad2fa55b4a829629ff9fe7ff0f4e/view",
+      "naics": "541512",
+      "psc": "R420",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-18",
+      "due_date": "2026-08-23",
       "it_score": 62,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
-        "ai",
-        "artificial intelligence"
+        "web",
+        "api"
+      ]
+    },
+    {
+      "id": "samgov:6534d1ca38cc4c00a13f07aa1f9680df",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Manufacturing Execution System Development",
+      "description": "Manufacturing Execution System Development",
+      "agency": "COMMERCE, DEPARTMENT OF.NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY.DEPT OF COMMERCE NIST",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/6534d1ca38cc4c00a13f07aa1f9680df/view",
+      "naics": "541511",
+      "psc": "7A20",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-31",
+      "it_score": 62,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "system",
+        "development"
+      ]
+    },
+    {
+      "id": "samgov:6a1609f79d2b434ab2225ef45af79b2f",
+      "source_name": "SAM.gov (Federal)",
+      "title": "VANCHCS Customizable Communication Platform Digital Signage",
+      "description": "VANCHCS Customizable Communication Platform Digital Signage",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.261-NETWORK CONTRACT OFFICE 21 (36C261)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/6a1609f79d2b434ab2225ef45af79b2f/view",
+      "naics": "541519",
+      "psc": "W065",
+      "set_aside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-31",
+      "it_score": 62,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "digital",
+        "platform"
       ]
     },
     {
@@ -793,27 +765,6 @@
         "development",
         "portal",
         "website",
-        "license"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000011994",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DAT| TM3 – Everlaw Software License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "{'url': 'https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000011994&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-10",
-      "due_date": "2026-08-17",
-      "it_score": 57,
-      "is_new": true,
-      "first_seen": "2026-08-17",
-      "matched_keywords": [
-        "software",
         "license"
       ]
     },
@@ -986,6 +937,26 @@
       ]
     },
     {
+      "id": "samgov:3d8cd311bedc4fba8153f210cc09038b",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Mental Health Mobile Apps Design, Development, and Research Support",
+      "description": "Mental Health Mobile Apps Design, Development, and Research Support",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/3d8cd311bedc4fba8153f210cc09038b/view",
+      "naics": "541512",
+      "psc": "DA01",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-19",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
       "id": "opengov:pasadena:285486",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Authorized Allison Transmission Service, Repair, Maintenance and OEM Parts",
@@ -1006,61 +977,121 @@
       ]
     },
     {
-      "id": "samgov:d409e3b51a52476788a360095ae4cdea",
+      "id": "samgov:d479c131d5de45449906f7d37f541e40",
       "source_name": "SAM.gov (Federal)",
-      "title": "Request for Information (RFI) - Enforcement and Removal Operations (ERO) Adaptive Operations and Maintenance",
-      "description": "Request for Information (RFI) - Enforcement and Removal Operations (ERO) Adaptive Operations and Maintenance",
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.US IMMIGRATION AND CUSTOMS ENFORCEMENT.INFORMATION TECHNOLOGY DIVISION",
+      "title": "SOURCES SOUGHT _ ServiceNow Staff Augmentation Services",
+      "description": "SOURCES SOUGHT _ ServiceNow Staff Augmentation Services",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.REGIONAL MAINTENANCE CENTER.SOUTHWEST REGIONAL MAINT CENTER",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d409e3b51a52476788a360095ae4cdea/view",
-      "naics": "541519",
+      "url": "https://sam.gov/workspace/contract/opp/d479c131d5de45449906f7d37f541e40/view",
+      "naics": "541512",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
       "due_date": "2026-08-20",
       "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-14",
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
-        "information technology"
+        "servicenow"
       ]
     },
     {
-      "id": "samgov:fb542ac8431d4b5e8c581b4769a3dd55",
+      "id": "samgov:74ad31ee31554aa3a45bcbf7cc19ad2c",
       "source_name": "SAM.gov (Federal)",
-      "title": "UNIPOC Point of Care Management System - Red Lake",
-      "description": "UNIPOC Point of Care Management System - Red Lake",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.BEMIDJI SUB-AREA,",
+      "title": "FOOD APPLICATIONS REGULATORY MANAGEMENT (FARM) & IT INTERFACTING SYSTEMS IDIQ",
+      "description": "FOOD APPLICATIONS REGULATORY MANAGEMENT (FARM) & IT INTERFACTING SYSTEMS IDIQ",
+      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.FOOD AND DRUG ADMINISTRATION.FDA CENTER FOR FOOD SAFETY AND APPLIED NUTRITION",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/fb542ac8431d4b5e8c581b4769a3dd55/view",
-      "naics": "518210",
-      "psc": "7A21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-24",
+      "url": "https://sam.gov/workspace/contract/opp/74ad31ee31554aa3a45bcbf7cc19ad2c/view",
+      "naics": "541519",
+      "psc": "DA01",
+      "set_aside": "8(a) Set-Aside (FAR 19.8)",
+      "posted_date": "2026-08-18",
+      "due_date": "2026-08-20",
       "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "systems"
+      ]
+    },
+    {
+      "id": "samgov:452cf0b08a0c434e8e925462ea9cdfa7",
+      "source_name": "SAM.gov (Federal)",
+      "title": "7H20--VERTEX 25EI AUTOMATIC CD BURNER - PACS SYSTEM \"BRAND NAME ONLY\". OEM LETTER FROM THE MANUFACTURER IS REQUIRED. IF NO OEM LETTER VENDOR WILL BE CONSIDERED NON-RESPONSIVE.",
+      "description": "7H20--VERTEX 25EI AUTOMATIC CD BURNER - PACS SYSTEM \"BRAND NAME ONLY\". OEM LETTER FROM THE MANUFACTURER IS REQUIRED. IF NO OEM LETTER VENDOR WILL BE CONSIDERED NON-RESPONSIVE.",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.245-NETWORK CONTRACT OFFICE 5 (36C245)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/452cf0b08a0c434e8e925462ea9cdfa7/view",
+      "naics": "541511",
+      "psc": "7H20",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-21",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
         "system"
       ]
     },
     {
-      "id": "samgov:095e1d0f4b30446197b5687cc0309285",
+      "id": "samgov:bccd23516a084feab07c03fad7a855c2",
       "source_name": "SAM.gov (Federal)",
-      "title": "IQVIA PHARMACEUTICAL/SURGICAL/MEDICAL DEVICE & SUPPLY SALES DATA FOR DEFENSE LOGISTICS AGENCY (DLA) TROOP SUPPORT, MEDICAL DIRECTORATE",
-      "description": "IQVIA PHARMACEUTICAL/SURGICAL/MEDICAL DEVICE & SUPPLY SALES DATA FOR DEFENSE LOGISTICS AGENCY (DLA) TROOP SUPPORT, MEDICAL DIRECTORATE",
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO.DCSO PHILADELPHIA.DCSO PHILADELPHIA",
+      "title": "Congressional Cable TV System Assessment",
+      "description": "Congressional Cable TV System Assessment",
+      "agency": "ARCHITECT OF THE CAPITOL.ARCHITECT OF THE CAPITOL.ACQUISITION & MATERIAL MAN DIV",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/095e1d0f4b30446197b5687cc0309285/view",
-      "naics": "541519",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-28",
+      "url": "https://sam.gov/workspace/contract/opp/bccd23516a084feab07c03fad7a855c2/view",
+      "naics": "541512",
+      "psc": "R499",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-26",
       "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "samgov:09aa33000d2c428695ef36fca54ab6bd",
+      "source_name": "SAM.gov (Federal)",
+      "title": "FY26 USAFE-AFAFRICA A3ZW Blank Slate Training Platform",
+      "description": "FY26 USAFE-AFAFRICA A3ZW Blank Slate Training Platform",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCES IN EUROPE.FA5613 700 CONS PK",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/09aa33000d2c428695ef36fca54ab6bd/view",
+      "naics": "541519",
+      "psc": "7A20",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-18",
+      "due_date": "2026-08-27",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "platform"
+      ]
+    },
+    {
+      "id": "samgov:d0fb6e02b8c6444a9836e0bd3aaf74db",
+      "source_name": "SAM.gov (Federal)",
+      "title": "State Electronic Marriage Data Exchange",
+      "description": "State Electronic Marriage Data Exchange",
+      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/d0fb6e02b8c6444a9836e0bd3aaf74db/view",
+      "naics": "541519",
+      "psc": "R799",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-31",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
         "data"
       ]
@@ -1086,6 +1117,26 @@
       ]
     },
     {
+      "id": "samgov:1afdaae901324ba4ac4f580638ddb03f",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Modernized VAERS Reporting Application",
+      "description": "Modernized VAERS Reporting Application",
+      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.CENTERS FOR DISEASE CONTROL AND PREVENTION.CDC OFFICE OF ACQUISITION SERVICES",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/1afdaae901324ba4ac4f580638ddb03f/view",
+      "naics": "541511",
+      "psc": "DA10",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-09-04",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "application"
+      ]
+    },
+    {
       "id": "opengov:phoenix:291059",
       "source_name": "OpenGov — City of Phoenix, AZ",
       "title": "Atmospheric Monitoring Instruments - Fixed",
@@ -1106,26 +1157,6 @@
       ]
     },
     {
-      "id": "samgov:101c031c47c942a194a0122f20adb68a",
-      "source_name": "SAM.gov (Federal)",
-      "title": "JWCC UCM Core Draft Solicitation",
-      "description": "JWCC UCM Core Draft Solicitation",
-      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).DISA PL8",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/101c031c47c942a194a0122f20adb68a/view",
-      "naics": "518210",
-      "psc": "DB10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-09-14",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-15",
-      "matched_keywords": [
-        "systems"
-      ]
-    },
-    {
       "id": "planetbids:27411:144950",
       "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
       "title": "Website Redesign",
@@ -1143,6 +1174,26 @@
       "first_seen": "2026-08-12",
       "matched_keywords": [
         "website"
+      ]
+    },
+    {
+      "id": "samgov:62939018669c4a43bbd6517e2c278902",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Electronic Security System VIII Draft Solicitation",
+      "description": "Electronic Security System VIII Draft Solicitation",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.SUPPORT CENTER HUNTSVILLE.W2V6 USA ENG SPT CTR HUNTSVIL",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/62939018669c4a43bbd6517e2c278902/view",
+      "naics": "541512",
+      "psc": "J059",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-09-16",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "system"
       ]
     },
     {
@@ -1219,20 +1270,20 @@
       "posted_date": "2026-08-12",
       "due_date": "2026-08-19",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
       "matched_keywords": [
         "software"
       ]
     },
     {
-      "id": "hf3r-utnq:231334",
+      "id": "hf3r-utnq:231335",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200081 - MAINFRAME - SOFTWARE - RENEWAL - SIERRA AUTHORIZED RESELLERS - Closing: 8/20/2026 12:00 PM",
+      "title": "RFB-IS-27200077 - 1090032 SOFTWARE - SUBSCRIPTION COMMVAULT - MULTI-YEAR - Closing: 8/20/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000jTxu2IAC'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000jTxu3IAC'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -1246,13 +1297,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231335",
+      "id": "hf3r-utnq:231334",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200077 - 1090032 SOFTWARE - SUBSCRIPTION COMMVAULT - MULTI-YEAR - Closing: 8/20/2026 12:00 PM",
+      "title": "RFB-IS-27200081 - MAINFRAME - SOFTWARE - RENEWAL - SIERRA AUTHORIZED RESELLERS - Closing: 8/20/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000jTxu3IAC'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000jTxu2IAC'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -1279,7 +1330,7 @@
       "posted_date": "2026-08-14",
       "due_date": "2026-08-21",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
       "matched_keywords": [
         "software"
@@ -1323,6 +1374,26 @@
       "first_seen": "2026-08-14",
       "matched_keywords": [
         "cloud"
+      ]
+    },
+    {
+      "id": "arcgis:Doc842687",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "DOC IT Hardware and Software Accessories",
+      "description": "DOC IT Hardware and Software Accessories",
+      "agency": "Department of Corrections",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-08-21",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1446,57 +1517,57 @@
       ]
     },
     {
-      "id": "samgov:875dcf3c02bc467b99fdf24906cee8bd",
+      "id": "samgov:a0f4165a7f334a9fa16f988e5733817c",
       "source_name": "SAM.gov (Federal)",
-      "title": "Information Management Support Services",
-      "description": "Information Management Support Services",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCORP I&L.MARINE CORPS INSTALLATIONS COMMAND.MCIWEST.COMMANDING GENERAL",
+      "title": "DSS Infusion Therapy Manager IDIQ",
+      "description": "DSS Infusion Therapy Manager IDIQ",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/875dcf3c02bc467b99fdf24906cee8bd/view",
+      "url": "https://sam.gov/workspace/contract/opp/a0f4165a7f334a9fa16f988e5733817c/view",
       "naics": "541512",
-      "psc": "DB02",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-18",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-15",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:996f63860241402c950d7e23199de67e",
-      "source_name": "SAM.gov (Federal)",
-      "title": "T-38 Virtual Reality Part Task Trainer (VRPTT) Maintenance",
-      "description": "T-38 Virtual Reality Part Task Trainer (VRPTT) Maintenance",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4625 509 CONS CC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/996f63860241402c950d7e23199de67e/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
+      "psc": "DA10",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
       "due_date": "2026-08-19",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": []
     },
     {
-      "id": "samgov:1d4f6a4df9e5413dabb43b22e1758bad",
+      "id": "samgov:ef912a7312624b509e72eb5d91fa9fe6",
       "source_name": "SAM.gov (Federal)",
-      "title": "J063--CCTV SERVICE & MAINTENANCE",
-      "description": "J063--CCTV SERVICE & MAINTENANCE",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.262-NETWORK CONTRACT OFFICE 22 (36C262)",
+      "title": "Vertiv Battery Hardware and UPS Preventive Maintenance BLDG N26",
+      "description": "Vertiv Battery Hardware and UPS Preventive Maintenance BLDG N26",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/1d4f6a4df9e5413dabb43b22e1758bad/view",
+      "url": "https://sam.gov/workspace/contract/opp/ef912a7312624b509e72eb5d91fa9fe6/view",
       "naics": "541519",
-      "psc": "J063",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
+      "psc": "DG11",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
       "due_date": "2026-08-19",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:2e465ca0014144fdb2fd269c176aed9e",
+      "source_name": "SAM.gov (Federal)",
+      "title": "FY26 RANGE SUPPORT",
+      "description": "FY26 RANGE SUPPORT",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR NAWC AD.NAVAL AIR WARFARE CENTER AIR DIV",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/2e465ca0014144fdb2fd269c176aed9e/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-19",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": []
     },
     {
@@ -1518,39 +1589,21 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:daaeb328bd7f4be48f8c8ceecc521e62",
+      "id": "samgov:76a7dc6e90b340e085393d2583dcb9b9",
       "source_name": "SAM.gov (Federal)",
-      "title": "DA10--CliniComp CIS Sustainment and Support VA-26-00042621",
-      "description": "DA10--CliniComp CIS Sustainment and Support VA-26-00042621",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "title": "USAFA Herbarium Digitization Project",
+      "description": "USAFA Herbarium Digitization Project",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCE ACADEMY.FA7000 10 CONS LGC",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/daaeb328bd7f4be48f8c8ceecc521e62/view",
-      "naics": "541511",
-      "psc": "DA10",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
+      "url": "https://sam.gov/workspace/contract/opp/76a7dc6e90b340e085393d2583dcb9b9/view",
+      "naics": "518210",
+      "psc": "7690",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
       "due_date": "2026-08-20",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-15",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:5da4575db93b4acabe6a06e80e427207",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DA01--HINGE Cerner Interfaces 2026 (VA-26-00067424)",
-      "description": "DA01--HINGE Cerner Interfaces 2026 (VA-26-00067424)",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/5da4575db93b4acabe6a06e80e427207/view",
-      "naics": "541519",
-      "psc": "DA01",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-20",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": []
     },
     {
@@ -1572,6 +1625,24 @@
       "matched_keywords": []
     },
     {
+      "id": "samgov:b0612d08cb864f8281b00d5bce2377f2",
+      "source_name": "SAM.gov (Federal)",
+      "title": "B--Senior C++ programmer to modify the COMPASS model",
+      "description": "B--Senior C++ programmer to modify the COMPASS model",
+      "agency": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/b0612d08cb864f8281b00d5bce2377f2/view",
+      "naics": "541511",
+      "psc": "B516",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-21",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
       "id": "samgov:c5d99b0d872b4fb887f5df4f9a8b8d9e",
       "source_name": "SAM.gov (Federal)",
       "title": "F-35 Operations Vault Audio Visual Matrix",
@@ -1585,8 +1656,80 @@
       "posted_date": "2026-08-17",
       "due_date": "2026-08-21",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:977723b3f8cf4ef8b935d238c76d60ae",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Allen-Bradley CLX Workstation & ControlLogix 5590 Controller",
+      "description": "Allen-Bradley CLX Workstation & ControlLogix 5590 Controller",
+      "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA SHARED SERVICES CENTER",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/977723b3f8cf4ef8b935d238c76d60ae/view",
+      "naics": "541519",
+      "psc": "7A20",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-21",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:c370be99aa6549b7be0fcc4b312353ab",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Conference Rooms (S) and (TS)",
+      "description": "Conference Rooms (S) and (TS)",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA2517 21 CONS BLDG 350",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/c370be99aa6549b7be0fcc4b312353ab/view",
+      "naics": "541519",
+      "psc": "",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-24",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:b42d8680e57f4985bdcb1f357dd543c2",
+      "source_name": "SAM.gov (Federal)",
+      "title": "***RFI*** 56 SFS Custom, Mobile Marksmanship Training Simulator",
+      "description": "***RFI*** 56 SFS Custom, Mobile Marksmanship Training Simulator",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR EDUCATION AND TRAINING COMMAND.FA4887 56 CONS CC",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/b42d8680e57f4985bdcb1f357dd543c2/view",
+      "naics": "541519",
+      "psc": "6920",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-24",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:90818b9867974585a05e1cff15746d08",
+      "source_name": "SAM.gov (Federal)",
+      "title": "EGWPS",
+      "description": "EGWPS",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR NAWC AD.NAVAL AIR WARFARE CENTER AIR DIV",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/90818b9867974585a05e1cff15746d08/view",
+      "naics": "518210",
+      "psc": "DA10",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-24",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": []
     },
     {
@@ -1605,24 +1748,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-08-01",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:ec1d2a8bfe064b9fba25295648790aeb",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DataFit Operation and Maintenance",
-      "description": "DataFit Operation and Maintenance",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.FOOD AND DRUG ADMINISTRATION.FDA OFFICE OF ACQ GRANT SVCS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/ec1d2a8bfe064b9fba25295648790aeb/view",
-      "naics": "541519",
-      "psc": "DA10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-14",
-      "due_date": "2026-08-25",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-15",
       "matched_keywords": []
     },
     {
@@ -1662,21 +1787,75 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:9a2d6b3d7b8a41b7a961ee0be42523bc",
+      "id": "samgov:b1f26e7ded2643d2835947cc08cb56fe",
       "source_name": "SAM.gov (Federal)",
-      "title": "AV Equipment Upgrade for Split Conference Rooms",
-      "description": "AV Equipment Upgrade for Split Conference Rooms",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NAVAL SURFACE WARFARE CENTER",
+      "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
+      "description": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
+      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/9a2d6b3d7b8a41b7a961ee0be42523bc/view",
+      "url": "https://sam.gov/workspace/contract/opp/b1f26e7ded2643d2835947cc08cb56fe/view",
+      "naics": "541511",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-08-28",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:6fe0639a50b8403ba7c62f23bf348b55",
+      "source_name": "SAM.gov (Federal)",
+      "title": "INL_RFQ-PR16095134 - NEGOTIATION AND SITUATION MANAGEMENT TECHNOLOGY EQUIPMENT - BOG",
+      "description": "INL_RFQ-PR16095134 - NEGOTIATION AND SITUATION MANAGEMENT TECHNOLOGY EQUIPMENT - BOG",
+      "agency": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.AMERICAN EMBASSY BOGOTA - NAS",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/6fe0639a50b8403ba7c62f23bf348b55/view",
+      "naics": "541512",
+      "psc": "5895",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-09-01",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:51c236ca4586473ba1a228b669e6ded5",
+      "source_name": "SAM.gov (Federal)",
+      "title": "J065--BD PYXIS (CATO) Maintenance Support Services",
+      "description": "J065--BD PYXIS (CATO) Maintenance Support Services",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 23 (36C263)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/51c236ca4586473ba1a228b669e6ded5/view",
       "naics": "541519",
-      "psc": "R425",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-14",
+      "psc": "J065",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
       "due_date": "2026-09-04",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-15",
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:213a2fe3a447465e8f30699c9f056ec4",
+      "source_name": "SAM.gov (Federal)",
+      "title": "JOMIS Joint Medical Planning, Modeling and Simulation Capabilities",
+      "description": "JOMIS Joint Medical Planning, Modeling and Simulation Capabilities",
+      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/213a2fe3a447465e8f30699c9f056ec4/view",
+      "naics": "541512",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-09-13",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": []
     },
     {
@@ -1716,26 +1895,40 @@
       "matched_keywords": []
     },
     {
-      "id": "opengov:lacda:281894",
-      "source_name": "OpenGov — LA County Development Authority, CA",
-      "title": "Housing Inspection Services",
-      "description": "JULY 24, 2026 NOTICE REQUEST FOR PROPOSALS FOR HOUSING INSPECTION SERVICES RFP NO. LACDA26-071 Notice is hereby given that proposals will be received by the Los Angeles County Development Authority (LACDA) until Monday, August 17, 2026 at 12:00 p.m. for housing inspection services. This will include furnishing all labor, material and equipment, and performing all work necessary and incidental in accordance with the Statement of Work (SOW) and contract documents. The LACDA may award a one-year contract with the option of four (4), one-year extensions, provided services are satisfactory and funds are available. A Request for Proposals (RFP) package containing all submission requirements may be downloaded from the LACDA's Procurement System website at www.opengov.com. Proposers must attend a mandatory Pre-Proposal Meeting with LACDA in a conference call via Microsoft Teams meeting on Monday, August 3, 2026, promptly at 10:00 a.m. This is a HUD Section 3 Contract and all Proposers must commit to achieving established requirements, including benchmarks, for Section 3 workers and Targeted Section 3 workers to be considered a responsive proposer and eligible for a contract award. In submitting a proposal, each Proposer thereby agrees that, if awarded a contract, it shall execute a standard LACDA contract, a sample of which is attached to the RFP package for reference. The LACDA shall not award a contract to, or be obligated to execute a contract with, any Proposer who refuses to execute said standard LACDA contract. The LACDA reserves the right to reject any and all proposals. This RFP is not a contract or commitment of any kind. The LACDA is not liable for costs incurred in the preparation of the respondent’s proposal. It reserves the right to issue supplementary information or guidelines related to this RFP. Notwithstanding any other provisions herein, the LACDA reserves the right in its sole discretion to waive minor technical deficiencies in the Proposals. In accordance with the Civil Rights Act of 1964, Americans with Disabilities Act of 1990, Age Discrimination Act of 1975 and Section 504 of the Rehabilitation Act of 1973, it is the policy of the LACDA to assure equal opportunity to all persons, in the award and performance of any contract, without regard to race, color, sex, religion, national origin, ancestry, age, marital status, or disability. CONTRACT REQUIREMENTS : Insurances (Please refer to the Sample LACDA Contract for required values and additional requirements.) General Liability Insurance with Additional Insured Endorsement . Shall include Completed Operations and be on a primary and non-contributory basis, and waiver of subrogation. Automobile Liability Insurance , coverage shall include owned, hired, non-owned, OR any auto. Workers’ Compensation Liability Insurance , shall be Statutory and include Employer’s Liability, and a waiver of subrogation. Privacy/Network Security (Cyber) Professional Liability (E&O) Crime Insurance/Employee Dishonesty Bond , name LACDA as Loss Payee or provide copy of Client Coverage Endorsement; shall include coverage for Third Party and Employee theft/forgery. Child Support Compliance Default Property Tax Program Equal Employment Opportunity (EEO) Act Fair Chance Employment Hiring Practices Policy Federal Lobbyist Requirements Levine Act Section 3 Provisions Jury Service Program Safely Surrendered Baby Law Zero Tolerance Human Trafficking Policy",
-      "agency": "Los Angeles County Development Authority, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/lacda/projects/281894",
-      "naics": "",
-      "psc": "",
-      "set_aside": "LACDA26-071",
-      "posted_date": "2026-07-08",
-      "due_date": "2026-08-17",
-      "it_score": 48,
-      "is_new": false,
-      "first_seen": "2026-07-25",
-      "matched_keywords": [
-        "system",
-        "development",
-        "website"
-      ]
+      "id": "samgov:0e2bd08c75544d479d4589d3dfdbf98b",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Next Generation (NextGen) Passport Personalization Printers Support",
+      "description": "Next Generation (NextGen) Passport Personalization Printers Support",
+      "agency": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.ACQUISITIONS - AQM MOMENTUM",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/0e2bd08c75544d479d4589d3dfdbf98b/view",
+      "naics": "541519",
+      "psc": "DB02",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-09-30",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:0cc490cb4c904c4b80e29b0f123ec2df",
+      "source_name": "SAM.gov (Federal)",
+      "title": "IT MANAGER - PERSONAL SERVICES CONTRACTORS",
+      "description": "IT MANAGER - PERSONAL SERVICES CONTRACTORS",
+      "agency": "TREASURY, DEPARTMENT OF THE.DEPARTMENTAL OFFICES.NATIONAL OFFICE - DO/OTA",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/0cc490cb4c904c4b80e29b0f123ec2df/view",
+      "naics": "541519",
+      "psc": "R497",
+      "set_aside": "",
+      "posted_date": "2026-08-17",
+      "due_date": "2026-09-30",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": []
     },
     {
       "id": "hf3r-utnq:229459",
@@ -1804,24 +1997,25 @@
       ]
     },
     {
-      "id": "opengov:phoenix:262508",
-      "source_name": "OpenGov — City of Phoenix, AZ",
-      "title": "Basketball Backboard Systems Repair and Preventive Maintenance Services",
-      "description": "The City of Phoenix invites sealed offers for Basketball Backboard Systems and Preventive Maintenance Services. T he Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be upon September 1, 2026, which is on or after the ordinance approved start date or the contract term start date that the Phoenix City Council approves or the Effective Date, whichever is later. The term of this Agreement will be for five-years, beginning on the Commencement Date, with no options to extend . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
-      "agency": "City of Phoenix",
-      "state": "AZ",
-      "url": "https://procurement.opengov.com/portal/phoenix/projects/262508",
+      "id": "opengov:saccounty:289936",
+      "source_name": "OpenGov — County of Sacramento, CA",
+      "title": "Liability Claims Adjusting Services RFP",
+      "description": "General work description: The Request for Proposal (RFP) seeks a qualified Third-Party Administrator (TPA) to provide comprehensive liability claims adjusting and administration services for the County of Sacramento's self-insured liability program. The selected contractor will work collaboratively with County Risk Management personnel to investigate, evaluate, negotiate, defend, settle, and resolve liability claims while ensuring timely reporting, cost-effective claim management, and compliance with County requirements, the Public Risk Innovation, Solutions, and Management (PRISM) Liability Claims Administration Standards, and applicable laws and regulations. The contractor will also provide strategic recommendations, maintain proactive communication, and support the County's objective of minimizing claim costs and liability exposure. The scope of work includes end-to-end administration of existing and new liability claims, including prompt investigations, reserve analysis, litigation management, settlement negotiations, payment processing, subrogation and recovery efforts, legal administration, claims reporting, records management, and financial oversight. The contractor will maintain a secure claims management information system, provide County staff with access to claims data, coordinate with defense counsel and subject matter experts, support regulatory and Medicare reporting requirements, prepare annual claims reports for the Board of Supervisors, and participate in regular meetings with County staff to review claim strategies, identify trends, and recommend loss prevention initiatives. The contractor must also provide rapid local response capabilities for significant incidents and ensure continuity throughout contract transitions. The successful proposer will demonstrate extensive experience administering liability claims for California public entities, particularly those involving public entity exposures such as law enforcement, employment practices, civil rights, and medical malpractice. Emphasis will be placed on the firm's technical qualifications, claims management processes, reporting capabilities, staffing, local support, financial controls, and overall methodology for delivering efficient, responsive, and high-quality claims administration services that protect the County's interests and ensure compliance with established standards and contractual requirements.",
+      "agency": "County of Sacramento",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/saccounty/projects/289936",
       "naics": "",
       "psc": "",
-      "set_aside": "PKS-IFB-26-0337",
-      "posted_date": "2026-05-04",
-      "due_date": "2026-08-17",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-07-28",
+      "set_aside": "2026-RFP-0086",
+      "posted_date": "2026-08-04",
+      "due_date": "2026-10-03",
+      "it_score": 48,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
-        "systems",
-        "portal"
+        "system",
+        "data",
+        "records management"
       ]
     },
     {
@@ -2384,7 +2578,7 @@
       "posted_date": "2026-08-13",
       "due_date": "2026-08-18",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
       "matched_keywords": [
         "license"
@@ -2444,7 +2638,7 @@
       "posted_date": "2026-08-12",
       "due_date": "2026-08-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
       "matched_keywords": [
         "license"
@@ -2464,7 +2658,7 @@
       "posted_date": "2026-08-12",
       "due_date": "2026-08-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
       "matched_keywords": [
         "license"
@@ -3071,6 +3265,26 @@
       ]
     },
     {
+      "id": "opengov:smcgov:286271",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Security Alarm System - SSF Tax Collector's Office 1024 Mission Road",
+      "description": "The County of San Mateo Treasurer-Tax Collector’s Office (TTC) is seeking proposals from qualified vendors for the design and installation of a security intrusion alarm system. This system will be acquired for the TTC’s new 650-square-foot satellite office located within the North County Wellness Center (NCWC) in South San Francisco, California. As one of several departments in this new NCWC, the TTC requires a localized, high-security solution tailored specifically to its operational footprint. This new satellite location is a critical touchpoint for public service, enabling taxpayers to pay property tax bills in person. Because this site will facilitate the collection and processing of significant sums of currency, checks, and electronic payments, a robust and reliable security alarm is desired. The primary goal of this procurement is to acquire a security intrusion alarm system that will allow the office to support its mission at the most advantageous cost and reasonable ongoing monitoring coverage costs. The NCWC site joins our primary Redwood City office location and our second satellite location in Half Moon Bay. We are looking for a partner capable of delivering a modern, scalable system that meets the rigorous security standards necessary for a high-volume financial collection environment.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/286271",
+      "naics": "",
+      "psc": "",
+      "set_aside": "15210-27-01",
+      "posted_date": "2026-07-22",
+      "due_date": "2026-09-01",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
       "id": "2hnj-zwix:GSS27608-DOC_DESTRUCT",
       "source_name": "Delaware — Open Bids (Statewide)",
       "title": "Secured Document and Data Destruction",
@@ -3164,7 +3378,7 @@
       "posted_date": "2026-08-14",
       "due_date": "2026-09-04",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
       "matched_keywords": [
         "sharepoint"
@@ -3384,7 +3598,7 @@
       "posted_date": "2026-08-12",
       "due_date": "2026-09-14",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17",
       "matched_keywords": [
         "servicenow"
@@ -3506,6 +3720,26 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-08-15",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "opengov:saccounty:284796",
+      "source_name": "OpenGov — County of Sacramento, CA",
+      "title": "Request for Proposals for Agricultural Leases in the Natomas Basin",
+      "description": "The Sacramento Area Flood Control Agency (SAFCA) invites you to submit a proposal to lease agricultural lands at various locations in the Natomas Basin, in northwestern Sacramento County and southeastern Sutter County. SAFCA has assumed long term Operations and Maintenance (O&M) obligations for specific areas in these general locations, many of which include mitigation sites that were established to compensate for habitat impacts resulting from flood system infrastructure improvements. SAFCA is required to ensure that these mitigation sites continue to meet performance criteria per statutory regulatory permits. To meet these requirements, portions of these lands are kept in agricultural production specifically to provide foraging habitat for Swainson’s hawk and habitat for other species listed under the federal and state Endangered Species Acts. Proposals may be for one (1) property, all seven (7) properties, or any subset of properties that the applicant chooses. Selection of a lessee for each property will be done on a property-by-property basis. An applicant may be selected to enter a lease for all, some, or none of the properties for which they submitted a proposal, but reflecting the applicant’s proposed property grouping(s).",
+      "agency": "County of Sacramento",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/saccounty/projects/284796",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP 2026-002",
+      "posted_date": "2026-07-16",
+      "due_date": "2026-09-19",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-08-18",
       "matched_keywords": [
         "system"
       ]
