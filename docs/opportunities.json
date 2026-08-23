@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T12:15:31.972573+00:00",
+  "generated_at": "2026-08-23T12:15:44.710181+00:00",
   "counts": {
-    "total": 225,
-    "new": 23
+    "total": 205,
+    "new": 2
   },
   "health": {
     "ok": 20,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 371,
+        "count": 373,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 386,
+        "count": 395,
         "error": ""
       },
       {
@@ -107,7 +107,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 59,
+        "count": 38,
         "error": ""
       },
       {
@@ -131,37 +131,6 @@
     ]
   },
   "product_themes": [
-    {
-      "name": "Records & Document Management (ECM)",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 2,
-      "states": [
-        "CA",
-        "US-FED"
-      ],
-      "demand_score": 8,
-      "examples": [
-        {
-          "title": "FY27 Dolphin Imaging Software",
-          "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DHA ENTERPRISE MED SUPPORT EMS-CD",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/e3c84962641b4a11911f8cb569cabfcd/view",
-          "due_date": "2026-08-28",
-          "it_score": 71,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA'}",
-          "due_date": "2028-04-01",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
     {
       "name": "Health & Human Services Systems",
       "opportunity_count": 2,
@@ -426,53 +395,11 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-27",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "modernization",
         "ai"
-      ]
-    },
-    {
-      "id": "samgov:4621a6c2f83049b4a8dd1cda5a827c7f",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DA10--Staffing Software subscription brand name or equal to Amion in support of VA Portland Healthcare System",
-      "description": "DA10--Staffing Software subscription brand name or equal to Amion in support of VA Portland Healthcare System",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/4621a6c2f83049b4a8dd1cda5a827c7f/view",
-      "naics": "541519",
-      "psc": "DA10",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-02",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": [
-        "software",
-        "system"
-      ]
-    },
-    {
-      "id": "samgov:830158a191ce49349e90244b9f250e85",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Call for Solutions: Fog Tester Analysis Software Application",
-      "description": "Call for Solutions: Fog Tester Analysis Software Application",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG NATICK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/830158a191ce49349e90244b9f250e85/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-04",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": [
-        "software",
-        "application"
       ]
     },
     {
@@ -513,28 +440,8 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-26",
       "it_score": 71,
-      "is_new": true,
-      "first_seen": "2026-08-22",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:e3c84962641b4a11911f8cb569cabfcd",
-      "source_name": "SAM.gov (Federal)",
-      "title": "FY27 Dolphin Imaging Software",
-      "description": "FY27 Dolphin Imaging Software",
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DHA ENTERPRISE MED SUPPORT EMS-CD",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/e3c84962641b4a11911f8cb569cabfcd/view",
-      "naics": "541511",
-      "psc": "DA10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-28",
-      "it_score": 71,
       "is_new": false,
-      "first_seen": "2026-08-20",
+      "first_seen": "2026-08-22",
       "matched_keywords": [
         "software"
       ]
@@ -553,28 +460,8 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-31",
       "it_score": 71,
-      "is_new": true,
-      "first_seen": "2026-08-22",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:c6128676cad146828d2344a39dfb596c",
-      "source_name": "SAM.gov (Federal)",
-      "title": "LGDS - Unified Sensor Surveillance Processor Software",
-      "description": "LGDS - Unified Sensor Surveillance Processor Software",
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.US CUSTOMS AND BORDER PROTECTION.AIR AND MARINE CONTRACTING DIVISION",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/c6128676cad146828d2344a39dfb596c/view",
-      "naics": "541519",
-      "psc": "6350",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-03",
-      "it_score": 71,
       "is_new": false,
-      "first_seen": "2026-08-20",
+      "first_seen": "2026-08-22",
       "matched_keywords": [
         "software"
       ]
@@ -593,7 +480,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-09-08",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "integration"
@@ -613,7 +500,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-09-14",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "software"
@@ -710,27 +597,6 @@
       ]
     },
     {
-      "id": "samgov:e93506075e2443458a2eebe02f7d5e03",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Image Management Systems (IMS) and Dental IT Services",
-      "description": "Image Management Systems (IMS) and Dental IT Services",
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/e93506075e2443458a2eebe02f7d5e03/view",
-      "naics": "541512",
-      "psc": "",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-27",
-      "it_score": 62,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": [
-        "systems",
-        "it services"
-      ]
-    },
-    {
       "id": "samgov:abc3387ccbef4389adf9bfeec6d9e29f",
       "source_name": "SAM.gov (Federal)",
       "title": "Central Plant Computer System (CPCS) Maintenance",
@@ -744,7 +610,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-28",
       "it_score": 62,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "system",
@@ -963,61 +829,21 @@
       ]
     },
     {
-      "id": "samgov:d4ec7400cf264d67be5fe2712b305ced",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DOL BLS Consumer Electronics Data - RFQ 1605C5-26-Q-00034",
-      "description": "DOL BLS Consumer Electronics Data - RFQ 1605C5-26-Q-00034",
-      "agency": "LABOR, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION AND MANAGEMENT.DOL - CAS DIVISION 5 PROCUREMENT",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d4ec7400cf264d67be5fe2712b305ced/view",
-      "naics": "518210",
-      "psc": "R702",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-27",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "samgov:517591ea7fde4750b99b2c2e60f589a0",
+      "id": "samgov:7cb50d36447040279974e2b474b311aa",
       "source_name": "SAM.gov (Federal)",
       "title": "Global Healthcare Exchange (GHX) Product Data Subscription",
       "description": "Global Healthcare Exchange (GHX) Product Data Subscription",
       "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO.DCSO PHILADELPHIA.DCSO PHILADELPHIA",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/517591ea7fde4750b99b2c2e60f589a0/view",
+      "url": "https://sam.gov/workspace/contract/opp/7cb50d36447040279974e2b474b311aa/view",
       "naics": "541519",
       "psc": "R702",
       "set_aside": "",
-      "posted_date": "2026-08-21",
+      "posted_date": "2026-08-22",
       "due_date": "2026-08-28",
       "it_score": 56,
       "is_new": true,
-      "first_seen": "2026-08-22",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "samgov:bba20abf71b34b7b80ed3f3210bfa343",
-      "source_name": "SAM.gov (Federal)",
-      "title": "IQVIA PHARMACEUTICAL/SURGICAL/MEDICAL DEVICE & SUPPLY SALES DATA FOR DEFENSE LOGISTICS AGENCY (DLA) TROOP SUPPORT, MEDICAL DIRECTORATE",
-      "description": "IQVIA PHARMACEUTICAL/SURGICAL/MEDICAL DEVICE & SUPPLY SALES DATA FOR DEFENSE LOGISTICS AGENCY (DLA) TROOP SUPPORT, MEDICAL DIRECTORATE",
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO.DCSO PHILADELPHIA.DCSO PHILADELPHIA",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/bba20abf71b34b7b80ed3f3210bfa343/view",
-      "naics": "541519",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-28",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-20",
+      "first_seen": "2026-08-23",
       "matched_keywords": [
         "data"
       ]
@@ -1036,30 +862,10 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-31",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "systems"
-      ]
-    },
-    {
-      "id": "samgov:bf8fccb7784048dab757acbdf60de5b6",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Request for Information (RFI) - Enforcement and Removal Operations (ERO) Adaptive Operations and Maintenance",
-      "description": "Request for Information (RFI) - Enforcement and Removal Operations (ERO) Adaptive Operations and Maintenance",
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.US IMMIGRATION AND CUSTOMS ENFORCEMENT.INFORMATION TECHNOLOGY DIVISION",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/bf8fccb7784048dab757acbdf60de5b6/view",
-      "naics": "541519",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-31",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": [
-        "information technology"
       ]
     },
     {
@@ -1083,26 +889,6 @@
       ]
     },
     {
-      "id": "samgov:d9edb53d4332447cb781c04bc2391a3d",
-      "source_name": "SAM.gov (Federal)",
-      "title": "CWMS Database Authorization Maintenance and Improvements",
-      "description": "CWMS Database Authorization Maintenance and Improvements",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.ENGINEER CENTER SUPPORT ACT HUMPHREYS.W4LD USA HECSA",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d9edb53d4332447cb781c04bc2391a3d/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-03",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": [
-        "database"
-      ]
-    },
-    {
       "id": "samgov:5c4a05af9f9348909228839939767284",
       "source_name": "SAM.gov (Federal)",
       "title": "Annual development and service to cover the entire CNST NanoFab IT infrastructure",
@@ -1116,7 +902,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-09-03",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "development"
@@ -1156,7 +942,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-09-04",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "system"
@@ -1200,26 +986,6 @@
       "first_seen": "2026-08-21",
       "matched_keywords": [
         "digital"
-      ]
-    },
-    {
-      "id": "samgov:0bb3fec5b9e6459dbf51acc7a21179dd",
-      "source_name": "SAM.gov (Federal)",
-      "title": "D--607-SWISP PHASE I SCADA PROGRAMMING",
-      "description": "D--607-SWISP PHASE I SCADA PROGRAMMING",
-      "agency": "INTERIOR, DEPARTMENT OF THE.BUREAU OF RECLAMATION.GRAND COULEE POWER OFFICE",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/0bb3fec5b9e6459dbf51acc7a21179dd/view",
-      "naics": "541511",
-      "psc": "DH01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-08",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": [
-        "programming"
       ]
     },
     {
@@ -1323,26 +1089,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231500",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200107 - 2707018- Brightcove Cloud Subscription Renewal - Closing: 8/27/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000k46abIAA'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-18",
-      "due_date": "2026-08-27",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-08-19",
-      "matched_keywords": [
-        "cloud"
-      ]
-    },
-    {
       "id": "hf3r-utnq:231501",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200106 - 27005052-SmartSheet Software Renewal - Closing: 8/27/2026 12:00 PM",
@@ -1360,6 +1106,26 @@
       "first_seen": "2026-08-19",
       "matched_keywords": [
         "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231500",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200107 - 2707018- Brightcove Cloud Subscription Renewal - Closing: 8/27/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000k46abIAA'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-08-18",
+      "due_date": "2026-08-27",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-08-19",
+      "matched_keywords": [
+        "cloud"
       ]
     },
     {
@@ -1496,26 +1262,8 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-24",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-08-22",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:bad830f4026c40a69b691d2601f1f86a",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Dell Powerscale Storage",
-      "description": "Dell Powerscale Storage",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4861 99 CONS LGC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/bad830f4026c40a69b691d2601f1f86a/view",
-      "naics": "541519",
-      "psc": "7B22",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-24",
-      "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-08-20",
+      "first_seen": "2026-08-22",
       "matched_keywords": []
     },
     {
@@ -1555,60 +1303,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:be4242a8a4f141fbb772788239a6a644",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Joint Region Marianas Audio Visual (AV) Refresh",
-      "description": "Joint Region Marianas Audio Visual (AV) Refresh",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC YOKOSUKA.NAVSUP FLT LOG CTR YOKOSUKA",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/be4242a8a4f141fbb772788239a6a644/view",
-      "naics": "541519",
-      "psc": "N059",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-25",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:7b17cb5d94ea46ae910c47692c4e9094",
-      "source_name": "SAM.gov (Federal)",
-      "title": "26-SIMACQ-E30-0034 Cell Phone Repeater Removal and Replacement",
-      "description": "26-SIMACQ-E30-0034 Cell Phone Repeater Removal and Replacement",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.COMMANDING OFFICER",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/7b17cb5d94ea46ae910c47692c4e9094/view",
-      "naics": "541519",
-      "psc": "7G21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-25",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:60fbc3f184a443348b2ba7e553a4da66",
-      "source_name": "SAM.gov (Federal)",
-      "title": "NetScout Maintenance and Support Services Renewal",
-      "description": "NetScout Maintenance and Support Services Renewal",
-      "agency": "SENATE, THE.THE UNITED STATES SENATE SERGEANT AT ARMS.SENATE SERGEANT AT ARMS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/60fbc3f184a443348b2ba7e553a4da66/view",
-      "naics": "541519",
-      "psc": "DG01",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-25",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:27411:144238",
       "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
       "title": "Sulfide Study",
@@ -1645,21 +1339,21 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:76bc75ebc8fa4f94b103c3088288cada",
+      "id": "samgov:dd6bccefcf5045eb8998c35e0040ca82",
       "source_name": "SAM.gov (Federal)",
-      "title": "Enterprise Infrastructure and Critical Operations Support Services",
-      "description": "Enterprise Infrastructure and Critical Operations Support Services",
-      "agency": "AGRICULTURE, DEPARTMENT OF.AGRICULTURAL RESEARCH SERVICE.USDA ARS AFM APD",
+      "title": "Revenue Claims Management Cycle Services",
+      "description": "Revenue Claims Management Cycle Services",
+      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.NAVAJO AREA INDIAN HEALTH SVC",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/76bc75ebc8fa4f94b103c3088288cada/view",
-      "naics": "518210",
-      "psc": "DG01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-26",
+      "url": "https://sam.gov/workspace/contract/opp/dd6bccefcf5045eb8998c35e0040ca82/view",
+      "naics": "541519",
+      "psc": "R702",
+      "set_aside": "Indian Small Business Economic Enterprise",
+      "posted_date": "2026-08-22",
+      "due_date": "2026-08-27",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
+      "is_new": true,
+      "first_seen": "2026-08-23",
       "matched_keywords": []
     },
     {
@@ -1676,7 +1370,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-27",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": []
     },
@@ -1730,7 +1424,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-28",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": []
     },
@@ -1784,7 +1478,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-28",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": []
     },
@@ -1802,7 +1496,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-28",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": []
     },
@@ -1820,7 +1514,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-28",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": []
     },
@@ -1838,7 +1532,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-08-28",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": []
     },
@@ -1861,78 +1555,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:464f03d6e5d544198791def7c203fbcf",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Epson Printer Support Subscription",
-      "description": "Epson Printer Support Subscription",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC CARDEROCK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/464f03d6e5d544198791def7c203fbcf/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-08-28",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:685b0e2194664a788fe7ba25d76dfa7e",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Assessment UNICOR Ecommerce Backend Environment",
-      "description": "Assessment UNICOR Ecommerce Backend Environment",
-      "agency": "JUSTICE, DEPARTMENT OF.FEDERAL PRISON INDUSTRIES, INC.FEDERAL PRISON INDUSTRIES, INC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/685b0e2194664a788fe7ba25d76dfa7e/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-02",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:49fdeed54d9341f1802fdd12f9fdfaea",
-      "source_name": "SAM.gov (Federal)",
-      "title": "7A20--Request for Information (RFI) - Industry Day",
-      "description": "7A20--Request for Information (RFI) - Industry Day",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/49fdeed54d9341f1802fdd12f9fdfaea/view",
-      "naics": "541512",
-      "psc": "7A20",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-02",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:12f0328097704214b0ff915001ebf1f8",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Rugged Computers, OIPS, Monitors",
-      "description": "Rugged Computers, OIPS, Monitors",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/12f0328097704214b0ff915001ebf1f8/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-02",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-19",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:af5c66fdcf034a009881dd6c70b885c7",
       "source_name": "SAM.gov (Federal)",
       "title": "CISCO SECURE FIREWALL MANAGEMENT",
@@ -1948,42 +1570,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-08-21",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:1d2ecd73ebfc4e9baa63222b3411e578",
-      "source_name": "SAM.gov (Federal)",
-      "title": "7E--Intent to Sole Source - MVS/QuickRef Maintenance",
-      "description": "7E--Intent to Sole Source - MVS/QuickRef Maintenance",
-      "agency": "INTERIOR, DEPARTMENT OF THE.DEPARTMENTAL OFFICES.IBC ACQ SVCS DIRECTORATE (00004)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/1d2ecd73ebfc4e9baa63222b3411e578/view",
-      "naics": "541519",
-      "psc": "7E20",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-03",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:8066b9b17c294ae3af1acf36da4aa6c2",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Combined Synopsis/Solicitation and Notice of Intent to Sole Source - Radioactive Liquid Waste Processing Process Controls Replacement (PLC Upgrade)",
-      "description": "Combined Synopsis/Solicitation and Notice of Intent to Sole Source - Radioactive Liquid Waste Processing Process Controls Replacement (PLC Upgrade)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA SHIPYARD.NORFOLK NAVAL SHIPYARD GF",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/8066b9b17c294ae3af1acf36da4aa6c2/view",
-      "naics": "541512",
-      "psc": "J066",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-18",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-20",
       "matched_keywords": []
     },
     {
@@ -2054,7 +1640,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-09-30",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": []
     },
@@ -2537,7 +2123,7 @@
       "posted_date": "2026-07-23",
       "due_date": "2026-09-18",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "development",
@@ -3303,7 +2889,7 @@
       "posted_date": "",
       "due_date": "2026-09-04",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "system"
@@ -3463,7 +3049,7 @@
       "posted_date": "2026-08-11",
       "due_date": "2026-09-11",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "portal"
@@ -3623,7 +3209,7 @@
       "posted_date": "2026-08-03",
       "due_date": "2026-09-15",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "systems"
@@ -3723,7 +3309,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-09-21",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-22",
       "matched_keywords": [
         "system"
