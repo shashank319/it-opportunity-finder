@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-11T15:24:30.772788+00:00",
+  "generated_at": "2026-09-12T14:32:49.568503+00:00",
   "counts": {
-    "total": 233,
-    "new": 28
+    "total": 222,
+    "new": 18
   },
   "health": {
-    "ok": 18,
+    "ok": 20,
     "total": 20,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 373,
+        "count": 369,
         "error": ""
       },
       {
@@ -59,20 +59,20 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 386,
+        "count": 432,
         "error": ""
       },
       {
         "source": "New York City — City Record (Procurement)",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://data.cityofnewyork.us/resource/dg92-zbpx.json?%24limit=500&%24where=section_name%3D%27Procurement%27&%24order=start_date+DESC"
+        "ok": true,
+        "count": 500,
+        "error": ""
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://data.cityofnewyork.us/resource/bzjf-rmtp.json?%24limit=500&%24order=due_date+DESC"
+        "ok": true,
+        "count": 111,
+        "error": ""
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -107,25 +107,25 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 63,
+        "count": 50,
         "error": ""
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 48,
+        "count": 46,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 157,
+        "count": 155,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 40,
+        "count": 43,
         "error": ""
       }
     ]
@@ -173,7 +173,7 @@
           "title": "Historical Archives Digitization",
           "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR MOBILITY COMMAND.FA4407 375 CONS LGC",
           "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/787b4ff7e3c64b73909545b6280c036b/view",
+          "url": "https://sam.gov/workspace/contract/opp/9031180493ed48f89f27e4abe3a41763/view",
           "due_date": "2026-09-22",
           "it_score": 50,
           "source_name": "SAM.gov (Federal)"
@@ -213,7 +213,7 @@
           "title": "Microsoft 365 Data Migration Project",
           "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.SSP.STRATEGIC WEAPONS FAC PAC FINANCIAL",
           "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/bfbe1f99b3fb44e981d3729d8622c940/view",
+          "url": "https://sam.gov/workspace/contract/opp/e4ca493c0b334b3d812882f4bdc2bc4e/view",
           "due_date": "2026-09-14",
           "it_score": 77,
           "source_name": "SAM.gov (Federal)"
@@ -292,37 +292,6 @@
           "due_date": "2026-09-28",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "GIS / Mapping",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 2,
-      "states": [
-        "CA",
-        "US-FED"
-      ],
-      "demand_score": 8,
-      "examples": [
-        {
-          "title": "Dorm Wi-Fi Heat Mapping Survey",
-          "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4819 325 CONS PKP",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/b20a69e553fb4a728085fa93f9608764/view",
-          "due_date": "2026-09-11",
-          "it_score": 50,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "On-Call Land Surveying, Mapping and Aerial Mapping Services",
-          "agency": "Santa Clara Valley Water District, CA",
-          "state": "CA",
-          "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/145445",
-          "due_date": "2026-09-21",
-          "it_score": 50,
-          "source_name": "PlanetBids — Santa Clara Valley Water District, CA"
         }
       ]
     }
@@ -500,42 +469,21 @@
       ]
     },
     {
-      "id": "samgov:8385143474d04cf1aff57e787cb6fdc3",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Sole Source- KE EMu Database Software",
-      "description": "Sole Source- KE EMu Database Software",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/8385143474d04cf1aff57e787cb6fdc3/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-11",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": [
-        "software",
-        "database"
-      ]
-    },
-    {
-      "id": "samgov:bfbe1f99b3fb44e981d3729d8622c940",
+      "id": "samgov:e4ca493c0b334b3d812882f4bdc2bc4e",
       "source_name": "SAM.gov (Federal)",
       "title": "Microsoft 365 Data Migration Project",
       "description": "Microsoft 365 Data Migration Project",
       "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.SSP.STRATEGIC WEAPONS FAC PAC FINANCIAL",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/bfbe1f99b3fb44e981d3729d8622c940/view",
+      "url": "https://sam.gov/workspace/contract/opp/e4ca493c0b334b3d812882f4bdc2bc4e/view",
       "naics": "541512",
       "psc": "DA01",
       "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
+      "posted_date": "2026-09-11",
       "due_date": "2026-09-14",
       "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-09-09",
+      "is_new": true,
+      "first_seen": "2026-09-12",
       "matched_keywords": [
         "migration",
         "data"
@@ -605,6 +553,27 @@
       ]
     },
     {
+      "id": "samgov:171d12b7248f4e4f9822cfd7c3744416",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Tactical Data Link (TDL) Interoperability Software",
+      "description": "Tactical Data Link (TDL) Interoperability Software",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.AMIC.FA4890 HQ ACC AMIC",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/171d12b7248f4e4f9822cfd7c3744416/view",
+      "naics": "541511",
+      "psc": "DA10",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-10-10",
+      "it_score": 77,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": [
+        "software",
+        "data"
+      ]
+    },
+    {
       "id": "opengov:pasadena:296543",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Location Analytics and Intelligence Services for the City of Pasadena",
@@ -653,21 +622,21 @@
       ]
     },
     {
-      "id": "samgov:a5ef327e70a74871b8b8a53ac9f6868f",
+      "id": "samgov:d3357b3fb6a349c38a311fa5330214e7",
       "source_name": "SAM.gov (Federal)",
       "title": "Purchase of Mimics Materialise Software",
       "description": "Purchase of Mimics Materialise Software",
       "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.NATIONAL INSTITUTES OF HEALTH.NATIONAL INSTITUTES OF HEALTH NLM",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/a5ef327e70a74871b8b8a53ac9f6868f/view",
+      "url": "https://sam.gov/workspace/contract/opp/d3357b3fb6a349c38a311fa5330214e7/view",
       "naics": "541511",
       "psc": "7A21",
       "set_aside": "No Set aside used",
-      "posted_date": "2026-09-10",
+      "posted_date": "2026-09-11",
       "due_date": "2026-09-14",
       "it_score": 71,
       "is_new": true,
-      "first_seen": "2026-09-11",
+      "first_seen": "2026-09-12",
       "matched_keywords": [
         "software"
       ]
@@ -688,26 +657,6 @@
       "it_score": 71,
       "is_new": false,
       "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:c79ccda13a144e388020b58f6400074f",
-      "source_name": "SAM.gov (Federal)",
-      "title": "FDIC Software Subscription renewal (SUB) - Copado",
-      "description": "FDIC Software Subscription renewal (SUB) - Copado",
-      "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION.FEDERAL DEPOSIT INSURANCE CORPORATION._",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/c79ccda13a144e388020b58f6400074f/view",
-      "naics": "541519",
-      "psc": "7C21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-14",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-08",
       "matched_keywords": [
         "software"
       ]
@@ -746,30 +695,50 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-17",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "modernization"
       ]
     },
     {
-      "id": "samgov:c00edfda691f4048b5897d64999b1092",
+      "id": "samgov:7c6a649dd3994dffb8b45fcb73e86dc2",
       "source_name": "SAM.gov (Federal)",
       "title": "IHS Agency-wide Instruction For Use Software Subscription",
       "description": "IHS Agency-wide Instruction For Use Software Subscription",
       "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.DIVISION OF ACQUISITIONS POLICY HQ",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/c00edfda691f4048b5897d64999b1092/view",
+      "url": "https://sam.gov/workspace/contract/opp/7c6a649dd3994dffb8b45fcb73e86dc2/view",
       "naics": "518210",
       "psc": "DA10",
       "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
+      "posted_date": "2026-09-11",
       "due_date": "2026-09-17",
       "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-09",
+      "is_new": true,
+      "first_seen": "2026-09-12",
       "matched_keywords": [
         "software"
+      ]
+    },
+    {
+      "id": "samgov:e6edb41495b6441e95a00c0b16ea98af",
+      "source_name": "SAM.gov (Federal)",
+      "title": "VocBench Support and NALTerms Integration",
+      "description": "VocBench Support and NALTerms Integration",
+      "agency": "AGRICULTURE, DEPARTMENT OF.AGRICULTURAL RESEARCH SERVICE.USDA ARS AFM APD",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/e6edb41495b6441e95a00c0b16ea98af/view",
+      "naics": "541511",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-18",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": [
+        "integration"
       ]
     },
     {
@@ -806,7 +775,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-25",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "software"
@@ -826,7 +795,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-10-13",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "cloud"
@@ -846,7 +815,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-14",
       "it_score": 68,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "application",
@@ -1088,26 +1057,6 @@
       ]
     },
     {
-      "id": "samgov:c1002d08c77449a4ac074e71f77364c5",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Electronic Fax Solution",
-      "description": "Electronic Fax Solution",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR).OMAS STRATEGIC BUYING CENTER - INFORMATION TECHNOLOGY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/c1002d08c77449a4ac074e71f77364c5/view",
-      "naics": "518210",
-      "psc": "DA10",
-      "set_aside": "",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-14",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
       "id": "samgov:eca225833363417dbd85d5110bf3589f",
       "source_name": "SAM.gov (Federal)",
       "title": "Dataminr, Inc. First Alert Advanced",
@@ -1141,30 +1090,30 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-16",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "system"
       ]
     },
     {
-      "id": "samgov:994b49a048904443a6d51dc875fb4c57",
+      "id": "samgov:519fe220d41e46139b175480e810d5f9",
       "source_name": "SAM.gov (Federal)",
-      "title": "Electronic Security System VIII Draft Solicitation",
-      "description": "Electronic Security System VIII Draft Solicitation",
+      "title": "W912DY26RA030 OFFICIAL SOLICITATION_ AMENDMENT 2 FOR UTILITY MONITORING AND CONTROL SYSTEMS VI",
+      "description": "W912DY26RA030 OFFICIAL SOLICITATION_ AMENDMENT 2 FOR UTILITY MONITORING AND CONTROL SYSTEMS VI",
       "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.SUPPORT CENTER HUNTSVILLE.W2V6 USA ENG SPT CTR HUNTSVIL",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/994b49a048904443a6d51dc875fb4c57/view",
+      "url": "https://sam.gov/workspace/contract/opp/519fe220d41e46139b175480e810d5f9/view",
       "naics": "541512",
       "psc": "J059",
       "set_aside": "",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-16",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-17",
       "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-08",
+      "is_new": true,
+      "first_seen": "2026-09-12",
       "matched_keywords": [
-        "system"
+        "systems"
       ]
     },
     {
@@ -1185,46 +1134,6 @@
       "first_seen": "2026-08-28",
       "matched_keywords": [
         "systems"
-      ]
-    },
-    {
-      "id": "samgov:e1b323e537ab42988a77d89f7e24b830",
-      "source_name": "SAM.gov (Federal)",
-      "title": "PHARMACY IV PREP SYSTEM",
-      "description": "PHARMACY IV PREP SYSTEM",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.248-NETWORK CONTRACT OFFICE 8 (36C248)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/e1b323e537ab42988a77d89f7e24b830/view",
-      "naics": "541519",
-      "psc": "6515",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-18",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "samgov:cbf53e623da947f3acd7220fdf448791",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Request for Information (RFI) - Next-Generation Security Orchestration, Automation, and Response (SOAR)",
-      "description": "Request for Information (RFI) - Next-Generation Security Orchestration, Automation, and Response (SOAR)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.CYBER AND NETWORKS.FA8307 AFLCMC HNCK HNC CYBER & NTR",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/cbf53e623da947f3acd7220fdf448791/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-18",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": [
-        "automation"
       ]
     },
     {
@@ -1308,6 +1217,26 @@
       ]
     },
     {
+      "id": "samgov:902dd3d1371f40cfa7dc2fefdf6ae643",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Presolicitation Notice for System Architecture Support",
+      "description": "Presolicitation Notice for System Architecture Support",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG ADELPHI",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/902dd3d1371f40cfa7dc2fefdf6ae643/view",
+      "naics": "541512",
+      "psc": "AC32",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-26",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
       "id": "planetbids:27411:144950",
       "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
       "title": "Website Redesign",
@@ -1325,26 +1254,6 @@
       "first_seen": "2026-08-12",
       "matched_keywords": [
         "website"
-      ]
-    },
-    {
-      "id": "samgov:d182076549834e77b91fc30b5731355d",
-      "source_name": "SAM.gov (Federal)",
-      "title": "JWCC UCM Core Solicitation",
-      "description": "JWCC UCM Core Solicitation",
-      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).DISA PL8",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d182076549834e77b91fc30b5731355d/view",
-      "naics": "518210",
-      "psc": "DB10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-10-06",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": [
-        "systems"
       ]
     },
     {
@@ -1464,7 +1373,7 @@
       "posted_date": "2026-09-14",
       "due_date": "2026-09-18",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "software"
@@ -1484,8 +1393,28 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231978",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200166 - 27-0228 - SOFTWARE - RENEWAL - WHITE HAT(BRAND ONLY) - Closing: 9/25/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lRBh6IAG'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-12",
+      "due_date": "2026-09-25",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-12",
       "matched_keywords": [
         "software"
       ]
@@ -1551,114 +1480,6 @@
       ]
     },
     {
-      "id": "samgov:b20a69e553fb4a728085fa93f9608764",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Dorm Wi-Fi Heat Mapping Survey",
-      "description": "Dorm Wi-Fi Heat Mapping Survey",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4819 325 CONS PKP",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/b20a69e553fb4a728085fa93f9608764/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-11",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:0328e03f508b456c8bed341dac4b3ec5",
-      "source_name": "SAM.gov (Federal)",
-      "title": "CITRIX RENEWAL",
-      "description": "CITRIX RENEWAL",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE TEST CENTER.FA9302 AFTC PZZ",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/0328e03f508b456c8bed341dac4b3ec5/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-10",
-      "due_date": "2026-09-11",
-      "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-09-11",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:9607f7e759454551abbcd611e1c9ec50",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Brand Name or Equal Xerox Multifunctional Printers - EPO",
-      "description": "Brand Name or Equal Xerox Multifunctional Printers - EPO",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.STRATEGIC ACQUISITION CENTER FREDERICKSBURG (36C10G)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/9607f7e759454551abbcd611e1c9ec50/view",
-      "naics": "541519",
-      "psc": "DE01",
-      "set_aside": "",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-11",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-08",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:2c327522cea24a3c8846d0655ea81622",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Video Teleconference Existing Equipment Support Maintenance",
-      "description": "Video Teleconference Existing Equipment Support Maintenance",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.W6DP CPE ISW ABERDEEN",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/2c327522cea24a3c8846d0655ea81622/view",
-      "naics": "541519",
-      "psc": "J059",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-11",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:fa8827fec00843b6ba329d57fdc0a94e",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Cardinal Health Supply Line Subscription Renewal",
-      "description": "Cardinal Health Supply Line Subscription Renewal",
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO.DCSO PHILADELPHIA.DCSO PHILADELPHIA",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/fa8827fec00843b6ba329d57fdc0a94e/view",
-      "naics": "518210",
-      "psc": "R702",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-10",
-      "due_date": "2026-09-11",
-      "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-09-11",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:f10d5b1d71d0433ba543e6f05d9b75dc",
-      "source_name": "SAM.gov (Federal)",
-      "title": "APX-119 Identification of Friend or Foe (IFF) Transponder",
-      "description": "APX-119 Identification of Friend or Foe (IFF) Transponder",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.MOBILITY AIRCRAFT.FA8525 AFLCMC WLSKA",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/f10d5b1d71d0433ba543e6f05d9b75dc/view",
-      "naics": "541511",
-      "psc": "7A21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-14",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-08",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:c97e446d2bf54b829d5f8f518b78f8ee",
       "source_name": "SAM.gov (Federal)",
       "title": "D--Red Hat Licenses for Bureau of Indian Affairs OIT",
@@ -1672,7 +1493,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-14",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1690,7 +1511,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-14",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1708,7 +1529,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-14",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1726,26 +1547,8 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-15",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-09-11",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:5eb9b5dd0bca453494660a7724f373dd",
-      "source_name": "SAM.gov (Federal)",
-      "title": "MFRC A/V Upgrade",
-      "description": "MFRC A/V Upgrade",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8101 AFSC PZIOA",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/5eb9b5dd0bca453494660a7724f373dd/view",
-      "naics": "541512",
-      "psc": "5830",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-16",
-      "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-09-09",
+      "first_seen": "2026-09-11",
       "matched_keywords": []
     },
     {
@@ -1762,25 +1565,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-16",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-09-11",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:67d3b9917acd48268df99bbfe8a0a6e5",
-      "source_name": "SAM.gov (Federal)",
-      "title": "RFQ for Sumuri Talino Workstations",
-      "description": "RFQ for Sumuri Talino Workstations",
-      "agency": "JUSTICE, DEPARTMENT OF.FEDERAL BUREAU OF INVESTIGATION.FBI-JEH",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/67d3b9917acd48268df99bbfe8a0a6e5/view",
-      "naics": "541519",
-      "psc": "7B20",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-11",
-      "due_date": "2026-09-17",
-      "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1798,8 +1583,26 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:3a8435ca902d42ea90dcd73789771a24",
+      "source_name": "SAM.gov (Federal)",
+      "title": "RFQ for Sumuri Talino Workstations",
+      "description": "RFQ for Sumuri Talino Workstations",
+      "agency": "JUSTICE, DEPARTMENT OF.FEDERAL BUREAU OF INVESTIGATION.FBI-JEH",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/3a8435ca902d42ea90dcd73789771a24/view",
+      "naics": "541519",
+      "psc": "7B20",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-17",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-12",
       "matched_keywords": []
     },
     {
@@ -1816,7 +1619,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1834,7 +1637,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1852,7 +1655,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1870,7 +1673,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1888,7 +1691,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": []
     },
@@ -1911,21 +1714,39 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:2b3f25de92e641eb893f446ea55e5d86",
+      "id": "samgov:b922088d60ee4996be8262bbb1d8f9ff",
       "source_name": "SAM.gov (Federal)",
-      "title": "Non-Core Telecommunications Operations & Maintenance",
-      "description": "Non-Core Telecommunications Operations & Maintenance",
-      "agency": "TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT",
+      "title": "WORKDAY HUMAN CAPITAL MANAGEMENT (HCM) SUBSRCIPTION RENEWAL",
+      "description": "WORKDAY HUMAN CAPITAL MANAGEMENT (HCM) SUBSRCIPTION RENEWAL",
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/2b3f25de92e641eb893f446ea55e5d86/view",
+      "url": "https://sam.gov/workspace/contract/opp/b922088d60ee4996be8262bbb1d8f9ff/view",
       "naics": "541519",
-      "psc": "DG01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-08",
+      "psc": "DA10",
+      "set_aside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+      "posted_date": "2026-09-11",
       "due_date": "2026-09-18",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-09",
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:421fda73816a4ce4a34f0fd5241e8b49",
+      "source_name": "SAM.gov (Federal)",
+      "title": "MiPACS Licenses and Support OKC, Yukon & Norman Dental",
+      "description": "MiPACS Licenses and Support OKC, Yukon & Norman Dental",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 19 (36C259)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/421fda73816a4ce4a34f0fd5241e8b49/view",
+      "naics": "541519",
+      "psc": "DA10",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-18",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-12",
       "matched_keywords": []
     },
     {
@@ -1965,13 +1786,31 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:787b4ff7e3c64b73909545b6280c036b",
+      "id": "samgov:71ed4884017c419a957a31e4a8d617e2",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Various Licenses and Cable for FEMA Region VI",
+      "description": "Various Licenses and Cable for FEMA Region VI",
+      "agency": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL EMERGENCY MANAGEMENT AGENCY.REGION 6",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/71ed4884017c419a957a31e4a8d617e2/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-22",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:9031180493ed48f89f27e4abe3a41763",
       "source_name": "SAM.gov (Federal)",
       "title": "Historical Archives Digitization",
       "description": "Historical Archives Digitization",
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR MOBILITY COMMAND.FA4407 375 CONS LGC",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/787b4ff7e3c64b73909545b6280c036b/view",
+      "url": "https://sam.gov/workspace/contract/opp/9031180493ed48f89f27e4abe3a41763/view",
       "naics": "518210",
       "psc": "T099",
       "set_aside": "Small Business Set Aside - Total",
@@ -1979,7 +1818,7 @@
       "due_date": "2026-09-22",
       "it_score": 50,
       "is_new": true,
-      "first_seen": "2026-09-11",
+      "first_seen": "2026-09-12",
       "matched_keywords": []
     },
     {
@@ -2037,24 +1876,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:b6d8cb6478164a9cb1e69fb25ea11e9c",
-      "source_name": "SAM.gov (Federal)",
-      "title": "IT Support Services Contract (ITSSC) Recompete",
-      "description": "IT Support Services Contract (ITSSC) Recompete",
-      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/b6d8cb6478164a9cb1e69fb25ea11e9c/view",
-      "naics": "541519",
-      "psc": "DF01",
-      "set_aside": "",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-09-28",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-08",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:16151:144554",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
@@ -2109,21 +1930,39 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:61b4c41b2b0c45fca50d7f1c184753b2",
+      "id": "samgov:9137ae90b6e945bf886550e6dc098990",
       "source_name": "SAM.gov (Federal)",
       "title": "NISC Enterprise Support Tasking (NEST)",
       "description": "NISC Enterprise Support Tasking (NEST)",
       "agency": "TRANSPORTATION, DEPARTMENT OF.FEDERAL AVIATION ADMINISTRATION.693KA9 CONTRACTING FOR SERVICES",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/61b4c41b2b0c45fca50d7f1c184753b2/view",
+      "url": "https://sam.gov/workspace/contract/opp/9137ae90b6e945bf886550e6dc098990/view",
       "naics": "541511",
       "psc": "DA01",
       "set_aside": "SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)",
-      "posted_date": "2026-09-09",
+      "posted_date": "2026-09-11",
       "due_date": "2026-10-15",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-10",
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:aba0b9191b954153826ec7e07aa42de6",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Next Generation (NextGen) Passport Personalization Printers Support",
+      "description": "Next Generation (NextGen) Passport Personalization Printers Support",
+      "agency": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.ACQUISITIONS - AQM MOMENTUM",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/aba0b9191b954153826ec7e07aa42de6/view",
+      "naics": "541519",
+      "psc": "DB02",
+      "set_aside": "",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-10-30",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-12",
       "matched_keywords": []
     },
     {
@@ -2251,27 +2090,6 @@
       ]
     },
     {
-      "id": "opengov:phoenix:270970",
-      "source_name": "OpenGov — City of Phoenix, AZ",
-      "title": "WATER AND WASTEWATER FACILITIES PROCESS CONTROL AND SECURITY SYSTEM IMPROVEMENTS JOB ORDER CONTRACT",
-      "description": "The City of Phoenix is requesting qualifications for Project Title . Qualifications are to be submitted via the City's Procurement Portal at https://procurement.opengov.com/portal/phoenix before Response Submission Time on Response Submission Date .",
-      "agency": "City of Phoenix",
-      "state": "AZ",
-      "url": "https://procurement.opengov.com/portal/phoenix/projects/270970",
-      "naics": "",
-      "psc": "",
-      "set_aside": "JOC258",
-      "posted_date": "2026-06-01",
-      "due_date": "2026-09-11",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-08-14",
-      "matched_keywords": [
-        "system",
-        "portal"
-      ]
-    },
-    {
       "id": "opengov:smcgov:299245",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Request for Information - Facility Conditions Index System",
@@ -2356,27 +2174,6 @@
       ]
     },
     {
-      "id": "opengov:ocgov:268195",
-      "source_name": "OpenGov — County of Orange, CA",
-      "title": "Rental and Maintenance of Reverse Osmosis System",
-      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
-      "agency": "County of Orange",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/ocgov/projects/268195",
-      "naics": "",
-      "psc": "",
-      "set_aside": "060-3042002-CC",
-      "posted_date": "2026-05-20",
-      "due_date": "2026-09-21",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-08-01",
-      "matched_keywords": [
-        "system",
-        "portal"
-      ]
-    },
-    {
       "id": "opengov:ocgov:295569",
       "source_name": "OpenGov — County of Orange, CA",
       "title": "Customized Type II Hard Hats",
@@ -2434,6 +2231,27 @@
       "it_score": 42,
       "is_new": false,
       "first_seen": "2026-08-27",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:268195",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Rental and Maintenance of Reverse Osmosis System",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/268195",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3042002-CC",
+      "posted_date": "2026-05-20",
+      "due_date": "2026-09-25",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-08-01",
       "matched_keywords": [
         "system",
         "portal"
@@ -2629,6 +2447,27 @@
       ]
     },
     {
+      "id": "opengov:phoenix:276927",
+      "source_name": "OpenGov — City of Phoenix, AZ",
+      "title": "Emergency Power Supply Systems [Industrial Generators and Automatic Transfer Switch] Preventative Maintenance, Testing and Repair Services",
+      "description": "The City of Phoenix invites sealed offers for Emergency Power Supply Systems Preventative Maintenance, Testing and Repair Services. The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be up on December 1, 2026 which is o n or after the ordinance approved start date or the contract term start date that the Phoenix City Council approves or the Effective Date, whichever is later. The term of this Agreement will be for five years, beginning on the Commencement Date, with no options to extend . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
+      "agency": "City of Phoenix",
+      "state": "AZ",
+      "url": "https://procurement.opengov.com/portal/phoenix/projects/276927",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-26-0395",
+      "posted_date": "2026-06-18",
+      "due_date": "2026-10-09",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": [
+        "systems",
+        "portal"
+      ]
+    },
+    {
       "id": "opengov:ocgov:291484",
       "source_name": "OpenGov — County of Orange, CA",
       "title": "Testing, Insulation and Repair of Boilers & Water Heaters",
@@ -2684,7 +2523,7 @@
       "posted_date": "2026-08-17",
       "due_date": "2026-10-12",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "system",
@@ -2705,7 +2544,7 @@
       "posted_date": "2026-06-03",
       "due_date": "2026-10-13",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "system",
@@ -2755,6 +2594,27 @@
       ]
     },
     {
+      "id": "opengov:ocgov:295961",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "Active Recidivism Reduction Initiative Via Engagement (ARRIVE)",
+      "description": "The County of Orange, Department Name (hereinafter referred to as “County”), is soliciting proposals from qualified firms (hereinafter referred to as “Respondents”) for Description of Services . Respondents must meet the minimum qualifications and requirements as set forth within the RFP and be capable of providing services identified in the Scope of Work herein. The proposed schedule below is subject to change. Any changes to the schedule for the RFP process will be issued to all Respondents via addenda on the County's eProcurement Portal. This is a fully electronic Request for Proposals (RFP). Respondents must submit their proposals online via the County’s online bidding system. Only electronic proposals will be accepted. Facsimile and e-mail proposals will NOT be allowed. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation by Question Submission Date , before Question Submission Time as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation. Verbal clarifications or responses will not be considered binding.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/295961",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP-057-3105004-MM",
+      "posted_date": "2026-08-21",
+      "due_date": "2026-10-27",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
       "id": "3iy3-r5vp:5185",
       "source_name": "Texas — Spot Bid Fair FY2026",
       "title": "Peslv - 2 pack 27 inch privacy screen for computer monitor 16:9 aspect ratio",
@@ -2794,106 +2654,6 @@
       "matched_keywords": [
         "system",
         "development"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:231417",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "YD-202601 - Youth Diversion and Development Services Work Order Solicitation - Closing: 9/11/2026 12:00 PM",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000jjDDhIAM'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-12",
-      "due_date": "2026-09-11",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-08-12",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "planetbids:16151:138984",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Replacement of Metropolitan Water District's current Telephone System",
-      "description": "RFP-AS-468092",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/138984",
-      "naics": "",
-      "psc": "72500, 72546, 72557, 90684, 92589",
-      "set_aside": "",
-      "posted_date": "2026-07-06",
-      "due_date": "2026-09-11",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "opengov:phoenix:254993",
-      "source_name": "OpenGov — City of Phoenix, AZ",
-      "title": "Peer Recovery Support Specialists",
-      "description": "The City of Phoenix invites sealed offers for peer recovery support specialist services. The Effective Date of this Agreement will be upon final signature and recording by the City Clerk’s department. The Commencement Date of this Agreement will be upon March 31, 2027 or the contract term start date that the Phoenix City Council approves or the Effective Date, whichever is later. The term of this Agreement will be for 2 years, beginning on the Commencement Date, with three (3) 1-year options to extend, which may be exercised by the City in its sole discretion . This solicitation is available through the City’s Procurement Portal. For technical support issues related to the City's Procurement Portal, Offeror may use the support bubble on the bottom right, or email procurement-support@opengov.com for any assistance. For other issues related to this solicitation please contact the procurement officer listed under Contact Information. Notwithstanding the foregoing, this Agreement will terminate upon the earliest occurrence: by reaching the end of the term including any extensions exercised, or termination pursuant to the provisions of this Agreement.",
-      "agency": "City of Phoenix",
-      "state": "AZ",
-      "url": "https://procurement.opengov.com/portal/phoenix/projects/254993",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFP PS-26-0308",
-      "posted_date": "2026-04-09",
-      "due_date": "2026-09-11",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-08-15",
-      "matched_keywords": [
-        "portal"
-      ]
-    },
-    {
-      "id": "opengov:phoenix:292334",
-      "source_name": "OpenGov — City of Phoenix, AZ",
-      "title": "PHOENIX SKY HARBOR INTERNATIONAL AIRPORT WEST TERMINAL PARKING ENABLING",
-      "description": "The City of Phoenix is requesting qualifications for Project Title . Qualifications are to be submitted via the City's Procurement Portal at https://procurement.opengov.com/portal/phoenix before Response Submission Time on Response Submission Date .",
-      "agency": "City of Phoenix",
-      "state": "AZ",
-      "url": "https://procurement.opengov.com/portal/phoenix/projects/292334",
-      "naics": "",
-      "psc": "",
-      "set_aside": "AV15000082",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-09-11",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-08-22",
-      "matched_keywords": [
-        "portal"
-      ]
-    },
-    {
-      "id": "arcgis:Doc841764",
-      "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "RFI- Record Management System",
-      "description": "RFI- Record Management System",
-      "agency": "Office of Contracting and Procurement",
-      "state": "DC",
-      "url": "https://ocp.dc.gov/service/solicitations",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-09-12",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-08-13",
-      "matched_keywords": [
-        "system"
       ]
     },
     {
@@ -3117,26 +2877,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:296391",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Deionized Water Filtration System Maintenance",
-      "description": "The San Mateo County Sheriff's Office Forensic Laboratory is located at 50 Tower Road in San Mateo, California, 94402. The laboratory uses Type II deionized water throughout the laboratory, and uses Type I deionized water in the Forensic Biology Unit. This is accomplished with our Millipore Elix 20 Water Purification System and Milli-Q Advantage A10 Water Purification System. The laboratory needs a vendor to perform preventative maintenance in November 2026 and May 2027.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/296391",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00069",
-      "posted_date": "2026-08-24",
-      "due_date": "2026-09-16",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-08-25",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
       "id": "eeq6-nnwe:1201278",
       "source_name": "Montgomery County MD — Solicitations",
       "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
@@ -3254,6 +2994,26 @@
       "first_seen": "2026-08-27",
       "matched_keywords": [
         "portal"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:296391",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Deionized Water Filtration System Maintenance",
+      "description": "The San Mateo County Sheriff's Office Forensic Laboratory is located at 50 Tower Road in San Mateo, California, 94402. The laboratory uses Type II deionized water throughout the laboratory, and uses Type I deionized water in the Forensic Biology Unit. This is accomplished with our Millipore Elix 20 Water Purification System and Milli-Q Advantage A10 Water Purification System. The laboratory needs a vendor to perform preventative maintenance in November 2026 and May 2027.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/296391",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP-00069",
+      "posted_date": "2026-08-24",
+      "due_date": "2026-09-18",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-08-25",
+      "matched_keywords": [
+        "system"
       ]
     },
     {
@@ -3410,7 +3170,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-09-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "data"
@@ -3497,23 +3257,23 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231715",
+      "id": "hf3r-utnq:217084",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "CD8 Nations Plaza Strategic Planning & Development",
+      "title": "457-SH - RFSQ - Water Well System Maintenance Services - Closing: Continuous",
       "description": "Personal Services",
-      "agency": "Council District 8",
+      "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000kfcurIAA'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000DuESLIA3'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-09-04",
-      "due_date": "2026-09-26",
+      "posted_date": "2024-09-27",
+      "due_date": "2026-09-27",
       "it_score": 36,
       "is_new": false,
-      "first_seen": "2026-09-05",
+      "first_seen": "2026-07-14",
       "matched_keywords": [
-        "development"
+        "system"
       ]
     },
     {
@@ -3534,26 +3294,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "systems"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:217084",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "457-SH - RFSQ - Water Well System Maintenance Services - Closing: Continuous",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000DuESLIA3'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2024-09-27",
-      "due_date": "2026-09-27",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
       ]
     },
     {
@@ -4037,6 +3777,26 @@
       ]
     },
     {
+      "id": "arcgis:Doc846589",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "RFI- Record Management System",
+      "description": "RFI- Record Management System",
+      "agency": "Office of Contracting and Procurement",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-10-02",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
       "id": "hf3r-utnq:231537",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "Los Angeles World Airports Salesforce-Based eSourcing Solution (RAMP-LAWA)",
@@ -4050,7 +3810,7 @@
       "posted_date": "2026-09-10",
       "due_date": "2026-10-03",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "information technology"
@@ -4350,7 +4110,7 @@
       "posted_date": "2026-03-09",
       "due_date": "2026-11-05",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "system"
