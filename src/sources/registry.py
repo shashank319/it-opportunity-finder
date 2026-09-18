@@ -17,6 +17,15 @@ from .samgov import SamGovSource
 from .planetbids import PlanetBidsSource
 from .opengov import OpenGovSource
 from .arcgis import ArcGisSource
+from .bidnetdirect import BidNetDirectSource
+from .biddingo import BiddingoSource
+from .bonfire import BonfireSource
+from .bidsandtenders import BidsAndTendersSource
+from .ionwave import IonwaveSource
+from .questcdn import QuestCdnSource
+from .rtvision import RtVisionSource
+from .civicplus_bids import CivicPlusBidsSource
+from .schenectady_county import SchenectadyCountySource
 
 
 def build_sources(config: dict) -> list:
@@ -53,5 +62,50 @@ def build_sources(config: dict) -> list:
     for layer in sources_cfg.get("arcgis_layers", []):
         if layer.get("enabled", True):
             sources.append(ArcGisSource(layer))
+
+    # --- BidNet Direct agency portals (one adapter, many agencies) ---
+    bidnetdirect_cfg = sources_cfg.get("bidnetdirect", {})
+    if bidnetdirect_cfg.get("enabled", False):
+        sources.append(BidNetDirectSource(bidnetdirect_cfg))
+
+    # --- Biddingo agency portals (one adapter, many agencies) ---
+    biddingo_cfg = sources_cfg.get("biddingo", {})
+    if biddingo_cfg.get("enabled", False):
+        sources.append(BiddingoSource(biddingo_cfg))
+
+    # --- Bonfire agency portals (one adapter, many agencies) ---
+    bonfire_cfg = sources_cfg.get("bonfire", {})
+    if bonfire_cfg.get("enabled", False):
+        sources.append(BonfireSource(bonfire_cfg))
+
+    # --- Bids&Tenders agency portals (needs Playwright; one adapter, many agencies) ---
+    bidsandtenders_cfg = sources_cfg.get("bidsandtenders", {})
+    if bidsandtenders_cfg.get("enabled", False):
+        sources.append(BidsAndTendersSource(bidsandtenders_cfg))
+
+    # --- Ionwave agency portals (one adapter, many agencies) ---
+    ionwave_cfg = sources_cfg.get("ionwave", {})
+    if ionwave_cfg.get("enabled", False):
+        sources.append(IonwaveSource(ionwave_cfg))
+
+    # --- QuestCDN agency portals (one adapter, many agencies) ---
+    questcdn_cfg = sources_cfg.get("questcdn", {})
+    if questcdn_cfg.get("enabled", False):
+        sources.append(QuestCdnSource(questcdn_cfg))
+
+    # --- RTVision Connex (one shared feed, filtered to configured agencies) ---
+    rtvision_cfg = sources_cfg.get("rtvision", {})
+    if rtvision_cfg.get("enabled", False):
+        sources.append(RtVisionSource(rtvision_cfg))
+
+    # --- CivicPlus Bids.aspx municipal sites (one adapter, many agencies) ---
+    civicplus_cfg = sources_cfg.get("civicplus_bids", {})
+    if civicplus_cfg.get("enabled", False):
+        sources.append(CivicPlusBidsSource(civicplus_cfg))
+
+    # --- Schenectady County NY (one-off Drupal Views listing) ---
+    schenectady_cfg = sources_cfg.get("schenectady_county", {})
+    if schenectady_cfg.get("enabled", False):
+        sources.append(SchenectadyCountySource(schenectady_cfg))
 
     return sources

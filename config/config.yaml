@@ -156,7 +156,22 @@ sources:
       # NOTE: this feed's long-description field is mostly boilerplate ("go to
       # our website to download..."), which caused false matches. We judge NYC
       # items on their real title instead, so the subject drives inclusion.
-      field_map: { id: request_id, title: short_title, description: short_title, agency: agency_name, posted_date: start_date, due_date: end_date }
+      #
+      # id: `pin` (the NYC Procurement Identification Number), NOT `request_id`.
+      # The City Record is a newspaper of record: the SAME solicitation is
+      # re-printed on many days and each printing gets a fresh request_id
+      # (600 distinct request_ids across 600 rows), so keying on it made every
+      # re-print look like a brand-new opportunity. `pin` is stable across
+      # printings and present on ~98% of rows.
+      #
+      # due_date: deliberately NOT mapped. This dataset has no bid-deadline
+      # field at all — `end_date` is when the ADVERT stops running, and it
+      # equals start_date on 398 of 400 sampled rows. Mapping it made every
+      # NYC item show as "due today", which is what made the whole dashboard
+      # look like nothing but same-day deadlines. Blank due_date means the
+      # stale_after_days recency rule governs instead (same as Mesa AZ and
+      # Texas Spot Bid, which have the same no-real-deadline shape).
+      field_map: { id: pin, title: short_title, description: short_title, agency: agency_name, posted_date: start_date }
       source_url: "https://a856-cityrecord.nyc.gov/"
 
     - name: "New York City — Current RFP (MOCS)"
@@ -259,16 +274,17 @@ sources:
       field_map: { id: bid_project_number, title: project_name, description: procurement_type, agency: requesting_department, posted_date: date_due, due_date: date_due, url: bid_booklet_pdf }
       source_url: "https://www.cincinnati-oh.gov/purchasing/bid-opportunities/"
 
-    - name: "Illinois — Capital Dev Board Future Solicitations"
-      enabled: true
-      domain: illinois-edp.data.socrata.com
-      dataset_id: 6rb8-ntpm
-      state: IL
-      where: ""
-      order: "estimated_bid_date DESC"
-      limit: 500
-      field_map: { id: project_number, title: description, description: approximate_cost, agency: location_name, posted_date: estimated_bid_date, due_date: estimated_bid_date }
-      source_url: "https://cdb.illinois.gov/business/architects-engineers.html"
+    # Illinois - https://cdb.illinois.gov/ Construction-only procurement portal (state facilities, HVAC, roofing, fire alarms, water systems, etc.). No IT-related opportunities; exclude from the IT Opportunity Finder.
+    # - name: "Illinois — Capital Dev Board Future Solicitations"
+    #   enabled: true
+    #   domain: illinois-edp.data.socrata.com
+    #   dataset_id: 6rb8-ntpm
+    #   state: IL
+    #   where: ""
+    #   order: "estimated_bid_date DESC"
+    #   limit: 500
+    #   field_map: { id: project_number, title: description, description: approximate_cost, agency: location_name, posted_date: estimated_bid_date, due_date: estimated_bid_date }
+    #   source_url: "https://cdb.illinois.gov/business/architects-engineers.html"
 
     # ---- SOUTHEAST (contract-notice feeds — thin Socrata coverage here, but
     #      each row carries the RFP/IFB solicitation reference) ----
@@ -354,6 +370,12 @@ sources:
       - { portal_id: 45619, agency: "City of Inglewood, CA", state: CA }
       - { portal_id: 15810, agency: "City of Long Beach, CA", state: CA }
       - { portal_id: 16151, agency: "Santa Clara Valley Water District, CA", state: CA }
+      - { portal_id: 22078, agency: "City of Newport Beach, CA", state: CA }
+      - { portal_id: 39475, agency: "Riverside County, CA", state: CA }
+      - { portal_id: 29959, agency: "City of Santa Barbara, CA", state: CA }
+      - { portal_id: 15927, agency: "City of Irvine, CA", state: CA }
+      # NOTE: "City of Long Beach, CA" (portal_id 15810) was already configured above —
+      # skipped as a duplicate when this batch was added.
 
   # --- OpenGov Procurement portals ------------------------------------------
   # Public "embed" page per agency (no login). Add an agency by adding its slug
@@ -371,6 +393,23 @@ sources:
       - { slug: acgov, agency: "County of Alameda, CA", state: CA }
       - { slug: smcgov, agency: "County of San Mateo, CA", state: CA }
       - { slug: lacda, agency: "LA County Development Authority, CA", state: CA }
+      - { slug: naperville, agency: "City of Naperville, IL", state: IL }
+      - { slug: cityofnapa, agency: "City of Napa, CA", state: CA }
+      - { slug: countyofinyoca, agency: "County of Inyo, CA", state: CA }
+      - { slug: santacruzcounty, agency: "County of Santa Cruz, CA", state: CA }
+      - { slug: anaheim, agency: "City of Anaheim, CA", state: CA }
+      - { slug: cosb, agency: "County of San Benito, CA", state: CA }
+      - { slug: pinellasfl, agency: "Pinellas County, FL", state: FL }
+      - { slug: orangecountyfl, agency: "Orange County, FL", state: FL }
+      - { slug: alachuacounty, agency: "Alachua County, FL", state: FL }
+      - { slug: leoncounty, agency: "Leon County, FL", state: FL }
+      - { slug: scgov, agency: "Sarasota County, FL", state: FL }
+      - { slug: escambiacountyfl, agency: "Escambia County, FL", state: FL }
+      - { slug: cityoftampa, agency: "City of Tampa, FL", state: FL }
+      - { slug: orlando, agency: "City of Orlando, FL", state: FL }
+      - { slug: stpete, agency: "City of St. Petersburg, FL", state: FL }
+      - { slug: cityofgainesville, agency: "City of Gainesville, FL", state: FL }
+      - { slug: sarasotafl, agency: "City of Sarasota, FL", state: FL }
 
   # --- ArcGIS feature layers -------------------------------------------------
   # Some governments publish open solicitations as an ArcGIS layer with a public
@@ -384,6 +423,130 @@ sources:
       field_map: { id: SOLICITATIONNUMBER, title: SOLICITATIONTITLE, description: SYNOPSIS, agency: AGENCY_NAME, due_date: CLOSEDATE }
       date_fields: ["due_date"]
       source_url: "https://ocp.dc.gov/service/solicitations"
+
+  # --- BidNet Direct agency portals -------------------------------------------
+  # Public, server-rendered "Bid Opportunities and RFPs" page per agency (no
+  # login). Add an agency by adding its path (the part after bidnetdirect.com/
+  # in its portal URL, e.g. bidnetdirect.com/california/cityofsantaclara ->
+  # path "california/cityofsantaclara").
+  bidnetdirect:
+    enabled: true
+    name: "BidNet Direct"
+    agencies:
+      - { path: "california/cityofsantaclara", agency: "City of Santa Clara, CA", state: CA }
+      - { path: "california/contracostacounty", agency: "Contra Costa County, CA", state: CA }
+      - { path: "new-york/city-of-albany", agency: "City of Albany, NY", state: NY }
+      - { path: "new-york/city-of-schenectady", agency: "City of Schenectady, NY", state: NY }
+      - { path: "florida/cityofmiami", agency: "City of Miami, FL", state: FL }
+
+  # --- Biddingo agency portals -------------------------------------------------
+  # Public, unauthenticated REST API per agency (no login). Add an agency by
+  # adding its slug (the part after biddingo.com/ in its portal URL, e.g.
+  # biddingo.com/santaclaracounty -> slug "santaclaracounty").
+  biddingo:
+    enabled: true
+    name: "Biddingo"
+    agencies:
+      - { slug: santaclaracounty, agency: "County of Santa Clara, CA", state: CA }
+      - { slug: sanjose, agency: "City of San Jose, CA", state: CA }
+
+  # --- Bonfire agency portals ---------------------------------------------------
+  # Public, unauthenticated JSON endpoint per agency (no login). Add an agency
+  # by adding its tenant subdomain (e.g. ventura.bonfirehub.com -> tenant
+  # "ventura").
+  bonfire:
+    enabled: true
+    name: "Bonfire"
+    agencies:
+      - { tenant: ventura, agency: "County of Ventura, CA", state: CA }
+      - { tenant: broward, agency: "Broward County, FL", state: FL }
+      - { tenant: hillsboroughcounty, agency: "Hillsborough County, FL", state: FL }
+      - { tenant: kcmo, agency: "Kansas City, MO", state: MO }
+      - { tenant: jacksongov, agency: "Jackson County, MO", state: MO }
+
+  # --- Bids&Tenders agency portals ----------------------------------------------
+  # Public tenders page per agency (no login), read via a headless browser
+  # (Playwright) since its listing API is CSRF-session-protected. Add an
+  # agency by adding its tenant subdomain (e.g. placer.bidsandtenders.net ->
+  # tenant "placer"). Needs `pip install playwright && playwright install
+  # chromium` (see README) — if that's not set up, this source logs a clear
+  # error and is skipped; every other source keeps running.
+  bidsandtenders:
+    enabled: true
+    name: "Bids&Tenders"
+    agencies:
+      - { tenant: placer, agency: "Placer County, CA", state: CA }
+      - { tenant: stearnscountymn, agency: "Stearns County, MN", state: MN }
+
+  # --- Ionwave agency portals --------------------------------------------------
+  # Public, server-rendered open-bids grid per agency (no login). Add an
+  # agency by adding its tenant subdomain (e.g. leegov.ionwave.net -> tenant
+  # "leegov").
+  ionwave:
+    enabled: true
+    name: "Ionwave"
+    agencies:
+      - { tenant: leegov, agency: "Lee County, FL", state: FL }
+      - { tenant: brpurch, agency: "City of Boca Raton, FL", state: FL }
+      - { tenant: columbia, agency: "City of Columbia, MO", state: MO }
+
+  # --- QuestCDN agency portals --------------------------------------------------
+  # Public, unauthenticated AJAX endpoint per agency (no login). Add an
+  # agency by adding its group+provider ids (both from the query string in
+  # its QuestCDN URL, e.g. ?group=7073&provider=7073).
+  questcdn:
+    enabled: true
+    name: "QuestCDN"
+    agencies:
+      - { group: 7073, provider: 7073, agency: "City of Brooklyn Park, MN", state: MN }
+      - { group: 7545, provider: 7545, agency: "City of Plymouth, MN", state: MN }
+      - { group: 6261, provider: 6261, agency: "Dakota County, MN", state: MN }
+
+  # --- RTVision Connex ----------------------------------------------------------
+  # ONE shared, unauthenticated statewide feed (observed: Minnesota public-
+  # works bids) — not per-agency like the others. Add an agency by adding its
+  # exact name as it appears in the feed's `agency` field (agency_match is a
+  # case-insensitive substring match). Mostly construction/public-works, so
+  # low IT yield is expected — kept wired up in case that changes.
+  rtvision:
+    enabled: true
+    name: "RTVision Connex"
+    agencies:
+      - { agency_match: "City of Rochester, MN", agency: "City of Rochester, MN", state: MN }
+      - { agency_match: "Rice County", agency: "Rice County, MN", state: MN }
+      - { agency_match: "Olmsted County", agency: "Olmsted County, MN", state: MN }
+      - { agency_match: "Hennepin County", agency: "Hennepin County, MN", state: MN }
+      - { agency_match: "St. Louis County, MN", agency: "St. Louis County, MN", state: MN }
+
+  # --- CivicPlus "Bids.aspx" municipal sites ------------------------------------
+  # CivicPlus is a CMS used by many US cities/counties; its stock Bids module
+  # is server-rendered, so ONE generic parser serves every site on it. Add an
+  # agency by adding the URL of its bids page (usually <site>/bids.aspx —
+  # use the LIST page, not a ?bidID=... link to a single bid). Spot-check a
+  # new site once: if it doesn't use this module the source just returns
+  # nothing for it rather than erroring.
+  civicplus_bids:
+    enabled: true
+    name: "CivicPlus Bids"
+    agencies:
+      - { url: "https://www.buffalony.gov/bids.aspx", agency: "City of Buffalo, NY", state: NY }
+      - { url: "https://www.yonkersny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open", agency: "City of Yonkers, NY", state: NY }
+      - { url: "https://www.newrochelleny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open", agency: "City of New Rochelle, NY", state: NY }
+      - { url: "https://www.washingtoncountymn.gov/bids.aspx", agency: "Washington County, MN", state: MN }
+      - { url: "https://www.scottcountymn.gov/bids.aspx", agency: "Scott County, MN", state: MN }
+      - { url: "https://www.co.sherburne.mn.us/bids.aspx", agency: "Sherburne County, MN", state: MN }
+      - { url: "https://www.springfieldmo.gov/Bids.aspx", agency: "City of Springfield, MO", state: MO }
+      - { url: "https://www.jeffcomo.gov/bids.aspx", agency: "City of Jefferson, MO", state: MO }
+      - { url: "https://colecounty.org/Bids.aspx", agency: "Cole County, MO", state: MO }
+
+  # --- Schenectady County NY (one-off) -------------------------------------------
+  # Drupal Views listing, server-rendered. Not generic — its field classes are
+  # configured per site, so this adapter serves this county only.
+  schenectady_county:
+    enabled: true
+    name: "Schenectady County, NY"
+    state: NY
+    url: "https://www.schenectadycountyny.gov/current-bids"
 
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement
@@ -567,6 +730,16 @@ filtering:
     - renovation
     - rehabilitate
     - rehab
+    # Job Order Contracts (JOC) are open-ended construction/trade work
+    # agreements — always physical work, never IT (e.g. LACDA26-043).
+    # Deliberately NOT listing "alteration" here: OpenGov's standard legal
+    # boilerplate says "modification or alteration of the documents contained
+    # in this solicitation", so it appears on essentially every OpenGov
+    # listing and would drop genuine IT work (verified: it dropped a
+    # "Website Redesign and Hosting Services" test item).
+    - job order contract
+    - remodeling
+    - refurbishment
     - roof
     - roofing
     - facade
@@ -624,6 +797,24 @@ filtering:
     - it services
     - web application
     - custom software
+
+  # These include_keywords are too generic to trust on their own — each one
+  # has a common non-IT meaning ("system of care" in social services, "hard
+  # hat application", "recreational programming", "leadership development",
+  # "wastewater systems"). An item only gets INCLUDED on one of these if it
+  # ALSO matches a different, more specific include_keyword (or an IT code) —
+  # matching only on these, however many times, is not enough by itself.
+  ambiguous_keywords:
+    - system
+    - systems
+    - development
+    - application
+    - programming
+    - platform
+    - integration
+    - modernization
+    - automation
+    - computer
 
 
 # -----------------------------------------------------------------------------

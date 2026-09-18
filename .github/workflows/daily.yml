@@ -8,8 +8,12 @@ name: Daily IT Opportunity Run
 
 on:
   schedule:
-    # 12:00 UTC daily (~7-8am US Eastern). Change the cron to retime it.
+    # Twice daily (12:00 and 00:00 UTC). Some agencies post IT work with a
+    # 7-day bid window, where a once-a-day run can burn up to a full day —
+    # ~14% of the whole window — before the team ever sees it. Two runs halve
+    # that worst case. Change these crons to retime it.
     - cron: "0 12 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:        # lets you click "Run workflow" any time
 
 # The job commits opportunities.json + history.json back to the repo.
@@ -36,6 +40,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Install Playwright browser (Bids&Tenders source)
+        run: playwright install --with-deps chromium
 
       - name: Run IT Opportunity Finder
         env:

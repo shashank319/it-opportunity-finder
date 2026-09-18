@@ -103,7 +103,12 @@ class SamGovSource(Source):
         title = clean_text(rec.get("title"))
         if not title:
             return None
-        notice_id = rec.get("noticeId") or rec.get("solicitationNumber") or title
+        # Prefer solicitationNumber over noticeId: SAM issues a BRAND-NEW
+        # noticeId for every amendment of the same solicitation, so keying on
+        # it made one bid re-appear as "new" on every amendment — sometimes 7+
+        # times over its life, each time with less of the window left.
+        # solicitationNumber stays constant across amendments.
+        notice_id = rec.get("solicitationNumber") or rec.get("noticeId") or title
         set_aside = rec.get("typeOfSetAsideDescription") or rec.get("typeOfSetAside") or ""
         return Opportunity(
             id=f"samgov:{notice_id}",

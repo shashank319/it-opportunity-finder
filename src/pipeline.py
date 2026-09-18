@@ -85,6 +85,9 @@ class Filters:
         # Codes that count as IT (NAICS / UNSPSC prefixes / NIGP). Matched as
         # substrings so "43xxxxxx" style prefixes work if you list "43".
         self.include_codes = [str(c).lower() for c in f.get("include_codes", [])]
+        # Keywords too generic to trust alone (see config.yaml comment) — need
+        # a second, more specific signal before they count toward inclusion.
+        self.ambiguous_keywords = {str(kw).lower() for kw in f.get("ambiguous_keywords", [])}
 
         # "Active only" date filter (see is_active()).
         self.drop_expired = bool(f.get("drop_expired", True))
@@ -106,22 +109,51 @@ def _text_blob(opp: Opportunity) -> str:
 
 
 def _codes_blob(opp: Opportunity) -> str:
-    return " ".join([opp.naics, opp.psc, opp.set_aside]).lower()
+    # naics/psc only — NOT set_aside. Some sources (e.g. OpenGov) stuff an
+    # arbitrary internal reference/financial id into set_aside (it's not a
+    # real classification code there), and substring-matching include_codes
+    # like "43"/"208" against a random id number causes false code hits on
+    # completely non-IT items. naics/psc are the fields sources genuinely use
+    # to carry real NAICS/PSC/NIGP/UNSPSC codes.
+    return " ".join([opp.naics, opp.psc]).lower()
 
 
 def keep_and_score(opp: Opportunity, filters: Filters) -> tuple[bool, int, list]:
     """Decide whether to KEEP an opportunity and compute its IT score.
 
     Returns (keep, score, matched_keywords).
+
+    A keyword only counts as a real "include" signal if it's in the TITLE, or
+    it's one of the unambiguous strong_software_keywords found anywhere.
+    Why: several sources (e.g. OpenGov) repeat the same boilerplate legal
+    paragraph in every listing's description ("...is requesting competitive
+    bids from qualified vendors...") which happens to contain generic words
+    like "system"/"portal"/"development". Matching those ANYWHERE let totally
+    unrelated postings (hard hats, custodial services, water line repairs) get
+    included just because the template text they share contains a common
+    word. Requiring a title hit (or a genuinely unambiguous term) keeps recall
+    high for real IT work while no longer matching on shared boilerplate noise.
     """
+    title = opp.title.lower()
     text = _text_blob(opp)
     codes = _codes_blob(opp)
 
-    matched = [kw for kw, rx in filters.include_keywords if rx.search(text)]
+    strong_kw = {kw for kw, _ in filters.strong_terms}
+    matched = []
+    for kw, rx in filters.include_keywords:
+        if rx.search(title):
+            matched.append(kw)
+        elif kw in strong_kw and rx.search(text):
+            matched.append(kw)
+
     code_hit = any(code and code in codes for code in filters.include_codes)
 
-    # INCLUDE if it matches an IT keyword OR an IT code.
-    included = bool(matched) or code_hit
+    # INCLUDE if it matches a non-ambiguous IT keyword OR an IT code. A match
+    # on an ambiguous_keywords term alone ("System of Care Services", "Design-
+    # Build Entity Prequalification Application", "Recreational Programming")
+    # isn't enough by itself — it needs a second, more specific signal too.
+    confident_matches = [kw for kw in matched if kw not in filters.ambiguous_keywords]
+    included = bool(confident_matches) or code_hit
     if not included:
         return False, 0, []
 
@@ -207,6 +239,20 @@ def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[l
 
         kept.append(opp)
 
-    # Sort: highest IT score first, then soonest deadline (blank deadlines last).
-    kept.sort(key=lambda o: (-o.it_score, o.due_date or "9999-99-99"))
+    # Sort: highest IT score first, then MOST RECENTLY POSTED first.
+    #
+    # The tie-break used to be soonest-deadline-first, which sounded sensible
+    # but had a bad side effect: most items share a score, so the deadline
+    # tie-break effectively became the primary sort, and every score tier
+    # opened with whatever was closest to expiring. The dashboard's default
+    # "score" sort is a stable sort, so that leaked straight through and made
+    # the whole board look like nothing but about-to-close work — even though
+    # the median opportunity is first seen with ~27 days left.
+    #
+    # Newest-first surfaces what the run actually just discovered. Urgency is
+    # still visible and filterable on the dashboard (the "Xd" badge and the
+    # "closing soon" checkbox), and the deadline sort is still one click away.
+    # Two stable passes = score DESC, then posted_date DESC within each tier.
+    kept.sort(key=lambda o: o.posted_date or "", reverse=True)
+    kept.sort(key=lambda o: o.it_score, reverse=True)
     return kept, history
