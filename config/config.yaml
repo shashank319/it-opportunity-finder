@@ -259,16 +259,17 @@ sources:
       field_map: { id: bid_project_number, title: project_name, description: procurement_type, agency: requesting_department, posted_date: date_due, due_date: date_due, url: bid_booklet_pdf }
       source_url: "https://www.cincinnati-oh.gov/purchasing/bid-opportunities/"
 
-    - name: "Illinois — Capital Dev Board Future Solicitations"
-      enabled: true
-      domain: illinois-edp.data.socrata.com
-      dataset_id: 6rb8-ntpm
-      state: IL
-      where: ""
-      order: "estimated_bid_date DESC"
-      limit: 500
-      field_map: { id: project_number, title: description, description: approximate_cost, agency: location_name, posted_date: estimated_bid_date, due_date: estimated_bid_date }
-      source_url: "https://cdb.illinois.gov/business/architects-engineers.html"
+    # Illinois - https://cdb.illinois.gov/ Construction-only procurement portal (state facilities, HVAC, roofing, fire alarms, water systems, etc.). No IT-related opportunities; exclude from the IT Opportunity Finder.
+    # - name: "Illinois — Capital Dev Board Future Solicitations"
+    #   enabled: true
+    #   domain: illinois-edp.data.socrata.com
+    #   dataset_id: 6rb8-ntpm
+    #   state: IL
+    #   where: ""
+    #   order: "estimated_bid_date DESC"
+    #   limit: 500
+    #   field_map: { id: project_number, title: description, description: approximate_cost, agency: location_name, posted_date: estimated_bid_date, due_date: estimated_bid_date }
+    #   source_url: "https://cdb.illinois.gov/business/architects-engineers.html"
 
     # ---- SOUTHEAST (contract-notice feeds — thin Socrata coverage here, but
     #      each row carries the RFP/IFB solicitation reference) ----
@@ -354,6 +355,12 @@ sources:
       - { portal_id: 45619, agency: "City of Inglewood, CA", state: CA }
       - { portal_id: 15810, agency: "City of Long Beach, CA", state: CA }
       - { portal_id: 16151, agency: "Santa Clara Valley Water District, CA", state: CA }
+      - { portal_id: 22078, agency: "City of Newport Beach, CA", state: CA }
+      - { portal_id: 39475, agency: "Riverside County, CA", state: CA }
+      - { portal_id: 29959, agency: "City of Santa Barbara, CA", state: CA }
+      - { portal_id: 15927, agency: "City of Irvine, CA", state: CA }
+      # NOTE: "City of Long Beach, CA" (portal_id 15810) was already configured above —
+      # skipped as a duplicate when this batch was added.
 
   # --- OpenGov Procurement portals ------------------------------------------
   # Public "embed" page per agency (no login). Add an agency by adding its slug
@@ -371,6 +378,12 @@ sources:
       - { slug: acgov, agency: "County of Alameda, CA", state: CA }
       - { slug: smcgov, agency: "County of San Mateo, CA", state: CA }
       - { slug: lacda, agency: "LA County Development Authority, CA", state: CA }
+      - { slug: naperville, agency: "City of Naperville, IL", state: IL }
+      - { slug: cityofnapa, agency: "City of Napa, CA", state: CA }
+      - { slug: countyofinyoca, agency: "County of Inyo, CA", state: CA }
+      - { slug: santacruzcounty, agency: "County of Santa Cruz, CA", state: CA }
+      - { slug: anaheim, agency: "City of Anaheim, CA", state: CA }
+      - { slug: cosb, agency: "County of San Benito, CA", state: CA }
 
   # --- ArcGIS feature layers -------------------------------------------------
   # Some governments publish open solicitations as an ArcGIS layer with a public
@@ -384,6 +397,52 @@ sources:
       field_map: { id: SOLICITATIONNUMBER, title: SOLICITATIONTITLE, description: SYNOPSIS, agency: AGENCY_NAME, due_date: CLOSEDATE }
       date_fields: ["due_date"]
       source_url: "https://ocp.dc.gov/service/solicitations"
+
+  # --- BidNet Direct agency portals -------------------------------------------
+  # Public, server-rendered "Bid Opportunities and RFPs" page per agency (no
+  # login). Add an agency by adding its path (the part after bidnetdirect.com/
+  # in its portal URL, e.g. bidnetdirect.com/california/cityofsantaclara ->
+  # path "california/cityofsantaclara").
+  bidnetdirect:
+    enabled: true
+    name: "BidNet Direct"
+    agencies:
+      - { path: "california/cityofsantaclara", agency: "City of Santa Clara, CA", state: CA }
+      - { path: "california/contracostacounty", agency: "Contra Costa County, CA", state: CA }
+
+  # --- Biddingo agency portals -------------------------------------------------
+  # Public, unauthenticated REST API per agency (no login). Add an agency by
+  # adding its slug (the part after biddingo.com/ in its portal URL, e.g.
+  # biddingo.com/santaclaracounty -> slug "santaclaracounty").
+  biddingo:
+    enabled: true
+    name: "Biddingo"
+    agencies:
+      - { slug: santaclaracounty, agency: "County of Santa Clara, CA", state: CA }
+      - { slug: sanjose, agency: "City of San Jose, CA", state: CA }
+
+  # --- Bonfire agency portals ---------------------------------------------------
+  # Public, unauthenticated JSON endpoint per agency (no login). Add an agency
+  # by adding its tenant subdomain (e.g. ventura.bonfirehub.com -> tenant
+  # "ventura").
+  bonfire:
+    enabled: true
+    name: "Bonfire"
+    agencies:
+      - { tenant: ventura, agency: "County of Ventura, CA", state: CA }
+
+  # --- Bids&Tenders agency portals ----------------------------------------------
+  # Public tenders page per agency (no login), read via a headless browser
+  # (Playwright) since its listing API is CSRF-session-protected. Add an
+  # agency by adding its tenant subdomain (e.g. placer.bidsandtenders.net ->
+  # tenant "placer"). Needs `pip install playwright && playwright install
+  # chromium` (see README) — if that's not set up, this source logs a clear
+  # error and is skipped; every other source keeps running.
+  bidsandtenders:
+    enabled: true
+    name: "Bids&Tenders"
+    agencies:
+      - { tenant: placer, agency: "Placer County, CA", state: CA }
 
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement
@@ -624,6 +683,20 @@ filtering:
     - it services
     - web application
     - custom software
+
+  # These include_keywords are too generic to trust on their own — each one
+  # has a common non-IT meaning ("system of care" in social services, "hard
+  # hat application", "recreational programming", "leadership development",
+  # "wastewater systems"). An item only gets INCLUDED on one of these if it
+  # ALSO matches a different, more specific include_keyword (or an IT code) —
+  # matching only on these, however many times, is not enough by itself.
+  ambiguous_keywords:
+    - system
+    - systems
+    - development
+    - application
+    - programming
+    - platform
 
 
 # -----------------------------------------------------------------------------

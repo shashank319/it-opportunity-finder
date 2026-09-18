@@ -17,6 +17,10 @@ from .samgov import SamGovSource
 from .planetbids import PlanetBidsSource
 from .opengov import OpenGovSource
 from .arcgis import ArcGisSource
+from .bidnetdirect import BidNetDirectSource
+from .biddingo import BiddingoSource
+from .bonfire import BonfireSource
+from .bidsandtenders import BidsAndTendersSource
 
 
 def build_sources(config: dict) -> list:
@@ -53,5 +57,25 @@ def build_sources(config: dict) -> list:
     for layer in sources_cfg.get("arcgis_layers", []):
         if layer.get("enabled", True):
             sources.append(ArcGisSource(layer))
+
+    # --- BidNet Direct agency portals (one adapter, many agencies) ---
+    bidnetdirect_cfg = sources_cfg.get("bidnetdirect", {})
+    if bidnetdirect_cfg.get("enabled", False):
+        sources.append(BidNetDirectSource(bidnetdirect_cfg))
+
+    # --- Biddingo agency portals (one adapter, many agencies) ---
+    biddingo_cfg = sources_cfg.get("biddingo", {})
+    if biddingo_cfg.get("enabled", False):
+        sources.append(BiddingoSource(biddingo_cfg))
+
+    # --- Bonfire agency portals (one adapter, many agencies) ---
+    bonfire_cfg = sources_cfg.get("bonfire", {})
+    if bonfire_cfg.get("enabled", False):
+        sources.append(BonfireSource(bonfire_cfg))
+
+    # --- Bids&Tenders agency portals (needs Playwright; one adapter, many agencies) ---
+    bidsandtenders_cfg = sources_cfg.get("bidsandtenders", {})
+    if bidsandtenders_cfg.get("enabled", False):
+        sources.append(BidsAndTendersSource(bidsandtenders_cfg))
 
     return sources

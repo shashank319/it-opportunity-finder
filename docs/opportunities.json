@@ -1,4 +1,13 @@
 {
+  "generated_at": "2026-09-17T03:07:21.682992+00:00",
+  "counts": {
+    "total": 43,
+    "new": 0
+  },
+  "health": {
+    "ok": 19,
+    "total": 23,
+  "generated_at": "2026-09-16T15:41:45.592890+00:00",
   "generated_at": "2026-09-17T15:48:53.345326+00:00",
   "counts": {
     "total": 210,
@@ -17,6 +26,8 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
+        "count": 374,
+        "count": 368,
         "count": 381,
         "error": ""
       },
@@ -60,6 +71,7 @@
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
         "count": 445,
+        "count": 500,
         "error": ""
       },
       {
@@ -99,27 +111,23 @@
         "error": ""
       },
       {
-        "source": "Illinois — Capital Dev Board Future Solicitations",
-        "ok": true,
-        "count": 48,
-        "error": ""
-      },
-      {
         "source": "SAM.gov (Federal)",
-        "ok": true,
-        "count": 47,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "RuntimeError: SAM_API_KEY secret is not set. Get a free key from your SAM.gov account and add it as a GitHub Actions secret (see README)."
       },
       {
         "source": "PlanetBids",
-        "ok": true,
-        "count": 46,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://api-external.prod.planetbids.com/papi/bids?bid_type_id=0&cid=15300&dept_id=0&due_date_from=&due_date_to=&keyword=&page=1&per_page=30&sort_by=&sort_order=-1&stage_id=0"
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 157,
+        "count": 177,
+        "count": 46,
+        "count": 48,
         "error": ""
       },
       {
@@ -127,11 +135,49 @@
         "ok": true,
         "count": 43,
         "error": ""
+      },
+      {
+        "source": "BidNet Direct",
+        "ok": true,
+        "count": 20,
+        "count": 35,
+        "count": 47,
+        "error": ""
+      },
+      {
+        "source": "Biddingo",
+        "ok": true,
+        "count": 22,
+        "count": 47,
+        "count": 46,
+        "error": ""
+      },
+      {
+        "source": "Bonfire",
+        "ok": true,
+        "count": 7,
+        "error": ""
+      },
+      {
+        "source": "Bids&Tenders",
+        "ok": true,
+        "count": 7,
+        "count": 37,
+        "count": 43,
+        "error": ""
       }
     ]
   },
   "product_themes": [
     {
+      "name": "Records & Document Management (ECM)",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
       "name": "Permitting & Licensing",
       "opportunity_count": 4,
       "agency_count": 4,
@@ -262,23 +308,14 @@
     },
     {
       "name": "Website / Portal / Digital Services",
-      "opportunity_count": 3,
-      "agency_count": 3,
+      "opportunity_count": 2,
+      "agency_count": 2,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 10,
+      "demand_score": 7,
       "examples": [
-        {
-          "title": "Website Redesign",
-          "agency": "Inland Empire Utilities Agency, CA",
-          "state": "CA",
-          "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/144950",
-          "due_date": "2026-09-28",
-          "it_score": 56,
-          "source_name": "PlanetBids — Inland Empire Utilities Agency, CA"
-        },
         {
           "title": "Website and Intranet Support and Maintenance Services",
           "agency": "Information Technology Agency",
@@ -404,30 +441,6 @@
   ],
   "opportunities": [
     {
-      "id": "opengov:acgov:299786",
-      "source_name": "OpenGov — County of Alameda, CA",
-      "title": "RFP 902737 EVACUATION PLANNING SOFTWARE SOLUTION",
-      "description": "It is the intent of these specifications, terms, and conditions to describe the evacuation planning solution being requested by the Alameda County Sheriff's Office (ACSO) for the Office of Emergency Services (OES). Contractor must provide a secure, cloud-based evacuation planning and modeling software solution capable of supporting evacuation analysis, scenario planning, operational decision-making, and real-time evacuation management. The proposed solution must support Alameda County OES and all Operational Area partners, including fourteen (14) incorporated cities, special districts, County departments, and critical infrastructure partners. The platform must be scalable and configurable to allow jurisdiction-specific access while maintaining Operational Area-level visibility, coordination capability, and governance. The Contractor must provide full implementation services, including configuration, data integration, training, technical support, and ongoing maintenance. The County intends to award a three (3)-year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
-      "agency": "County of Alameda, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/acgov/projects/299786",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-02",
-      "due_date": "2026-10-13",
-      "it_score": 100,
-      "is_new": false,
-      "first_seen": "2026-09-04",
-      "matched_keywords": [
-        "software",
-        "cloud",
-        "integration",
-        "data",
-        "platform"
-      ]
-    },
-    {
       "id": "opengov:pasadena:279920",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "GPS Asset Tracking Solution",
@@ -440,12 +453,35 @@
       "set_aside": "2026-RFP-0394",
       "posted_date": "2026-06-30",
       "due_date": "2026-10-05",
-      "it_score": 99,
+      "it_score": 93,
       "is_new": false,
       "first_seen": "2026-09-03",
       "matched_keywords": [
         "software",
         "cloud",
+        "saas"
+      ]
+    },
+    {
+      "id": "opengov:acgov:299786",
+      "source_name": "OpenGov — County of Alameda, CA",
+      "title": "RFP 902737 EVACUATION PLANNING SOFTWARE SOLUTION",
+      "description": "It is the intent of these specifications, terms, and conditions to describe the evacuation planning solution being requested by the Alameda County Sheriff's Office (ACSO) for the Office of Emergency Services (OES). Contractor must provide a secure, cloud-based evacuation planning and modeling software solution capable of supporting evacuation analysis, scenario planning, operational decision-making, and real-time evacuation management. The proposed solution must support Alameda County OES and all Operational Area partners, including fourteen (14) incorporated cities, special districts, County departments, and critical infrastructure partners. The platform must be scalable and configurable to allow jurisdiction-specific access while maintaining Operational Area-level visibility, coordination capability, and governance. The Contractor must provide full implementation services, including configuration, data integration, training, technical support, and ongoing maintenance. The County intends to award a three (3)-year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
+      "agency": "County of Alameda, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/acgov/projects/299786",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-02",
+      "due_date": "2026-10-13",
+      "it_score": 93,
+      "is_new": false,
+      "first_seen": "2026-09-04",
+      "matched_keywords": [
+        "software",
+        "cloud",
+        "integration"
         "saas",
         "data"
       ]
@@ -536,6 +572,27 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012080",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA HRD | TM3 – Vervoe Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "{'url': 'https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012080&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-18",
+      "it_score": 57,
+      "is_new": false,
+      "first_seen": "2026-09-14",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "opengov:smcgov:285889",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Message Switch System Replacement",
@@ -548,11 +605,30 @@
       "set_aside": "2027-RFP-00007",
       "posted_date": "2026-07-21",
       "due_date": "2026-09-22",
-      "it_score": 75,
+      "it_score": 57,
       "is_new": false,
       "first_seen": "2026-08-21",
       "matched_keywords": [
         "system",
+        "integration"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:295002",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Formlabs Form 4L Complete Package 3D Printer System",
+      "description": "The City of Pasadena Water and Power Department (\"PWP\") is seeking bids for the purchase and delivery of one (1) Formlabs Form 4L Complete Package 3D Printer System, 120V, including the equipment, accessories, software, manufacturer service plan, and manufacturer-provided training specified herein. The intent of this solicitation is to acquire a complete, new, current-production Formlabs Form 4L system suitable for immediate use following City installation and activation.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/295002",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-IFB-MS-0503",
+      "posted_date": "2026-08-19",
+      "due_date": "2026-09-24",
+      "it_score": 57,
+      "is_new": false,
+      "first_seen": "2026-09-04",
         "systems",
         "integration",
         "platform",
@@ -696,29 +772,75 @@
       "is_new": false,
       "first_seen": "2026-09-14",
       "matched_keywords": [
-        "cloud"
+        "software",
+        "system"
       ]
     },
     {
+      "id": "opengov:smcgov:303757",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "CHIP and CHA implementation, Governance, Community Engagement, and Data Integration Support",
+      "description": "San Mateo County Health, Public Health, Policy & Planning (County) seeks proposals from qualified consulting firms or organizations to provide specialized expertise in a time-limited capacity to provide advisory, facilitation, and capacity-building services supporting the County’s Community Health Improvement Plan (CHIP) and Community Health Assessment (CHA). The selected contractor will provide independent subject-matter expertise, structured facilitation, planning tools, technical consultation, coaching, and implementation-readiness recommendations. The work will help the County establish an effective CHIP/CHA governance structure; refine engagement approaches and implementation protocols; strengthen coordination with trusted-messenger community-based organizations (“CBOs”) and the CHIP backbone organization; and prepare the County to conduct comprehensive, equity-centered CHA/CHIP for future cycles. This procurement is for defined professional consulting deliverables. It is not intended to provide ongoing operational staffing, fill a County position, or delegate the County’s continuing public-health planning, program-management, data-governance, community-engagement, or policy-making responsibilities. The County will retain responsibility for the operational delivery of the CHA, including County decisions; community-engagement fieldwork; participant recruitment; survey administration; incentive administration; identifiable-data stewardship; language access services; final analysis and validation; and preparation, approval, and issuance of the final CHA/CHIP reports. Contract Structure Maximum contract amount: $85,000, not to exceed. Recommended contract term: 9–12 months, beginning after full execution of the County agreement. One contractor award is recommended. Compensation should be deliverable-based; payment is contingent on County review and acceptance of work products in accordance with the deliverable requirements and acceptance process described in this solicitation. No work may begin before the agreement is fully executed and the contractor receives authorization to proceed.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/303757",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP - Informal-00108",
+      "posted_date": "2026-09-15",
+      "due_date": "2026-10-02",
+      "it_score": 57,
+      "is_new": false,
+      "first_seen": "2026-09-16",
+      "matched_keywords": [
+        "integration",
+        "data"
+      "id": "opengov:ocgov:292100",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "DESIGN-BUILD FOR PARKING ACCESS REVENUE CONTROL SYSTEM REPLACEMENT",
+      "description": "The County of Orange, Department Name (hereinafter referred to as “County”), is soliciting proposals from qualified firms (hereinafter referred to as “Respondents”) for Description of Services . The required work includes but is not limited to: replacing aging equipment, including gate arms, kiosks, and updated license plate reader technology; installing Cloud Based System with Business Intelligence and Dashboard; updating signage; removing 2-hour parking signage; and updating electric vehicle parking assignments. Respondents must meet the minimum qualifications and requirements as set forth within the Request for Proposal (“RFP”) and be capable of providing services identified in the Scope of Work. The proposed Schedule of Activities is subject to change. Any changes to the schedule for the RFP process will be issued to all Respondents via addenda on the County's eProcurement Portal. This is a fully electronic Request for Proposals (RFP). Respondents must submit their proposals online via the County’s online bidding system. Only electronic proposals will be accepted. Facsimile and e-mail proposals will NOT be allowed. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation. Verbal clarifications or responses will not be considered binding.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/292100",
+      "naics": "",
+      "psc": "",
+      "set_aside": "280-3041306-GK (Step Two of a Two-Step Procurement)",
+      "posted_date": "2026-08-10",
+      "due_date": "2026-09-22",
+      "it_score": 69,
+      "is_new": false,
+      "first_seen": "2026-08-20",
+      "matched_keywords": [
+        "system",
+        "cloud",
+        "portal",
+        "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231906",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFP2241293798 ENTERPRISE DOCUMENT MANAGEMENT SYSTEM",
+      "description": "None",
+      "agency": "LAUSD",
       "id": "opengov:pasadena:263470",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
       "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
       "agency": "City of Pasadena",
       "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lHzK9IAK'}",
       "naics": "",
       "psc": "",
-      "set_aside": "2026-RFP-0272",
-      "posted_date": "2026-05-06",
-      "due_date": "2026-09-29",
-      "it_score": 63,
+      "set_aside": "",
+      "posted_date": "2026-09-09",
+      "due_date": "2026-10-08",
+      "it_score": 57,
       "is_new": false,
-      "first_seen": "2026-09-02",
+      "first_seen": "2026-09-10",
       "matched_keywords": [
-        "software",
         "system",
-        "data"
+        "document management"
       ]
     },
     {
@@ -734,12 +856,11 @@
       "set_aside": "2026-RFP-00546",
       "posted_date": "2026-06-02",
       "due_date": "2026-10-14",
-      "it_score": 63,
+      "it_score": 57,
       "is_new": false,
       "first_seen": "2026-09-10",
       "matched_keywords": [
         "system",
-        "systems",
         "integration"
       ]
     },
@@ -3793,16 +3914,18 @@
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-10-20",
-      "it_score": 36,
+      "posted_date": "",
+      "due_date": "",
+      "it_score": 57,
       "is_new": false,
       "first_seen": "2026-07-14",
       "matched_keywords": [
-        "system"
+        "software",
+        "development"
       ]
     },
     {
+      "id": "hf3r-utnq:231871",
       "id": "opengov:ocgov:303602",
       "source_name": "OpenGov — County of Orange, CA",
       "title": "Broker-Dealer Application (BDA) 2026",
@@ -3825,30 +3948,31 @@
     {
       "id": "hf3r-utnq:230928",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "2026CLS003 - Cannabis Licensing System RFP",
-      "description": "Personal Services",
-      "agency": "Cannabis Regulation",
+      "title": "139947 99 HPR Software Subscription",
+      "description": "Commodity",
+      "agency": "Water & Power",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000i5dCHIAY'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000l3wagIAA'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-08-27",
-      "due_date": "2026-10-29",
-      "it_score": 36,
+      "posted_date": "2026-09-04",
+      "due_date": "2026-09-17",
+      "it_score": 51,
       "is_new": false,
-      "first_seen": "2026-08-27",
+      "first_seen": "2026-09-05",
       "matched_keywords": [
-        "system"
+        "software"
       ]
     },
     {
-      "id": "opengov:saccounty:244573",
-      "source_name": "OpenGov — County of Sacramento, CA",
-      "title": "Main Jail – Hall of Justice – Refurbish Existing Pipe Chase Leak Detection System",
-      "description": "The Project includes, without limitation, furnishing all necessary labor, materials, equipment and other incidental and appurtenant Work necessary to satisfactorily complete the Project, as more specifically described in specifications. This Work will be performed in strict conformance with the specifications, permits from regulatory agencies with jurisdiction, and applicable regulations. The quantity of Work to be performed and materials to be furnished are approximations only, being given as a basis for the comparison of Bids. Actual quantities of Work to be performed may vary at the discretion of the County.",
-      "agency": "County of Sacramento",
+      "id": "eshn-8t3a:SFGOV~0000012079",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 – SANS Software Licenses Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
       "state": "CA",
+      "url": "{'url': 'https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012079&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV'}",
       "url": "https://procurement.opengov.com/portal/saccounty/projects/244573",
       "naics": "",
       "psc": "",
@@ -3873,12 +3997,23 @@
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-12-08",
-      "due_date": "2026-12-08",
-      "it_score": 36,
+      "posted_date": "2026-09-11",
+      "due_date": "2026-09-18",
+      "it_score": 51,
       "is_new": false,
-      "first_seen": "2026-07-14",
+      "first_seen": "2026-09-14",
       "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231996",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200173 - 2708010VAtlassian Software Licenses Renewal-BRAND ONLY - Closing: 9/23/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lZtjMIAS'}",
         "system"
       ]
     },
@@ -3893,16 +4028,24 @@
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-12-08",
-      "due_date": "2026-12-08",
-      "it_score": 36,
+      "posted_date": "2026-09-15",
+      "due_date": "2026-09-23",
+      "it_score": 51,
       "is_new": false,
-      "first_seen": "2026-07-14",
+      "first_seen": "2026-09-16",
       "matched_keywords": [
+        "software"
         "systems"
       ]
     },
     {
+      "id": "hf3r-utnq:231914",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200160 - 1091055 - SOFTWARE - RENEWAL - INFOBLOX (BRAND ONLY) - Closing: 9/23/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lKSQ5IAO'}",
       "id": "6rb8-ntpm:040-010-134",
       "source_name": "Illinois — Capital Dev Board Future Solicitations",
       "title": "Replace Fire Alarm System",
@@ -3933,73 +4076,422 @@
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2027-02-23",
-      "due_date": "2027-02-23",
-      "it_score": 36,
+      "posted_date": "2026-09-10",
+      "due_date": "2026-09-23",
+      "it_score": 51,
       "is_new": false,
-      "first_seen": "2026-08-16",
+      "first_seen": "2026-09-11",
       "matched_keywords": [
-        "system"
+        "software"
       ]
     },
     {
-      "id": "hf3r-utnq:223569",
+      "id": "hf3r-utnq:231978",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFI No. LA-RICS 027 - Request for Information for Mobile Radios to be used on the LA-RICS LMR System - Closing: Continuo",
-      "description": "Personal Services",
+      "title": "RFB-IS-27200166 - 27-0228 - SOFTWARE - RENEWAL - WHITE HAT(BRAND ONLY) - Closing: 9/25/2026 12:00 PM",
+      "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000OfMgHIAV'}",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lRBh6IAG'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2025-06-17",
-      "due_date": "2027-06-17",
-      "it_score": 36,
+      "posted_date": "2026-09-12",
+      "due_date": "2026-09-25",
+      "it_score": 51,
       "is_new": false,
-      "first_seen": "2026-07-14",
+      "first_seen": "2026-09-12",
       "matched_keywords": [
-        "system"
+        "software"
       ]
     },
     {
-      "id": "knjg-wn2a:PO-10700-00009330",
+      "id": "opengov:santa-monica-ca:288955",
+      "source_name": "OpenGov — City of Santa Monica, CA",
+      "title": "Waste Management Software - RFI",
+      "description": "The City of Santa Monica (“the City”) invites proposers to respond to a Request for Information (RFI) regarding the procurement of a software and hardware technology solution using emerging technologies to move toward a more efficient, data-driven, and user-friendly model of waste, recycling, and fleet tracking. Please review the details below and the relevant due dates for preparing a written response.",
+      "agency": "City of Santa Monica",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/288955",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-30",
+      "due_date": "2026-09-28",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-08-27",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231405",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "LAUSD | NORMANDIE AVE ES (ALTERNATIVE DESIGN BUILD) - SEISMIC MODERNIZATION PROJECT",
+      "description": "Construction",
+      "agency": "LAUSD",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000ji4KXIAY'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-09-29",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:263470",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
+      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0272",
+      "posted_date": "2026-05-06",
+      "due_date": "2026-09-29",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-02",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231990",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Inspections Routing Software",
+      "description": "Personal Services",
+      "agency": "Housing Authority, City of Los Angeles",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lXsY1IAK'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-14",
+      "due_date": "2026-10-12",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-16",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:300941",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Technology of Participation (ToP)",
+      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 square miles and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. Formed in July 2014, the San Mateo County Sustainability Department strives to improve the sustainability of the County’s operations and the greater community through work that is designed to bring solutions today while solving for tomorrow. The Sustainability Department has programs to help the county both fight and prepare for climate change, ensure clean energy, water, and air, and conserve resources for future generations through waste reduction. The Sustainability Department has approximately 40 staff members and provides services in the following areas: Communications, Climate Resilience, Climate Protection, Waste Reduction, and Special Districts with similar but varying community needs. The department is seeking a vendor that will provide meeting facilitation using Technology of Participation as a core aspect of the facilitation. We are also looking to have staff trained with these skills and philosophy.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/300941",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-04",
+      "due_date": "2026-10-17",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-16",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:0522",
       "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "Lease Management & Reporting System",
-      "description": "958-83",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "839-74",
       "agency": "Department of Administrative Services",
       "state": "OR",
       "url": "https://oregonbuys.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2022-06-22",
-      "due_date": "2027-06-22",
-      "it_score": 36,
+      "posted_date": "2020-03-30",
+      "due_date": "2029-03-29",
+      "it_score": 51,
       "is_new": false,
       "first_seen": "2026-07-14",
       "matched_keywords": [
-        "system"
+        "software"
       ]
     },
     {
-      "id": "hf3r-utnq:226282",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFSQ-GPM-2526 - General and Project Management Consulting Services - Capital Development - Closing: Continuous",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000UaRBiIAN'}",
+      "id": "knjg-wn2a:0532",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "725-60",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2025-10-29",
-      "due_date": "2027-10-29",
+      "posted_date": "2020-05-22",
+      "due_date": "2029-05-31",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "arcgis:DCRL-2022-I-0078",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "Quality Assurance Quality Control Program",
+      "description": "The District of Columbia (\u001aDistrict\u001a), Office of Contracting and Procurement on behalf of the Child and Family Services Agency (\u001aCFSA\u001a) issues the Request for Information (RFI) to for interested organizations to provide responses and questions regarding the CFSA plans to procure services of a contractor to design and implement a quality assurance and quality control program for its implementation of a Comprehensive Child Welfare Information System (CCWIS) using Microsoft Dynamics Customer Relation Management System (CRM).",
+      "agency": "Child and Family Services Agency",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-07-16",
+      "matched_keywords": [
+        "crm"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231664",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Website and Intranet Support and Maintenance Services",
+      "description": "Personal Services",
+      "agency": "Information Technology Agency",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000kX0OXIA0'}",
+      "id": "knjg-wn2a:1662",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Wireless Voice, Data & Accessories",
+      "description": "725-30",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-08-28",
+      "due_date": "2026-09-19",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-08-29",
+      "matched_keywords": [
+        "website",
+        "information technology"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:217365",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "HS-1129 - Equipment Maintenance and Repair (EMARS) - Automated Pharmacy Workflow System (RFR) - Closing: Continuous",
+      "description": "Personal Services",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000Dv11dIAB'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2024-09-28",
+      "due_date": "2026-09-28",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "system",
+        "workflow"
+      ]
+    },
+    {
+      "id": "2hnj-zwix:HSS26081-MITA",
+      "source_name": "Delaware — Open Bids (Statewide)",
+      "title": "Medicaid Information Technology Architecture State Self-Assessment & Related Svc",
+      "description": "Medicaid Information Technology Architecture State Self-Assessment & Related Svc",
+      "agency": "HSS",
+      "state": "DE",
+      "url": "{'url': 'https://mmp.delaware.gov/Bids/Details/9231'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-02",
+      "due_date": "2026-09-17",
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-07-14",
       "matched_keywords": [
-        "development"
+        "information technology"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231898",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200145 - SNOWFLAKE DATABASE AND TRAINING (BRAND ONLY) - Closing: 9/22/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lG7fEIAS'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-09",
+      "due_date": "2026-09-22",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-09",
+      "matched_keywords": [
+        "database"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231917",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200162 - 1091153 - NETAPP A400 STORAGE ARRAY DATA ERASURES - Closing: 9/23/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000lKSQ8IAO'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-10",
+      "due_date": "2026-09-23",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-11",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:217293",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "DBH-61B-WEBSITE DESIGN - AS-NEEDED PROFESSIONAL DESIGN SERVICES - Closing: Continuous",
+      "description": "Personal Services",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000DurVHIAZ'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2024-09-28",
+      "due_date": "2026-09-28",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "website"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:PO-10700-00004526",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "1624 - Data Communications Products/Services - Infra. Network Equipment",
+      "description": "204-13, 205-58",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2021-09-09",
+      "due_date": "2026-09-30",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:1605",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Data Communications Products/Services - Infra. Network Equipment",
+      "description": "005-05",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2021-05-30",
+      "due_date": "2026-09-30",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:PO-10700-00004523",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "1607 - Data Communications Products/Services - Infra. Network Equipment",
+      "description": "204-58, 205-13",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2021-08-09",
+      "due_date": "2026-09-30",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231537",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Los Angeles World Airports Salesforce-Based eSourcing Solution (RAMP-LAWA)",
+      "description": "Personal Services",
+      "agency": "Information Technology Agency",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000k98OrIAI'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-10",
+      "due_date": "2026-10-03",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-11",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231831",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "On-Call Professional Information Technology Services",
+      "description": "Personal Services",
+      "agency": "Port of Long Beach",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000kxhHoIAI'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-03",
+      "due_date": "2026-10-06",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-04",
+      "matched_keywords": [
+        "information technology"
       ]
     },
     {
@@ -4020,66 +4512,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "records management"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:230594",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Request for Services: CAPSMA EO-006 - Request for Services for Ethics Commission and Ethics Office Development and Strat",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000gRZ1VIAW'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-06-15",
-      "due_date": "2028-06-15",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:230632",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFS CAPSMA EO-006-ETHICS - Request for Services for Ethics Commission and Ethics Office Development and Strategic Adviso",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000gZhoHIAS'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-06-17",
-      "due_date": "2028-06-17",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "opengov:saccounty:255369",
-      "source_name": "OpenGov — County of Sacramento, CA",
-      "title": "Psychiatry Services at Sacramento County's Youth Detention Facility Open Enrollment",
-      "description": "Sacramento County Department of Health Services (DHS), Behavioral Health Services (BHS), is conducting an Open Enrollment to identify qualified individuals and organizations to provide psychiatric services for youth and young adults detained within Sacramento County’s Youth Detention Facility (YDF). The purpose of this Open Enrollment is to identify and contract with qualified psychiatrists to support County obligations under Title 15 of the California Code of Regulations, commencing with Article 8, Section 1400, Responsibility for Health Care Services (see Attachment A, Title 15 Minimum Standards for Juvenile Facilities). Psychiatry services under this Open Enrollment may include psychiatric assessment, diagnosis, and treatment; prescribing of psychotropic medications; medication evaluation, management, and monitoring; and consultation with YDF health and program staff. Services must be delivered safely, in a clinically appropriate manner, and in coordination with YDF multidisciplinary staff. Dispensing and administration of medications remains the responsibility of YDF health staff. Qualified providers are licensed physicians (M.D. or D.O.) who hold a current, active California medical license with board certification in psychiatry, and who are authorized to practice within the full scope of psychiatric medicine, including diagnosis and prescribing. Providers must be Board-Certified Child and Adolescent Psychiatrist, or board-eligible in child and adolescent psychiatry and actively pursuing board certification resulting in board-certification within 1 year of eligibility. Providers may contract individually or through a qualifying medical group or organization. All providers must adhere to applicable California laws, regulations, and professional standards of care. Contractors are required to comply with all regulatory requirements, facility policies and procedures, and expectations for coordination with YDF leadership and oversight entities. Applicants must meet all stated Minimum Qualifications (MQs) to be eligible for contract consideration with DHS. Contracts may be executed on a rolling basis based on County need and must be fully executed before the delivery of services or submission of invoices. Approval through this Open Enrollment does not guarantee referral volume or funding. County funding is limited to reimbursement for approved direct service costs only. This Open Enrollment will remain posted through July 1, 2028; however, the County reserves the right to close the posting earlier if the program capacity is reached.",
-      "agency": "County of Sacramento",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/saccounty/projects/255369",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-DOI-0035",
-      "posted_date": "2026-04-10",
-      "due_date": "2028-07-02",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-18",
-      "matched_keywords": [
-        "license"
       ]
     },
     {
@@ -4123,46 +4555,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:40831",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFQ - Procurement of Cyber Assets/Services Supporting the Bulk Electric System",
-      "description": "Personal Services",
-      "agency": "Water & Power",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=0066g00003WJMKpAAP'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2020-10-01",
-      "due_date": "2030-01-02",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "dfcn-ivuc:2026153",
-      "source_name": "Mesa AZ — Purchasing Solicitations",
-      "title": "Property Development - Southeast Corner of Center/Main - Site 51-55",
-      "description": "RFQu",
-      "agency": "RFQu",
-      "state": "AZ",
-      "url": "https://www.mesaaz.gov/business/purchasing",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-14",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
       "id": "dfcn-ivuc:2026144",
       "source_name": "Mesa AZ — Purchasing Solicitations",
       "title": "SilverBlaze Customer Portal Upgrade and Ongoing Support",
@@ -4180,226 +4572,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "portal"
-      ]
-    },
-    {
-      "id": "e5pk-us93:Hardware Maintenance/Support Services",
-      "source_name": "Baton Rouge LA — Upcoming Procurement",
-      "title": "Hardware Maintenance/Support Services",
-      "description": "A14-0176 COMMUNCATIONS SYSTEMS",
-      "agency": "PURCHASING",
-      "state": "LA",
-      "url": "https://www.brla.gov/298/Purchasing-Division",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "systems"
-      ]
-    },
-    {
-      "id": "e5pk-us93:Materials and Supplies",
-      "source_name": "Baton Rouge LA — Upcoming Procurement",
-      "title": "Materials and Supplies",
-      "description": "A24-0340 HERBICIDE APPLICATION PROGRAM FOR CANALS",
-      "agency": "PURCHASING",
-      "state": "LA",
-      "url": "https://www.brla.gov/298/Purchasing-Division",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "application"
-      ]
-    },
-    {
-      "id": "e5pk-us93:Equipment",
-      "source_name": "Baton Rouge LA — Upcoming Procurement",
-      "title": "Equipment",
-      "description": "A22-0812 INSPECTION & MAINTENANCE SPRINKLER SYSTEM",
-      "agency": "PURCHASING",
-      "state": "LA",
-      "url": "https://www.brla.gov/298/Purchasing-Division",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5228",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Newpowa Universal Angle Adjustable Mounting Bracket Single Arm Pole, Wall and Ground Mounts Up to 35W Solar Panel",
-      "description": "Newpowa Universal Angle Adjustable Mounting Bracket Single Arm Pole, Wall and Ground Mounts Up to 35W Solar Panel",
-      "agency": "Texas Water Development Board",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1W2TKcXn33jYj06r7roY6uQ3ysxHqjJ6o'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-06",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5237",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Dell Pro Thunderbolt 4 Smart Dock",
-      "description": "Dell Pro Thunderbolt 4 Smart Dock",
-      "agency": "Texas Water Development Board",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=10VE1QkNklEFhHYMZ9tuCDIVMkRQwX5By'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-06",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:0000",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Please see the attached",
-      "description": "Please see the attached",
-      "agency": "UNIVERSITY OF NORTH TEXAS System",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=12zAgIfgsder3QyAfJWrQ0oT4RX-rN3FG'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-05",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5236 - 1",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Basic Sturdy and Portable Ergonic Laptop Stand for Desk, Height Adjustable Riser with Ventilated Cooling, Foldable, Fits all Laptops up to 15.6 Inch, Silver - size: 10 x 8.7 x 6 inch",
-      "description": "Basic Sturdy and Portable Ergonic Laptop Stand for Desk, Height Adjustable Riser with Ventilated Cooling, Foldable, Fits all Laptops up to 15.6 Inch, Silver - size: 10 x 8.7 x 6 inch",
-      "agency": "Texas Water Development Board",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1xOsuMAUGBWPpNeq9LOvIJZ1kpzzqTSTN'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-04",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5224 - 1",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Wanderer 10A PWM Charge Controller- No Substitutes",
-      "description": "Wanderer 10A PWM Charge Controller- No Substitutes",
-      "agency": "Texas Water Development Board",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1vGrRBdSHCOxcWdvjEk7o_dI5k76YBtgt'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-04",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5211 - 1",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Artwork Setup - Logo",
-      "description": "Artwork Setup - Logo",
-      "agency": "Texas Water Development Board",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1sUSuRCy6CyZqAhHvjjDLC82776f4yrba'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-04",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5186",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "iPhone 14 13 12 Charger Fast Charging 20W PD USB C Wall Charger with 6FT Fast Charging Cable Compatible iPhone 14/13/12/11/Pro/Pro Max/Mini/Xs Max/XR/X, iPad",
-      "description": "iPhone 14 13 12 Charger Fast Charging 20W PD USB C Wall Charger with 6FT Fast Charging Cable Compatible iPhone 14/13/12/11/Pro/Pro Max/Mini/Xs Max/XR/X, iPad",
-      "agency": "Texas Water Development Board",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1SQwn7JbjNM_L4SPpHS_EzrcK61QpWjza'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-04",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:323-SBF- REQ#009297",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "ballpoint pens, cord wraps, 3-1 letter opener, apple stress ball",
-      "description": "ballpoint pens, cord wraps, 3-1 letter opener, apple stress ball",
-      "agency": "Teacher Retirement System",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1hKOIiwxCmK3auBouxq7sLT8jMOmlKFlR'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-05-01",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
       ]
     },
     {
@@ -4503,73 +4675,13 @@
       ]
     },
     {
-      "id": "3iy3-r5vp:UTS-3-05122026",
+      "id": "3iy3-r5vp:5185",
       "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Miscellaneous Dell Accessories",
-      "description": "Miscellaneous Dell Accessories",
-      "agency": "University of Texas System Administration",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1btIFL-_1rcwGQtJyYRjDZS5jP81r39i-'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-29",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:UTS-2-05122026",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Dell Pro Max 16 32GB APGT",
-      "description": "Dell Pro Max 16 32GB APGT",
-      "agency": "University of Texas System Administration",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=19yo1acAB1CJIxCrRcroYK1lcib_GLogG'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-29",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:UTS-1-05122026",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Dell Pro 13 Plus 32GB APGT",
-      "description": "Dell Pro 13 Plus 32GB APGT",
-      "agency": "University of Texas System Administration",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1NncmevwUCtnlrQyh2c0JLcwpFjdP4nnR'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-29",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5194",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "ANGSYLTH 2 pcs fluorescent light covers 4 x 2 feet covers for ceiling lights, magnetic light filters for classroom, office, hospital, home (Black)",
-      "description": "ANGSYLTH 2 pcs fluorescent light covers 4 x 2 feet covers for ceiling lights, magnetic light filters for classroom, office, hospital, home (Black)",
+      "title": "Peslv - 2 pack 27 inch privacy screen for computer monitor 16:9 aspect ratio",
+      "description": "Peslv - 2 pack 27 inch privacy screen for computer monitor 16:9 aspect ratio",
       "agency": "Texas Water Development Board",
       "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1r4aaQqRsFc1RYMMo65h6yirZuRR4ZIJf'}",
+      "url": "{'url': 'https://drive.google.com/open?id=1b1O71unSPn8XoTrtHn36yASF9GuzWzjV'}",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -4579,27 +4691,7 @@
       "is_new": false,
       "first_seen": "2026-07-14",
       "matched_keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "pid3-z56k:Meeting: LRVCS",
-      "source_name": "Cincinnati OH — Business Opportunities (Bids & RFPs)",
-      "title": "Meeting Notice: Lick Run Valley Coneyance System Info Session",
-      "description": "Meeting Notice",
-      "agency": "Sewers",
-      "state": "OH",
-      "url": "{'url': 'https://data.cincinnati-oh.gov/views/pid3-z56k/files/20856996-7d21-4f2e-a037-d1abf313fd9c?filename=11240000_Lick_Run_VCS_Info_Session.pdf'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system"
+        "computer"
       ]
     }
   ]

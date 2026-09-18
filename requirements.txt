@@ -8,3 +8,8 @@ google-api-python-client>=2.100
 google-auth>=2.23
 google-auth-oauthlib>=1.1      # used by scripts/gmail_setup.py (one-time local auth)
 beautifulsoup4>=4.12           # parse links out of HTML alert emails
+
+# Bids&Tenders source only — its listing API is CSRF-session-protected, so we
+# read the public page with a real (headless) browser instead of a plain
+# request. After `pip install`, also run: playwright install chromium
+playwright>=1.40
