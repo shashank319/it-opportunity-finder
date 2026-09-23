@@ -1,0 +1,14 @@
+# Generated data files — never let git line-merge these.
+#
+# Both are rewritten in full by each pipeline run (src/main.py writes
+# opportunities.json via json.dump, history.py writes history.json). When main
+# and a feature branch each regenerate them, git's textual auto-merge happily
+# interleaves records from both sides and produces invalid JSON *without
+# reporting a conflict* — which silently breaks the dashboard, since app.js
+# reports a JSON parse error as "Could not load opportunities.json".
+#
+# "-merge" forces a real conflict instead. To resolve: take either side
+# (git checkout --ours / --theirs) and let the next daily run rewrite it, or
+# regenerate on the spot with `python -m src.main --no-email`.
+docs/opportunities.json  -merge
+data/history.json        -merge

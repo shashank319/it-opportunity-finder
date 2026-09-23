@@ -79,7 +79,13 @@ class SocrataSource(Source):
         col = self.field_map.get(our_field)
         if not col:
             return default
-        return clean_text(row.get(col, default))
+        value = row.get(col, default)
+        # Socrata's typed columns (url, phone, location) arrive as nested objects,
+        # e.g. {"url": "https://...", "description": "Details"}. clean_text() would
+        # str() the whole dict into the row, so unwrap the payload first.
+        if isinstance(value, dict):
+            value = value.get("url") or value.get("phone_number") or value.get("human_address") or ""
+        return clean_text(value)
 
     def _build_url(self, row: dict) -> str:
         # 1) explicit URL column, 2) template built from the row, 3) source homepage.
