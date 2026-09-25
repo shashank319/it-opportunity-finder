@@ -239,6 +239,20 @@ def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[l
 
         kept.append(opp)
 
-    # Sort: highest IT score first, then soonest deadline (blank deadlines last).
-    kept.sort(key=lambda o: (-o.it_score, o.due_date or "9999-99-99"))
+    # Sort: highest IT score first, then MOST RECENTLY POSTED first.
+    #
+    # The tie-break used to be soonest-deadline-first, which sounded sensible
+    # but had a bad side effect: most items share a score, so the deadline
+    # tie-break effectively became the primary sort, and every score tier
+    # opened with whatever was closest to expiring. The dashboard's default
+    # "score" sort is a stable sort, so that leaked straight through and made
+    # the whole board look like nothing but about-to-close work — even though
+    # the median opportunity is first seen with ~27 days left.
+    #
+    # Newest-first surfaces what the run actually just discovered. Urgency is
+    # still visible and filterable on the dashboard (the "Xd" badge and the
+    # "closing soon" checkbox), and the deadline sort is still one click away.
+    # Two stable passes = score DESC, then posted_date DESC within each tier.
+    kept.sort(key=lambda o: o.posted_date or "", reverse=True)
+    kept.sort(key=lambda o: o.it_score, reverse=True)
     return kept, history
