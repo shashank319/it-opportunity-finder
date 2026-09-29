@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T04:22:58.072040+00:00",
+  "generated_at": "2026-09-29T17:11:33.067165+00:00",
   "counts": {
-    "total": 89,
-    "new": 1
+    "total": 96,
+    "new": 13
   },
   "health": {
     "ok": 27,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 213,
+        "count": 216,
         "error": ""
       },
       {
@@ -47,7 +47,7 @@
       {
         "source": "Baton Rouge LA — Bid Openings",
         "ok": true,
-        "count": 499,
+        "count": 500,
         "error": ""
       },
       {
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 9,
+        "count": 11,
         "error": ""
       },
       {
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 270,
+        "count": 273,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 61,
+        "count": 60,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 19,
+        "count": 20,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 54,
+        "count": 57,
         "error": ""
       },
       {
@@ -181,14 +181,14 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 6,
-      "agency_count": 4,
+      "opportunity_count": 8,
+      "agency_count": 6,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 14,
+      "demand_score": 20,
       "examples": [
         {
           "title": "OCA DT | TM3 - Cybeready Software License Renewal",
@@ -227,6 +227,24 @@
           "source_name": "New York City — City Record (Procurement)"
         },
         {
+          "title": "Box.com Enterprise License",
+          "agency": "Small Business Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "ImageWork ClaimConnect License Renewal and Support",
+          "agency": "Sanitation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
           "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
           "agency": "Los Angeles County",
           "state": "CA",
@@ -248,15 +266,24 @@
     },
     {
       "name": "Records & Document Management (ECM)",
-      "opportunity_count": 4,
-      "agency_count": 4,
+      "opportunity_count": 6,
+      "agency_count": 6,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 14,
+      "demand_score": 20,
       "examples": [
+        {
+          "title": "Consultant Services, NYCEDC Asset Management Building Plans and Document Management Platform RFEI",
+          "agency": "Economic Development Corporation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
+        },
         {
           "title": "RFP2241293798 ENTERPRISE DOCUMENT MANAGEMENT SYSTEM",
           "agency": "LAUSD",
@@ -265,6 +292,15 @@
           "due_date": "2026-10-08",
           "it_score": 57,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "Open Text ECM Support and Other Records Management Support",
+          "agency": "Administration for Children's Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 42,
+          "source_name": "New York City — City Record (Procurement)"
         },
         {
           "title": "Leveraging Ground-Scanning Technology to Build Understanding of Underground Infrastructure in New York City",
@@ -633,6 +669,27 @@
       ]
     },
     {
+      "id": "dg92-zbpx:11799",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Consultant Services, NYCEDC Asset Management Building Plans and Document Management Platform RFEI",
+      "description": "Consultant Services, NYCEDC Asset Management Building Plans and Document Management Platform RFEI",
+      "agency": "Economic Development Corporation",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-22",
+      "due_date": "",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "platform",
+        "document management"
+      ]
+    },
+    {
       "id": "opengov:smcgov:303757",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "CHIP and CHA implementation, Governance, Community Engagement, and Data Integration Support",
@@ -717,27 +774,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:80626W0010001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "FY27 ERWIN DATA MODELER PROFESSIONAL SOFTWARE",
-      "description": "FY27 ERWIN DATA MODELER PROFESSIONAL SOFTWARE",
-      "agency": "Housing Preservation and Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-13",
-      "due_date": "",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software",
-        "data"
-      ]
-    },
-    {
       "id": "e5pk-us93:Software development/design/maintenance/support services",
       "source_name": "Baton Rouge LA — Upcoming Procurement",
       "title": "Software development/design/maintenance/support services",
@@ -756,6 +792,46 @@
       "matched_keywords": [
         "software",
         "development"
+      ]
+    },
+    {
+      "id": "samgov:FA8730-REV-AOC",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Request for Information: Revolutionary (REV) Air Operations Center (AOC) Weapon System",
+      "description": "Request for Information: Revolutionary (REV) Air Operations Center (AOC) Weapon System",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.HANSCOM AIR FORCE LIFE CYCLE MANAGEMENT CENTER.COMMAND, CONTROL AND COMMUNICATION BATTLE MANAGEMENT - HANSCOM AIR FORCE B.FA8730 KESSEL RUN AFLCMC/HBBK",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/6ee45118d60949ea8e31c218288f150a/view",
+      "naics": "541512",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-14",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
+      "id": "samgov:842674820",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Sole Source Notice of Intent - Unisys System Services",
+      "description": "Sole Source Notice of Intent - Unisys System Services",
+      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).IT CONTRACTING DIVISION - PL84",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/c1d244e1113845169249e8351a84b96d/view",
+      "naics": "541519",
+      "psc": "DA10",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-14",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "system"
       ]
     },
     {
@@ -874,6 +950,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:84126W0084001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Principal Software Architect",
+      "description": "Principal Software Architect",
+      "agency": "Transportation",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-23",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-29",
       "matched_keywords": [
         "software"
       ]
@@ -1059,46 +1155,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:80626W0009002",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Microfocus Loadrunner Software",
-      "description": "Microfocus Loadrunner Software",
-      "agency": "Housing Preservation and Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-13",
-      "due_date": "",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:004202600003N2",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Software Support",
-      "description": "Software Support",
-      "agency": "Campaign Finance Board",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-12",
-      "due_date": "",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "opengov:pasadena:263470",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
@@ -1217,6 +1273,24 @@
       "matched_keywords": [
         "software"
       ]
+    },
+    {
+      "id": "samgov:APO_Follow-on",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Automated Project Order Follow-on",
+      "description": "Automated Project Order Follow-on",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.BUSINESS AND ENTERPRISE SYSTEMS.FA8770 AFLCMC GBK",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/620dab6a259841479a36d267a5d4a1d3/view",
+      "naics": "541511",
+      "psc": "",
+      "set_aside": "8(a) Set-Aside (FAR 19.8)",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-13",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": []
     },
     {
       "id": "samgov:FA940126Mishap",
@@ -1338,7 +1412,7 @@
       "psc": "04000, 90624, 91843, 91897, 92600, 96132, 96143, 96245, 96892",
       "set_aside": "",
       "posted_date": "2026-09-03",
-      "due_date": "2026-10-01",
+      "due_date": "2026-10-08",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-09-23",
@@ -1497,6 +1571,48 @@
       ]
     },
     {
+      "id": "dg92-zbpx:85818P8211KXLR002",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Citywide Voice and Data (TWC/Spectrum) Renewal 2",
+      "description": "Citywide Voice and Data (TWC/Spectrum) Renewal 2",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-25",
+      "due_date": "",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "data",
+        "information technology"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:06827W0008001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Open Text ECM Support and Other Records Management Support",
+      "description": "Open Text ECM Support and Other Records Management Support",
+      "agency": "Administration for Children's Services",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-22",
+      "due_date": "",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "ecm",
+        "records management"
+      ]
+    },
+    {
       "id": "dg92-zbpx:80626W0008001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "IT SR. DEVELOPER TENANT ACCOUNTING SYSTEM MAINTENANCE FY27",
@@ -1536,48 +1652,6 @@
       "matched_keywords": [
         "systems",
         "data"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:85726B0069",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "85726B0069-2600061-Digital Mail Systems",
-      "description": "85726B0069-2600061-Digital Mail Systems",
-      "agency": "Citywide Administrative Services",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-19",
-      "due_date": "",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "systems",
-        "digital"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:05624S0005001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "NYPD's Intelligence Database System (IDS)",
-      "description": "NYPD's Intelligence Database System (IDS)",
-      "agency": "Police Department",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-12",
-      "due_date": "",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "system",
-        "database"
       ]
     },
     {
@@ -1623,6 +1697,26 @@
       ]
     },
     {
+      "id": "dg92-zbpx:80126G0002001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Box.com Enterprise License",
+      "description": "Box.com Enterprise License",
+      "agency": "Small Business Services",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-29",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
       "id": "hf3r-utnq:228081",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "TOS CC-104 Multi-Location Near Miss and Street Safety Analytics Study for School Safety",
@@ -1636,10 +1730,50 @@
       "posted_date": "2026-09-28",
       "due_date": "2026-11-04",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "analytics"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:05726R0002001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "WTC Data Center and Clinical Center of Excellence",
+      "description": "WTC Data Center and Clinical Center of Excellence",
+      "agency": "Fire Department",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-28",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:82726O0003001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "ImageWork ClaimConnect License Renewal and Support",
+      "description": "ImageWork ClaimConnect License Renewal and Support",
+      "agency": "Sanitation",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-25",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
@@ -1703,6 +1837,46 @@
       ]
     },
     {
+      "id": "dg92-zbpx:06927W0010001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "ITS Hardware-ServiceNow",
+      "description": "ITS Hardware-ServiceNow",
+      "agency": "Dept. of Social Svcs/Human Resources Administration",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "servicenow"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:83627U0002001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "CoStar Suite All Data Subscription",
+      "description": "CoStar Suite All Data Subscription",
+      "agency": "Finance",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
       "id": "eshn-8t3a:SFGOV~0000011913",
       "source_name": "San Francisco CA — Open Bids",
       "title": "TIS | RFP for Cybersecurity Staffing Firms",
@@ -1760,6 +1934,26 @@
       "first_seen": "2026-09-23",
       "matched_keywords": [
         "digital"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:85827N0003001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "NYFA - Grant Program Administration (MOME)",
+      "description": "NYFA - Grant Program Administration (MOME)",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-17",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "information technology"
       ]
     },
     {
@@ -2040,26 +2234,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "digital"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:85827N0003",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "NYFA - Grant Program Administration (MOME)",
-      "description": "NYFA - Grant Program Administration (MOME)",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-14",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "information technology"
       ]
     },
     {
