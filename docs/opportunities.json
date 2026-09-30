@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T17:11:33.067165+00:00",
+  "generated_at": "2026-09-30T04:06:17.617027+00:00",
   "counts": {
-    "total": 96,
-    "new": 13
+    "total": 102,
+    "new": 7
   },
   "health": {
     "ok": 27,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 216,
+        "count": 214,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 49,
+        "count": 47,
         "error": ""
       },
       {
@@ -101,19 +101,19 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 11,
+        "count": 18,
         "error": ""
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 73,
+        "count": 65,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 273,
+        "count": 274,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 35,
+        "count": 33,
         "error": ""
       },
       {
@@ -137,19 +137,19 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 60,
+        "count": 53,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 5,
+        "count": 6,
         "error": ""
       },
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 20,
+        "count": 19,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 57,
+        "count": 54,
         "error": ""
       },
       {
@@ -499,6 +499,28 @@
       ]
     },
     {
+      "id": "samgov:205AE9-26-Q-00053",
+      "source_name": "SAM.gov (Federal)",
+      "title": "IRS Audio-Visual (AV) and Video Teleconferencing (VTC) Enterprise Systems Integration, Support, and Maintenance Master IDIQ",
+      "description": "IRS Audio-Visual (AV) and Video Teleconferencing (VTC) Enterprise Systems Integration, Support, and Maintenance Master IDIQ",
+      "agency": "TREASURY, DEPARTMENT OF THE.INTERNAL REVENUE SERVICE.IT STRATEGY AND MODERNIZATION",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/7d434dab4914473ca2d4a3c93d45b665/view",
+      "naics": "541519",
+      "psc": "7E20",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-30",
+      "it_score": 98,
+      "is_new": true,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "systems",
+        "modernization",
+        "integration"
+      ]
+    },
+    {
       "id": "opengov:acgov:299786",
       "source_name": "OpenGov — County of Alameda, CA",
       "title": "RFP 902737 EVACUATION PLANNING SOFTWARE SOLUTION",
@@ -562,6 +584,46 @@
         "software",
         "development",
         "data"
+      ]
+    },
+    {
+      "id": "samgov:W91RUS27RA001",
+      "source_name": "SAM.gov (Federal)",
+      "title": "TOTAL ENGINEERING AND INTEGRATION SERVICES (TEIS) IV On-Ramp Opportunity",
+      "description": "TOTAL ENGINEERING AND INTEGRATION SERVICES (TEIS) IV On-Ramp Opportunity",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG CONTR CTR",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/b46182661d134cd380bf7024050c627a/view",
+      "naics": "541512",
+      "psc": "R425",
+      "set_aside": "Small Business Set Aside - Partial",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-30",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "integration"
+      ]
+    },
+    {
+      "id": "samgov:75H70427Q00001",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Modernization of the Influenza-Like Illness (ILI) Surveillance Process and Algorithms Project",
+      "description": "Modernization of the Influenza-Like Illness (ILI) Surveillance Process and Algorithms Project",
+      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.DIVISION OF ACQUISITIONS POLICY HQ",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/73bbca1ca22541498f0d3b04ac1da96e/view",
+      "naics": "541512",
+      "psc": "R499",
+      "set_aside": "Indian Small Business Economic Enterprise",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-08",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "modernization"
       ]
     },
     {
@@ -682,7 +744,7 @@
       "posted_date": "2026-09-22",
       "due_date": "",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "platform",
@@ -795,6 +857,26 @@
       ]
     },
     {
+      "id": "samgov:W912DY26RA012",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Electronic Security System VIII Official Solicitation",
+      "description": "Electronic Security System VIII Official Solicitation",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.SUPPORT CENTER HUNTSVILLE.W2V6 USA ENG SPT CTR HUNTSVIL",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/fae4a2a579a34e6e96778a0814a20911/view",
+      "naics": "541512",
+      "psc": "J059",
+      "set_aside": "",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-30",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "system"
+      ]
+    },
+    {
       "id": "samgov:FA8730-REV-AOC",
       "source_name": "SAM.gov (Federal)",
       "title": "Request for Information: Revolutionary (REV) Air Operations Center (AOC) Weapon System",
@@ -808,7 +890,7 @@
       "posted_date": "2026-09-29",
       "due_date": "2026-10-14",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "system"
@@ -828,10 +910,30 @@
       "posted_date": "2026-09-29",
       "due_date": "2026-10-14",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "system"
+      ]
+    },
+    {
+      "id": "samgov:030ADV27R0004",
+      "source_name": "SAM.gov (Federal)",
+      "title": "LOC Novel High-Density Optical Data Storage",
+      "description": "LOC Novel High-Density Optical Data Storage",
+      "agency": "LIBRARY OF CONGRESS.LIBRARY OF CONGRESS.CONTRACTS SERVICES",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/18814a81d07b4b4da2fa0da334598db4/view",
+      "naics": "518210",
+      "psc": "7K20",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-27",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -915,26 +1017,6 @@
       ]
     },
     {
-      "id": "opengov:cityoftampa:307464",
-      "source_name": "OpenGov — City of Tampa, FL",
-      "title": "Intent to Single Source for Carlson Survey Equipment and Software",
-      "description": "The Carlson BRx7 is a multi-frequency, multi-GNS receiver designed for high-precision land surveying, mapping and establishing control points. It supports GPS, GLONALL, Galileo, BeiDou and QZSS constellations and integrates RTK capability and is capable wit Carlson SurvCE/SurvPC/CAD Software",
-      "agency": "City of Tampa",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/cityoftampa/projects/307464",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-09-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232158",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200201 - O2713755 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - NUTANIX - Closing: 10/6/2026 12:00 PM",
@@ -968,7 +1050,7 @@
       "posted_date": "2026-09-23",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "software"
@@ -1155,6 +1237,26 @@
       ]
     },
     {
+      "id": "opengov:pasadena:292413",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "P-57907 Enterprise Monitoring",
+      "description": "The City of Pasadena is seeking a vendor to provide an Enterprise Monitoring solution and associated implementation and support services. The goal of the Enterprise Monitoring project is to strengthen alert management and monitoring processes , and to proactively identify and address system performance issues before they impact customers. The City seeks a unified monitoring and observability platform that provides centralized visibility across infrastructure, networks, cloud services, databases, applications, integrations, and business services. The desired solution will correlate events and performance data across technology domains, improve operational awareness, reduce alert fatigue, accelerate root cause analysis, and enable proactive management of service health and availability. The platform should support the City's current hybrid and multi-cloud environment while providing a scalable foundation for future operational monitoring and automation initiatives.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/292413",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0480",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-10-29",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "cloud"
+      ]
+    },
+    {
       "id": "opengov:pasadena:263470",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
@@ -1288,8 +1390,26 @@
       "posted_date": "2026-09-29",
       "due_date": "2026-10-13",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:FA813226Q0058",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Furnace Interface Upgrade",
+      "description": "Furnace Interface Upgrade",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8132 AFSC PZIMC",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/1a38344b57a745cd829105e9bb67af26/view",
+      "naics": "541519",
+      "psc": "J044",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-13",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-30",
       "matched_keywords": []
     },
     {
@@ -1502,7 +1622,7 @@
       "psc": "34505, 90638, 91082, 91200, 91300, 91360, 91362, 91438, 92531, 92567, 92658, 93458, 93972, 95939, 96226",
       "set_aside": "",
       "posted_date": "2026-08-11",
-      "due_date": "2026-10-06",
+      "due_date": "2026-10-20",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-09-23",
@@ -1584,7 +1704,7 @@
       "posted_date": "2026-09-25",
       "due_date": "",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "data",
@@ -1605,7 +1725,7 @@
       "posted_date": "2026-09-22",
       "due_date": "",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "ecm",
@@ -1710,7 +1830,7 @@
       "posted_date": "2026-09-29",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "license"
@@ -1750,7 +1870,7 @@
       "posted_date": "2026-09-28",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "data"
@@ -1770,17 +1890,17 @@
       "posted_date": "2026-09-25",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "license"
       ]
     },
     {
-      "id": "eeq6-nnwe:1201279",
+      "id": "eeq6-nnwe:1201278",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
-      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1797,10 +1917,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201278",
+      "id": "eeq6-nnwe:1201279",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
-      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1850,7 +1970,7 @@
       "posted_date": "2026-09-24",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "servicenow"
@@ -1870,7 +1990,7 @@
       "posted_date": "2026-09-24",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "data"
@@ -1950,7 +2070,7 @@
       "posted_date": "2026-09-17",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "information technology"
