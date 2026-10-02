@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T04:11:55.083194+00:00",
+  "generated_at": "2026-10-02T16:58:54.422307+00:00",
   "counts": {
-    "total": 111,
-    "new": 9
+    "total": 114,
+    "new": 4
   },
   "health": {
     "ok": 27,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 21,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 219,
+        "count": 223,
         "error": ""
       },
       {
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 26,
+        "count": 28,
         "error": ""
       },
       {
@@ -113,19 +113,19 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 282,
+        "count": 286,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 27,
+        "count": 29,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 33,
+        "count": 34,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 20,
+        "count": 21,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 50,
+        "count": 51,
         "error": ""
       },
       {
@@ -569,7 +569,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-16",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "software"
@@ -939,7 +939,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-07",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "data"
@@ -1066,6 +1066,26 @@
       ]
     },
     {
+      "id": "dg92-zbpx:01723X8002KXLR002",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Audio-Visual Software and Equipment Maintenance Renewal #2",
+      "description": "Audio-Visual Software and Equipment Maintenance Renewal #2",
+      "agency": "Emergency Management",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-02",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232271",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200219 - O2712168,556-27018-RECAST SOFTWARE RENEWAL - BRAND SPECIFIC - Closing: 10/14/2026 12:00 PM",
@@ -1119,10 +1139,30 @@
       "posted_date": "2026-09-28",
       "due_date": "2026-11-04",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "migration"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:309506",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Invasive Species Management for Shaded Fuel Break Maintenance (Memorial County Park & Sam McDonald County Park)",
+      "description": "The County of San Mateo (“County”) covers most of the San Francisco Peninsula. The region covers 744 mi 2 and is home to approximately 750,000 residents. The County is made up of 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education, and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare, and natural resources of the community. The San Mateo County Parks Department (“Department”) serves nearly three million visitors every year. Visitors have many options when visiting the County’s unique park system. With 24 parks and recreation areas, over 16,000 acres of park land, and 190 miles of trails, the Department provides healthy outdoor activities, educational opportunities, and lasting memories. Due to the diversity of the park system, visitors can enjoy an array of recreational opportunities, including walking; running; hiking; picnicking; horseback riding; kite surfing; fishing; camping; gardening; tide pooling; volunteering; learning; sports courts; and playing on playgrounds.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/309506",
+      "naics": "",
+      "psc": "",
+      "set_aside": "MCP_SMP_Maintenance_InvasiveSpp_2026",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-16",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1239,7 +1279,7 @@
       "posted_date": "2026-09-14",
       "due_date": "2026-10-17",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "software"
@@ -1466,6 +1506,42 @@
       ]
     },
     {
+      "id": "samgov:CORHQ-26-Q-0369",
+      "source_name": "SAM.gov (Federal)",
+      "title": "FedRAMP Webex Subscription Maintenance",
+      "description": "FedRAMP Webex Subscription Maintenance",
+      "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION.FEDERAL DEPOSIT INSURANCE CORPORATION._",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/d2bb3d54f1264e14bb39d3427e5dbed6/view",
+      "naics": "541519",
+      "psc": "7C21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-02",
+      "due_date": "2026-10-09",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:36U10126Q0023",
+      "source_name": "SAM.gov (Federal)",
+      "title": "R499--Small Business Event | 2026 National Veterans Small Business Engagement | Cleveland Ohio Dec 8-9 | Amendment 9",
+      "description": "R499--Small Business Event | 2026 National Veterans Small Business Engagement | Cleveland Ohio Dec 8-9 | Amendment 9",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.OFFICE OF SMALL & DISADVANTAGED BUSINESS UTILIZATION (OSDBU) (36U101)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/36d97c4e3ba548418251f5996562b3fc/view",
+      "naics": "541519",
+      "psc": "R499",
+      "set_aside": "",
+      "posted_date": "2026-10-02",
+      "due_date": "2026-12-08",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "matched_keywords": []
+    },
+    {
       "id": "samgov:693KA9-26-R-00003",
       "source_name": "SAM.gov (Federal)",
       "title": "NISC Enterprise Support Tasking (NEST)",
@@ -1479,7 +1555,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-15",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": []
     },
@@ -1497,7 +1573,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-30",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": []
     },
@@ -1515,7 +1591,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-19",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": []
     },
@@ -1551,7 +1627,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": []
     },
@@ -1930,27 +2006,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:80626W0008001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "IT SR. DEVELOPER TENANT ACCOUNTING SYSTEM MAINTENANCE FY27",
-      "description": "IT SR. DEVELOPER TENANT ACCOUNTING SYSTEM MAINTENANCE FY27",
-      "agency": "Housing Preservation and Development",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-24",
-      "due_date": "",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "system",
-        "developer"
-      ]
-    },
-    {
       "id": "opengov:orangecountyfl:266226",
       "source_name": "OpenGov — Orange County, FL",
       "title": "Web Based Individual Driver Record Checks and Risk Assessments",
@@ -2006,7 +2061,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-11-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "information technology"
