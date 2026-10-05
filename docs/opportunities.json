@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-04T16:06:25.986036+00:00",
+  "generated_at": "2026-10-05T04:12:39.693678+00:00",
   "counts": {
-    "total": 98,
+    "total": 91,
     "new": 0
   },
   "health": {
-    "ok": 27,
+    "ok": 25,
     "total": 28,
     "sources": [
       {
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 12,
+        "count": 5,
         "error": ""
       },
       {
@@ -124,9 +124,9 @@
       },
       {
         "source": "BidNet Direct",
-        "ok": true,
-        "count": 32,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "HTTPError: 405 Client Error: Not Allowed for url: https://www.bidnetdirect.com/california/cityofsantaclara"
       },
       {
         "source": "Biddingo",
@@ -142,9 +142,9 @@
       },
       {
         "source": "Bids&Tenders",
-        "ok": true,
-        "count": 5,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "Error: Page.goto: net::ERR_CERT_DATE_INVALID at https://placer.bidsandtenders.net/Module/Tenders/en\nCall log:\n  - navigating to \"https://placer.bidsandtenders.net/Module/Tenders/en\", waiting until \"networkidle\"\n"
       },
       {
         "source": "Ionwave",
@@ -471,66 +471,6 @@
       ]
     },
     {
-      "id": "samgov:FNA-OCPO-64962",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Financial Management Software and Support Services",
-      "description": "Financial Management Software and Support Services",
-      "agency": "COMMERCE, DEPARTMENT OF.NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION.DEPT OF COMMERCE NTIA/FIRST NET",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/8e7eebffd3d0445fa66247822bcb9409/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-16",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:36C10B26Q0837",
-      "source_name": "SAM.gov (Federal)",
-      "title": "7A21--(New Action) Qgenda On-call Full Range (FR) Scheduling Software (VA-27-00011101)",
-      "description": "7A21--(New Action) Qgenda On-call Full Range (FR) Scheduling Software (VA-27-00011101)",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/0ba8a6581a3e44aba2f779006f34ab29/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-13",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-28",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:N0018926RL011",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Enterprise Cloud Support Services",
-      "description": "Enterprise Cloud Support Services",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/07889806966c44b385181aa0cf7c70bf/view",
-      "naics": "518210",
-      "psc": "DG01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-27",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-10-01",
-      "matched_keywords": [
-        "cloud"
-      ]
-    },
-    {
       "id": "dg92-zbpx:81627Y0857",
       "source_name": "New York City — City Record (Procurement)",
       "title": "81627Y0857-BRANAGH INFORMATION GROUP INC. _ Sole Source _ Technical Assistance (TA) Module 01 software data system",
@@ -738,46 +678,6 @@
       "first_seen": "2026-10-03",
       "matched_keywords": [
         "information technology"
-      ]
-    },
-    {
-      "id": "samgov:70FA3126I00000008",
-      "source_name": "SAM.gov (Federal)",
-      "title": "FEMA's Deployment Management Solution",
-      "description": "FEMA's Deployment Management Solution",
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL EMERGENCY MANAGEMENT AGENCY.INFORMATION TECHNOLOGY DEVELOPMENT AND SUSTAINMENT",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/b62b925cfbaf40ebbe5e60d0bc77b2b1/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-16",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "samgov:36C10B27Q0023",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DA01--ORD OneStream Data Unification (VA-27-00010279)",
-      "description": "DA01--ORD OneStream Data Unification (VA-27-00010279)",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/3ae977d2372445a69869644c0a9101d6/view",
-      "naics": "541519",
-      "psc": "DA01",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-07",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "data"
       ]
     },
     {
@@ -1287,42 +1187,6 @@
       "set_aside": "",
       "posted_date": "2026-10-02",
       "due_date": "2026-12-08",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:693KA9-26-R-00003",
-      "source_name": "SAM.gov (Federal)",
-      "title": "NISC Enterprise Support Tasking (NEST)",
-      "description": "NISC Enterprise Support Tasking (NEST)",
-      "agency": "TRANSPORTATION, DEPARTMENT OF.FEDERAL AVIATION ADMINISTRATION.693KA9 CONTRACTING FOR SERVICES",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/5dc0a6234c964ec09542817343ebf71f/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-15",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:W912DY27RA014",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Technical and Programmatic Support Services (TPSS) MATOC III",
-      "description": "Technical and Programmatic Support Services (TPSS) MATOC III",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.SCO ALEXANDRIA.SUPPORT CENTER HUNTSVILLE.W2V6 USA ENG SPT CTR HUNTSVIL",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d6491df7d2f04213b1330e1e96e99cbc/view",
-      "naics": "541519",
-      "psc": "J059",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-19",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-02",
