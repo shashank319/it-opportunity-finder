@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-06T05:00:56.634029+00:00",
+  "generated_at": "2026-10-06T17:33:14.114915+00:00",
   "counts": {
-    "total": 95,
-    "new": 6
+    "total": 104,
+    "new": 8
   },
   "health": {
-    "ok": 26,
+    "ok": 27,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 232,
+        "count": 236,
         "error": ""
       },
       {
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 9,
+        "count": 14,
         "error": ""
       },
       {
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 290,
+        "count": 298,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 32,
+        "count": 33,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 55,
+        "count": 56,
         "error": ""
       },
       {
@@ -161,14 +161,14 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 10,
+        "count": 9,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.buffalony.gov/bids.aspx"
+        "ok": true,
+        "count": 55,
+        "error": ""
       },
       {
         "source": "Schenectady County, NY",
@@ -526,6 +526,26 @@
       ]
     },
     {
+      "id": "samgov:28321327Q00000006",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Solicitation for Snowbound Rastermaster software",
+      "description": "Solicitation for Snowbound Rastermaster software",
+      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/4fc5f8a5ef824e9ab5ad341841232908/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-06",
+      "due_date": "2026-10-19",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "samgov:75H70427Q00001",
       "source_name": "SAM.gov (Federal)",
       "title": "Modernization of the Influenza-Like Illness (ILI) Surveillance Process and Algorithms Project",
@@ -579,7 +599,7 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-10-13",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-06",
       "matched_keywords": [
         "software"
@@ -776,6 +796,26 @@
       ]
     },
     {
+      "id": "samgov:FA8771-26-S-C0001",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+      "description": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.BUSINESS AND ENTERPRISE SYSTEMS.FA8771 AFLCMC GBK",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/282c0a2d74534cc0bd342d598ca72915/view",
+      "naics": "541519",
+      "psc": "DA01",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-06",
+      "due_date": "",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": [
+        "systems"
+      ]
+    },
+    {
       "id": "samgov:FDA-RFI-27-1251190",
       "source_name": "SAM.gov (Federal)",
       "title": "Comprehensive Data Management & Streamlining Solution for Business-Critical Data (Data Stream)",
@@ -789,7 +829,7 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-10-19",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-06",
       "matched_keywords": [
         "data"
@@ -816,6 +856,26 @@
       ]
     },
     {
+      "id": "dg92-zbpx:83627W0002001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "BMC Control-M Software and Managed Services",
+      "description": "BMC Control-M Software and Managed Services",
+      "agency": "Finance",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-06",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "dg92-zbpx:83627W0005001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Chocolatey Software Renewal",
@@ -829,7 +889,7 @@
       "posted_date": "2026-10-05",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-06",
       "matched_keywords": [
         "software"
@@ -869,7 +929,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-08",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-06",
       "matched_keywords": [
         "software"
@@ -1176,6 +1236,26 @@
       ]
     },
     {
+      "id": "opengov:cityoftampa:286338",
+      "source_name": "OpenGov — City of Tampa, FL",
+      "title": "Elevator Services (Bid Discount)",
+      "description": "The City of Tampa requires a comprehensive, full-service elevator maintenance and repair program for all vertical transportation equipment identified in the contract asset inventory and for any additional equipment later assigned by the City. The Contractor shall furnish all labor, supervision, licensed personnel, tools, equipment, transportation, communication devices, testing instruments, software, materials, replacement parts, documentation, and incidentals necessary to inspect, test, maintain, adjust, repair, troubleshoot, and restore covered equipment to safe, reliable, code-compliant, and service-ready condition. Timely performance is an essential condition of the contract. The Contractor shall plan, staff, and perform the work so that preventive maintenance is completed when scheduled, service calls are answered within the required response times, and equipment downtime is minimized.",
+      "agency": "City of Tampa",
+      "state": "FL",
+      "url": "https://procurement.opengov.com/portal/cityoftampa/projects/286338",
+      "naics": "",
+      "psc": "",
+      "set_aside": "26-P-00475",
+      "posted_date": "2026-07-22",
+      "due_date": "2026-11-04",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "opengov:pasadena:263470",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
@@ -1289,11 +1369,85 @@
       "posted_date": "",
       "due_date": "2026-10-22",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-06",
       "matched_keywords": [
         "software"
       ]
+    },
+    {
+      "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
+      "source_name": "CivicPlus Bids — City of Buffalo, NY",
+      "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
+      "description": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
+      "agency": "City of Buffalo, NY",
+      "state": "NY",
+      "url": "https://www.buffalony.gov/bids.aspx?bidID=1190",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-10-23",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "samgov:HQDA-G-4_26_01",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Sizing Technology Pilot",
+      "description": "Sizing Technology Pilot",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/b691c12b700848deb9876f9b1b5ad0cf/view",
+      "naics": "541512",
+      "psc": "DA01",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-06",
+      "due_date": "2026-10-20",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:N3220527R6100",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Civilian Mariner Wireless Network (CivMar WiN) Installation and Sustainment Follow-on Contract",
+      "description": "Civilian Mariner Wireless Network (CivMar WiN) Installation and Sustainment Follow-on Contract",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.MSC.MSC HQS.MSCHQ NORFOLK",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/1ca91cea669e4b4e936afe62f38a4e03/view",
+      "naics": "541512",
+      "psc": "DG10",
+      "set_aside": "",
+      "posted_date": "2026-10-06",
+      "due_date": "2026-11-02",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:N66001-27-Q-0TBD",
+      "source_name": "SAM.gov (Federal)",
+      "title": "DON ESL NetApp",
+      "description": "DON ESL NetApp",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.SPAWAR.SPAWAR PACIFIC.NIWC PACIFIC",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/b687b06d98ba4796a3d4f61e867a6435/view",
+      "naics": "541519",
+      "psc": "7K20",
+      "set_aside": "",
+      "posted_date": "2026-10-06",
+      "due_date": "2026-10-16",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": []
     },
     {
       "id": "samgov:95476727RFI-MSSP",
@@ -1494,24 +1648,6 @@
       "matched_keywords": []
     },
     {
-      "id": "planetbids:15927:145799",
-      "source_name": "PlanetBids — City of Irvine, CA",
-      "title": "Paseo Westpark and San Remo Traffic Signal Modification, CIP 332003",
-      "description": "SG-26-0034",
-      "agency": "City of Irvine, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/15927/bo/bo-detail/145799",
-      "naics": "",
-      "psc": "91066, 91200, 91240, 91300, 91350, 91382, 91396, 91400, 91430, 96882, 96883",
-      "set_aside": "",
-      "posted_date": "2026-09-02",
-      "due_date": "2026-10-06",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:27411:145759",
       "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
       "title": "Request for Information for Energy Project Alternatives at the IEUA RP-5 Solids Handling Facility Site",
@@ -1691,6 +1827,47 @@
       ]
     },
     {
+      "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "source_name": "CivicPlus Bids — Washington County, MN",
+      "title": "Artificial Intelligence (AI) Policy",
+      "description": "Artificial Intelligence (AI) Policy",
+      "agency": "Washington County, MN",
+      "state": "MN",
+      "url": "https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "ai",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:NYCERS-InfoJini-09/1",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "InfoJini - Senior Data Analyst ETL - Alex Gak",
+      "description": "InfoJini - Senior Data Analyst ETL - Alex Gak",
+      "agency": "Employees' Retirement System",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-06",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232353",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "Bench IT Services TOS 2026ITB018",
@@ -1704,7 +1881,7 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-10-15",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-06",
       "matched_keywords": [
         "it services"
