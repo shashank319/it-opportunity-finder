@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T04:27:48.499268+00:00",
+  "generated_at": "2026-10-07T18:05:39.658898+00:00",
   "counts": {
-    "total": 105,
-    "new": 4
+    "total": 109,
+    "new": 5
   },
   "health": {
     "ok": 27,
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 19,
+        "count": 23,
         "error": ""
       },
       {
@@ -113,13 +113,13 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 292,
+        "count": 296,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 25,
+        "count": 26,
         "error": ""
       },
       {
@@ -131,19 +131,19 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 20,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 59,
+        "count": 61,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 4,
+        "count": 3,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 54,
+        "count": 53,
         "error": ""
       },
       {
@@ -352,6 +352,45 @@
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
       ]
+    },
+    {
+      "name": "ERP / Finance / HR",
+      "opportunity_count": 3,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "US-FED"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "DA01--Loopback Enterprise Resource Planning (ERP) System Integrator (SI)",
+          "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/d16f6d9357ee4cfc9c9584bb15ed270e/view",
+          "due_date": "2026-10-07",
+          "it_score": 77,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
+          "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/1f45cb4fe47347e79ca13a4beff0df4c/view",
+          "due_date": "2026-10-09",
+          "it_score": 77,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "Financial Management Software and Support Services",
+          "agency": "COMMERCE, DEPARTMENT OF.NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION.DEPT OF COMMERCE NTIA/FIRST NET",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/f4eaff8f1ab14f19975d964d95da20ff/view",
+          "due_date": "2026-10-16",
+          "it_score": 71,
+          "source_name": "SAM.gov (Federal)"
+        }
+      ]
     }
   ],
   "it_code_reference": [
@@ -526,6 +565,48 @@
       ]
     },
     {
+      "id": "samgov:36C10B26Q0585",
+      "source_name": "SAM.gov (Federal)",
+      "title": "DA01--Loopback Enterprise Resource Planning (ERP) System Integrator (SI)",
+      "description": "DA01--Loopback Enterprise Resource Planning (ERP) System Integrator (SI)",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/d16f6d9357ee4cfc9c9584bb15ed270e/view",
+      "naics": "541519",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-07",
+      "it_score": 77,
+      "is_new": true,
+      "first_seen": "2026-10-07",
+      "matched_keywords": [
+        "system",
+        "erp"
+      ]
+    },
+    {
+      "id": "samgov:36C10B27Q0032",
+      "source_name": "SAM.gov (Federal)",
+      "title": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
+      "description": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/1f45cb4fe47347e79ca13a4beff0df4c/view",
+      "naics": "541519",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-09",
+      "it_score": 77,
+      "is_new": true,
+      "first_seen": "2026-10-07",
+      "matched_keywords": [
+        "system",
+        "erp"
+      ]
+    },
+    {
       "id": "samgov:95332427K0001",
       "source_name": "SAM.gov (Federal)",
       "title": "MCC Software Development Recompete",
@@ -539,11 +620,31 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-10-29",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
       "matched_keywords": [
         "software",
         "development"
+      ]
+    },
+    {
+      "id": "samgov:28321327Q00000015",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Maintenance renewal of Open Software Technologies",
+      "description": "Maintenance renewal of Open Software Technologies",
+      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/3f274c212b454854bda94304efd14d25/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-13",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-10-07",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1268,7 +1369,7 @@
       "psc": "",
       "set_aside": "2026-RFP-0272",
       "posted_date": "2026-05-06",
-      "due_date": "2026-10-13",
+      "due_date": "2026-10-29",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-23",
@@ -1377,6 +1478,24 @@
       ]
     },
     {
+      "id": "samgov:N0042127Q1008",
+      "source_name": "SAM.gov (Federal)",
+      "title": "P8 MULTI MISSION",
+      "description": "P8 MULTI MISSION",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR NAWC AD.NAVAL AIR WARFARE CENTER AIR DIV",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/3981793e01ea4dd194364d7e129a0494/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-12",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-07",
+      "matched_keywords": []
+    },
+    {
       "id": "samgov:HQDA-G-4_26_01",
       "source_name": "SAM.gov (Federal)",
       "title": "Sizing Technology Pilot",
@@ -1426,7 +1545,7 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-10-20",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
       "matched_keywords": []
     },
@@ -1444,7 +1563,7 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-10-09",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
       "matched_keywords": []
     },
@@ -1462,7 +1581,7 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-10-09",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
       "matched_keywords": []
     },
@@ -2403,26 +2522,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:85627W0002001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Smartling for Website Translation",
-      "description": "Smartling for Website Translation",
-      "agency": "Citywide Administrative Services",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-27",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "website"
-      ]
-    },
-    {
       "id": "opengov:pinellasfl:295048",
       "source_name": "OpenGov — Pinellas County, FL",
       "title": "Digital Evidence Request for Information",
@@ -2520,6 +2619,26 @@
       "first_seen": "2026-09-23",
       "matched_keywords": [
         "information technology"
+      ]
+    },
+    {
+      "id": "bonfire:broward:255226",
+      "source_name": "Bonfire — Broward County, FL",
+      "title": "Request for Information: Hayden AI BCT Terminals, Park-and-Ride, and Bus Stop Monitoring Pilot Test",
+      "description": "Request for Information: Hayden AI BCT Terminals, Park-and-Ride, and Bus Stop Monitoring Pilot Test",
+      "agency": "Broward County, FL",
+      "state": "FL",
+      "url": "https://broward.bonfirehub.com/opportunities/255226",
+      "naics": "",
+      "psc": "",
+      "set_aside": "TCH2133024F1",
+      "posted_date": "",
+      "due_date": "2026-10-15",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-07",
+      "matched_keywords": [
+        "ai"
       ]
     },
     {
