@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T04:38:50.591778+00:00",
+  "generated_at": "2026-10-08T18:06:54.003298+00:00",
   "counts": {
-    "total": 111,
-    "new": 3
+    "total": 119,
+    "new": 8
   },
   "health": {
     "ok": 27,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 17,
+        "count": 16,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 209,
+        "count": 217,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 249,
+        "count": 239,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 47,
+        "count": 51,
         "error": ""
       },
       {
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 28,
+        "count": 31,
         "error": ""
       },
       {
@@ -113,13 +113,13 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 293,
+        "count": 296,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 28,
+        "count": 29,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 61,
+        "count": 64,
         "error": ""
       },
       {
@@ -161,7 +161,7 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 8,
+        "count": 5,
         "error": ""
       },
       {
@@ -248,13 +248,13 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 5,
-      "agency_count": 4,
+      "opportunity_count": 6,
+      "agency_count": 5,
       "state_count": 1,
       "states": [
         "NY"
       ],
-      "demand_score": 13,
+      "demand_score": 16,
       "examples": [
         {
           "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
@@ -272,6 +272,15 @@
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
           "it_score": 48,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "License continuation of SolarWinds DameWare Remote Support",
+          "agency": "Citywide Administrative Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
           "source_name": "New York City — City Record (Procurement)"
         },
         {
@@ -589,7 +598,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-28",
       "it_score": 89,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": [
         "modernization",
@@ -760,6 +769,27 @@
         "software",
         "system",
         "data"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:85627W0064001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "UC4 Automation Engine Software Licenses",
+      "description": "UC4 Automation Engine Software Licenses",
+      "agency": "Citywide Administrative Services",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": [
+        "software",
+        "automation"
       ]
     },
     {
@@ -1470,6 +1500,96 @@
       ]
     },
     {
+      "id": "samgov:142083-27-0002",
+      "source_name": "SAM.gov (Federal)",
+      "title": "NOAAPort Replacement Capabilities",
+      "description": "NOAAPort Replacement Capabilities",
+      "agency": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/b2dc823e91cf445db344df6047eeb647/view",
+      "naics": "541512",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-29",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:28321326R00000022",
+      "source_name": "SAM.gov (Federal)",
+      "title": "IT Support Services Contract (ITSSC) Recompete",
+      "description": "IT Support Services Contract (ITSSC) Recompete",
+      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/c9e05cc5382d415e8882c9779f64c584/view",
+      "naics": "541519",
+      "psc": "DF01",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-15",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:28321327RI0000002",
+      "source_name": "SAM.gov (Federal)",
+      "title": "RFI for Social Security Television (SSTV) Network",
+      "description": "RFI for Social Security Television (SSTV) Network",
+      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/8bbd2621d7c245dc9966df0646012dde/view",
+      "naics": "541519",
+      "psc": "7B20",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-22",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:36C10B27Q0038",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Brand Name or Equal SSI Tools Bundled Package.",
+      "description": "Brand Name or Equal SSI Tools Bundled Package.",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/765da3696c2e479580755b7a42737d0e/view",
+      "naics": "541519",
+      "psc": "7A20",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-15",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:CORHQ-26-Q-0388",
+      "source_name": "SAM.gov (Federal)",
+      "title": "IBM Mainframes and Maintenance for the FDIC",
+      "description": "IBM Mainframes and Maintenance for the FDIC",
+      "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION.FEDERAL DEPOSIT INSURANCE CORPORATION._",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/2f38bb2fa06b4372825c52beb14308c7/view",
+      "naics": "541519",
+      "psc": "7B21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-20",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-10-07",
+      "matched_keywords": []
+    },
+    {
       "id": "samgov:36C10B27Q0035",
       "source_name": "SAM.gov (Federal)",
       "title": "DE01--ECO Enterprise Service Desk (ESD) Consolidated Effort - RFI (VA-27-00011677)",
@@ -1483,26 +1603,8 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-21",
       "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-10-08",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:28321326R00000022",
-      "source_name": "SAM.gov (Federal)",
-      "title": "IT Support Services Contract (ITSSC) Recompete",
-      "description": "IT Support Services Contract (ITSSC) Recompete",
-      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d1ac3b41feb743fe8a009a7a5d85d061/view",
-      "naics": "541519",
-      "psc": "DF01",
-      "set_aside": "",
-      "posted_date": "2026-10-07",
-      "due_date": "2026-10-15",
-      "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-09-26",
+      "first_seen": "2026-10-08",
       "matched_keywords": []
     },
     {
@@ -1555,7 +1657,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-12",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": []
     },
@@ -1593,24 +1695,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-06",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:CORHQ-26-Q-0388",
-      "source_name": "SAM.gov (Federal)",
-      "title": "IBM Mainframes and Maintenance for the FDIC",
-      "description": "IBM Mainframes and Maintenance for the FDIC",
-      "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION.FEDERAL DEPOSIT INSURANCE CORPORATION._",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/f2e1d53695e041caa16ecf1df8bc5a09/view",
-      "naics": "541519",
-      "psc": "7B21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-10-20",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-07",
       "matched_keywords": []
     },
     {
@@ -2066,6 +2150,66 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232424",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200239 - 1091153 - NETAPP A400 STORAGE ARRAY DATA ERASURES - Closing: 10/21/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mj6QfIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:2027SVAM",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "DANY Website Services",
+      "description": "DANY Website Services",
+      "agency": "District Attorney - New York County",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": [
+        "website"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:85627W0066001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "License continuation of SolarWinds DameWare Remote Support",
+      "description": "License continuation of SolarWinds DameWare Remote Support",
+      "agency": "Citywide Administrative Services",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
       "id": "dg92-zbpx:NYCERS-InfoJini-09/1",
       "source_name": "New York City — City Record (Procurement)",
       "title": "InfoJini - Senior Data Analyst ETL - Alex Gak",
@@ -2223,6 +2367,26 @@
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "2hnj-zwix:GSS27608A-DOC_DESTRUCT",
+      "source_name": "Delaware — Open Bids (Statewide)",
+      "title": "Secure Document and Data Destruction",
+      "description": "Secure Document and Data Destruction",
+      "agency": "GSS",
+      "state": "DE",
+      "url": "https://mmp.delaware.gov/Bids/Details/9352",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-22",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
