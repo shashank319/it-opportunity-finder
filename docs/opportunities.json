@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T18:05:39.658898+00:00",
+  "generated_at": "2026-10-08T04:38:50.591778+00:00",
   "counts": {
-    "total": 109,
-    "new": 5
+    "total": 111,
+    "new": 3
   },
   "health": {
     "ok": 27,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 222,
+        "count": 209,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 500,
+        "count": 249,
         "error": ""
       },
       {
@@ -101,25 +101,25 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 23,
+        "count": 28,
         "error": ""
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 67,
+        "count": 64,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 296,
+        "count": 293,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 26,
+        "count": 28,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 19,
+        "count": 21,
         "error": ""
       },
       {
@@ -248,24 +248,14 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 7,
-      "agency_count": 5,
-      "state_count": 2,
+      "opportunity_count": 5,
+      "agency_count": 4,
+      "state_count": 1,
       "states": [
-        "CA",
         "NY"
       ],
-      "demand_score": 17,
+      "demand_score": 13,
       "examples": [
-        {
-          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
-          "due_date": "2026-10-07",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
         {
           "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
           "agency": "Chief Medical Examiner",
@@ -303,15 +293,6 @@
           "source_name": "New York City — City Record (Procurement)"
         },
         {
-          "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
-          "due_date": "2026-10-07",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
           "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
           "agency": "Chief Medical Examiner",
           "state": "NY",
@@ -324,15 +305,24 @@
     },
     {
       "name": "Data / Analytics / Dashboards",
-      "opportunity_count": 2,
-      "agency_count": 2,
+      "opportunity_count": 3,
+      "agency_count": 3,
       "state_count": 2,
       "states": [
         "CA",
         "US-FED"
       ],
-      "demand_score": 8,
+      "demand_score": 11,
       "examples": [
+        {
+          "title": "Defense Health Agency (DHA), Program Acquisition Executive, Digital Medical Solutions (PAE DMS), Enterprise Intelligence & Data Solutions (EIDS) Program Management Office (PMO), Data Exchange Services Operations, Modernization, and Development",
+          "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/f680b73a6c10415a83f09f448894e5bb/view",
+          "due_date": "2026-10-28",
+          "it_score": 89,
+          "source_name": "SAM.gov (Federal)"
+        },
         {
           "title": "Comprehensive Data Management & Streamlining Solution for Business-Critical Data (Data Stream)",
           "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.FOOD AND DRUG ADMINISTRATION.FOOD AND DRUG ADMINISTRATION",
@@ -355,7 +345,7 @@
     },
     {
       "name": "ERP / Finance / HR",
-      "opportunity_count": 3,
+      "opportunity_count": 2,
       "agency_count": 2,
       "state_count": 1,
       "states": [
@@ -363,15 +353,6 @@
       ],
       "demand_score": 7,
       "examples": [
-        {
-          "title": "DA01--Loopback Enterprise Resource Planning (ERP) System Integrator (SI)",
-          "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/d16f6d9357ee4cfc9c9584bb15ed270e/view",
-          "due_date": "2026-10-07",
-          "it_score": 77,
-          "source_name": "SAM.gov (Federal)"
-        },
         {
           "title": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
           "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
@@ -387,6 +368,36 @@
           "state": "US-FED",
           "url": "https://sam.gov/workspace/contract/opp/f4eaff8f1ab14f19975d964d95da20ff/view",
           "due_date": "2026-10-16",
+          "it_score": 71,
+          "source_name": "SAM.gov (Federal)"
+        }
+      ]
+    },
+    {
+      "name": "Cloud Migration & Modernization",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "US-FED"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "Defense Health Agency (DHA), Program Acquisition Executive, Digital Medical Solutions (PAE DMS), Enterprise Intelligence & Data Solutions (EIDS) Program Management Office (PMO), Data Exchange Services Operations, Modernization, and Development",
+          "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/f680b73a6c10415a83f09f448894e5bb/view",
+          "due_date": "2026-10-28",
+          "it_score": 89,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "Modernization of the Influenza-Like Illness (ILI) Surveillance Process and Algorithms Project",
+          "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.DIVISION OF ACQUISITIONS POLICY HQ",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/63b7b471237f470c8f172ab7057d0108/view",
+          "due_date": "2026-10-08",
           "it_score": 71,
           "source_name": "SAM.gov (Federal)"
         }
@@ -565,24 +576,26 @@
       ]
     },
     {
-      "id": "samgov:36C10B26Q0585",
+      "id": "samgov:HT003826SC005-AOI0002",
       "source_name": "SAM.gov (Federal)",
-      "title": "DA01--Loopback Enterprise Resource Planning (ERP) System Integrator (SI)",
-      "description": "DA01--Loopback Enterprise Resource Planning (ERP) System Integrator (SI)",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "title": "Defense Health Agency (DHA), Program Acquisition Executive, Digital Medical Solutions (PAE DMS), Enterprise Intelligence & Data Solutions (EIDS) Program Management Office (PMO), Data Exchange Services Operations, Modernization, and Development",
+      "description": "Defense Health Agency (DHA), Program Acquisition Executive, Digital Medical Solutions (PAE DMS), Enterprise Intelligence & Data Solutions (EIDS) Program Management Office (PMO), Data Exchange Services Operations, Modernization, and Development",
+      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/d16f6d9357ee4cfc9c9584bb15ed270e/view",
-      "naics": "541519",
+      "url": "https://sam.gov/workspace/contract/opp/f680b73a6c10415a83f09f448894e5bb/view",
+      "naics": "541512",
       "psc": "DA01",
-      "set_aside": "",
+      "set_aside": "No Set aside used",
       "posted_date": "2026-10-07",
-      "due_date": "2026-10-07",
-      "it_score": 77,
+      "due_date": "2026-10-28",
+      "it_score": 89,
       "is_new": true,
-      "first_seen": "2026-10-07",
+      "first_seen": "2026-10-08",
       "matched_keywords": [
-        "system",
-        "erp"
+        "modernization",
+        "development",
+        "data",
+        "digital"
       ]
     },
     {
@@ -599,7 +612,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-09",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
       "matched_keywords": [
         "system",
@@ -641,7 +654,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-13",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
       "matched_keywords": [
         "software"
@@ -747,27 +760,6 @@
         "software",
         "system",
         "data"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232140",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-22",
-      "due_date": "2026-10-07",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software",
-        "license"
       ]
     },
     {
@@ -1478,6 +1470,60 @@
       ]
     },
     {
+      "id": "samgov:36C10B27Q0035",
+      "source_name": "SAM.gov (Federal)",
+      "title": "DE01--ECO Enterprise Service Desk (ESD) Consolidated Effort - RFI (VA-27-00011677)",
+      "description": "DE01--ECO Enterprise Service Desk (ESD) Consolidated Effort - RFI (VA-27-00011677)",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/0b4d9d4eaec34aca836c80662ae6ce73/view",
+      "naics": "541512",
+      "psc": "DE01",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-21",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-08",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:28321326R00000022",
+      "source_name": "SAM.gov (Federal)",
+      "title": "IT Support Services Contract (ITSSC) Recompete",
+      "description": "IT Support Services Contract (ITSSC) Recompete",
+      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/d1ac3b41feb743fe8a009a7a5d85d061/view",
+      "naics": "541519",
+      "psc": "DF01",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-15",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:842674854",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Endpoint Security Event Management",
+      "description": "Endpoint Security Event Management",
+      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).IT CONTRACTING DIVISION - PL84",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/8a70d179bfee4bef815afc1f9dcc4055/view",
+      "naics": "541519",
+      "psc": "DJ01",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-09",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": []
+    },
+    {
       "id": "samgov:N0042127Q1008",
       "source_name": "SAM.gov (Federal)",
       "title": "P8 MULTI MISSION",
@@ -1491,8 +1537,26 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-12",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:36C10B27R0001",
+      "source_name": "SAM.gov (Federal)",
+      "title": "DA10--Brand Name Active Navigation or Equivalent Discovery Center VA-27-00000574",
+      "description": "DA10--Brand Name Active Navigation or Equivalent Discovery Center VA-27-00000574",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/146a68e9713b4854bd42748212f67c72/view",
+      "naics": "541519",
+      "psc": "DA10",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-12",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-08",
       "matched_keywords": []
     },
     {
@@ -2222,26 +2286,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232179",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-07",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-24",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "dg92-zbpx:83627U0002001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "CoStar Suite All Data Subscription",
@@ -2635,7 +2679,7 @@
       "posted_date": "",
       "due_date": "2026-10-15",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07",
       "matched_keywords": [
         "ai"
