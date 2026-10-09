@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T18:06:54.003298+00:00",
+  "generated_at": "2026-10-09T04:41:56.392039+00:00",
   "counts": {
-    "total": 119,
-    "new": 8
+    "total": 114,
+    "new": 6
   },
   "health": {
     "ok": 27,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 16,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 217,
+        "count": 216,
         "error": ""
       },
       {
@@ -101,19 +101,19 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 31,
+        "count": 26,
         "error": ""
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 64,
+        "count": 62,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 296,
+        "count": 294,
         "error": ""
       },
       {
@@ -125,13 +125,13 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 31,
+        "count": 30,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 21,
+        "count": 19,
         "error": ""
       },
       {
@@ -149,13 +149,13 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 21,
+        "count": 20,
         "error": ""
       },
       {
         "source": "QuestCDN",
         "ok": true,
-        "count": 1,
+        "count": 2,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 53,
+        "count": 56,
         "error": ""
       },
       {
@@ -181,14 +181,14 @@
   "product_themes": [
     {
       "name": "Records & Document Management (ECM)",
-      "opportunity_count": 6,
-      "agency_count": 6,
+      "opportunity_count": 5,
+      "agency_count": 5,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 20,
+      "demand_score": 17,
       "examples": [
         {
           "title": "Consultant Services, NYCEDC Asset Management Building Plans and Document Management Platform RFEI",
@@ -198,15 +198,6 @@
           "due_date": "",
           "it_score": 57,
           "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "RFP2241293798 ENTERPRISE DOCUMENT MANAGEMENT SYSTEM",
-          "agency": "LAUSD",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lHzK9IAK",
-          "due_date": "2026-10-08",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "Open Text ECM Support and Other Records Management Support",
@@ -314,14 +305,14 @@
     },
     {
       "name": "Data / Analytics / Dashboards",
-      "opportunity_count": 3,
-      "agency_count": 3,
+      "opportunity_count": 2,
+      "agency_count": 2,
       "state_count": 2,
       "states": [
-        "CA",
+        "DC",
         "US-FED"
       ],
-      "demand_score": 11,
+      "demand_score": 8,
       "examples": [
         {
           "title": "Defense Health Agency (DHA), Program Acquisition Executive, Digital Medical Solutions (PAE DMS), Enterprise Intelligence & Data Solutions (EIDS) Program Management Office (PMO), Data Exchange Services Operations, Modernization, and Development",
@@ -333,82 +324,13 @@
           "source_name": "SAM.gov (Federal)"
         },
         {
-          "title": "Comprehensive Data Management & Streamlining Solution for Business-Critical Data (Data Stream)",
-          "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.FOOD AND DRUG ADMINISTRATION.FOOD AND DRUG ADMINISTRATION",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/33052ba44678476e9ba02941ea419320/view",
-          "due_date": "2026-10-19",
-          "it_score": 56,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "TOS CC-104 Multi-Location Near Miss and Street Safety Analytics Study for School Safety",
-          "agency": "Transportation",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ZrchJIAR",
-          "due_date": "2026-11-04",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "ERP / Finance / HR",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "US-FED"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
-          "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/1f45cb4fe47347e79ca13a4beff0df4c/view",
-          "due_date": "2026-10-09",
-          "it_score": 77,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Financial Management Software and Support Services",
-          "agency": "COMMERCE, DEPARTMENT OF.NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION.DEPT OF COMMERCE NTIA/FIRST NET",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/f4eaff8f1ab14f19975d964d95da20ff/view",
-          "due_date": "2026-10-16",
-          "it_score": 71,
-          "source_name": "SAM.gov (Federal)"
-        }
-      ]
-    },
-    {
-      "name": "Cloud Migration & Modernization",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "US-FED"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "Defense Health Agency (DHA), Program Acquisition Executive, Digital Medical Solutions (PAE DMS), Enterprise Intelligence & Data Solutions (EIDS) Program Management Office (PMO), Data Exchange Services Operations, Modernization, and Development",
-          "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/f680b73a6c10415a83f09f448894e5bb/view",
-          "due_date": "2026-10-28",
-          "it_score": 89,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Modernization of the Influenza-Like Illness (ILI) Surveillance Process and Algorithms Project",
-          "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.DIVISION OF ACQUISITIONS POLICY HQ",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/63b7b471237f470c8f172ab7057d0108/view",
-          "due_date": "2026-10-08",
-          "it_score": 71,
-          "source_name": "SAM.gov (Federal)"
+          "title": "RFP - Provider Data Management System and Services",
+          "agency": "Department of Health Care Finance",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-11-09",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
         }
       ]
     }
@@ -608,6 +530,27 @@
       ]
     },
     {
+      "id": "samgov:REQUIREMENTS-25-1463-27",
+      "source_name": "SAM.gov (Federal)",
+      "title": "High-Performance Computing Software Development and Technical Services",
+      "description": "High-Performance Computing Software Development and Technical Services",
+      "agency": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/0b6d95189a1d4755a45f29932f3433ac/view",
+      "naics": "541511",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-27",
+      "it_score": 77,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "software",
+        "development"
+      ]
+    },
+    {
       "id": "samgov:36C10B27Q0032",
       "source_name": "SAM.gov (Federal)",
       "title": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
@@ -647,6 +590,26 @@
       "matched_keywords": [
         "software",
         "development"
+      ]
+    },
+    {
+      "id": "samgov:FA8770-26-Q-0099",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Sources Sought/Request for Information - FiveTran Software Licenses and Maintenance",
+      "description": "Sources Sought/Request for Information - FiveTran Software Licenses and Maintenance",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.BUSINESS AND ENTERPRISE SYSTEMS.FA8770 AFLCMC GBK",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/4242bf0268904206992650f4f6fb2593/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-15",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -690,66 +653,6 @@
       ]
     },
     {
-      "id": "samgov:75H70427Q00001",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Modernization of the Influenza-Like Illness (ILI) Surveillance Process and Algorithms Project",
-      "description": "Modernization of the Influenza-Like Illness (ILI) Surveillance Process and Algorithms Project",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.DIVISION OF ACQUISITIONS POLICY HQ",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/63b7b471237f470c8f172ab7057d0108/view",
-      "naics": "541512",
-      "psc": "R499",
-      "set_aside": "Indian Small Business Economic Enterprise",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-10-08",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-30",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "samgov:FNA-OCPO-64962",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Financial Management Software and Support Services",
-      "description": "Financial Management Software and Support Services",
-      "agency": "COMMERCE, DEPARTMENT OF.NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION.DEPT OF COMMERCE NTIA/FIRST NET",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/f4eaff8f1ab14f19975d964d95da20ff/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-10-16",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:36C26127Q0062",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Pyxis Supply Server Software",
-      "description": "Pyxis Supply Server Software",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.261-NETWORK CONTRACT OFFICE 21 (36C261)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/36e01c2dd5c14321849c55786677d5c9/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-10-13",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-10-06",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "dg92-zbpx:81627Y0857",
       "source_name": "New York City — City Record (Procurement)",
       "title": "81627Y0857-BRANAGH INFORMATION GROUP INC. _ Sole Source _ Technical Assistance (TA) Module 01 software data system",
@@ -785,7 +688,7 @@
       "posted_date": "2026-10-08",
       "due_date": "",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": [
         "software",
@@ -832,27 +735,6 @@
       "matched_keywords": [
         "integration",
         "data"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:231906",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFP2241293798 ENTERPRISE DOCUMENT MANAGEMENT SYSTEM",
-      "description": "None",
-      "agency": "LAUSD",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lHzK9IAK",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-10-08",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "system",
-        "document management"
       ]
     },
     {
@@ -960,46 +842,6 @@
       ]
     },
     {
-      "id": "samgov:FDA-RFI-27-1251190",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Comprehensive Data Management & Streamlining Solution for Business-Critical Data (Data Stream)",
-      "description": "Comprehensive Data Management & Streamlining Solution for Business-Critical Data (Data Stream)",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.FOOD AND DRUG ADMINISTRATION.FOOD AND DRUG ADMINISTRATION",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/33052ba44678476e9ba02941ea419320/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-10-19",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-10-06",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "samgov:FA8730-REV-AOC",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Request for Information: Revolutionary (REV) Air Operations Center (AOC) Weapon System",
-      "description": "Request for Information: Revolutionary (REV) Air Operations Center (AOC) Weapon System",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.HANSCOM AIR FORCE LIFE CYCLE MANAGEMENT CENTER.COMMAND, CONTROL AND COMMUNICATION BATTLE MANAGEMENT - HANSCOM AIR FORCE B.FA8730 KESSEL RUN AFLCMC/HBBK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/203816fc5ab940578cdb4cc081e06735/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-10-14",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-29",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
       "id": "dg92-zbpx:83627W0002001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "BMC Control-M Software and Managed Services",
@@ -1055,26 +897,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012129",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 EMMA SOFTWARE SUBSCRIPTION RENEWAL",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012129&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-08",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-06",
       "matched_keywords": [
         "software"
       ]
@@ -1513,7 +1335,7 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-10-29",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": []
     },
@@ -1549,7 +1371,7 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-10-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": []
     },
@@ -1567,8 +1389,26 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-10-15",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:DISA-OTA-27-R-UAM",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Area of Interest (AOI) for User Activity Monitoring (UAM) Centralization Prototype Other Transaction (OT)",
+      "description": "Area of Interest (AOI) for User Activity Monitoring (UAM) Centralization Prototype Other Transaction (OT)",
+      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).IT CONTRACTING DIVISION - PL84",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/65c0f235b9d84fee86ad8ceaa407ac12/view",
+      "naics": "541519",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-22",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-09",
       "matched_keywords": []
     },
     {
@@ -1752,42 +1592,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:95476727RFI-MSSP",
-      "source_name": "SAM.gov (Federal)",
-      "title": "USHMM-RFI-2027-MSSP",
-      "description": "USHMM-RFI-2027-MSSP",
-      "agency": "UNITED STATES HOLOCAUST MEMORIAL MUSEUM.UNITED STATES HOLOCAUST MEMORIAL MUSEUM.USHMM PROCUREMENT DIVISION",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/3109fc67d44c46f998cae0abcb04f779/view",
-      "naics": "541512",
-      "psc": "DJ10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-10-30",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:FA813226Q0058",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Furnace Interface Upgrade",
-      "description": "Furnace Interface Upgrade",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8132 AFSC PZIMC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/9f7756c72c9b455ab9e2972d8343cb32/view",
-      "naics": "541519",
-      "psc": "J044",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-10-13",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-30",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:29959:146823",
       "source_name": "PlanetBids — City of Santa Barbara, CA",
       "title": "Comprehensive Water and Wastewater Rate Studies",
@@ -1908,24 +1712,6 @@
       "set_aside": "",
       "posted_date": "2026-09-22",
       "due_date": "2026-11-04",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:29959:145834",
-      "source_name": "PlanetBids — City of Santa Barbara, CA",
-      "title": "Raw Water Quality Study for the Charles E. Meyer Desalination Plant",
-      "description": "RFP No. 5142",
-      "agency": "City of Santa Barbara, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/145834",
-      "naics": "",
-      "psc": "04000, 90624, 91843, 91897, 92600, 96132, 96143, 96245, 96892",
-      "set_aside": "",
-      "posted_date": "2026-09-03",
-      "due_date": "2026-10-08",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-09-23",
@@ -2066,6 +1852,48 @@
       ]
     },
     {
+      "id": "eeq6-nnwe:1200288",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "description": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "agency": "Department of Health & Human Svcs",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "Y",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-16",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "data",
+        "digital"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232441",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "146385 BOOM DOLLY, FOR GROVE MODEL 5150L-1 CRANE, SCALE SYSTEM, DIGITAL",
+      "description": "Commodity",
+      "agency": "Water & Power",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mkqpZIAQ",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-20",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "system",
+        "digital"
+      ]
+    },
+    {
       "id": "dg92-zbpx:85818P8211KXLR002",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Citywide Voice and Data (TWC/Spectrum) Renewal 2",
@@ -2129,6 +1957,27 @@
       ]
     },
     {
+      "id": "arcgis:Doc847596",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "RFP - Provider Data Management System and Services",
+      "description": "RFP - Provider Data Management System and Services",
+      "agency": "Department of Health Care Finance",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-09",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "system",
+        "data"
+      ]
+    },
+    {
       "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
       "source_name": "CivicPlus Bids — Washington County, MN",
       "title": "Artificial Intelligence (AI) Policy",
@@ -2163,7 +2012,7 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-10-21",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": [
         "data"
@@ -2183,7 +2032,7 @@
       "posted_date": "2026-10-08",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": [
         "website"
@@ -2203,7 +2052,7 @@
       "posted_date": "2026-10-08",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": [
         "license"
@@ -2383,30 +2232,10 @@
       "posted_date": "2026-09-29",
       "due_date": "2026-10-22",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:228081",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "TOS CC-104 Multi-Location Near Miss and Street Safety Analytics Study for School Safety",
-      "description": "Personal Services",
-      "agency": "Transportation",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ZrchJIAR",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-28",
-      "due_date": "2026-11-04",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-29",
-      "matched_keywords": [
-        "analytics"
       ]
     },
     {
