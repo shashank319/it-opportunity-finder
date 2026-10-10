@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T17:40:14.977638+00:00",
+  "generated_at": "2026-10-10T04:27:51.866017+00:00",
   "counts": {
-    "total": 122,
-    "new": 7
+    "total": 114,
+    "new": 4
   },
   "health": {
     "ok": 27,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 19,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 217,
+        "count": 211,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 267,
+        "count": 283,
         "error": ""
       },
       {
@@ -101,25 +101,25 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 34,
+        "count": 29,
         "error": ""
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 62,
+        "count": 59,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 301,
+        "count": 298,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 33,
+        "count": 32,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 66,
+        "count": 64,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 20,
+        "count": 19,
         "error": ""
       },
       {
@@ -161,13 +161,13 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 5,
+        "count": 6,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 54,
+        "count": 57,
         "error": ""
       },
       {
@@ -179,6 +179,91 @@
     ]
   },
   "product_themes": [
+    {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 8,
+      "agency_count": 7,
+      "state_count": 2,
+      "states": [
+        "NY",
+        "US-FED"
+      ],
+      "demand_score": 23,
+      "examples": [
+        {
+          "title": "DA10--LOGICARE Patient Instructions Software and License",
+          "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 19 (36C259)",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/f70bde471f6d45f999097a8a826b108b/view",
+          "due_date": "2026-10-16",
+          "it_score": 77,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
+          "agency": "Chief Medical Examiner",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "ISBEE or IEE Authorized Distributor for F5 BIG-IP Enterprise Licensing, Maintenance and Technical Support",
+          "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION (ASA).PROGRAM SUPPORT CENTER ACQ MGMT SVC",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/61210b5a136343b083131bbcbd627a0d/view",
+          "due_date": "2026-10-16",
+          "it_score": 50,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
+          "agency": "Fire Department",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 48,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "License continuation of SolarWinds DameWare Remote Support",
+          "agency": "Citywide Administrative Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "Box.com Enterprise License",
+          "agency": "Small Business Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "ImageWork ClaimConnect License Renewal and Support",
+          "agency": "Sanitation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
+          "agency": "Chief Medical Examiner",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        }
+      ]
+    },
     {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 5,
@@ -234,72 +319,6 @@
           "due_date": "2028-04-01",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 6,
-      "agency_count": 5,
-      "state_count": 1,
-      "states": [
-        "NY"
-      ],
-      "demand_score": 16,
-      "examples": [
-        {
-          "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 57,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
-          "agency": "Fire Department",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 48,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "License continuation of SolarWinds DameWare Remote Support",
-          "agency": "Citywide Administrative Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "Box.com Enterprise License",
-          "agency": "Small Business Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "ImageWork ClaimConnect License Renewal and Support",
-          "agency": "Sanitation",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
         }
       ]
     },
@@ -439,30 +458,6 @@
   ],
   "opportunities": [
     {
-      "id": "samgov:SaaS_SI_OCCS",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Software-as-a-Service (SaaS) Subscriptions and Systems Integration (SI) Support Services for the Omnichannel Customer Communication System (OCCS)",
-      "description": "Software-as-a-Service (SaaS) Subscriptions and Systems Integration (SI) Support Services for the Omnichannel Customer Communication System (OCCS)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG CONTR CTR",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/45b342e7ee9a42ffa60e0ea586d252eb/view",
-      "naics": "541519",
-      "psc": "R425",
-      "set_aside": "",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-10-19",
-      "it_score": 100,
-      "is_new": false,
-      "first_seen": "2026-09-30",
-      "matched_keywords": [
-        "software",
-        "system",
-        "systems",
-        "saas",
-        "integration"
-      ]
-    },
-    {
       "id": "opengov:acgov:299786",
       "source_name": "OpenGov — County of Alameda, CA",
       "title": "RFP 902737 EVACUATION PLANNING SOFTWARE SOLUTION",
@@ -530,24 +525,24 @@
       ]
     },
     {
-      "id": "samgov:36C10B27Q0032",
+      "id": "samgov:36C25927Q0021",
       "source_name": "SAM.gov (Federal)",
-      "title": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
-      "description": "DA01--Enterprise Resource Planning (ERP), System Integrator (SI) Information/Discovery Session",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "title": "DA10--LOGICARE Patient Instructions Software and License",
+      "description": "DA10--LOGICARE Patient Instructions Software and License",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 19 (36C259)",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/05d66bab1ca24a418c58ef6808930935/view",
+      "url": "https://sam.gov/workspace/contract/opp/f70bde471f6d45f999097a8a826b108b/view",
       "naics": "541519",
-      "psc": "DA01",
+      "psc": "DA10",
       "set_aside": "",
       "posted_date": "2026-10-09",
-      "due_date": "2026-10-09",
+      "due_date": "2026-10-16",
       "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-10-07",
+      "is_new": true,
+      "first_seen": "2026-10-10",
       "matched_keywords": [
-        "system",
-        "erp"
+        "software",
+        "license"
       ]
     },
     {
@@ -564,7 +559,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-23",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "cloud",
@@ -593,27 +588,6 @@
       ]
     },
     {
-      "id": "samgov:95332427K0001",
-      "source_name": "SAM.gov (Federal)",
-      "title": "MCC Software Development Recompete",
-      "description": "MCC Software Development Recompete",
-      "agency": "MILLENNIUM CHALLENGE CORPORATION.MILLENNIUM CHALLENGE CORPORATION.MILLENNIUM CHALLENGE CORPORATION",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/ec4254f4fdf24f8998bd4e10d5b58050/view",
-      "naics": "541512",
-      "psc": "DD01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-10-29",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-10-07",
-      "matched_keywords": [
-        "software",
-        "development"
-      ]
-    },
-    {
       "id": "samgov:36C25927Q0020",
       "source_name": "SAM.gov (Federal)",
       "title": "DA10--Qgenda Scheduling Software",
@@ -627,7 +601,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-23",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "software"
@@ -674,26 +648,6 @@
       ]
     },
     {
-      "id": "samgov:28321327Q00000006",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Solicitation for Snowbound Rastermaster software",
-      "description": "Solicitation for Snowbound Rastermaster software",
-      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/4fc5f8a5ef824e9ab5ad341841232908/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-10-19",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-10-06",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "dg92-zbpx:81627Y0857",
       "source_name": "New York City — City Record (Procurement)",
       "title": "81627Y0857-BRANAGH INFORMATION GROUP INC. _ Sole Source _ Technical Assistance (TA) Module 01 software data system",
@@ -729,7 +683,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-20",
       "it_score": 62,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "application",
@@ -863,23 +817,23 @@
       ]
     },
     {
-      "id": "samgov:W50NH9-26-R-A019",
+      "id": "samgov:USCA27R0009",
       "source_name": "SAM.gov (Federal)",
-      "title": "Geospatial Intelligence (GEOINT) Architecture Information Technology (IT)",
-      "description": "Geospatial Intelligence (GEOINT) Architecture Information Technology (IT)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-DTA.W6QK ACC- DTA",
+      "title": "JURY MANAGEMENT SOLUTION (JMS) SYSTEM",
+      "description": "JURY MANAGEMENT SOLUTION (JMS) SYSTEM",
+      "agency": "ADMINISTRATIVE OFFICE OF THE US COURTS.ADMINISTRATIVE OFFICE OF THE US COURTS.AOUSC-PROCUREMENT MANAGEMENT DIV",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/de8de3e2181f4a46b207e697ca045430/view",
-      "naics": "541519",
-      "psc": "DA01",
+      "url": "https://sam.gov/workspace/contract/opp/6ba7c891fdc147868fc0fbca45bd54e7/view",
+      "naics": "541511",
+      "psc": "DA10",
       "set_aside": "No Set aside used",
       "posted_date": "2026-10-09",
-      "due_date": "2026-10-09",
+      "due_date": "2026-10-30",
       "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-26",
+      "is_new": true,
+      "first_seen": "2026-10-10",
       "matched_keywords": [
-        "information technology"
+        "system"
       ]
     },
     {
@@ -896,7 +850,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-11-09",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "system"
@@ -916,30 +870,10 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-26",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "information technology"
-      ]
-    },
-    {
-      "id": "samgov:FA8771-26-S-C0001",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-      "description": "Department of the Air Force Program Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.BUSINESS AND ENTERPRISE SYSTEMS.FA8771 AFLCMC GBK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/282c0a2d74534cc0bd342d598ca72915/view",
-      "naics": "541519",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-06",
-      "due_date": "",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-10-06",
-      "matched_keywords": [
-        "systems"
       ]
     },
     {
@@ -1423,6 +1357,42 @@
       ]
     },
     {
+      "id": "samgov:36C10B27R0001",
+      "source_name": "SAM.gov (Federal)",
+      "title": "DA10--Brand Name Active Navigation or Equivalent Discovery Center (VA-27-00000574)",
+      "description": "DA10--Brand Name Active Navigation or Equivalent Discovery Center (VA-27-00000574)",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/d0061b61f8a24ad6b272730072015873/view",
+      "naics": "541519",
+      "psc": "DA10",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-14",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-10-08",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:SS-REQT-IHS-2026-00335",
+      "source_name": "SAM.gov (Federal)",
+      "title": "ISBEE or IEE Authorized Distributor for F5 BIG-IP Enterprise Licensing, Maintenance and Technical Support",
+      "description": "ISBEE or IEE Authorized Distributor for F5 BIG-IP Enterprise Licensing, Maintenance and Technical Support",
+      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION (ASA).PROGRAM SUPPORT CENTER ACQ MGMT SVC",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/61210b5a136343b083131bbcbd627a0d/view",
+      "naics": "541519",
+      "psc": "7G21",
+      "set_aside": "Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services)",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-16",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-10",
+      "matched_keywords": []
+    },
+    {
       "id": "samgov:36C25027Q0027",
       "source_name": "SAM.gov (Federal)",
       "title": "DA10--Vocera Communication Support Services - Cincinnati, Dayton, Chillicothe, Columbus VAMCs",
@@ -1436,7 +1406,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-23",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": []
     },
@@ -1474,6 +1444,24 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-08",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:N6600127Q6006",
+      "source_name": "SAM.gov (Federal)",
+      "title": "N66001-27-Q-6006 RFQ to acquire commercial off the shelf (COTS) brand name Dymo, Apricorn, Dell, Extreme Networks, Klein Tools, Open Text, Inc., and Raritan, Inc., IT equipment and brand name or equal IT equipment",
+      "description": "N66001-27-Q-6006 RFQ to acquire commercial off the shelf (COTS) brand name Dymo, Apricorn, Dell, Extreme Networks, Klein Tools, Open Text, Inc., and Raritan, Inc., IT equipment and brand name or equal IT equipment",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.SPAWAR.SPAWAR PACIFIC.NIWC PACIFIC",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/0526b7d21b124cbda9fcba7b0515f7b8/view",
+      "naics": "541519",
+      "psc": "9999",
+      "set_aside": "",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-16",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-10",
       "matched_keywords": []
     },
     {
@@ -1603,24 +1591,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:842674854",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Endpoint Security Event Management",
-      "description": "Endpoint Security Event Management",
-      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).IT CONTRACTING DIVISION - PL84",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/8a70d179bfee4bef815afc1f9dcc4055/view",
-      "naics": "541519",
-      "psc": "DJ01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-07",
-      "due_date": "2026-10-09",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:N0042127Q1008",
       "source_name": "SAM.gov (Federal)",
       "title": "P8 MULTI MISSION",
@@ -1633,96 +1603,6 @@
       "set_aside": "No Set aside used",
       "posted_date": "2026-10-07",
       "due_date": "2026-10-12",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-07",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:36C10B27R0001",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DA10--Brand Name Active Navigation or Equivalent Discovery Center VA-27-00000574",
-      "description": "DA10--Brand Name Active Navigation or Equivalent Discovery Center VA-27-00000574",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/146a68e9713b4854bd42748212f67c72/view",
-      "naics": "541519",
-      "psc": "DA10",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-10-07",
-      "due_date": "2026-10-12",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-08",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:HQDA-G-4_26_01",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Sizing Technology Pilot",
-      "description": "Sizing Technology Pilot",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/b691c12b700848deb9876f9b1b5ad0cf/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-10-20",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-06",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:N3220527R6100",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Civilian Mariner Wireless Network (CivMar WiN) Installation and Sustainment Follow-on Contract",
-      "description": "Civilian Mariner Wireless Network (CivMar WiN) Installation and Sustainment Follow-on Contract",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.MSC.MSC HQS.MSCHQ NORFOLK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/1ca91cea669e4b4e936afe62f38a4e03/view",
-      "naics": "541512",
-      "psc": "DG10",
-      "set_aside": "",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-11-02",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-06",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:36C10B27Q0024",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DE10--FY27 NetApp Maintenance Re-compete (VA-27-00006860)(New Work)",
-      "description": "DE10--FY27 NetApp Maintenance Re-compete (VA-27-00006860)(New Work)",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/ef414ed83a37444eaeb11b7a4502c926/view",
-      "naics": "541519",
-      "psc": "DE10",
-      "set_aside": "",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-10-09",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-07",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:HT9426-27-LBA-01-RFI",
-      "source_name": "SAM.gov (Federal)",
-      "title": "IT Support Services",
-      "description": "IT Support Services",
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).ARMY MED RES ACQ ACTIVITY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/776ac3a91aaf400fb5ceab784fede5ef/view",
-      "naics": "541519",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-06",
-      "due_date": "2026-10-09",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-07",
@@ -1885,24 +1765,6 @@
       "set_aside": "",
       "posted_date": "2026-09-01",
       "due_date": "2026-10-22",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:15300:145376",
-      "source_name": "PlanetBids — City of Sacramento, CA",
-      "title": "On-Call Consultant Services for the Water Forum",
-      "description": "Q27141051001",
-      "agency": "City of Sacramento, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/145376",
-      "naics": "",
-      "psc": "20880, 30542, 49396, 59510, 59535, 59575, 79020, 79050, 80186, 90505, 90510, 90607, 90625, 90656, 91826, 92002, 92021, 92045, 92536, 92586, 92642, 93831, 96129, 96132, 96148, 96252, 96272, 96676, 96686, 96888, 97935, 98826, 98852, 98863, 98888, 98889",
-      "set_aside": "",
-      "posted_date": "2026-08-25",
-      "due_date": "2026-10-09",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-09-23",
@@ -2149,7 +2011,7 @@
       "posted_date": "2026-10-09",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "database"
