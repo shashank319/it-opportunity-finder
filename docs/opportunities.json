@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T04:28:13.532820+00:00",
+  "generated_at": "2026-10-12T20:32:57.557618+00:00",
   "counts": {
-    "total": 89,
-    "new": 0
+    "total": 93,
+    "new": 5
   },
   "health": {
     "ok": 26,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 210,
+        "count": 209,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 47,
+        "count": 50,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 297,
+        "count": 317,
         "error": ""
       },
       {
@@ -107,13 +107,13 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 59,
+        "count": 60,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 298,
+        "count": 300,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 64,
+        "count": 67,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 19,
+        "count": 20,
         "error": ""
       },
       {
@@ -161,13 +161,13 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 6,
+        "count": 7,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 57,
+        "count": 60,
         "error": ""
       },
       {
@@ -179,6 +179,91 @@
     ]
   },
   "product_themes": [
+    {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 8,
+      "agency_count": 6,
+      "state_count": 2,
+      "states": [
+        "CA",
+        "NY"
+      ],
+      "demand_score": 20,
+      "examples": [
+        {
+          "title": "OCA ADM | TM3 ReLeased Software License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012158&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-15",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
+          "agency": "Chief Medical Examiner",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
+          "agency": "Fire Department",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 48,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "OCA LIB | TM3 - Everpure License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-19",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "License continuation of SolarWinds DameWare Remote Support",
+          "agency": "Citywide Administrative Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "Box.com Enterprise License",
+          "agency": "Small Business Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "ImageWork ClaimConnect License Renewal and Support",
+          "agency": "Sanitation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
+          "agency": "Chief Medical Examiner",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        }
+      ]
+    },
     {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 5,
@@ -234,72 +319,6 @@
           "due_date": "2028-04-01",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 6,
-      "agency_count": 5,
-      "state_count": 1,
-      "states": [
-        "NY"
-      ],
-      "demand_score": 16,
-      "examples": [
-        {
-          "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 57,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
-          "agency": "Fire Department",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 48,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "License continuation of SolarWinds DameWare Remote Support",
-          "agency": "Citywide Administrative Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "Box.com Enterprise License",
-          "agency": "Small Business Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "ImageWork ClaimConnect License Renewal and Support",
-          "agency": "Sanitation",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
         }
       ]
     }
@@ -474,6 +493,27 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012158",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA ADM | TM3 ReLeased Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012158&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-15",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "dg92-zbpx:85627W0064001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "UC4 Automation Engine Software Licenses",
@@ -597,6 +637,66 @@
       "matched_keywords": [
         "software",
         "system"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012156",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PUC | TM3 - Cornerstone Talent Suite SaaS LMS",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012156&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-19",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "saas"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012150",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA AIR | TM3 - Frontline Software and Support",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012150&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-15",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012137",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PUC | TM3 EnergyCAP Software Lic.Subscrip Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012137&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-15",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1469,6 +1569,26 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012157",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA LIB | TM3 - Everpure License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-19",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
       "id": "dg92-zbpx:06827W0013001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Senior Oracle Database Administrator",
@@ -1806,26 +1926,6 @@
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000011913",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "TIS | RFP for Cybersecurity Staffing Firms",
-      "description": "Seeking Bids",
-      "agency": "Department of Technology",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000011913&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-22",
-      "due_date": "2026-10-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-28",
-      "matched_keywords": [
-        "cybersecurity"
       ]
     },
     {
