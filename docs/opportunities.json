@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T20:32:57.557618+00:00",
+  "generated_at": "2026-10-13T05:35:47.945323+00:00",
   "counts": {
-    "total": 93,
-    "new": 5
+    "total": 94,
+    "new": 1
   },
   "health": {
     "ok": 26,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 21,
+        "count": 20,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 209,
+        "count": 207,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 317,
+        "count": 376,
         "error": ""
       },
       {
@@ -102,30 +102,30 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F09%2F2026&postedTo=10%2F12%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F10%2F2026&postedTo=10%2F13%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 60,
+        "count": 61,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 300,
+        "count": 296,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 33,
+        "count": 32,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 30,
+        "count": 29,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 67,
+        "count": 70,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 20,
+        "count": 22,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 60,
+        "count": 59,
         "error": ""
       },
       {
@@ -506,7 +506,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-15",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "software",
@@ -653,7 +653,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-19",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "saas"
@@ -673,7 +673,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-15",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "software"
@@ -693,7 +693,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-15",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "software"
@@ -1160,6 +1160,26 @@
       ]
     },
     {
+      "id": "bonfire:broward:257719",
+      "source_name": "Bonfire — Broward County, FL",
+      "title": "Request for Information (RFI) - Autodesk AutoCAD Software",
+      "description": "Request for Information (RFI) - Autodesk AutoCAD Software",
+      "agency": "Broward County, FL",
+      "state": "FL",
+      "url": "https://broward.bonfirehub.com/opportunities/257719",
+      "naics": "",
+      "psc": "",
+      "set_aside": "TCH2133040F1",
+      "posted_date": "",
+      "due_date": "2026-10-30",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-13",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
       "source_name": "CivicPlus Bids — City of Buffalo, NY",
       "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
@@ -1582,7 +1602,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "license"
