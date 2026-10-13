@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-13T05:35:47.945323+00:00",
+  "generated_at": "2026-10-13T18:39:05.807955+00:00",
   "counts": {
-    "total": 94,
-    "new": 1
+    "total": 86,
+    "new": 5
   },
   "health": {
-    "ok": 26,
+    "ok": 25,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 207,
+        "count": 203,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 376,
+        "count": 398,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 51,
+        "count": 53,
         "error": ""
       },
       {
@@ -107,19 +107,19 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 61,
+        "count": 60,
         "error": ""
       },
       {
         "source": "OpenGov",
-        "ok": true,
-        "count": 296,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='procurement.opengov.com', port=443): Read timed out. (read timeout=30)"
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 32,
+        "count": 33,
         "error": ""
       },
       {
@@ -137,19 +137,19 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 70,
+        "count": 72,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 3,
+        "count": 2,
         "error": ""
       },
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 22,
+        "count": 20,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 59,
+        "count": 61,
         "error": ""
       },
       {
@@ -321,6 +321,37 @@
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
       ]
+    },
+    {
+      "name": "Data / Analytics / Dashboards",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 2,
+      "states": [
+        "DC",
+        "NY"
+      ],
+      "demand_score": 8,
+      "examples": [
+        {
+          "title": "RFP - Provider Data Management System and Services",
+          "agency": "Department of Health Care Finance",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-11-09",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
+        },
+        {
+          "title": "RFP for Provider Data Management services",
+          "agency": "NYC Health + Hospitals",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        }
+      ]
     }
   ],
   "it_code_reference": [
@@ -426,50 +457,6 @@
     }
   ],
   "opportunities": [
-    {
-      "id": "opengov:acgov:299786",
-      "source_name": "OpenGov — County of Alameda, CA",
-      "title": "RFP 902737 EVACUATION PLANNING SOFTWARE SOLUTION",
-      "description": "It is the intent of these specifications, terms, and conditions to describe the evacuation planning solution being requested by the Alameda County Sheriff's Office (ACSO) for the Office of Emergency Services (OES). Contractor must provide a secure, cloud-based evacuation planning and modeling software solution capable of supporting evacuation analysis, scenario planning, operational decision-making, and real-time evacuation management. The proposed solution must support Alameda County OES and all Operational Area partners, including fourteen (14) incorporated cities, special districts, County departments, and critical infrastructure partners. The platform must be scalable and configurable to allow jurisdiction-specific access while maintaining Operational Area-level visibility, coordination capability, and governance. The Contractor must provide full implementation services, including configuration, data integration, training, technical support, and ongoing maintenance. The County intends to award a three (3)-year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
-      "agency": "County of Alameda, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/acgov/projects/299786",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-02",
-      "due_date": "2026-10-13",
-      "it_score": 93,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software",
-        "cloud",
-        "integration"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:279920",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "GPS Asset Tracking Solution",
-      "description": "The City of Pasadena's Department of Public Works provides fleet maintenance services to City vehicles and equipment. The Department is seeking a vendor to provide comprehensive geolocational tracking and telematic hardware and software services for the City's fleet of vehicles and equipment. The selected vendor shall provide all hardware and software related to real-time tracking of the fleet. This should include equipment, storage of telematics data, training, and support. The City has a strong preference for a SaaS/cloud/hosted solution. The target start of the contract term is January 2027 with a term of five (5) years.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/279920",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0394",
-      "posted_date": "2026-06-30",
-      "due_date": "2026-10-21",
-      "it_score": 93,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software",
-        "cloud",
-        "saas"
-      ]
-    },
     {
       "id": "dg92-zbpx:81627Y0857",
       "source_name": "New York City — City Record (Procurement)",
@@ -640,6 +627,26 @@
       ]
     },
     {
+      "id": "dg92-zbpx:01524BIST68138-A1",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "The First Amendment to the Purchase Agreement of Netwrix Software",
+      "description": "The First Amendment to the Purchase Agreement of Netwrix Software",
+      "agency": "Comptroller",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-13",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-13",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "eshn-8t3a:SFGOV~0000012156",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA PUC | TM3 - Cornerstone Talent Suite SaaS LMS",
@@ -800,46 +807,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:309231",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Domain Transition and Implementation Services RFP",
-      "description": "The County of San Mateo (County) Technology Services Department (TSD) is seeking proposals from qualified contractors to fully transition the County from our current smcgov.org domain name to a .gov domain name in compliance with California Assembly Bill 1637 requiring all local agencies to adopt a .gov domain name for public websites and email addresses no later than January 1, 2029. This technical migration encompasses all County website domains and subdomains, email, Domain Name Systems (DNS), TSD owned and managed enterprise applications connected to Okta and Active Directory for authentication, enterprise platforms, and identifying departmental applications countywide impacted by this domain name transition.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/309231",
-      "naics": "",
-      "psc": "",
-      "set_aside": "TSD-20271940",
-      "posted_date": "2026-09-28",
-      "due_date": "2026-11-04",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "migration"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:309506",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Invasive Species Management for Shaded Fuel Break Maintenance (Memorial County Park & Sam McDonald County Park)",
-      "description": "The County of San Mateo (“County”) covers most of the San Francisco Peninsula. The region covers 744 mi 2 and is home to approximately 750,000 residents. The County is made up of 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education, and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare, and natural resources of the community. The San Mateo County Parks Department (“Department”) serves nearly three million visitors every year. Visitors have many options when visiting the County’s unique park system. With 24 parks and recreation areas, over 16,000 acres of park land, and 190 miles of trails, the Department provides healthy outdoor activities, educational opportunities, and lasting memories. Due to the diversity of the park system, visitors can enjoy an array of recreational opportunities, including walking; running; hiking; picnicking; horseback riding; kite surfing; fishing; camping; gardening; tide pooling; volunteering; learning; sports courts; and playing on playgrounds.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/309506",
-      "naics": "",
-      "psc": "",
-      "set_aside": "MCP_SMP_Maintenance_InvasiveSpp_2026",
-      "posted_date": "2026-09-28",
-      "due_date": "2026-10-16",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232228",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFI NO. 9.25.26-POWER-SAL - Document Governance Software Solution",
@@ -880,26 +847,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:304179",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Virtual Blood Bourne Pathogens Course",
-      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. The agency is seeking qualified vendors to provide a virtual Bloodborne Pathogens training course for employees. The goal of this solicitation is to identify an engaging, accessible, and user-friendly online training solution that provides employees with the knowledge and practical guidance necessary to recognize and prevent occupational exposure to bloodborne pathogens and to respond appropriately to potential exposures. The selected vendor should provide a high-quality virtual course that is appropriate for workplace use, supports employee participation and completion, and includes a method for documenting or verifying successful completion. Vendors are encouraged to propose solutions that offer clear instruction, engaging content, convenient online access, and reliable reporting or recordkeeping capabilities.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/304179",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP - Informal-00114",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-10-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "dg92-zbpx:80626N0004",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Elations Software subscription and support",
@@ -915,46 +862,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:303048",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC Analyst Notebook 2026-2027 Annual Renewal",
-      "description": "NCRIC is seeking quotes for annual renewal of our i2 Analyst Notebook software subscription. Quotes should be for i2 Analyst Notebook, concurrent user license, one year term (12/1/2026 - 11/30/2027), for a quantity of seven concurrent users. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/303048",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-14",
-      "due_date": "2026-10-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:300941",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Technology of Participation (ToP)",
-      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 square miles and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. Formed in July 2014, the San Mateo County Sustainability Department strives to improve the sustainability of the County’s operations and the greater community through work that is designed to bring solutions today while solving for tomorrow. The Sustainability Department has programs to help the county both fight and prepare for climate change, ensure clean energy, water, and air, and conserve resources for future generations through waste reduction. The Sustainability Department has approximately 40 staff members and provides services in the following areas: Communications, Climate Resilience, Climate Protection, Waste Reduction, and Special Districts with similar but varying community needs. The department is seeking a vendor that will provide meeting facilitation using Technology of Participation as a core aspect of the facilitation. We are also looking to have staff trained with these skills and philosophy.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/300941",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-04",
-      "due_date": "2026-10-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-23",
       "matched_keywords": [
         "software"
       ]
@@ -1020,66 +927,6 @@
       ]
     },
     {
-      "id": "opengov:pasadena:292413",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "P-57907 Enterprise Monitoring",
-      "description": "The City of Pasadena is seeking a vendor to provide an Enterprise Monitoring solution and associated implementation and support services. The goal of the Enterprise Monitoring project is to strengthen alert management and monitoring processes , and to proactively identify and address system performance issues before they impact customers. The City seeks a unified monitoring and observability platform that provides centralized visibility across infrastructure, networks, cloud services, databases, applications, integrations, and business services. The desired solution will correlate events and performance data across technology domains, improve operational awareness, reduce alert fatigue, accelerate root cause analysis, and enable proactive management of service health and availability. The platform should support the City's current hybrid and multi-cloud environment while providing a scalable foundation for future operational monitoring and automation initiatives.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/292413",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0480",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-10-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-30",
-      "matched_keywords": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "opengov:cityoftampa:286338",
-      "source_name": "OpenGov — City of Tampa, FL",
-      "title": "Elevator Services (Bid Discount)",
-      "description": "The City of Tampa requires a comprehensive, full-service elevator maintenance and repair program for all vertical transportation equipment identified in the contract asset inventory and for any additional equipment later assigned by the City. The Contractor shall furnish all labor, supervision, licensed personnel, tools, equipment, transportation, communication devices, testing instruments, software, materials, replacement parts, documentation, and incidentals necessary to inspect, test, maintain, adjust, repair, troubleshoot, and restore covered equipment to safe, reliable, code-compliant, and service-ready condition. Timely performance is an essential condition of the contract. The Contractor shall plan, staff, and perform the work so that preventive maintenance is completed when scheduled, service calls are answered within the required response times, and equipment downtime is minimized.",
-      "agency": "City of Tampa",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/cityoftampa/projects/286338",
-      "naics": "",
-      "psc": "",
-      "set_aside": "26-P-00475",
-      "posted_date": "2026-07-22",
-      "due_date": "2026-11-04",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-06",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:263470",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
-      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0272",
-      "posted_date": "2026-05-06",
-      "due_date": "2026-10-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "knjg-wn2a:0532",
       "source_name": "Oregon — Active Statewide Price Agreements",
       "title": "Satellite Phones, Services and Additional Software and Equipment",
@@ -1140,6 +987,26 @@
       ]
     },
     {
+      "id": "bonfire:broward:258091",
+      "source_name": "Bonfire — Broward County, FL",
+      "title": "Request for Information: Libraries - Patron Point(Springshare) Software",
+      "description": "Request for Information: Libraries - Patron Point(Springshare) Software",
+      "agency": "Broward County, FL",
+      "state": "FL",
+      "url": "https://broward.bonfirehub.com/opportunities/258091",
+      "naics": "",
+      "psc": "",
+      "set_aside": "TCH2133104F1",
+      "posted_date": "",
+      "due_date": "2026-10-20",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-13",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "bonfire:broward:254818",
       "source_name": "Bonfire — Broward County, FL",
       "title": "Lost and Found Management Software",
@@ -1173,6 +1040,26 @@
       "posted_date": "",
       "due_date": "2026-10-30",
       "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-10-13",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "bonfire:broward:258108",
+      "source_name": "Bonfire — Broward County, FL",
+      "title": "Volgistics - Volunteer Management Software Solutions",
+      "description": "Volgistics - Volunteer Management Software Solutions",
+      "agency": "Broward County, FL",
+      "state": "FL",
+      "url": "https://broward.bonfirehub.com/opportunities/258108",
+      "naics": "",
+      "psc": "",
+      "set_aside": "TCH2133105F1",
+      "posted_date": "",
+      "due_date": "2026-11-03",
+      "it_score": 51,
       "is_new": true,
       "first_seen": "2026-10-13",
       "matched_keywords": [
@@ -1191,7 +1078,7 @@
       "psc": "",
       "set_aside": "",
       "posted_date": "",
-      "due_date": "2026-10-23",
+      "due_date": "2026-11-06",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-26",
@@ -1526,28 +1413,7 @@
       ]
     },
     {
-      "id": "opengov:orangecountyfl:266226",
-      "source_name": "OpenGov — Orange County, FL",
-      "title": "Web Based Individual Driver Record Checks and Risk Assessments",
-      "description": "NOTICE IS HEREBY GIVEN that Orange County, Florida, henceforth referred to as the County is accepting sealed offers for 'Project Title ( 'Project ID ) Sealed offers for furnishing the above will be accepted up to 'Proposal Submission Time EST on 'Proposal Submission Date . NOTE: Respondents are required to submit responses electronically via the OpenGov e-Procurement Platform. Respondents shall not be permitted to hand-deliver, mail, telephone, fax or email offers. Responses received after the submission deadline and/or transmitted outside of the designated OpenGov e-Procurement Platform shall be rejected. Important Instructions for Electronic Submittal The County is ONLY accepting electronic submissions using the OpenGov e-Procurement Platform. Respondents shall create a FREE account with OpenGov by signing up at https://procurement.opengov.com/login . Once you have completed account registration, browse back to this page, click on \"Submit Response\", and follow the instructions to submit the electronic offer. It is the respondent's responsibility to ensure they commence their upload efforts timely to meet the submission deadline. The County shall not be responsible for delays caused by any occurrence, including the respondent's network delays, bandwidth issues, internet outages, or technical difficulties. OpenGov Technical Support For Technical Support, respondent's can reach the OpenGov Service Desk: Chat (preferred): Click the button in the lower right hand corner of the portal Email: procurement-support@opengov.com Phone: 1 (650) 336-7167 Hours: Mon-Fri 7am - 10pm EST Timely Questions Regarding this Solicitation The question and answer module of OpenGov IS being utilized for this solicitation. Timely questions concerning this solicitation shall be submitted in accordance with the deadline for questions: 'Question & Answer Submission Date at 'Question & Answer Submission Time EST. Respondents are instructed not to contact the initiating division directly. Consideration for modification or alteration of the documents contained in this solicitation shall be requested during the specified question period, before the applicable deadline. No oral interpretation of the meaning of the plans, specifications, or other Contract documents shall be considered binding. The County shall be bound by information and statements only when such statements are written and executed under the authority of the Manager, Procurement Division. Answers for timely questions will be addressed in the OpenGov question and answer module or as an addenda to this solicitation depending on volume, participants are encouraged to subscribe as a follower and monitor all notifications. Beyond questions and answers, any and all modifications, clarifications, interpretations and supplemental instructions will be in the form of a written addendum which, if issued, will be available for download. All addenda and questions/answers so issued shall become part of the Contract Documents and receipt shall be acknowledged as specified herein. This provision exists solely for the convenience and administrative efficiency of Orange County. No respondent or other third party gains any rights by virtue of this provision or the application thereof, nor shall any respondent or third party have any standing to sue or cause of action arising there from. Untimely questions are unable to be submitted in the question and answer module, thereafter respondents raising critical concerns must email 'Procurement Contact Email . Critical clarifications may be made via addenda, however, untimely questions may not be considered.",
-      "agency": "Orange County, Florida",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/orangecountyfl/projects/266226",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Y26-1002",
-      "posted_date": "2026-05-14",
-      "due_date": "2026-10-15",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "application",
-        "web"
-      ]
-    },
-    {
-      "id": "arcgis:Doc847596",
+      "id": "arcgis:Doc850821",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -1560,8 +1426,8 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
+      "is_new": true,
+      "first_seen": "2026-10-13",
       "matched_keywords": [
         "system",
         "data"
@@ -1586,6 +1452,26 @@
       "matched_keywords": [
         "ai",
         "artificial intelligence"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:MHP-1125",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "RFP for Provider Data Management services",
+      "description": "RFP for Provider Data Management services",
+      "agency": "NYC Health + Hospitals",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-13",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-13",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -2166,26 +2052,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "developer"
-      ]
-    },
-    {
-      "id": "opengov:pinellasfl:295048",
-      "source_name": "OpenGov — Pinellas County, FL",
-      "title": "Digital Evidence Request for Information",
-      "description": "Pinellas County is seeking information from qualified vendors regarding digital evidence and exhibits management solution for use by county court and circuit court entities. The purpose of this RFI is to identify available products, capabilities, implementation approaches, and vendor experience supporting secure evidence submission, review, management, retention, and destruction for court-related use. This RFI is intended to gather market information only and does not constitute a solicitation or commitment to award a contract.",
-      "agency": "Pinellas County",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/pinellasfl/projects/295048",
-      "naics": "",
-      "psc": "",
-      "set_aside": "26-0795-RFI",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-11-03",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "digital"
       ]
     },
     {
