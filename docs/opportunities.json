@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T03:15:36.408094+00:00",
+  "generated_at": "2026-10-16T15:43:19.363353+00:00",
   "counts": {
-    "total": 96,
+    "total": 98,
     "new": 2
   },
   "health": {
-    "ok": 26,
+    "ok": 25,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 194,
+        "count": 199,
         "error": ""
       },
       {
@@ -58,9 +58,9 @@
       },
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
-        "ok": true,
-        "count": 358,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.texas.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "New York City — City Record (Procurement)",
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 71,
+        "count": 72,
         "error": ""
       },
       {
@@ -155,7 +155,7 @@
       {
         "source": "QuestCDN",
         "ok": true,
-        "count": 1,
+        "count": 2,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 53,
+        "count": 55,
         "error": ""
       },
       {
@@ -181,14 +181,14 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 10,
-      "agency_count": 8,
+      "opportunity_count": 11,
+      "agency_count": 9,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 26,
+      "demand_score": 29,
       "examples": [
         {
           "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
@@ -216,6 +216,15 @@
           "due_date": "2026-10-26",
           "it_score": 42,
           "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "Absolute Control License",
+          "agency": "Transportation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
         },
         {
           "title": "SmartBear ReadyAPI Test License Renewal",
@@ -265,15 +274,6 @@
         {
           "title": "ImageWork ClaimConnect License Renewal and Support",
           "agency": "Sanitation",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-          "agency": "Chief Medical Examiner",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -650,7 +650,7 @@
       "posted_date": "2026-10-15",
       "due_date": "2026-11-10",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
@@ -670,20 +670,20 @@
       "posted_date": "2026-10-15",
       "due_date": "2026-11-13",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "software"
       ]
     },
     {
-      "id": "hf3r-utnq:232496",
+      "id": "hf3r-utnq:232492",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -697,13 +697,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232492",
+      "id": "hf3r-utnq:232496",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -1684,6 +1684,46 @@
       "matched_keywords": [
         "ai",
         "artificial intelligence"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:84127W0017001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Absolute Control License",
+      "description": "Absolute Control License",
+      "agency": "Transportation",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-16",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:85827B0001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Temporary Personnel Services",
+      "description": "Temporary Personnel Services",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-16",
+      "matched_keywords": [
+        "information technology"
       ]
     },
     {
