@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T14:34:04.070594+00:00",
+  "generated_at": "2026-10-18T03:08:45.853995+00:00",
   "counts": {
-    "total": 98,
-    "new": 0
+    "total": 99,
+    "new": 1
   },
   "health": {
     "ok": 26,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 196,
+        "count": 199,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 384,
+        "count": 378,
         "error": ""
       },
       {
@@ -102,7 +102,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F14%2F2026&postedTo=10%2F17%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F15%2F2026&postedTo=10%2F18%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -718,6 +718,26 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232561",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200262 - SOFTWARE (SALESFORCE) APPLICATIONS RENEWAL, BRAND ONLY - Closing: 10/23/2026 12:00 AM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nAfk3IAC",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-17",
+      "due_date": "2026-10-23",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-18",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1691,26 +1711,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:85827B0001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Temporary Personnel Services",
-      "description": "Temporary Personnel Services",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-16",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-16",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
       "id": "dg92-zbpx:84127W0017001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Absolute Control License",
@@ -1728,6 +1728,26 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:85827B0001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Temporary Personnel Services",
+      "description": "Temporary Personnel Services",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-10-16",
+      "matched_keywords": [
+        "information technology"
       ]
     },
     {
