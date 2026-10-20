@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T17:54:24.369616+00:00",
+  "generated_at": "2026-10-20T03:31:59.622714+00:00",
   "counts": {
-    "total": 103,
-    "new": 6
+    "total": 104,
+    "new": 3
   },
   "health": {
     "ok": 26,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 198,
+        "count": 187,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 426,
+        "count": 430,
         "error": ""
       },
       {
@@ -102,42 +102,42 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F16%2F2026&postedTo=10%2F19%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F17%2F2026&postedTo=10%2F20%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 67,
+        "count": 68,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 294,
+        "count": 293,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 26,
+        "count": 19,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 27,
+        "count": 26,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 17,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 73,
+        "count": 79,
         "error": ""
       },
       {
@@ -181,14 +181,14 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 11,
-      "agency_count": 9,
+      "opportunity_count": 10,
+      "agency_count": 8,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 29,
+      "demand_score": 26,
       "examples": [
         {
           "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
@@ -236,15 +236,6 @@
           "source_name": "New York City — City Record (Procurement)"
         },
         {
-          "title": "OCA LIB | TM3 - Everpure License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-19",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
           "title": "License continuation of SolarWinds DameWare Remote Support",
           "agency": "Citywide Administrative Services",
           "state": "NY",
@@ -274,6 +265,15 @@
         {
           "title": "ImageWork ClaimConnect License Renewal and Support",
           "agency": "Sanitation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
+          "agency": "Chief Medical Examiner",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -734,7 +734,7 @@
       "posted_date": "2026-10-19",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "software"
@@ -754,7 +754,7 @@
       "posted_date": "2026-10-19",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "software"
@@ -794,7 +794,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-10-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "software"
@@ -814,8 +814,48 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-10-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:317475",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC 2027 Barracuda Annual Renewal",
+      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC) the County of San Mateo is seeking quotations for the annual renewal of software and support subscriptions associated with devices from Barracuda Networks. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/317475",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-15",
+      "due_date": "2026-11-03",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:317859",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC 2027 PIPL Annual Renewal",
+      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC), the County of San Mateo is seeking quotations to renew the NCRIC's license of the Pipl software subscription. This is scoped at 30 seats of Pipl Search, for a one year term. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/317859",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-15",
+      "due_date": "2026-11-02",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-20",
       "matched_keywords": [
         "software"
       ]
@@ -841,13 +881,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232492",
+      "id": "hf3r-utnq:232496",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -861,13 +901,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232496",
+      "id": "hf3r-utnq:232492",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -918,26 +958,6 @@
       "first_seen": "2026-10-13",
       "matched_keywords": [
         "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012156",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PUC | TM3 - Cornerstone Talent Suite SaaS LMS",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012156&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-10-19",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-12",
-      "matched_keywords": [
-        "saas"
       ]
     },
     {
@@ -1592,7 +1612,7 @@
       "posted_date": "2026-10-19",
       "due_date": "",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "system",
@@ -1614,7 +1634,7 @@
       "posted_date": "2026-10-19",
       "due_date": "",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "application",
@@ -1912,26 +1932,6 @@
       "first_seen": "2026-10-13",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012157",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA LIB | TM3 - Everpure License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-10-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-12",
-      "matched_keywords": [
-        "license"
       ]
     },
     {
@@ -2532,6 +2532,26 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "ai"
+      ]
+    },
+    {
+      "id": "bonfire:kcmo:259184",
+      "source_name": "Bonfire — Kansas City, MO",
+      "title": "EV4894 - RFQ - Citywide Housing Accelerator Developer Pool",
+      "description": "EV4894 - RFQ - Citywide Housing Accelerator Developer Pool",
+      "agency": "Kansas City, MO",
+      "state": "MO",
+      "url": "https://kcmo.bonfirehub.com/opportunities/259184",
+      "naics": "",
+      "psc": "",
+      "set_aside": "EV4894 - RFQ - Citywide Housing Accelerator Developer Pool",
+      "posted_date": "",
+      "due_date": "2026-12-04",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "developer"
       ]
     }
   ]
