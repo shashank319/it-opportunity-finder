@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T15:58:31.442824+00:00",
+  "generated_at": "2026-10-21T03:25:42.399060+00:00",
   "counts": {
-    "total": 105,
-    "new": 3
+    "total": 103,
+    "new": 1
   },
   "health": {
     "ok": 26,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 189,
+        "count": 178,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 434,
+        "count": 477,
         "error": ""
       },
       {
@@ -102,30 +102,30 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F17%2F2026&postedTo=10%2F20%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F18%2F2026&postedTo=10%2F21%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 68,
+        "count": 65,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 295,
+        "count": 285,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 19,
+        "count": 24,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 27,
+        "count": 30,
         "error": ""
       },
       {
@@ -137,19 +137,19 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 79,
+        "count": 72,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 2,
+        "count": 1,
         "error": ""
       },
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 19,
+        "count": 21,
         "error": ""
       },
       {
@@ -161,13 +161,13 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 6,
+        "count": 4,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 53,
+        "count": 49,
         "error": ""
       },
       {
@@ -476,7 +476,7 @@
       "url": "https://procurement.opengov.com/portal/smcgov/projects/313156",
       "naics": "",
       "psc": "",
-      "set_aside": "",
+      "set_aside": "2027-RFP-00180",
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 93,
@@ -498,7 +498,7 @@
       "url": "https://procurement.opengov.com/portal/smcgov/projects/313065",
       "naics": "",
       "psc": "",
-      "set_aside": "",
+      "set_aside": "2027-RFP-00181",
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 93,
@@ -734,7 +734,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-10-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-20",
       "matched_keywords": [
         "software"
@@ -754,7 +754,7 @@
       "posted_date": "2026-10-20",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-20",
       "matched_keywords": [
         "cloud"
@@ -774,7 +774,7 @@
       "posted_date": "2026-10-20",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-20",
       "matched_keywords": [
         "software"
@@ -1321,41 +1321,21 @@
       ]
     },
     {
-      "id": "arcgis:DCRL-2022-I-0078",
+      "id": "arcgis:Doc851539",
       "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "Quality Assurance Quality Control Program",
-      "description": "The District of Columbia (\u001aDistrict\u001a), Office of Contracting and Procurement on behalf of the Child and Family Services Agency (\u001aCFSA\u001a) issues the Request for Information (RFI) to for interested organizations to provide responses and questions regarding the CFSA plans to procure services of a contractor to design and implement a quality assurance and quality control program for its implementation of a Comprehensive Child Welfare Information System (CCWIS) using Microsoft Dynamics Customer Relation Management System (CRM).",
-      "agency": "Child and Family Services Agency",
+      "title": "FY27 OCTO IBM zLinux Mainframe Software",
+      "description": "FY27 OCTO IBM zLinux Mainframe Software",
+      "agency": "Office of the Chief Technology Officer",
       "state": "DC",
       "url": "https://ocp.dc.gov/service/solicitations",
       "naics": "",
       "psc": "",
       "set_aside": "",
       "posted_date": "",
-      "due_date": "",
+      "due_date": "2026-10-26",
       "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "crm"
-      ]
-    },
-    {
-      "id": "bonfire:broward:258091",
-      "source_name": "Bonfire — Broward County, FL",
-      "title": "Request for Information: Libraries - Patron Point(Springshare) Software",
-      "description": "Request for Information: Libraries - Patron Point(Springshare) Software",
-      "agency": "Broward County, FL",
-      "state": "FL",
-      "url": "https://broward.bonfirehub.com/opportunities/258091",
-      "naics": "",
-      "psc": "",
-      "set_aside": "TCH2133104F1",
-      "posted_date": "",
-      "due_date": "2026-10-20",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-13",
+      "is_new": true,
+      "first_seen": "2026-10-21",
       "matched_keywords": [
         "software"
       ]
@@ -1597,24 +1577,6 @@
       "set_aside": "",
       "posted_date": "2026-09-01",
       "due_date": "2026-10-22",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:16151:143009",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Copper Basin Reservoir Discharge Valve Replacement",
-      "description": "1947",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/143009",
-      "naics": "",
-      "psc": "34505, 90638, 91082, 91200, 91300, 91360, 91362, 91438, 92531, 92567, 92658, 93458, 93972, 95939, 96226",
-      "set_aside": "",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-10-20",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-09-23",
