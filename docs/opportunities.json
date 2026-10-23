@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-23T03:29:42.118652+00:00",
+  "generated_at": "2026-10-23T16:03:37.586485+00:00",
   "counts": {
-    "total": 97,
-    "new": 0
+    "total": 98,
+    "new": 2
   },
   "health": {
-    "ok": 26,
+    "ok": 25,
     "total": 28,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 27,
+        "count": 25,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 174,
+        "count": 179,
         "error": ""
       },
       {
@@ -88,9 +88,9 @@
       },
       {
         "source": "Montgomery County MD — Open Solicitations (Contracts)",
-        "ok": true,
-        "count": 500,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.montgomerycountymd.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "Cincinnati OH — Business Opportunities (Bids & RFPs)",
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 281,
+        "count": 279,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 72,
+        "count": 73,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 19,
+        "count": 20,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 50,
+        "count": 49,
         "error": ""
       },
       {
@@ -738,6 +738,46 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232646",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200286 - SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - TIBCO - Closing: 11/5/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nTjdTIAS",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-23",
+      "due_date": "2026-11-05",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:05727W0018001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Zabbix Software Support and Maintenance",
+      "description": "Zabbix Software Support and Maintenance",
+      "agency": "Fire Department",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-23",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-23",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -2277,26 +2317,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "digital"
-      ]
-    },
-    {
-      "id": "vmu2-pnrc:1029633",
-      "source_name": "Montgomery County MD — Open Solicitations (Contracts)",
-      "title": "Recreation Instructor – Practical Technology & AI Education for Seniors",
-      "description": "Recreation Instructor – Practical Technology & AI Education for Seniors",
-      "agency": "Department of Recreation",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-20",
-      "due_date": "2029-08-31",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "ai"
       ]
     },
     {
