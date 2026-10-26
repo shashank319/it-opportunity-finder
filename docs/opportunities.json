@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T03:21:06.136077+00:00",
+  "generated_at": "2026-10-26T17:49:33.276178+00:00",
   "counts": {
-    "total": 96,
-    "new": 0
+    "total": 99,
+    "new": 4
   },
   "health": {
     "ok": 26,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 175,
+        "count": 178,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 40,
+        "count": 26,
         "error": ""
       },
       {
@@ -107,19 +107,19 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 61,
+        "count": 60,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 280,
+        "count": 284,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 37,
+        "count": 38,
         "error": ""
       },
       {
@@ -131,13 +131,13 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 20,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 71,
+        "count": 72,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 20,
+        "count": 21,
         "error": ""
       },
       {
@@ -181,15 +181,24 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 11,
-      "agency_count": 8,
+      "opportunity_count": 12,
+      "agency_count": 9,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 26,
+      "demand_score": 29,
       "examples": [
+        {
+          "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-30",
+          "it_score": 78,
+          "source_name": "San Francisco CA — Open Bids"
+        },
         {
           "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
           "agency": "County of San Mateo",
@@ -198,15 +207,6 @@
           "due_date": "2026-11-05",
           "it_score": 57,
           "source_name": "OpenGov — County of San Mateo, CA"
-        },
-        {
-          "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 57,
-          "source_name": "New York City — City Record (Procurement)"
         },
         {
           "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
@@ -225,6 +225,15 @@
           "due_date": "2026-10-29",
           "it_score": 42,
           "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "OCA AIR | TM3 - Harness License Subscription",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-30",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
         },
         {
           "title": "Absolute Control License",
@@ -265,15 +274,6 @@
         {
           "title": "Box.com Enterprise License",
           "agency": "Small Business Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "ImageWork ClaimConnect License Renewal and Support",
-          "agency": "Sanitation",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -521,6 +521,28 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012183",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-23",
+      "due_date": "2026-10-30",
+      "it_score": 78,
+      "is_new": true,
+      "first_seen": "2026-10-26",
+      "matched_keywords": [
+        "software",
+        "cloud",
+        "license"
+      ]
+    },
+    {
       "id": "planetbids:16151:147396",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "Red Hat Enterprise Linux Software Technical Support",
@@ -668,27 +690,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:81625Y0683",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
-      "description": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
-      "agency": "Chief Medical Examiner",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-08",
-      "due_date": "",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software",
-        "license"
-      ]
-    },
-    {
       "id": "e5pk-us93:Software development/design/maintenance/support services",
       "source_name": "Baton Rouge LA — Upcoming Procurement",
       "title": "Software development/design/maintenance/support services",
@@ -770,6 +771,26 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012190",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PUC | TM3 - Quest Software Maintenance",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012190&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-22",
+      "due_date": "2026-10-27",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-26",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "dg92-zbpx:82627Y0907",
       "source_name": "New York City — City Record (Procurement)",
       "title": "82627Y0907-BWS Aquarius Software Support & Maintenance SS 7010188X",
@@ -845,6 +866,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012050",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DPW | TM3 - Tableau Software Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012050&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-10-27",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-26",
       "matched_keywords": [
         "software"
       ]
@@ -1744,6 +1785,26 @@
       "matched_keywords": [
         "ai",
         "artificial intelligence"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012191",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA AIR | TM3 - Harness License Subscription",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-23",
+      "due_date": "2026-10-30",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-26",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
