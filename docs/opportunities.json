@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-27T03:51:14.254507+00:00",
+  "generated_at": "2026-10-27T16:59:49.501647+00:00",
   "counts": {
-    "total": 98,
-    "new": 4
+    "total": 100,
+    "new": 3
   },
   "health": {
-    "ok": 25,
+    "ok": 26,
     "total": 28,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 23,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 183,
+        "count": 184,
         "error": ""
       },
       {
@@ -107,19 +107,19 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 61,
+        "count": 64,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 282,
+        "count": 289,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 35,
+        "count": 34,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 69,
+        "count": 70,
         "error": ""
       },
       {
@@ -149,13 +149,13 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 21,
+        "count": 23,
         "error": ""
       },
       {
         "source": "QuestCDN",
         "ok": true,
-        "count": 2,
+        "count": 3,
         "error": ""
       },
       {
@@ -166,9 +166,9 @@
       },
       {
         "source": "CivicPlus Bids",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='www.newrochelleny.gov', port=443): Read timed out. (read timeout=30)"
+        "ok": true,
+        "count": 48,
+        "error": ""
       },
       {
         "source": "Schenectady County, NY",
@@ -598,7 +598,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-12-01",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "development",
@@ -690,27 +690,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:10220270003784",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "DISCRETIONARY FUNDING SOFTWARE APPLICATION",
-      "description": "DISCRETIONARY FUNDING SOFTWARE APPLICATION",
-      "agency": "City Council",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
-      "due_date": "",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software",
-        "application"
-      ]
-    },
-    {
       "id": "e5pk-us93:Software development/design/maintenance/support services",
       "source_name": "Baton Rouge LA — Upcoming Procurement",
       "title": "Software development/design/maintenance/support services",
@@ -749,6 +728,26 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232703",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200292 - 7636 - SOFTWARE SERVICES - F5 TAP (BRAND ONLY) - Closing: 11/9/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ne9OYIAY",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-27",
+      "due_date": "2026-11-09",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -965,7 +964,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-15",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "software"
@@ -1432,6 +1431,26 @@
       ]
     },
     {
+      "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
+      "source_name": "CivicPlus Bids — City of Buffalo, NY",
+      "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
+      "description": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
+      "agency": "City of Buffalo, NY",
+      "state": "NY",
+      "url": "https://www.buffalony.gov/bids.aspx?bidID=1190",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-06",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "planetbids:15300:147581",
       "source_name": "PlanetBids — City of Sacramento, CA",
       "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
@@ -1655,7 +1674,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-11-19",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "application",
@@ -1747,7 +1766,28 @@
       ]
     },
     {
-      "id": "arcgis:Doc847596",
+      "id": "opengov:pasadena:293584",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Rental Registry Database and Portal",
+      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. The top 3 highest scoring proposals will be invited to participate in product demonstrations during the week of December 7-10, 2026. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/293584",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0495",
+      "posted_date": "2026-08-13",
+      "due_date": "2026-11-21",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "portal",
+        "database"
+      ]
+    },
+    {
+      "id": "arcgis:Doc852830",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -1760,11 +1800,32 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
+      "is_new": true,
+      "first_seen": "2026-10-27",
       "matched_keywords": [
         "system",
         "data"
+      ]
+    },
+    {
+      "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "source_name": "CivicPlus Bids — Washington County, MN",
+      "title": "Artificial Intelligence (AI) Policy",
+      "description": "Artificial Intelligence (AI) Policy",
+      "agency": "Washington County, MN",
+      "state": "MN",
+      "url": "https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "ai",
+        "artificial intelligence"
       ]
     },
     {
@@ -1821,7 +1882,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-14",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "data"
@@ -2265,26 +2326,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:05727W0014001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Gravitee API Management (APIM) Subscription",
-      "description": "Gravitee API Management (APIM) Subscription",
-      "agency": "Fire Department",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-08",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "api"
       ]
     },
     {
