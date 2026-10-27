@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-26T17:49:33.276178+00:00",
+  "generated_at": "2026-10-27T03:51:14.254507+00:00",
   "counts": {
-    "total": 99,
+    "total": 98,
     "new": 4
   },
   "health": {
-    "ok": 26,
+    "ok": 25,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 178,
+        "count": 183,
         "error": ""
       },
       {
@@ -102,24 +102,24 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F23%2F2026&postedTo=10%2F26%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F24%2F2026&postedTo=10%2F27%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 60,
+        "count": 61,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 284,
+        "count": 282,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 38,
+        "count": 35,
         "error": ""
       },
       {
@@ -137,13 +137,13 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 72,
+        "count": 69,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 2,
+        "count": 3,
         "error": ""
       },
       {
@@ -166,9 +166,9 @@
       },
       {
         "source": "CivicPlus Bids",
-        "ok": true,
-        "count": 47,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.newrochelleny.gov', port=443): Read timed out. (read timeout=30)"
       },
       {
         "source": "Schenectady County, NY",
@@ -181,7 +181,7 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 12,
+      "opportunity_count": 10,
       "agency_count": 9,
       "state_count": 2,
       "states": [
@@ -216,15 +216,6 @@
           "due_date": "",
           "it_score": 48,
           "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "DOMO PROFESSIONAL BUNDLE PLATFORM ACCESS SUBSCRIPTION LICENSE RENEWAL FY26-27",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/315557",
-          "due_date": "2026-10-29",
-          "it_score": 42,
-          "source_name": "OpenGov — County of San Mateo, CA"
         },
         {
           "title": "OCA AIR | TM3 - Harness License Subscription",
@@ -263,17 +254,26 @@
           "source_name": "New York City — City Record (Procurement)"
         },
         {
-          "title": "Silver Peak License Renewal FY26-29",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/311143",
-          "due_date": "2026-10-27",
-          "it_score": 36,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        },
-        {
           "title": "Box.com Enterprise License",
           "agency": "Small Business Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "ImageWork ClaimConnect License Renewal and Support",
+          "agency": "Sanitation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
+          "agency": "Chief Medical Examiner",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -534,7 +534,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-10-30",
       "it_score": 78,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-26",
       "matched_keywords": [
         "software",
@@ -582,6 +582,27 @@
         "software",
         "system",
         "data"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232692",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFP2358982691 ERP Requirement Development and Selection Support",
+      "description": "None",
+      "agency": "LAUSD",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nbbysIAA",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-23",
+      "due_date": "2026-12-01",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "development",
+        "erp"
       ]
     },
     {
@@ -784,7 +805,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-10-27",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-26",
       "matched_keywords": [
         "software"
@@ -884,7 +905,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-10-27",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-26",
       "matched_keywords": [
         "software"
@@ -926,6 +947,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:318913",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC 2027 Guardian RF",
+      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC) the County of San Mateo is seeking quotations for three one-year licenses to the Guardian RF platform, including all associated hardware, software, and support. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/318913",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-11-15",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-27",
       "matched_keywords": [
         "software"
       ]
@@ -1302,7 +1343,7 @@
       "psc": "",
       "set_aside": "2026-RFP-0272",
       "posted_date": "2026-05-06",
-      "due_date": "2026-10-29",
+      "due_date": "2026-11-05",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-23",
@@ -1351,26 +1392,6 @@
       ]
     },
     {
-      "id": "arcgis:Doc851539",
-      "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "FY27 OCTO IBM zLinux Mainframe Software",
-      "description": "FY27 OCTO IBM zLinux Mainframe Software",
-      "agency": "Office of the Chief Technology Officer",
-      "state": "DC",
-      "url": "https://ocp.dc.gov/service/solicitations",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-10-26",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-21",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "bonfire:broward:257719",
       "source_name": "Bonfire — Broward County, FL",
       "title": "Request for Information (RFI) - Autodesk AutoCAD Software",
@@ -1406,26 +1427,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-13",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
-      "source_name": "CivicPlus Bids — City of Buffalo, NY",
-      "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
-      "description": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
-      "agency": "City of Buffalo, NY",
-      "state": "NY",
-      "url": "https://www.buffalony.gov/bids.aspx?bidID=1190",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-06",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
       "matched_keywords": [
         "software"
       ]
@@ -1478,7 +1479,7 @@
       "psc": "63543, 80186",
       "set_aside": "",
       "posted_date": "2026-10-14",
-      "due_date": "2026-10-27",
+      "due_date": "2026-11-03",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-15",
@@ -1641,6 +1642,27 @@
       ]
     },
     {
+      "id": "opengov:smcgov:320095",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Commercial Real Estate Lease Comparable Database Subscription for San Mateo County Assessor",
+      "description": "The San Mateo County Assessor’s Office invites qualified vendors to submit proposals for unlimited access to digital commercial real estate lease comparable data through an online interface (the “Lease Database”). The resulting subscription will run from January 1 through December 31, 2027, and must provide comprehensive coverage of San Mateo County and the broader San Francisco Bay Area. Commercial appraisal staff will use the Lease Database to support mass appraisal valuations of commercial properties under the income approach to value. Located in Redwood City, California, the Assessor’s Office serves the residents and property owners of San Mateo County by valuing residential, commercial, industrial, and special-purpose properties for property tax assessment purposes. Depending on the property and the appraisal assignment, the Assessor’s Office may use one or more of the three recognized approaches to value: sales comparison, income, and cost. Valuation or reassessment may be required following a change in ownership, completion of new construction, or decline in market value. Because each approach relies on credible market or cost information, the Assessor’s Office contracts with providers of sales and property data, lease data, and construction-cost data covering San Mateo County and neighboring counties. Within this framework, reliable commercial lease comparables are essential to the application of the income approach. The data allow appraisal staff to analyze market rents and lease terms, select appropriate comparables, and document and support their valuation conclusions. This support becomes particularly important when a property owner questions a reassessed value or files a formal appeal with the County Assessment Appeals Board. The selected Lease Database must therefore be comprehensive, defensible, scalable, and suitable for application across the county’s diverse commercial property base. Although the Assessor’s Office’s current lease-data provider has met its operational needs, the Assessor’s Office is conducting a competitive solicitation for the upcoming contract term. This process will allow the Assessor’s Office to evaluate available Lease Databases and select the solution that best satisfies its data, coverage, functionality, access, training, and support requirements while providing the best overall value.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/320095",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP - Informal-00184",
+      "posted_date": "2026-10-23",
+      "due_date": "2026-11-19",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "application",
+        "database"
+      ]
+    },
+    {
       "id": "eeq6-nnwe:1200288",
       "source_name": "Montgomery County MD — Solicitations",
       "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
@@ -1680,27 +1702,6 @@
       "matched_keywords": [
         "system",
         "information technology"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:315557",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "DOMO PROFESSIONAL BUNDLE PLATFORM ACCESS SUBSCRIPTION LICENSE RENEWAL FY26-27",
-      "description": "The County of San Mateo Technology Services Department (TSD) is seeking quotations exclusively for DOMO Professional Bundle Platform Access Subscription License for 1 year. \"Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed.\" Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/315557",
-      "naics": "",
-      "psc": "",
-      "set_aside": "AK_RITM0184229",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-10-29",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-14",
-      "matched_keywords": [
-        "license",
-        "platform"
       ]
     },
     {
@@ -1767,27 +1768,6 @@
       ]
     },
     {
-      "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
-      "source_name": "CivicPlus Bids — Washington County, MN",
-      "title": "Artificial Intelligence (AI) Policy",
-      "description": "Artificial Intelligence (AI) Policy",
-      "agency": "Washington County, MN",
-      "state": "MN",
-      "url": "https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "ai",
-        "artificial intelligence"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012191",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA AIR | TM3 - Harness License Subscription",
@@ -1801,7 +1781,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-10-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-26",
       "matched_keywords": [
         "license"
@@ -1825,6 +1805,26 @@
       "first_seen": "2026-10-21",
       "matched_keywords": [
         "information technology"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:318983",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Data and Performance Reporting Support Services",
+      "description": "San Mateo County Health, Behavioral Health and Recovery Services (BHRS) is seeking proposals from qualified firms (hereinafter referred to as “Proposers”) to provide Data and Performance Reporting Support Services. Proposers must meet the minimum qualifications and requirements as set forth within this Request for Proposal (RFP) and be capable of providing the services identified in the Scope of Work herein. SMC/BHRS expects the successful Proposer(s) to provide the services in accordance with the terms and conditions set forth in the Sample Contract. Please note: Any proposals submitted with a total budget surpassing $200,000 during the 2-year term will not be considered.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/318983",
+      "naics": "",
+      "psc": "",
+      "set_aside": "BHRS RFP No.: 2027-003",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-11-14",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -2005,26 +2005,6 @@
       "first_seen": "2026-10-01",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:311143",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Silver Peak License Renewal FY26-29",
-      "description": "The County of San Mateo Technology Services Department (TSD) is seeking quotations for the continuation of its Silver Peak License and Maintenance for a three-year term with there (3) annual payments. Provided that the funds have been appropriated and allocated, the County may issue annual purchase orders in accordance with the established payment schedule. No price proposals will be considered which require upfront payment for the full three-year total within a single purchase order.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/311143",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-IFB-00149",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-27",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-15",
-      "matched_keywords": [
-        "license"
       ]
     },
     {
