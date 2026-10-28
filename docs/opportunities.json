@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T04:07:34.976118+00:00",
+  "generated_at": "2026-10-28T17:33:08.882364+00:00",
   "counts": {
-    "total": 99,
-    "new": 1
+    "total": 100,
+    "new": 2
   },
   "health": {
     "ok": 26,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 24,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 189,
+        "count": 193,
         "error": ""
       },
       {
@@ -107,13 +107,13 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 61,
+        "count": 62,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 289,
+        "count": 293,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 31,
+        "count": 29,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 72,
+        "count": 73,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 48,
+        "count": 50,
         "error": ""
       },
       {
@@ -181,14 +181,14 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 10,
-      "agency_count": 9,
+      "opportunity_count": 12,
+      "agency_count": 10,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 29,
+      "demand_score": 32,
       "examples": [
         {
           "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
@@ -198,6 +198,15 @@
           "due_date": "2026-10-30",
           "it_score": 78,
           "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
+          "agency": "Fire Department",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
         },
         {
           "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
@@ -215,6 +224,15 @@
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
           "it_score": 48,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "Adobe Enterprise License Renewal",
+          "agency": "Finance",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
           "source_name": "New York City — City Record (Procurement)"
         },
         {
@@ -256,24 +274,6 @@
         {
           "title": "Box.com Enterprise License",
           "agency": "Small Business Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "ImageWork ClaimConnect License Renewal and Support",
-          "agency": "Sanitation",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-          "agency": "Chief Medical Examiner",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -585,6 +585,27 @@
       ]
     },
     {
+      "id": "dg92-zbpx:05727W0022001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
+      "description": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
+      "agency": "Fire Department",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-28",
+      "due_date": "",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-28",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232692",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFP2358982691 ERP Requirement Development and Selection Support",
@@ -764,7 +785,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-18",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-28",
       "matched_keywords": [
         "software"
@@ -1809,6 +1830,26 @@
       ]
     },
     {
+      "id": "dg92-zbpx:83627W0010001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Adobe Enterprise License Renewal",
+      "description": "Adobe Enterprise License Renewal",
+      "agency": "Finance",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-28",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-28",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
       "id": "eshn-8t3a:SFGOV~0000012191",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA AIR | TM3 - Harness License Subscription",
@@ -2280,26 +2321,6 @@
       "psc": "",
       "set_aside": "",
       "posted_date": "2026-09-10",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:84125P0014",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "84125P0014-ESA, Roadway Eng, Data Coll, Design, Inspect & Related Srvs",
-      "description": "84125P0014-ESA, Roadway Eng, Data Coll, Design, Inspect & Related Srvs",
-      "agency": "Transportation",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
       "due_date": "",
       "it_score": 36,
       "is_new": false,
