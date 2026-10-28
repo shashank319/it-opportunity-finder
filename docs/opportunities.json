@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T16:59:49.501647+00:00",
+  "generated_at": "2026-10-28T04:07:34.976118+00:00",
   "counts": {
-    "total": 100,
-    "new": 3
+    "total": 99,
+    "new": 1
   },
   "health": {
     "ok": 26,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 184,
+        "count": 189,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 53,
+        "count": 51,
         "error": ""
       },
       {
@@ -102,12 +102,12 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F24%2F2026&postedTo=10%2F27%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F25%2F2026&postedTo=10%2F28%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 64,
+        "count": 61,
         "error": ""
       },
       {
@@ -119,13 +119,13 @@
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 34,
+        "count": 27,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 30,
+        "count": 31,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 70,
+        "count": 72,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 23,
+        "count": 24,
         "error": ""
       },
       {
@@ -744,8 +744,28 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-09",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "ionwave:leegov:SS270029KCW",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "Forerunner Floodplain Management Software",
+      "description": "Forerunner Floodplain Management Software",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS270029KCW",
+      "posted_date": "2026-10-27",
+      "due_date": "2026-11-18",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-28",
       "matched_keywords": [
         "software"
       ]
@@ -786,26 +806,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-23",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012190",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PUC | TM3 - Quest Software Maintenance",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012190&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-22",
-      "due_date": "2026-10-27",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-26",
       "matched_keywords": [
         "software"
       ]
@@ -886,26 +886,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-20",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012050",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DPW | TM3 - Tableau Software Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012050&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-10-27",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-26",
       "matched_keywords": [
         "software"
       ]
@@ -1302,7 +1282,7 @@
       "psc": "",
       "set_aside": "2026-RFP-0480",
       "posted_date": "2026-08-11",
-      "due_date": "2026-10-29",
+      "due_date": "2026-11-12",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-30",
@@ -1779,7 +1759,7 @@
       "posted_date": "2026-08-13",
       "due_date": "2026-11-21",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "portal",
@@ -1787,7 +1767,7 @@
       ]
     },
     {
-      "id": "arcgis:Doc852830",
+      "id": "arcgis:Doc847596",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -1800,8 +1780,8 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": true,
-      "first_seen": "2026-10-27",
+      "is_new": false,
+      "first_seen": "2026-10-09",
       "matched_keywords": [
         "system",
         "data"
