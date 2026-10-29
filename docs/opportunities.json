@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T04:30:36.247305+00:00",
+  "generated_at": "2026-10-29T17:43:50.434942+00:00",
   "counts": {
-    "total": 98,
+    "total": 100,
     "new": 2
   },
   "health": {
-    "ok": 25,
+    "ok": 26,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 191,
+        "count": 196,
         "error": ""
       },
       {
@@ -107,13 +107,13 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 58,
+        "count": 59,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 291,
+        "count": 296,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 29,
+        "count": 30,
         "error": ""
       },
       {
@@ -166,9 +166,9 @@
       },
       {
         "source": "CivicPlus Bids",
-        "ok": false,
-        "count": 0,
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='www.newrochelleny.gov', port=443): Max retries exceeded with url: /Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.newrochelleny.gov', port=443) at 0x7f8cb9e137d0>, 'Connection to www.newrochelleny.gov timed out. (connect timeout=30)'))"
+        "ok": true,
+        "count": 48,
+        "error": ""
       },
       {
         "source": "Schenectady County, NY",
@@ -313,7 +313,7 @@
           "source_name": "Washington DC — Solicitations (PASS)"
         },
         {
-          "title": "RFP for Provider Data Management services",
+          "title": "Bid Extension: RFP for Provider Data Management services",
           "agency": "NYC Health + Hospitals",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
@@ -761,6 +761,26 @@
       ]
     },
     {
+      "id": "dg92-zbpx:90227S8001KXL",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Penlink Tangles & Webloc Software",
+      "description": "Penlink Tangles & Webloc Software",
+      "agency": "District Attorney - Bronx County",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-29",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "ionwave:leegov:SS270031CMJ",
       "source_name": "Ionwave — Lee County, FL",
       "title": "HR Acuity Employee Relations Case Management Software",
@@ -774,7 +794,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-29",
       "matched_keywords": [
         "software"
@@ -1441,6 +1461,26 @@
       ]
     },
     {
+      "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
+      "source_name": "CivicPlus Bids — City of Buffalo, NY",
+      "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
+      "description": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
+      "agency": "City of Buffalo, NY",
+      "state": "NY",
+      "url": "https://www.buffalony.gov/bids.aspx?bidID=1190",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-06",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "planetbids:15300:147581",
       "source_name": "PlanetBids — City of Sacramento, CA",
       "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
@@ -1772,7 +1812,7 @@
       "posted_date": "",
       "due_date": "2026-11-02",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-29",
       "matched_keywords": [
         "data",
@@ -1780,7 +1820,7 @@
       ]
     },
     {
-      "id": "arcgis:Doc847596",
+      "id": "arcgis:Doc853603",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -1793,11 +1833,32 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
+      "is_new": true,
+      "first_seen": "2026-10-29",
       "matched_keywords": [
         "system",
         "data"
+      ]
+    },
+    {
+      "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "source_name": "CivicPlus Bids — Washington County, MN",
+      "title": "Artificial Intelligence (AI) Policy",
+      "description": "Artificial Intelligence (AI) Policy",
+      "agency": "Washington County, MN",
+      "state": "MN",
+      "url": "https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "ai",
+        "artificial intelligence"
       ]
     },
     {
@@ -1943,8 +2004,8 @@
     {
       "id": "dg92-zbpx:MHP-1125",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "RFP for Provider Data Management services",
-      "description": "RFP for Provider Data Management services",
+      "title": "Bid Extension: RFP for Provider Data Management services",
+      "description": "Bid Extension: RFP for Provider Data Management services",
       "agency": "NYC Health + Hospitals",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
@@ -2278,26 +2339,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "license"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:NYCERS-Infojini-08-2",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Data Modeler- Alex Gorelik",
-      "description": "Data Modeler- Alex Gorelik",
-      "agency": "Employees' Retirement System",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-10",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "data"
       ]
     },
     {
