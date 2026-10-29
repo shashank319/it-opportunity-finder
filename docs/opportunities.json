@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-28T17:33:08.882364+00:00",
+  "generated_at": "2026-10-29T04:30:36.247305+00:00",
   "counts": {
-    "total": 100,
+    "total": 98,
     "new": 2
   },
   "health": {
-    "ok": 26,
+    "ok": 25,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 193,
+        "count": 191,
         "error": ""
       },
       {
@@ -102,24 +102,24 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F25%2F2026&postedTo=10%2F28%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F26%2F2026&postedTo=10%2F29%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 62,
+        "count": 58,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 293,
+        "count": 291,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 27,
+        "count": 21,
         "error": ""
       },
       {
@@ -131,7 +131,7 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 21,
+        "count": 22,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 24,
+        "count": 26,
         "error": ""
       },
       {
@@ -166,9 +166,9 @@
       },
       {
         "source": "CivicPlus Bids",
-        "ok": true,
-        "count": 50,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='www.newrochelleny.gov', port=443): Max retries exceeded with url: /Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.newrochelleny.gov', port=443) at 0x7f8cb9e137d0>, 'Connection to www.newrochelleny.gov timed out. (connect timeout=30)'))"
       },
       {
         "source": "Schenectady County, NY",
@@ -283,6 +283,56 @@
       ]
     },
     {
+      "name": "Data / Analytics / Dashboards",
+      "opportunity_count": 4,
+      "agency_count": 4,
+      "state_count": 3,
+      "states": [
+        "DC",
+        "FL",
+        "NY"
+      ],
+      "demand_score": 15,
+      "examples": [
+        {
+          "title": "FY27 DOES OIT Veeam Data Platform Advanced",
+          "agency": "Department of Employment Services",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-11-02",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
+        },
+        {
+          "title": "RFP - Provider Data Management System and Services",
+          "agency": "Department of Health Care Finance",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-11-09",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
+        },
+        {
+          "title": "RFP for Provider Data Management services",
+          "agency": "NYC Health + Hospitals",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "Request for Information - OpenEye – CCTV Recording and Analytics",
+          "agency": "Broward County, FL",
+          "state": "FL",
+          "url": "https://broward.bonfirehub.com/opportunities/258942",
+          "due_date": "2026-11-16",
+          "it_score": 36,
+          "source_name": "Bonfire — Broward County, FL"
+        }
+      ]
+    },
+    {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 4,
       "agency_count": 4,
@@ -328,47 +378,6 @@
           "due_date": "2028-04-01",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Data / Analytics / Dashboards",
-      "opportunity_count": 3,
-      "agency_count": 3,
-      "state_count": 3,
-      "states": [
-        "DC",
-        "FL",
-        "NY"
-      ],
-      "demand_score": 12,
-      "examples": [
-        {
-          "title": "RFP - Provider Data Management System and Services",
-          "agency": "Department of Health Care Finance",
-          "state": "DC",
-          "url": "https://ocp.dc.gov/service/solicitations",
-          "due_date": "2026-11-09",
-          "it_score": 42,
-          "source_name": "Washington DC — Solicitations (PASS)"
-        },
-        {
-          "title": "RFP for Provider Data Management services",
-          "agency": "NYC Health + Hospitals",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "Request for Information - OpenEye – CCTV Recording and Analytics",
-          "agency": "Broward County, FL",
-          "state": "FL",
-          "url": "https://broward.bonfirehub.com/opportunities/258942",
-          "due_date": "2026-11-16",
-          "it_score": 36,
-          "source_name": "Bonfire — Broward County, FL"
         }
       ]
     }
@@ -598,7 +607,7 @@
       "posted_date": "2026-10-28",
       "due_date": "",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-28",
       "matched_keywords": [
         "software",
@@ -749,6 +758,26 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "ionwave:leegov:SS270031CMJ",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "HR Acuity Employee Relations Case Management Software",
+      "description": "HR Acuity Employee Relations Case Management Software",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS270031CMJ",
+      "posted_date": "2026-10-28",
+      "due_date": "2026-11-20",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1047,26 +1076,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-20",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "bidnetdirect:california/contracostacounty:RFP_F-Contr-0000000296",
-      "source_name": "BidNet Direct — Contra Costa County, CA",
-      "title": "REAL ESTATE AND RIGHT-OF-WAY MANAGEMENT SOFTWARE",
-      "description": "REAL ESTATE AND RIGHT-OF-WAY MANAGEMENT SOFTWARE",
-      "agency": "Contra Costa County, CA",
-      "state": "CA",
-      "url": "https://www.bidnetdirect.com/california/solicitations/open-bids/REAL-ESTATE-AND-RIGHT-OF-WAY-MANAGEMENT-SOFTWARE/0000440381?purchasingGroupId=88020151&origin=2",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFP_F-Contr-0000000296",
-      "posted_date": "2026-10-15",
-      "due_date": "2026-11-13",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-16",
       "matched_keywords": [
         "software"
       ]
@@ -1432,26 +1441,6 @@
       ]
     },
     {
-      "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
-      "source_name": "CivicPlus Bids — City of Buffalo, NY",
-      "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
-      "description": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
-      "agency": "City of Buffalo, NY",
-      "state": "NY",
-      "url": "https://www.buffalony.gov/bids.aspx?bidID=1190",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-06",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "planetbids:15300:147581",
       "source_name": "PlanetBids — City of Sacramento, CA",
       "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
@@ -1503,24 +1492,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-15",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:29959:146823",
-      "source_name": "PlanetBids — City of Santa Barbara, CA",
-      "title": "Comprehensive Water and Wastewater Rate Studies",
-      "description": "RFP No. 5143",
-      "agency": "City of Santa Barbara, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/146823",
-      "naics": "",
-      "psc": "91800, 91812, 91843, 91849, 91855, 91897",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-28",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-01",
       "matched_keywords": []
     },
     {
@@ -1788,6 +1759,27 @@
       ]
     },
     {
+      "id": "arcgis:Doc853251",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "FY27 DOES OIT Veeam Data Platform Advanced",
+      "description": "FY27 DOES OIT Veeam Data Platform Advanced",
+      "agency": "Department of Employment Services",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-02",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "data",
+        "platform"
+      ]
+    },
+    {
       "id": "arcgis:Doc847596",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
@@ -1809,27 +1801,6 @@
       ]
     },
     {
-      "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
-      "source_name": "CivicPlus Bids — Washington County, MN",
-      "title": "Artificial Intelligence (AI) Policy",
-      "description": "Artificial Intelligence (AI) Policy",
-      "agency": "Washington County, MN",
-      "state": "MN",
-      "url": "https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "ai",
-        "artificial intelligence"
-      ]
-    },
-    {
       "id": "dg92-zbpx:83627W0010001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Adobe Enterprise License Renewal",
@@ -1843,7 +1814,7 @@
       "posted_date": "2026-10-28",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-28",
       "matched_keywords": [
         "license"
