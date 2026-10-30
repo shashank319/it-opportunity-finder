@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T04:30:49.770972+00:00",
+  "generated_at": "2026-10-30T17:23:59.283509+00:00",
   "counts": {
-    "total": 101,
-    "new": 1
+    "total": 93,
+    "new": 2
   },
   "health": {
-    "ok": 26,
+    "ok": 25,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 201,
+        "count": 204,
         "error": ""
       },
       {
@@ -106,14 +106,14 @@
       },
       {
         "source": "PlanetBids",
-        "ok": true,
-        "count": 64,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://api-external.prod.planetbids.com/papi/bids?bid_type_id=0&cid=15300&dept_id=0&due_date_from=&due_date_to=&keyword=&page=1&per_page=30&sort_by=&sort_order=-1&stage_id=0"
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 291,
+        "count": 294,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 74,
+        "count": 73,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 45,
+        "count": 46,
         "error": ""
       },
       {
@@ -552,26 +552,6 @@
       ]
     },
     {
-      "id": "planetbids:16151:147396",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Red Hat Enterprise Linux Software Technical Support",
-      "description": "RFB-DV-481328",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147396",
-      "naics": "",
-      "psc": "92045, 92047, 98574",
-      "set_aside": "",
-      "posted_date": "2026-10-16",
-      "due_date": "2026-11-04",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-10-17",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "dg92-zbpx:81627Y0857",
       "source_name": "New York City — City Record (Procurement)",
       "title": "81627Y0857-BRANAGH INFORMATION GROUP INC. _ Sole Source _ Technical Assistance (TA) Module 01 software data system",
@@ -741,23 +721,23 @@
       ]
     },
     {
-      "id": "planetbids:39475:147369",
-      "source_name": "PlanetBids — Riverside County, CA",
-      "title": "Development of Evacuation Assessment, Plan, and Re-Entry Support Function Annexes",
-      "description": "2575",
-      "agency": "Riverside County, CA",
+      "id": "hf3r-utnq:232803",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200297 - 1093943 -SOFTWARE- RENEWAL- ZSCALER (BRAND ONLY) - Closing: 11/5/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/39475/bo/bo-detail/147369",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000npwQoIAI",
       "naics": "",
-      "psc": "91819, 91825, 91826, 91832, 91843, 91858, 91881, 91890, 91892, 91893, 91896, 92028, 92593, 99000, 99029, 99042",
+      "psc": "",
       "set_aside": "",
-      "posted_date": "2026-10-15",
-      "due_date": "2026-11-10",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-10-16",
+      "posted_date": "2026-10-30",
+      "due_date": "2026-11-05",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-30",
       "matched_keywords": [
-        "development"
+        "software"
       ]
     },
     {
@@ -794,7 +774,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-11-12",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-30",
       "matched_keywords": [
         "software"
@@ -1441,26 +1421,6 @@
       ]
     },
     {
-      "id": "bonfire:broward:257719",
-      "source_name": "Bonfire — Broward County, FL",
-      "title": "Request for Information (RFI) - Autodesk AutoCAD Software",
-      "description": "Request for Information (RFI) - Autodesk AutoCAD Software",
-      "agency": "Broward County, FL",
-      "state": "FL",
-      "url": "https://broward.bonfirehub.com/opportunities/257719",
-      "naics": "",
-      "psc": "",
-      "set_aside": "TCH2133040F1",
-      "posted_date": "",
-      "due_date": "2026-10-30",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-13",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "bonfire:broward:258108",
       "source_name": "Bonfire — Broward County, FL",
       "title": "Volgistics - Volunteer Management Software Solutions",
@@ -1499,132 +1459,6 @@
       "matched_keywords": [
         "software"
       ]
-    },
-    {
-      "id": "planetbids:15300:147581",
-      "source_name": "PlanetBids — City of Sacramento, CA",
-      "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
-      "description": "P27171811001",
-      "agency": "City of Sacramento, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/147581",
-      "naics": "",
-      "psc": "92002, 92021, 96207",
-      "set_aside": "",
-      "posted_date": "2026-10-23",
-      "due_date": "2026-11-18",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-24",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:16151:147443",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "REAL ESTATE APPRAISAL AND VALUATION SUPPORT SERVICES",
-      "description": "RFQual-JH-1418",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147443",
-      "naics": "",
-      "psc": "20876, 20977, 91814, 91889, 94615, 96164, 97163",
-      "set_aside": "",
-      "posted_date": "2026-10-21",
-      "due_date": "2026-12-02",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-21",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:15300:147291",
-      "source_name": "PlanetBids — City of Sacramento, CA",
-      "title": "3M Sheeting Material",
-      "description": "B27151931020",
-      "agency": "City of Sacramento, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/147291",
-      "naics": "",
-      "psc": "63543, 80186",
-      "set_aside": "",
-      "posted_date": "2026-10-14",
-      "due_date": "2026-11-03",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-15",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:27411:146695",
-      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
-      "title": "Business Impact Analysis, Disaster Recovery Plan and Business Continuity Plan Services",
-      "description": "RFP-VC-26-006",
-      "agency": "Inland Empire Utilities Agency, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/146695",
-      "naics": "",
-      "psc": "91890, 92023, 95816, 95861, 96258, 99029",
-      "set_aside": "",
-      "posted_date": "2026-09-30",
-      "due_date": "2026-11-17",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-30",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:16151:146479",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Joseph P. Jensen Water Treatment Plant Infrastructure and Security Improvements",
-      "description": "1993A",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/146479",
-      "naics": "",
-      "psc": "21018, 28029, 28514, 28519, 28524, 28526, 57076, 72515, 72523, 74502, 89030, 90638, 90678, 90977, 91200, 91240, 91244, 91430, 91438, 91461, 92519, 92531, 92584, 99000, 99022",
-      "set_aside": "",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-11-03",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-24",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:13982:146107",
-      "source_name": "PlanetBids — Port of San Diego, CA",
-      "title": "STRUCTURAL REPAIRS AT NCMT BERTHS 24-3 AND 24-4, NATIONAL CITY",
-      "description": "2025-21",
-      "agency": "Port of San Diego, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/13982/bo/bo-detail/146107",
-      "naics": "",
-      "psc": "96893, 96892, 96185, 28075, 20493, 20693, 75070, 69100, 91051, 95953, 96246, 54524, 28500, 91438, 91240, 22000, 91008, 21000, 91430",
-      "set_aside": "",
-      "posted_date": "2026-09-22",
-      "due_date": "2026-11-04",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:16151:144554",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
-      "description": "2049",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
-      "naics": "",
-      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
-      "set_aside": "",
-      "posted_date": "2026-08-04",
-      "due_date": "2026-11-17",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": []
     },
     {
       "id": "dg92-zbpx:07227W0002001",
@@ -1840,7 +1674,7 @@
       ]
     },
     {
-      "id": "arcgis:Doc853603",
+      "id": "arcgis:Doc847596",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -1854,7 +1688,7 @@
       "due_date": "2026-11-09",
       "it_score": 42,
       "is_new": false,
-      "first_seen": "2026-10-29",
+      "first_seen": "2026-10-09",
       "matched_keywords": [
         "system",
         "data"
@@ -1879,6 +1713,26 @@
       "matched_keywords": [
         "ai",
         "artificial intelligence"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:06827W0015001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "DevOps Engineer (IT Production Support)",
+      "description": "DevOps Engineer (IT Production Support)",
+      "agency": "Administration for Children's Services",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-30",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-30",
+      "matched_keywords": [
+        "devops"
       ]
     },
     {
