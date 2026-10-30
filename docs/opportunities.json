@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T17:43:50.434942+00:00",
+  "generated_at": "2026-10-30T04:30:49.770972+00:00",
   "counts": {
-    "total": 100,
-    "new": 2
+    "total": 101,
+    "new": 1
   },
   "health": {
     "ok": 26,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 196,
+        "count": 201,
         "error": ""
       },
       {
@@ -102,24 +102,24 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F26%2F2026&postedTo=10%2F29%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F27%2F2026&postedTo=10%2F30%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 59,
+        "count": 64,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 296,
+        "count": 291,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 21,
+        "count": 23,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 73,
+        "count": 74,
         "error": ""
       },
       {
@@ -155,7 +155,7 @@
       {
         "source": "QuestCDN",
         "ok": true,
-        "count": 3,
+        "count": 2,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 48,
+        "count": 45,
         "error": ""
       },
       {
@@ -774,8 +774,28 @@
       "posted_date": "2026-10-29",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:321063",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC Sentinel One 2027 Annual Renewal",
+      "description": "The NCRIC is seeking quotations for annual renewal of our Sentinel One software and support subscription. The term for this subscription is 10/31/2026 - 10/30/2027. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/321063",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-28",
+      "due_date": "2026-11-12",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-30",
       "matched_keywords": [
         "software"
       ]
@@ -1833,7 +1853,7 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-29",
       "matched_keywords": [
         "system",
