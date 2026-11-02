@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T04:34:16.384918+00:00",
+  "generated_at": "2026-11-02T20:58:50.887314+00:00",
   "counts": {
-    "total": 92,
-    "new": 0
+    "total": 91,
+    "new": 4
   },
   "health": {
     "ok": 25,
@@ -23,7 +23,7 @@
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 26,
+        "count": 33,
         "error": ""
       },
       {
@@ -119,7 +119,7 @@
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 21,
+        "count": 20,
         "error": ""
       },
       {
@@ -137,13 +137,13 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 66,
+        "count": 65,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 4,
+        "count": 5,
         "error": ""
       },
       {
@@ -155,7 +155,7 @@
       {
         "source": "QuestCDN",
         "ok": true,
-        "count": 3,
+        "count": 4,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 42,
+        "count": 51,
         "error": ""
       },
       {
@@ -181,7 +181,7 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 10,
+      "opportunity_count": 11,
       "agency_count": 9,
       "state_count": 2,
       "states": [
@@ -190,6 +190,15 @@
       ],
       "demand_score": 29,
       "examples": [
+        {
+          "title": "OCAT DT | TM3-Teems Software License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012207&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-05",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
         {
           "title": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
           "agency": "Fire Department",
@@ -216,6 +225,15 @@
           "due_date": "",
           "it_score": 48,
           "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "Asbestos Abatement w/ Hazardous Materials Job Order Contracts (JOC 2720 and 2721) - Class C21/C22 License",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/322004",
+          "due_date": "2026-12-10",
+          "it_score": 36,
+          "source_name": "OpenGov — County of San Mateo, CA"
         },
         {
           "title": "Adobe Enterprise License Renewal",
@@ -261,24 +279,6 @@
           "due_date": "",
           "it_score": 36,
           "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "ImageWork ClaimConnect License Renewal and Support",
-          "agency": "Sanitation",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
         }
       ]
     },
@@ -299,7 +299,7 @@
           "agency": "Department of Employment Services",
           "state": "DC",
           "url": "https://ocp.dc.gov/service/solicitations",
-          "due_date": "2026-11-02",
+          "due_date": "2026-11-04",
           "it_score": 42,
           "source_name": "Washington DC — Solicitations (PASS)"
         },
@@ -551,25 +551,24 @@
       ]
     },
     {
-      "id": "dg92-zbpx:81627Y0857",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "81627Y0857-BRANAGH INFORMATION GROUP INC. _ Sole Source _ Technical Assistance (TA) Module 01 software data system",
-      "description": "81627Y0857-BRANAGH INFORMATION GROUP INC. _ Sole Source _ Technical Assistance (TA) Module 01 software data system",
-      "agency": "Health and Mental Hygiene",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
+      "id": "eshn-8t3a:SFGOV~0000012207",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCAT DT | TM3-Teems Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012207&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-09-11",
-      "due_date": "",
-      "it_score": 63,
-      "is_new": false,
-      "first_seen": "2026-09-26",
+      "posted_date": "2026-10-29",
+      "due_date": "2026-11-05",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-02",
       "matched_keywords": [
         "software",
-        "system",
-        "data"
+        "license"
       ]
     },
     {
@@ -740,6 +739,26 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012215",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 – Infoblox Software & Maint. Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012215&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-29",
+      "due_date": "2026-11-03",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-02",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "dg92-zbpx:90227S8001KXL",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Penlink Tangles & Webloc Software",
@@ -815,6 +834,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012199",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 CloudBolt Software Lic/Support Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012199&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-27",
+      "due_date": "2026-11-03",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-02",
       "matched_keywords": [
         "software"
       ]
@@ -1040,46 +1079,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:317475",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC 2027 Barracuda Annual Renewal",
-      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC) the County of San Mateo is seeking quotations for the annual renewal of software and support subscriptions associated with devices from Barracuda Networks. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/317475",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-15",
-      "due_date": "2026-11-03",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-20",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:317859",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC 2027 PIPL Annual Renewal",
-      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC), the County of San Mateo is seeking quotations to renew the NCRIC's license of the Pipl software subscription. This is scoped at 30 seats of Pipl Search, for a one year term. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/317859",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-15",
-      "due_date": "2026-11-02",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-20",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "ionwave:leegov:SS270009KCW",
       "source_name": "Ionwave — Lee County, FL",
       "title": "CVent Hospitality Cloud Access",
@@ -1220,26 +1219,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:309231",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Domain Transition and Implementation Services RFP",
-      "description": "The County of San Mateo (County) Technology Services Department (TSD) is seeking proposals from qualified contractors to fully transition the County from our current smcgov.org domain name to a .gov domain name in compliance with California Assembly Bill 1637 requiring all local agencies to adopt a .gov domain name for public websites and email addresses no later than January 1, 2029. This technical migration encompasses all County website domains and subdomains, email, Domain Name Systems (DNS), TSD owned and managed enterprise applications connected to Okta and Active Directory for authentication, enterprise platforms, and identifying departmental applications countywide impacted by this domain name transition.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/309231",
-      "naics": "",
-      "psc": "",
-      "set_aside": "TSD-20271940",
-      "posted_date": "2026-09-28",
-      "due_date": "2026-11-04",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "migration"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232228",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFI NO. 9.25.26-POWER-SAL - Document Governance Software Solution",
@@ -1331,7 +1310,7 @@
       "psc": "",
       "set_aside": "26-P-00475",
       "posted_date": "2026-07-22",
-      "due_date": "2026-11-04",
+      "due_date": "2026-11-18",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-06",
@@ -1643,7 +1622,7 @@
       "psc": "",
       "set_aside": "",
       "posted_date": "",
-      "due_date": "2026-11-02",
+      "due_date": "2026-11-04",
       "it_score": 42,
       "is_new": false,
       "first_seen": "2026-10-29",
@@ -1712,6 +1691,26 @@
       "first_seen": "2026-10-30",
       "matched_keywords": [
         "devops"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:322004",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Asbestos Abatement w/ Hazardous Materials Job Order Contracts (JOC 2720 and 2721) - Class C21/C22 License",
+      "description": "The Department of Public Works (Department) is seeking qualified contractors for Project Title . The anticipated services are to be performed within a designated area of the County. However, if the need arises, the Owner reserves the right to require the Contractor to work at any location or facility under the jurisdiction of the Owner. The work to be done consists, in general, of providing all labor, materials, tools, appurtenances, and equipment required as well as any other items and details not mentioned but required by the Contract Documents and as directed by the Director of Public Works or the Director's designee. The target start date and term for the proposed services are subject to negotiation of a final agreement, through the completion of the projects. The Department intends to bring under contract up to two (2) contractors to provide Project Title services with an aggregate fiscal obligation not to exceed $1,000,000 for each agreement during a maximum individual term of one (1) year. Separate Job Orders-Notice to Proceed will be issued under each agreement, as warranted. The apparent lowest, responsive, and responsible bidder shall be selected for consideration for award of each JOC but will be excluded from consideration for each successive contract.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/322004",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP-00204",
+      "posted_date": "2026-10-30",
+      "due_date": "2026-12-10",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-02",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
@@ -2172,26 +2171,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "information technology"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:81627W0011001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-      "description": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-      "agency": "Chief Medical Examiner",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-11",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "license"
       ]
     },
     {
