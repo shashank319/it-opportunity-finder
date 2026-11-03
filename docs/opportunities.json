@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T05:28:06.173913+00:00",
+  "generated_at": "2026-11-03T18:46:37.636626+00:00",
   "counts": {
-    "total": 90,
-    "new": 0
+    "total": 95,
+    "new": 5
   },
   "health": {
     "ok": 25,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 207,
+        "count": 215,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 51,
+        "count": 39,
         "error": ""
       },
       {
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 283,
+        "count": 289,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 27,
+        "count": 29,
         "error": ""
       },
       {
@@ -161,13 +161,13 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 6,
+        "count": 5,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 46,
+        "count": 49,
         "error": ""
       },
       {
@@ -181,14 +181,14 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 10,
-      "agency_count": 9,
+      "opportunity_count": 11,
+      "agency_count": 10,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 29,
+      "demand_score": 32,
       "examples": [
         {
           "title": "OCAT DT | TM3-Teems Software License Renewal",
@@ -216,6 +216,15 @@
           "due_date": "",
           "it_score": 48,
           "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+          "due_date": "2026-11-18",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "Asbestos Abatement w/ Hazardous Materials Job Order Contracts (JOC 2720 and 2721) - Class C21/C22 License",
@@ -265,15 +274,6 @@
         {
           "title": "Box.com Enterprise License",
           "agency": "Small Business Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "ImageWork ClaimConnect License Renewal and Support",
-          "agency": "Sanitation",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -548,6 +548,27 @@
       "matched_keywords": [
         "software",
         "cloud"
+      ]
+    },
+    {
+      "id": "opengov:escambiacountyfl:322696",
+      "source_name": "OpenGov — Escambia County, FL",
+      "title": "Maintenance Support for Priority Dispatch Software Sole Source 26-27",
+      "description": "Escambia County Public Safety is accepting quotes for Maintenance Support for Priority Dispatch Software for FY27 (10/01/2026 – 09/30/2027). Scope of Services: Routine Maintenance: Perform regular updates, patches, and version upgrades of Priority Dispatch software as released by the vendor. Conduct proactive system health checks and performance monitoring to identify and address potential issues promptly. Technical Support: Provide expert-level technical assistance and troubleshooting for users encountering issues with Priority Dispatch software. Ensure rapid response and resolution of software-related incidents and service requests. Must provide support within 30 minutes for system outages. Bug Fixing and Software Updates: Investigate reported bugs or anomalies in Priority Dispatch software and apply necessary fixes or workarounds. Collaborate closely for bug fixes and updates, leveraging proficient programming skills as needed. Provide software updates promptly as they become available, covering expenses related to the update process. Enhancements, Customization, and Interfaces: Modify the original software source code as necessary to implement enhancements and fixes. Provide canned and customizable reports that interface with the Priority Dispatch database to pull report data from the software. Security Management: Implement and maintain robust security measures to protect Priority Dispatch software against vulnerabilities. VPN Connection Provisioning: Provide and maintain a Virtual Private Network (VPN) connection for personnel to securely access Priority Dispatch software during support activities. Ensure VPN connectivity is reliable, secure, and compliant with organizational security policies. Documentation and Reporting: Maintain detailed records of all maintenance activities, including updates, fixes, enhancements, and source code modifications made to Priority Dispatch software. User Support and Training: Offer advanced user support services, including in-depth guidance on utilizing Priority Dispatch software effectively and resolving complex issues. Provide training sessions as needed for users on new features, enhancements, or changes implemented in Priority Dispatch software. Service Level Agreement (SLA): Provided 24/7/365 support availability, rapid response times (must provide support within 30 minutes for system outages), and expedited resolution times for critical incidents. Establish clear escalation procedures for unresolved issues or emergencies. Access to Source Code: The respondent must have access to the original software source code of Priority Dispatch software to facilitate modifications for enhancements, fixes, and customization as required by Escambia County Public Safety. Software Updates: The respondent is responsible for providing software updates promptly as they become available from the vendor, covering all expenses related to acquiring and implementing these updates. Qualifications and Experience: The respondent must demonstrate: Extensive knowledge of Priority Dispatch software and its underlying technologies. Experience in providing round-the-clock support services for mission-critical applications, modifying source code, delivering software updates, managing VPN connections, and developing software interfaces. Deliverables: Updated documentation reflecting any configurations, fixes, enhancements, and software update details. Records demonstrating user support interactions. Timeline: Provide a schedule for routine maintenance activities, including planned updates and maintenance windows. Specify any anticipated downtime or service disruptions associated with maintenance tasks, VPN connection upgrades, and software updates. Contact Information: Designate a primary point of contact for service requests, escalations, and general inquiries related to maintenance support, software updates, and contract administration. Provide contact details for the 24/7/365 support line. Appendix: Include any additional documents or appendices pertinent to the maintenance support of Priority Dispatch software, software update management, and contract administration.",
+      "agency": "Escambia County",
+      "state": "FL",
+      "url": "https://procurement.opengov.com/portal/escambiacountyfl/projects/322696",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS PS TS 26 27",
+      "posted_date": "2026-11-02",
+      "due_date": "2026-11-10",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "software",
+        "database"
       ]
     },
     {
@@ -1309,7 +1330,7 @@
       "psc": "",
       "set_aside": "2026-RFP-0272",
       "posted_date": "2026-05-06",
-      "due_date": "2026-11-05",
+      "due_date": "2026-11-19",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-23",
@@ -1461,6 +1482,27 @@
         "application",
         "system",
         "hosting"
+      ]
+    },
+    {
+      "id": "ionwave:leegov:SS270036KCW",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "Bell Data Systems Client Services Network",
+      "description": "Bell Data Systems Client Services Network",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS270036KCW",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-25",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "systems",
+        "data"
       ]
     },
     {
@@ -1650,6 +1692,66 @@
       "matched_keywords": [
         "ai",
         "artificial intelligence"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232842",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-18",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232841",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-17",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
+      "id": "ionwave:leegov:B260374JAK",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "EOC Data Center UPS Upgrade",
+      "description": "EOC Data Center UPS Upgrade",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "B260374JAK",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-12-10",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
