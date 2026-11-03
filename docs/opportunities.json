@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T20:58:50.887314+00:00",
+  "generated_at": "2026-11-03T05:28:06.173913+00:00",
   "counts": {
-    "total": 91,
-    "new": 4
+    "total": 90,
+    "new": 0
   },
   "health": {
     "ok": 25,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 209,
+        "count": 207,
         "error": ""
       },
       {
@@ -102,7 +102,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F30%2F2026&postedTo=11%2F02%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F31%2F2026&postedTo=11%2F03%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -113,19 +113,19 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 287,
+        "count": 283,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 20,
+        "count": 19,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 29,
+        "count": 30,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 65,
+        "count": 66,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 26,
+        "count": 27,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 51,
+        "count": 46,
         "error": ""
       },
       {
@@ -181,7 +181,7 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 11,
+      "opportunity_count": 10,
       "agency_count": 9,
       "state_count": 2,
       "states": [
@@ -207,15 +207,6 @@
           "due_date": "",
           "it_score": 57,
           "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
-          "due_date": "2026-11-05",
-          "it_score": 57,
-          "source_name": "OpenGov — County of San Mateo, CA"
         },
         {
           "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
@@ -274,6 +265,15 @@
         {
           "title": "Box.com Enterprise License",
           "agency": "Small Business Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "ImageWork ClaimConnect License Renewal and Support",
+          "agency": "Sanitation",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -564,7 +564,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-05",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "software",
@@ -632,27 +632,6 @@
       "matched_keywords": [
         "software",
         "portal"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:318905",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
-      "description": "The County of San Mateo Technology Services Department (TSD) is seeking quotations exclusively for Recast Software Right Click Tools Essentials Complete Access Subscription License for 1 year. \"Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed.\" Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RITM0184034",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-11-05",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-10-22",
-      "matched_keywords": [
-        "software",
-        "license"
       ]
     },
     {
@@ -752,7 +731,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-03",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "software"
@@ -852,7 +831,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-03",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "software"
@@ -1707,7 +1686,7 @@
       "posted_date": "2026-10-30",
       "due_date": "2026-12-10",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "license"
