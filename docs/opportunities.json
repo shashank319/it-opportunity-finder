@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T21:21:32.023758+00:00",
+  "generated_at": "2026-11-03T18:59:59.242514+00:00",
   "counts": {
-    "total": 40,
-    "new": 4
+    "total": 43,
+    "new": 5
   },
   "health": {
     "ok": 21,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 209,
+        "count": 215,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 51,
+        "count": 39,
         "error": ""
       },
       {
@@ -113,19 +113,19 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 198,
+        "count": 195,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 20,
+        "count": 19,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 20,
+        "count": 21,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 2,
+        "count": 3,
         "error": ""
       },
       {
@@ -151,13 +151,13 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 3,
-      "agency_count": 3,
+      "opportunity_count": 5,
+      "agency_count": 4,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 10,
+      "demand_score": 13,
       "examples": [
         {
           "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
@@ -178,6 +178,24 @@
           "source_name": "OpenGov — County of San Mateo, CA"
         },
         {
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "agency": "Housing Authority, City of Los Angeles",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "due_date": "2026-12-01",
+          "it_score": 51,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "agency": "Housing Authority, City of Los Angeles",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "due_date": "2026-12-01",
+          "it_score": 51,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
           "title": "DESIGN BUILD | RFQ # R-27016 - 107TH STREET ELEMENTARY | SEISMIC MODERNIZATION PROJECT",
           "agency": "LAUSD",
           "state": "CA",
@@ -191,12 +209,12 @@
     {
       "name": "Permitting & Licensing",
       "opportunity_count": 3,
-      "agency_count": 2,
+      "agency_count": 3,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 7,
+      "demand_score": 10,
       "examples": [
         {
           "title": "OCAT DT | TM3-Teems Software License Renewal",
@@ -208,13 +226,13 @@
           "source_name": "San Francisco CA — Open Bids"
         },
         {
-          "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
-          "agency": "County of San Mateo",
+          "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+          "agency": "Los Angeles County",
           "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
-          "due_date": "2026-11-05",
-          "it_score": 57,
-          "source_name": "OpenGov — County of San Mateo, CA"
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+          "due_date": "2026-11-18",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "Asbestos Abatement w/ Hazardous Materials Job Order Contracts (JOC 2720 and 2721) - Class C21/C22 License",
@@ -362,6 +380,29 @@
   ],
   "opportunities": [
     {
+      "id": "opengov:smcgov:220372",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Facility Condition Assessment and Asset Management Solution",
+      "description": "The County of San Mateo (County) is soliciting competitive proposals from qualified firms to deliver a turnkey Facility Condition Assessment (FCA), compile a unified Master Equipment Register (MER), deploy an enterprise-grade cloud Facility Condition Information System (FCIS), and implement bi-directional integration with the County’s Computerized Maintenance Management System (CMMS) IBM Maximo Application Suite SaaS. This solicitation is structured into two distinct operational phases: PHASE 1 (BASE SCOPE) : Complete on-site baseline Facility Condition Assessments across approximately 100 facilities (~4.5 million gross square feet across 75 sites) following ASTM E2018-24 standards. Perform discrete equipment nameplate inventories and install durable 2D physical barcode tags for maintainable mechanical, electrical, plumbing, conveyance, and life-safety systems. Compile and validate a unified Master Equipment Register (MER) that establishes an identical data baseline between IBM Maximo and the FCIS. Provide, configure, and host a SaaS-based FCIS platform delivering real-time Facility Condition Index (FCI) calculations, multi-year capital renewal modeling, and localized RSMeans-based cost estimating. Format, validate, and batch-load the complete Master Equipment Register directly into the County’s IBM Maximo Application Suite environment, and establish automated synchronization between Maximo and the FCIS. PHASE 2 (OPTIONAL/ADD-ALTERNATIVE SCOPE): Develop standard, manufacturer-aligned Preventive Maintenance (PM) Job Plans, task check-sheets, and recommended service frequencies, pre-formatted for direct batch upload into Maximo Job Plans and PM Master applications.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/220372",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00266",
+      "posted_date": "2025-12-03",
+      "due_date": "2026-12-18",
+      "it_score": 99,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "application",
+        "cloud",
+        "saas",
+        "integration"
+      ]
+    },
+    {
       "id": "opengov:smcgov:313156",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Request for Proposals (RFP) for Project Management Services",
@@ -440,7 +481,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-05",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "software",
@@ -466,27 +507,6 @@
       "matched_keywords": [
         "system",
         "integration"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:318905",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
-      "description": "The County of San Mateo Technology Services Department (TSD) is seeking quotations exclusively for Recast Software Right Click Tools Essentials Complete Access Subscription License for 1 year. \"Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed.\" Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RITM0184034",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-11-05",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-10-22",
-      "matched_keywords": [
-        "software",
-        "license"
       ]
     },
     {
@@ -566,7 +586,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-03",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "software"
@@ -586,7 +606,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-03",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "software"
@@ -653,26 +673,6 @@
       ]
     },
     {
-      "id": "opengov:pasadena:263470",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
-      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0272",
-      "posted_date": "2026-05-06",
-      "due_date": "2026-11-05",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232703",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200292 - 7636 - SOFTWARE SERVICES - F5 TAP (BRAND ONLY) - Closing: 11/9/2026 12:00 PM",
@@ -688,26 +688,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-27",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:315138",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Mail Folder/Inserter",
-      "description": "The County is seeking quotes for the purchase, installation, setup and ongoing maintenance and service of a new folder/inserter machine for the mailroom to support efficient, accurate, and secure processing of outgoing mail. The proposed equipment should be suitable for high-volume government mail operations and capable of folding, inserting, and sealing a variety of standard mail pieces, including multi-page documents, return envelopes, and inserts. Quotes should include equipment, maintenance options, and any required software, licensing, or supplies. Vendors should identify equipment specifications, capacity, supported envelope and paper sizes, compatibility with existing mailroom workflows. The County intends to select the quote that provides the best overall value, considering cost, reliability, service support, operational efficiency, and ability to meet public-sector mailing needs.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/315138",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFQ-00168",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-11-10",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-15",
       "matched_keywords": [
         "software"
       ]
@@ -816,7 +796,7 @@
       "id": "opengov:smcgov:304422",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1)",
-      "description": "The Department of Public Works (Department) is seeking a general contractor for the County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1) (Project). The anticipated construction is to be performed at 455 County Center, Redwood City, CA 94063. The work to be done consists, in general, of providing all labor, materials, tools, appurtenances, and equipment required as well as any other items and details not mentioned but required by the Contract Documents and Project Specifications and as directed by the Director of Public Works or designee. The target start date and term for the proposed services are subject to negotiation of a final agreement, through the completion of the Project. The Contract Time for completion of all the Work of the Project is Two Hundred Four (204) calendar days, starting the day after the anticipated Notice to Proceed date, as defined as sufficiently complete in accordance with the Contract Documents and Project Specifications . However, the Contract time for completion of all Level 1 Work, or work that impacts Level 1, is One Hundred Two (152) calendar days, ending on May 9, 2027 .",
+      "description": "The Department of Public Works (Department) is seeking a general contractor for the County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1) (Project). The anticipated construction is to be performed at 455 County Center, Redwood City, CA 94063. The work to be done consists, in general, of providing all labor, materials, tools, appurtenances, and equipment required as well as any other items and details not mentioned but required by the Contract Documents and Project Specifications and as directed by the Director of Public Works or designee. The target start date and term for the proposed services are subject to negotiation of a final agreement, through the completion of the Project. The Contract Time for completion of all the Work of the Project is Two Hundred Four (204) calendar days , starting the day after the anticipated notice to proceed date, as defined as sufficiently complete in accordance with the Contract Documents and Project Specifications. Phased Milestone Completion Requirements: Milestone 1 (Level 1 Work): Substantial Completion of all Level 1 Work, and any related basement or infrastructure work necessary to fully support Level 1 occupancy and operation, is subject to a mandatory fixed completion date of May 9, 2027 (One Hundred Twenty-Five [125] calendar days from Anticipated NTP) . May 9, 2027, is a critical constraint for County operations; time is strictly of the essence, and Substantial Completion of Milestone 1 must be achieved on or before May 9, 2027, regardless of the overall Contract Time. Milestone 2 (Overall Project Final Completion): Substantial Completion of all remaining Work (Level 2, finishes, and final punch lists) shall be achieved within Two Hundred Four (204) calendar days following the NTP.",
       "agency": "County of San Mateo",
       "state": "CA",
       "url": "https://procurement.opengov.com/portal/smcgov/projects/304422",
@@ -828,6 +808,66 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-15",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:263470",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
+      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0272",
+      "posted_date": "2026-05-06",
+      "due_date": "2026-11-19",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-02",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232845",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "description": "Personal Services",
+      "agency": "Housing Authority, City of Los Angeles",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-12-01",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232844",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "description": "Personal Services",
+      "agency": "Housing Authority, City of Los Angeles",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-12-01",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-03",
       "matched_keywords": [
         "modernization"
       ]
@@ -1059,6 +1099,46 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232841",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-17",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232842",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-18",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
       "id": "opengov:anaheim:290478",
       "source_name": "OpenGov — City of Anaheim, CA",
       "title": "Double-Sided Padmount Solid Dielectric Switchgear with Integrated Automation - Purchase Order",
@@ -1092,7 +1172,7 @@
       "posted_date": "2026-10-30",
       "due_date": "2026-12-10",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "license"
