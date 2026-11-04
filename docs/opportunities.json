@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T04:56:18.248138+00:00",
+  "generated_at": "2026-11-04T19:00:44.853854+00:00",
   "counts": {
-    "total": 93,
-    "new": 2
+    "total": 92,
+    "new": 1
   },
   "health": {
     "ok": 25,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 24,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 210,
+        "count": 214,
         "error": ""
       },
       {
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 286,
+        "count": 287,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 32,
+        "count": 33,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 59,
+        "count": 57,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 27,
+        "count": 28,
         "error": ""
       },
       {
@@ -161,13 +161,13 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 4,
+        "count": 3,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 49,
+        "count": 50,
         "error": ""
       },
       {
@@ -181,7 +181,7 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 11,
+      "opportunity_count": 12,
       "agency_count": 10,
       "state_count": 2,
       "states": [
@@ -190,6 +190,15 @@
       ],
       "demand_score": 32,
       "examples": [
+        {
+          "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
+          "due_date": "2026-11-12",
+          "it_score": 57,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
         {
           "title": "OCAT DT | TM3-Teems Software License Renewal",
           "agency": "Office of Contract Administration",
@@ -265,15 +274,6 @@
         {
           "title": "License continuation of SolarWinds DameWare Remote Support",
           "agency": "Citywide Administrative Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "Box.com Enterprise License",
-          "agency": "Small Business Services",
           "state": "NY",
           "url": "https://a856-cityrecord.nyc.gov/",
           "due_date": "",
@@ -530,7 +530,7 @@
       "posted_date": "2025-12-03",
       "due_date": "2026-12-18",
       "it_score": 99,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04",
       "matched_keywords": [
         "application",
@@ -562,28 +562,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:313065",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Request for Proposals (RFP) for Quality Assurance Testing Services",
-      "description": "The County’s objective in issuing this Request for Proposals (RFP) is to establish agreements with one or more qualified contractors to provide quality assurance (QA), testing, and related consulting services on an as-needed basis in connection with software and related technology used by the County. Services may support a range of County initiatives, including the planning, design, implementation, integration, enhancement, and ongoing maintenance of software-as-a-service (SaaS) and other technology systems, as well as other County applications, business processes, and operational initiatives requiring structured testing and quality assurance support. Selected contractor(s) may be engaged to provide experienced QA testers, test leads, and related subject-matter support to lead or augment County project teams. Services may include developing and executing test strategies, test plans, test cases, test scripts, and test data; conducting functional, regression, integration, system, user acceptance, accessibility, performance, and other appropriate testing; documenting and tracking defects; coordinating testing activities among County staff, vendors, and other stakeholders; validating defect resolutions; supporting user acceptance testing; and providing testing status reports, recommendations, and other deliverables necessary to support successful project implementation and system quality. The County does not guarantee a minimum volume of work; specific assignments within the scope of this RFP, duration, and staffing needs will be established through individual contracts. The County’s standard contract template is included as an appendix to this solicitation. Awarded contractor(s) will be expected to enter into an agreement prepared by the County using this template. Proposers should ensure that their firms have completed legal review of the contract terms before submitting a proposal. If a proposer wishes to request exceptions to the County’s standard terms, it must submit a Contract Exceptions Request by the Deadline for Questions, Comments, and Contract Exceptions identified in the Solicitation Schedule. The County will consider requested exceptions but reserves the right to reject proposed modifications to its standard contract terms.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/313065",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00181",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-11-13",
-      "it_score": 93,
-      "is_new": false,
-      "first_seen": "2026-10-17",
-      "matched_keywords": [
-        "software",
-        "saas",
-        "integration"
-      ]
-    },
-    {
       "id": "opengov:smcgov:321978",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "NCRIC 2027 Penlink and GeoTime Annual Renewal",
@@ -602,6 +580,27 @@
       "matched_keywords": [
         "software",
         "cloud"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232876",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-04",
+      "due_date": "2026-11-12",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-04",
+      "matched_keywords": [
+        "software",
+        "license"
       ]
     },
     {
@@ -813,26 +812,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:321063",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC Sentinel One 2027 Annual Renewal",
-      "description": "The NCRIC is seeking quotations for annual renewal of our Sentinel One software and support subscription. The term for this subscription is 10/31/2026 - 10/30/2027. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/321063",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-28",
-      "due_date": "2026-11-12",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-30",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "ionwave:leegov:SS270031CMJ",
       "source_name": "Ionwave — Lee County, FL",
       "title": "HR Acuity Employee Relations Case Management Software",
@@ -966,7 +945,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-12-12",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04",
       "matched_keywords": [
         "software"
@@ -1689,26 +1668,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232841",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-17",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232842",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
@@ -1726,6 +1685,26 @@
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232841",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-17",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "digital"
       ]
     },
     {
