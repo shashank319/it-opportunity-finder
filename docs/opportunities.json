@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T18:59:59.242514+00:00",
+  "generated_at": "2026-11-04T19:18:30.354349+00:00",
   "counts": {
-    "total": 43,
-    "new": 5
+    "total": 41,
+    "new": 2
   },
   "health": {
     "ok": 21,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 24,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 215,
+        "count": 214,
         "error": ""
       },
       {
@@ -113,19 +113,19 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 195,
+        "count": 196,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 19,
+        "count": 23,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 21,
+        "count": 24,
         "error": ""
       },
       {
@@ -143,7 +143,7 @@
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 1,
+        "count": 0,
         "error": ""
       }
     ]
@@ -208,7 +208,7 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 3,
+      "opportunity_count": 4,
       "agency_count": 3,
       "state_count": 1,
       "states": [
@@ -224,6 +224,15 @@
           "due_date": "2026-11-05",
           "it_score": 57,
           "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
+          "due_date": "2026-11-12",
+          "it_score": 57,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
@@ -393,7 +402,7 @@
       "posted_date": "2025-12-03",
       "due_date": "2026-12-18",
       "it_score": 99,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "application",
@@ -413,28 +422,6 @@
       "naics": "",
       "psc": "",
       "set_aside": "2027-RFP-00180",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-11-13",
-      "it_score": 93,
-      "is_new": false,
-      "first_seen": "2026-10-17",
-      "matched_keywords": [
-        "software",
-        "saas",
-        "integration"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:313065",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Request for Proposals (RFP) for Quality Assurance Testing Services",
-      "description": "The County’s objective in issuing this Request for Proposals (RFP) is to establish agreements with one or more qualified contractors to provide quality assurance (QA), testing, and related consulting services on an as-needed basis in connection with software and related technology used by the County. Services may support a range of County initiatives, including the planning, design, implementation, integration, enhancement, and ongoing maintenance of software-as-a-service (SaaS) and other technology systems, as well as other County applications, business processes, and operational initiatives requiring structured testing and quality assurance support. Selected contractor(s) may be engaged to provide experienced QA testers, test leads, and related subject-matter support to lead or augment County project teams. Services may include developing and executing test strategies, test plans, test cases, test scripts, and test data; conducting functional, regression, integration, system, user acceptance, accessibility, performance, and other appropriate testing; documenting and tracking defects; coordinating testing activities among County staff, vendors, and other stakeholders; validating defect resolutions; supporting user acceptance testing; and providing testing status reports, recommendations, and other deliverables necessary to support successful project implementation and system quality. The County does not guarantee a minimum volume of work; specific assignments within the scope of this RFP, duration, and staffing needs will be established through individual contracts. The County’s standard contract template is included as an appendix to this solicitation. Awarded contractor(s) will be expected to enter into an agreement prepared by the County using this template. Proposers should ensure that their firms have completed legal review of the contract terms before submitting a proposal. If a proposer wishes to request exceptions to the County’s standard terms, it must submit a Contract Exceptions Request by the Deadline for Questions, Comments, and Contract Exceptions identified in the Solicitation Schedule. The County will consider requested exceptions but reserves the right to reject proposed modifications to its standard contract terms.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/313065",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00181",
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 93,
@@ -510,6 +497,27 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232876",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-04",
+      "due_date": "2026-11-12",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-04",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232692",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFP2358982691 ERP Requirement Development and Selection Support",
@@ -570,46 +578,6 @@
       "matched_keywords": [
         "software",
         "development"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012215",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 – Infoblox Software & Maint. Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012215&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-29",
-      "due_date": "2026-11-03",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012199",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 CloudBolt Software Lic/Support Rnwl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012199&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-27",
-      "due_date": "2026-11-03",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-02",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -733,26 +701,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:321063",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC Sentinel One 2027 Annual Renewal",
-      "description": "The NCRIC is seeking quotations for annual renewal of our Sentinel One software and support subscription. The term for this subscription is 10/31/2026 - 10/30/2027. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/321063",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-28",
-      "due_date": "2026-11-12",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-30",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "opengov:smcgov:318913",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "NCRIC 2027 Guardian RF",
@@ -846,7 +794,7 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-12-01",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "modernization"
@@ -866,7 +814,7 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-12-01",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "modernization"
@@ -890,6 +838,26 @@
       "first_seen": "2026-10-28",
       "matched_keywords": [
         "modernization"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:319724",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Moving Services",
+      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 square miles and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. Formed in July 2014, the San Mateo County Sustainability Department strives to improve the sustainability of the County’s operations and the greater community through work that is designed to bring solutions today while solving for tomorrow. The Sustainability Department has programs to help the county both fight and prepare for climate change, ensure clean energy, water, and air, and conserve resources for future generations through waste reduction. The Sustainability Department has approximately 40 staff members and provides services in the following areas: Communications, Climate Resilience, Climate Protection, Waste Reduction, and Special Districts with similar but varying community needs. The department is seeking a vendor that can move office furnishings between and sometimes within buildings, including but not limited to technology items such office pods.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/319724",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-22",
+      "due_date": "2026-12-12",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-04",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1112,7 +1080,7 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-11-17",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "digital"
@@ -1132,7 +1100,7 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-11-18",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "license"
