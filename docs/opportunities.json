@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T18:46:37.636626+00:00",
+  "generated_at": "2026-11-04T04:56:18.248138+00:00",
   "counts": {
-    "total": 95,
-    "new": 5
+    "total": 93,
+    "new": 2
   },
   "health": {
     "ok": 25,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 215,
+        "count": 210,
         "error": ""
       },
       {
@@ -102,7 +102,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=10%2F31%2F2026&postedTo=11%2F03%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F01%2F2026&postedTo=11%2F04%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -113,19 +113,19 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 289,
+        "count": 286,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 19,
+        "count": 23,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 30,
+        "count": 32,
         "error": ""
       },
       {
@@ -137,19 +137,19 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 66,
+        "count": 59,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 5,
+        "count": 4,
         "error": ""
       },
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 29,
+        "count": 27,
         "error": ""
       },
       {
@@ -161,7 +161,7 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 5,
+        "count": 4,
         "error": ""
       },
       {
@@ -380,6 +380,37 @@
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
       ]
+    },
+    {
+      "name": "Asset / Work Order (EAM/CMMS)",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 2,
+      "states": [
+        "CA",
+        "NY"
+      ],
+      "demand_score": 8,
+      "examples": [
+        {
+          "title": "Facility Condition Assessment and Asset Management Solution",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/220372",
+          "due_date": "2026-12-18",
+          "it_score": 99,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "Consultant Services, NYCEDC Asset Management Building Plans and Document Management Platform RFEI",
+          "agency": "Economic Development Corporation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
+        }
+      ]
     }
   ],
   "it_code_reference": [
@@ -486,6 +517,29 @@
   ],
   "opportunities": [
     {
+      "id": "opengov:smcgov:220372",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Facility Condition Assessment and Asset Management Solution",
+      "description": "The County of San Mateo (County) is soliciting competitive proposals from qualified firms to deliver a turnkey Facility Condition Assessment (FCA), compile a unified Master Equipment Register (MER), deploy an enterprise-grade cloud Facility Condition Information System (FCIS), and implement bi-directional integration with the County’s Computerized Maintenance Management System (CMMS) IBM Maximo Application Suite SaaS. This solicitation is structured into two distinct operational phases: PHASE 1 (BASE SCOPE) : Complete on-site baseline Facility Condition Assessments across approximately 100 facilities (~4.5 million gross square feet across 75 sites) following ASTM E2018-24 standards. Perform discrete equipment nameplate inventories and install durable 2D physical barcode tags for maintainable mechanical, electrical, plumbing, conveyance, and life-safety systems. Compile and validate a unified Master Equipment Register (MER) that establishes an identical data baseline between IBM Maximo and the FCIS. Provide, configure, and host a SaaS-based FCIS platform delivering real-time Facility Condition Index (FCI) calculations, multi-year capital renewal modeling, and localized RSMeans-based cost estimating. Format, validate, and batch-load the complete Master Equipment Register directly into the County’s IBM Maximo Application Suite environment, and establish automated synchronization between Maximo and the FCIS. PHASE 2 (OPTIONAL/ADD-ALTERNATIVE SCOPE): Develop standard, manufacturer-aligned Preventive Maintenance (PM) Job Plans, task check-sheets, and recommended service frequencies, pre-formatted for direct batch upload into Maximo Job Plans and PM Master applications.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/220372",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-00266",
+      "posted_date": "2025-12-03",
+      "due_date": "2026-12-18",
+      "it_score": 99,
+      "is_new": true,
+      "first_seen": "2026-11-04",
+      "matched_keywords": [
+        "application",
+        "cloud",
+        "saas",
+        "integration"
+      ]
+    },
+    {
       "id": "opengov:smcgov:313156",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Request for Proposals (RFP) for Project Management Services",
@@ -564,7 +618,7 @@
       "posted_date": "2026-11-02",
       "due_date": "2026-11-10",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "software",
@@ -739,26 +793,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012215",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 – Infoblox Software & Maint. Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012215&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-29",
-      "due_date": "2026-11-03",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "dg92-zbpx:90227S8001KXL",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Penlink Tangles & Webloc Software",
@@ -839,26 +873,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012199",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 CloudBolt Software Lic/Support Rnwl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012199&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-27",
-      "due_date": "2026-11-03",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "ionwave:leegov:SS270029KCW",
       "source_name": "Ionwave — Lee County, FL",
       "title": "Forerunner Floodplain Management Software",
@@ -934,6 +948,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-22",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:319724",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Moving Services",
+      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 square miles and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. Formed in July 2014, the San Mateo County Sustainability Department strives to improve the sustainability of the County’s operations and the greater community through work that is designed to bring solutions today while solving for tomorrow. The Sustainability Department has programs to help the county both fight and prepare for climate change, ensure clean energy, water, and air, and conserve resources for future generations through waste reduction. The Sustainability Department has approximately 40 staff members and provides services in the following areas: Communications, Climate Resilience, Climate Protection, Waste Reduction, and Special Districts with similar but varying community needs. The department is seeking a vendor that can move office furnishings between and sometimes within buildings, including but not limited to technology items such office pods.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/319724",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-22",
+      "due_date": "2026-12-12",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-04",
       "matched_keywords": [
         "software"
       ]
@@ -1114,26 +1148,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-13",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:315138",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Mail Folder/Inserter",
-      "description": "The County is seeking quotes for the purchase, installation, setup and ongoing maintenance and service of a new folder/inserter machine for the mailroom to support efficient, accurate, and secure processing of outgoing mail. The proposed equipment should be suitable for high-volume government mail operations and capable of folding, inserting, and sealing a variety of standard mail pieces, including multi-page documents, return envelopes, and inserts. Quotes should include equipment, maintenance options, and any required software, licensing, or supplies. Vendors should identify equipment specifications, capacity, supported envelope and paper sizes, compatibility with existing mailroom workflows. The County intends to select the quote that provides the best overall value, considering cost, reliability, service support, operational efficiency, and ability to meet public-sector mailing needs.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/315138",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFQ-00168",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-11-10",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-15",
       "matched_keywords": [
         "software"
       ]
@@ -1379,26 +1393,6 @@
       ]
     },
     {
-      "id": "bonfire:broward:258108",
-      "source_name": "Bonfire — Broward County, FL",
-      "title": "Volgistics - Volunteer Management Software Solutions",
-      "description": "Volgistics - Volunteer Management Software Solutions",
-      "agency": "Broward County, FL",
-      "state": "FL",
-      "url": "https://broward.bonfirehub.com/opportunities/258108",
-      "naics": "",
-      "psc": "",
-      "set_aside": "TCH2133105F1",
-      "posted_date": "",
-      "due_date": "2026-11-03",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-13",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
       "source_name": "CivicPlus Bids — City of Buffalo, NY",
       "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
@@ -1498,7 +1492,7 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-11-25",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "systems",
@@ -1695,26 +1689,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232842",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-18",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232841",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
@@ -1728,10 +1702,30 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-11-17",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "digital"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232842",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-18",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
@@ -1748,7 +1742,7 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-12-10",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "data"
