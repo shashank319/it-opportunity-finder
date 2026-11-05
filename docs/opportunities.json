@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T19:00:44.853854+00:00",
+  "generated_at": "2026-11-05T05:15:31.949259+00:00",
   "counts": {
-    "total": 92,
-    "new": 1
+    "total": 88,
+    "new": 3
   },
   "health": {
     "ok": 25,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 214,
+        "count": 210,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 500,
+        "count": 288,
         "error": ""
       },
       {
@@ -102,7 +102,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F01%2F2026&postedTo=11%2F04%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F02%2F2026&postedTo=11%2F05%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 287,
+        "count": 285,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 33,
+        "count": 32,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 57,
+        "count": 55,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 28,
+        "count": 25,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 50,
+        "count": 52,
         "error": ""
       },
       {
@@ -283,56 +283,6 @@
       ]
     },
     {
-      "name": "Data / Analytics / Dashboards",
-      "opportunity_count": 4,
-      "agency_count": 4,
-      "state_count": 3,
-      "states": [
-        "DC",
-        "FL",
-        "NY"
-      ],
-      "demand_score": 15,
-      "examples": [
-        {
-          "title": "FY27 DOES OIT Veeam Data Platform Advanced",
-          "agency": "Department of Employment Services",
-          "state": "DC",
-          "url": "https://ocp.dc.gov/service/solicitations",
-          "due_date": "2026-11-04",
-          "it_score": 42,
-          "source_name": "Washington DC — Solicitations (PASS)"
-        },
-        {
-          "title": "RFP - Provider Data Management System and Services",
-          "agency": "Department of Health Care Finance",
-          "state": "DC",
-          "url": "https://ocp.dc.gov/service/solicitations",
-          "due_date": "2026-11-09",
-          "it_score": 42,
-          "source_name": "Washington DC — Solicitations (PASS)"
-        },
-        {
-          "title": "Bid Extension: RFP for Provider Data Management services",
-          "agency": "NYC Health + Hospitals",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "Request for Information - OpenEye – CCTV Recording and Analytics",
-          "agency": "Broward County, FL",
-          "state": "FL",
-          "url": "https://broward.bonfirehub.com/opportunities/258942",
-          "due_date": "2026-11-16",
-          "it_score": 36,
-          "source_name": "Bonfire — Broward County, FL"
-        }
-      ]
-    },
-    {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 4,
       "agency_count": 4,
@@ -378,6 +328,87 @@
           "due_date": "2028-04-01",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
+    {
+      "name": "Data / Analytics / Dashboards",
+      "opportunity_count": 3,
+      "agency_count": 3,
+      "state_count": 3,
+      "states": [
+        "DC",
+        "FL",
+        "NY"
+      ],
+      "demand_score": 12,
+      "examples": [
+        {
+          "title": "RFP - Provider Data Management System and Services",
+          "agency": "Department of Health Care Finance",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-11-09",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
+        },
+        {
+          "title": "Bid Extension: RFP for Provider Data Management services",
+          "agency": "NYC Health + Hospitals",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "Request for Information - OpenEye – CCTV Recording and Analytics",
+          "agency": "Broward County, FL",
+          "state": "FL",
+          "url": "https://broward.bonfirehub.com/opportunities/258942",
+          "due_date": "2026-11-16",
+          "it_score": 36,
+          "source_name": "Bonfire — Broward County, FL"
+        }
+      ]
+    },
+    {
+      "name": "Website / Portal / Digital Services",
+      "opportunity_count": 3,
+      "agency_count": 2,
+      "state_count": 2,
+      "states": [
+        "CA",
+        "NY"
+      ],
+      "demand_score": 8,
+      "examples": [
+        {
+          "title": "As-Needed Website Services",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/320587",
+          "due_date": "2026-11-20",
+          "it_score": 57,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "Measure K Website Services",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/321052",
+          "due_date": "2026-11-20",
+          "it_score": 36,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "DANY Website Services",
+          "agency": "District Attorney - New York County",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
         }
       ]
     },
@@ -540,49 +571,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:313156",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Request for Proposals (RFP) for Project Management Services",
-      "description": "The County’s objective in issuing this Request for Proposals (RFP) is to establish agreements with one or more qualified contractors to provide project management, project implementation, and related consulting services on an as-needed basis. Services may support a range of County initiatives, including the planning, design, procurement, implementation, integration, and rollout of software-as-a-service (SaaS) and other technology systems, as well as non-technology operational, organizational, and business-process improvement projects. Selected contractor(s) may be engaged to provide experienced project managers and related subject-matter support to lead or augment County project teams, develop and maintain project plans and governance structures, coordinate stakeholders and vendors, manage risks, issues, schedules, budgets, communications, change management, and implementation activities, and otherwise support successful project delivery. The County does not guarantee a minimum volume of work; specific assignments within the scope of this RFP, duration, and staffing needs will be established through individual contracts. The County’s standard contract template is included as an appendix to this solicitation. Awarded contractor(s) will be expected to enter into an agreement prepared by the County using this template. Proposers should ensure that their firms have completed legal review of the contract terms before submitting a proposal. If a proposer wishes to request exceptions to the County’s standard terms, it must submit a Contract Exceptions Request by the Deadline for Questions, Comments, and Contract Exceptions identified in the Solicitation Schedule. The County will consider requested exceptions but reserves the right to reject proposed modifications to its standard contract terms.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/313156",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00180",
-      "posted_date": "2026-10-05",
-      "due_date": "2026-11-13",
-      "it_score": 93,
-      "is_new": false,
-      "first_seen": "2026-10-17",
-      "matched_keywords": [
-        "software",
-        "saas",
-        "integration"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:321978",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC 2027 Penlink and GeoTime Annual Renewal",
-      "description": "The NCRIC/NCHIDTA is seeking quotations for annual renewal of our software subscriptions from Penlink and GeoTime. Specifically, 15 GeoTime Enterprise Cloud Edition, 10 GeoTime Desktop Concurrent Network licenses, GeoTime Live Task Force Edition, and six licenses for PLX (three prorated to 10 months) Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/321978",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-29",
-      "due_date": "2026-11-15",
-      "it_score": 72,
-      "is_new": false,
-      "first_seen": "2026-10-31",
-      "matched_keywords": [
-        "software",
-        "cloud"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232876",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
@@ -596,7 +584,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-11-12",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04",
       "matched_keywords": [
         "software",
@@ -664,6 +652,27 @@
       "matched_keywords": [
         "software",
         "license"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:320587",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "As-Needed Website Services",
+      "description": "The County of San Mateo is soliciting proposals from qualified firms for as-needed website creation, maintenance, enhancement, redesign, migration, and related services for the County Executive’s Office (CEO), including the existing Fair Funding website (smcfairfunding.org) or successor site. Work will be authorized through County-approved Task Orders or other written authorization specified in the resulting agreement.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/320587",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP-00186",
+      "posted_date": "2026-10-26",
+      "due_date": "2026-11-20",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "migration",
+        "website"
       ]
     },
     {
@@ -1032,26 +1041,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:318913",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC 2027 Guardian RF",
-      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC) the County of San Mateo is seeking quotations for three one-year licenses to the Guardian RF platform, including all associated hardware, software, and support. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/318913",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-11-15",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-27",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "dg92-zbpx:SCA-2701P",
       "source_name": "New York City — City Record (Procurement)",
       "title": "IT SOFTWARE SUBSCRIPTION AND HARDWARE MAINTENANCE",
@@ -1089,26 +1078,6 @@
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "software"
-      ]
-    },
-    {
-      "id": "ionwave:leegov:SS270009KCW",
-      "source_name": "Ionwave — Lee County, FL",
-      "title": "CVent Hospitality Cloud Access",
-      "description": "CVent Hospitality Cloud Access",
-      "agency": "Lee County, FL",
-      "state": "FL",
-      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "SS270009KCW",
-      "posted_date": "2026-10-14",
-      "due_date": "2026-11-04",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-14",
-      "matched_keywords": [
-        "cloud"
       ]
     },
     {
@@ -1587,7 +1556,7 @@
       "id": "opengov:pasadena:293584",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Rental Registry Database and Portal",
-      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. The top 3 highest scoring proposals will be invited to participate in product demonstrations during the week of December 7-10, 2026. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
+      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
       "agency": "City of Pasadena",
       "state": "CA",
       "url": "https://procurement.opengov.com/portal/pasadena/projects/293584",
@@ -1602,27 +1571,6 @@
       "matched_keywords": [
         "portal",
         "database"
-      ]
-    },
-    {
-      "id": "arcgis:Doc853251",
-      "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "FY27 DOES OIT Veeam Data Platform Advanced",
-      "description": "FY27 DOES OIT Veeam Data Platform Advanced",
-      "agency": "Department of Employment Services",
-      "state": "DC",
-      "url": "https://ocp.dc.gov/service/solicitations",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-04",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-29",
-      "matched_keywords": [
-        "data",
-        "platform"
       ]
     },
     {
@@ -1703,6 +1651,26 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:323132",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Electronic / Digital Ophthalmic Medical Equipment",
+      "description": "The County of San Mateo is requesting bids from prospective suppliers to provide and deliver advanced ophthalmic instruments, services, supplies and accessories. After an evaluation of all bid submissions, an award in the form of one or more County purchase orders is expected to be issued in association with the lowest, responsive bid received from a qualified and responsible vendor. Email Address for Protests: Protest@smcgov.org",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/323132",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-IFB-00210",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-16",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-05",
       "matched_keywords": [
         "digital"
       ]
@@ -1808,6 +1776,26 @@
       ]
     },
     {
+      "id": "opengov:smcgov:321052",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Measure K Website Services",
+      "description": "The County of San Mateo is soliciting proposals from qualified firms that will be limited to the Measure K website and its related technical, accessibility, and support services. The proposal pricing must be presented separately from any other County web-services solicitation or agreement.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/321052",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP-00190",
+      "posted_date": "2026-10-27",
+      "due_date": "2026-11-20",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "website"
+      ]
+    },
+    {
       "id": "dg92-zbpx:85821P0004003R001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "ACCENTURE SECURITY CLASS II",
@@ -1825,26 +1813,6 @@
       "first_seen": "2026-10-21",
       "matched_keywords": [
         "information technology"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:318983",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Data and Performance Reporting Support Services",
-      "description": "San Mateo County Health, Behavioral Health and Recovery Services (BHRS) is seeking proposals from qualified firms (hereinafter referred to as “Proposers”) to provide Data and Performance Reporting Support Services. Proposers must meet the minimum qualifications and requirements as set forth within this Request for Proposal (RFP) and be capable of providing the services identified in the Scope of Work herein. SMC/BHRS expects the successful Proposer(s) to provide the services in accordance with the terms and conditions set forth in the Sample Contract. Please note: Any proposals submitted with a total budget surpassing $200,000 during the 2-year term will not be considered.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/318983",
-      "naics": "",
-      "psc": "",
-      "set_aside": "BHRS RFP No.: 2027-003",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-11-14",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-27",
-      "matched_keywords": [
-        "data"
       ]
     },
     {
@@ -2345,26 +2313,6 @@
       "first_seen": "2026-10-24",
       "matched_keywords": [
         "analytics"
-      ]
-    },
-    {
-      "id": "bonfire:kcmo:252037",
-      "source_name": "Bonfire — Kansas City, MO",
-      "title": "EV4601 CPD Public AI Innovation Challenge",
-      "description": "EV4601 CPD Public AI Innovation Challenge",
-      "agency": "Kansas City, MO",
-      "state": "MO",
-      "url": "https://kcmo.bonfirehub.com/opportunities/252037",
-      "naics": "",
-      "psc": "",
-      "set_aside": "EV4601 CPD Public AI Innovation Challenge",
-      "posted_date": "",
-      "due_date": "2026-11-05",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "ai"
       ]
     },
     {
