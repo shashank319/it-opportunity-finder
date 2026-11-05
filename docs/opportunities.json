@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T05:15:31.949259+00:00",
+  "generated_at": "2026-11-05T19:25:30.735591+00:00",
   "counts": {
-    "total": 88,
-    "new": 3
+    "total": 93,
+    "new": 8
   },
   "health": {
     "ok": 25,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 210,
+        "count": 209,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 288,
+        "count": 386,
         "error": ""
       },
       {
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 285,
+        "count": 289,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 32,
+        "count": 33,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 55,
+        "count": 57,
         "error": ""
       },
       {
@@ -161,13 +161,13 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 3,
+        "count": 2,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 52,
+        "count": 54,
         "error": ""
       },
       {
@@ -218,13 +218,13 @@
           "source_name": "New York City — City Record (Procurement)"
         },
         {
-          "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
-          "agency": "Fire Department",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 48,
-          "source_name": "New York City — City Record (Procurement)"
+          "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
+          "due_date": "2026-11-25",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
@@ -283,55 +283,6 @@
       ]
     },
     {
-      "name": "Records & Document Management (ECM)",
-      "opportunity_count": 4,
-      "agency_count": 4,
-      "state_count": 2,
-      "states": [
-        "CA",
-        "NY"
-      ],
-      "demand_score": 14,
-      "examples": [
-        {
-          "title": "Consultant Services, NYCEDC Asset Management Building Plans and Document Management Platform RFEI",
-          "agency": "Economic Development Corporation",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 57,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "Open Text ECM Support and Other Records Management Support",
-          "agency": "Administration for Children's Services",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 42,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "Leveraging Ground-Scanning Technology to Build Understanding of Underground Infrastructure in New York City",
-          "agency": "Information Technology and Telecommunications",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
-          "due_date": "2028-04-01",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
       "name": "Data / Analytics / Dashboards",
       "opportunity_count": 3,
       "agency_count": 3,
@@ -369,6 +320,46 @@
           "due_date": "2026-11-16",
           "it_score": 36,
           "source_name": "Bonfire — Broward County, FL"
+        }
+      ]
+    },
+    {
+      "name": "Records & Document Management (ECM)",
+      "opportunity_count": 3,
+      "agency_count": 3,
+      "state_count": 2,
+      "states": [
+        "CA",
+        "NY"
+      ],
+      "demand_score": 11,
+      "examples": [
+        {
+          "title": "Consultant Services, NYCEDC Asset Management Building Plans and Document Management Platform RFEI",
+          "agency": "Economic Development Corporation",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "Open Text ECM Support and Other Records Management Support",
+          "agency": "Administration for Children's Services",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 42,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
+          "due_date": "2028-04-01",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
       ]
     },
@@ -571,6 +562,48 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232927",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200309 - 733058-SOFTWARE- SAAS - IDENTITY MNGMT - OKTA (BRAND ONLY) - Closing: 11/18/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW3IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-18",
+      "it_score": 72,
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "software",
+        "saas"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232929",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200310 - 589994 - SOFTWARE SUBSCRIPTION - DATA - DELPHIX (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW5IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-17",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "software",
+        "data"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232876",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
@@ -668,7 +701,7 @@
       "posted_date": "2026-10-26",
       "due_date": "2026-11-20",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "migration",
@@ -778,6 +811,26 @@
       "matched_keywords": [
         "software",
         "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:81626G0002001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "SAS Analytic Software Licenses",
+      "description": "SAS Analytic Software Licenses",
+      "agency": "Citywide Administrative Services",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-04",
+      "due_date": "",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1361,6 +1414,26 @@
       ]
     },
     {
+      "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=831",
+      "source_name": "CivicPlus Bids — Washington County, MN",
+      "title": "Request for Proposals (RFP) for Investment Software",
+      "description": "Request for Proposals (RFP) for Investment Software",
+      "agency": "Washington County, MN",
+      "state": "MN",
+      "url": "https://www.washingtoncountymn.gov/bids.aspx?bidID=831",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-13",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "dg92-zbpx:07227W0002001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Offender and Jail Management System (OJMS) Digital Solutions Platform",
@@ -1402,28 +1475,6 @@
         "application",
         "system",
         "data"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:05726Y0613-057270000",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
-      "description": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
-      "agency": "Fire Department",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-14",
-      "due_date": "",
-      "it_score": 48,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "application",
-        "system",
-        "hosting"
       ]
     },
     {
@@ -1616,23 +1667,63 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232842",
+      "id": "hf3r-utnq:232930",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+      "title": "146844 SPARES FOR 34.5kV ABB GIS VCBs",
       "description": "Commodity",
-      "agency": "Los Angeles County",
+      "agency": "Water & Power",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8so1IAA",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-18",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-19",
       "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-03",
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "gis"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232928",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-25",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-05",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232926",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW2IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-19",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -1656,6 +1747,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232842",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-18",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
       "id": "opengov:smcgov:323132",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Electronic / Digital Ophthalmic Medical Equipment",
@@ -1669,14 +1780,14 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-11-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "digital"
       ]
     },
     {
-      "id": "ionwave:leegov:B260374JAK",
+      "id": "ionwave:leegov:B260374JAK Addendum 1",
       "source_name": "Ionwave — Lee County, FL",
       "title": "EOC Data Center UPS Upgrade",
       "description": "EOC Data Center UPS Upgrade",
@@ -1685,12 +1796,12 @@
       "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
       "naics": "",
       "psc": "",
-      "set_aside": "B260374JAK",
+      "set_aside": "B260374JAK Addendum 1",
       "posted_date": "2026-11-03",
       "due_date": "2026-12-10",
       "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-03",
+      "is_new": true,
+      "first_seen": "2026-11-05",
       "matched_keywords": [
         "data"
       ]
@@ -1789,7 +1900,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "website"
@@ -2171,26 +2282,6 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-09-29",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:85827Y1399",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Leveraging Ground-Scanning Technology to Build Understanding of Underground Infrastructure in New York City",
-      "description": "Leveraging Ground-Scanning Technology to Build Understanding of Underground Infrastructure in New York City",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-14",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-26",
       "matched_keywords": [
         "information technology"
       ]
