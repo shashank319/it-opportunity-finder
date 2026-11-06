@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-05T19:29:08.581504+00:00",
+  "generated_at": "2026-11-06T18:53:24.612974+00:00",
   "counts": {
-    "total": 44,
-    "new": 8
+    "total": 39,
+    "new": 3
   },
   "health": {
-    "ok": 19,
+    "ok": 21,
     "total": 23,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 23,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 209,
+        "count": 193,
         "error": ""
       },
       {
@@ -59,20 +59,20 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 386,
+        "count": 425,
         "error": ""
       },
       {
         "source": "New York City — City Record (Procurement)",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 500 Server Error: Server Error for url: https://data.cityofnewyork.us/resource/dg92-zbpx.json?%24limit=500&%24where=section_name%3D%27Procurement%27&%24order=start_date+DESC"
+        "ok": true,
+        "count": 500,
+        "error": ""
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 500 Server Error: Server Error for url: https://data.cityofnewyork.us/resource/bzjf-rmtp.json?%24limit=500&%24order=due_date+DESC"
+        "ok": true,
+        "count": 111,
+        "error": ""
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -113,13 +113,13 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 195,
+        "count": 189,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 23,
+        "count": 28,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 3,
+        "count": 2,
         "error": ""
       },
       {
@@ -151,13 +151,13 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 5,
-      "agency_count": 4,
+      "opportunity_count": 4,
+      "agency_count": 3,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 13,
+      "demand_score": 10,
       "examples": [
         {
           "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
@@ -167,15 +167,6 @@
           "due_date": "2026-11-17",
           "it_score": 51,
           "source_name": "OpenGov — County of Alameda, CA"
-        },
-        {
-          "title": "County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1)",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/304422",
-          "due_date": "2026-11-18",
-          "it_score": 51,
-          "source_name": "OpenGov — County of San Mateo, CA"
         },
         {
           "title": "Elevator Modernization and Maintenance at Art Snyder",
@@ -208,23 +199,14 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 5,
-      "agency_count": 3,
+      "opportunity_count": 4,
+      "agency_count": 2,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 10,
+      "demand_score": 7,
       "examples": [
-        {
-          "title": "OCAT DT | TM3-Teems Software License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012207&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-05",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
         {
           "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
           "agency": "Los Angeles County",
@@ -404,7 +386,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-18",
       "it_score": 72,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "software",
@@ -412,45 +394,25 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012207",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCAT DT | TM3-Teems Software License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
+      "id": "opengov:smcgov:324038",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "ServiceNow Maintenance",
+      "description": "The County of San Mateo is seeking quotations for: ServiceNow maintenance services. The San Mateo County Sheriff’s Office utilizes a custom-built portal in ServiceNow for all Fiscal, Training, and Technical Services Unit related requests which are routed to each respective bureau. This system incorporates detailed workflows, approvals, and County and Sheriff’s Office procurement, training, and invoicing policies and procedures. Contractor must adhere to County Technology Services Department change request schedule and process. Contractor will provide upkeep, maintenance, and enhancements as needed to the ServiceNow application. Enhancements include, but are not limited to: Integration of Docusign electronic signature capability. Adjustments to existing approval workflows. Adjustments to existing PDF document generation functionality. Adjustments to existing email notifications. Creation of additional dashboards and reports. General administrative and support tasks, including: User roles and permissions Group management Changes to assignment and routing Manual case data updates as required. PREFERRED QUALIFICATIONS: Contractor must have provided ongoing ServiceNow maintenance for a customized platform for a local government entity for at least two years – preferably for a law enforcement agency. FEE: Costs should be billed at a flat hourly rate. Total hours will be shared between Fiscal, Technical Services, and Training. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation. Cost and conformity to specifications in the scope of this RFQ will be considered. After an evaluation of all quotations, a County contract is expected to be awarded in association with the lowest, responsive bid received from a qualified, responsible vendor.",
+      "agency": "County of San Mateo",
       "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012207&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/324038",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-29",
-      "due_date": "2026-11-05",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-02",
+      "set_aside": "2027-RFQ-00215",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-20",
+      "it_score": 63,
+      "is_new": true,
+      "first_seen": "2026-11-06",
       "matched_keywords": [
-        "software",
-        "license"
-      ]
-    },
-    {
-      "id": "opengov:santa-monica-ca:315034",
-      "source_name": "OpenGov — City of Santa Monica, CA",
-      "title": "Request for Proposals for Onboard Bus Video Surveillance System",
-      "description": "The City of Santa Monica Department of Transportation (SMDOT) seeks proposals for a turnkey Onboard Bus Video Surveillance System (OBVSS) for the Big Blue Bus fleet. The project includes the design, equipment, installation, integration, maintenance and warranty services necessary to replace and modernize the existing OBVSS.",
-      "agency": "City of Santa Monica",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/315034",
-      "naics": "",
-      "psc": "",
-      "set_aside": "491",
-      "posted_date": "2026-10-08",
-      "due_date": "2026-11-05",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-10-10",
-      "matched_keywords": [
-        "system",
-        "integration"
+        "application",
+        "integration",
+        "servicenow"
       ]
     },
     {
@@ -488,7 +450,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-17",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "software",
@@ -509,7 +471,7 @@
       "posted_date": "2026-10-26",
       "due_date": "2026-11-20",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "migration",
@@ -577,66 +539,6 @@
       "matched_keywords": [
         "software",
         "development"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232803",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200297 - 1093943 -SOFTWARE- RENEWAL- ZSCALER (BRAND ONLY) - Closing: 11/5/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000npwQoIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-30",
-      "due_date": "2026-11-05",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-30",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232646",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200286 - SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - TIBCO - Closing: 11/5/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nTjdTIAS",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-23",
-      "due_date": "2026-11-05",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-23",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:264045",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Power Delivery General Engineering Services",
-      "description": "The City of Pasadena is seeking qualified professional engineering firms to supplement its internal resources within the Water and Power Department (PWP), Power Delivery Division. Engineering services provided under the resulting contracts will support the safe, reliable, and efficient operation, maintenance, modernization, and improvement of PWP's electric power delivery system. Engineering services under this RFP are organized into the following Scope of Work Groups: Receiving Station and Substation Design SCADA, Automation, Communications, and Control Design System Planning Civil and Structural Engineering Electric Vehicle Charging Infrastructure Renewable Energy, Energy Storage, Interconnection, and Technical Advisory Services Associated services, including construction management, inspection, drafting, and other technical support, may be required as part of an individual task order where applicable to the assigned Scope of Work Group. Engineering services under the resulting contracts are intended to supplement, not replace, PWP's internal engineering resources. Consultants may be assigned work based on project-specific needs, staff availability, schedule requirements, temporary workload conditions, and the need for specialized expertise. All consultant designs and deliverables shall be subject to review and approval by the responsible PWP engineering group. Consultants shall not supervise City employees or exercise project management authority over City staff. Work that is ongoing, predictable, or programmatic over multi-year periods will generally be performed by permanent PWP staff. The City intends to award multiple contracts under this solicitation to establish a pool of qualified engineering consultants. Work will be authorized through individual task orders based on the requirements of the assignment, including consultant availability, applicable expertise, capacity, schedule, and other considerations identified by the City. Award of a contract does not guarantee any minimum quantity or value of work. Current priority programs anticipated for consultant support include, but are not limited to: SCE Upgrade of the TMG 220 kV Gould Circuit; Jungle-MUX Fiber Optic Upgrades; SCADA/OMS/DMS upgrades; Mobile Substation protection, housing, and station upgrades; substation equipment specifications; EV charging infrastructure at Aquatic Center, Sunset Reservoir, and Del Mar Garage; the Avon Ramp and Arroyo Charging Depots Progressive Design-Build project; Municipal Solar, Energy Storage, and Resilience Projects; System Impact Studies for Large Resource Interconnections; System Modeling for Compliance Studies; TMG Receiving Station capacity studies; and Subtransmission System short-circuit current reduction studies. This list is illustrative and does not constitute a guarantee that any particular project or assignment will be issued under the resulting contracts. Proposers must demonstrate, at a minimum, five (5) years of relevant experience and at least five (5) completed projects within the past five (5) years for each Scope of Work Group proposed. Consultant staff shall include engineers registered in the State of California in the relevant disciplines, including civil, electrical, structural, mechanical, control systems, and/or fire protection engineering, as applicable to the services being performed. Specific minimum qualifications for each Scope of Work Group are stated in Section 6.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/264045",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0300",
-      "posted_date": "2026-05-07",
-      "due_date": "2026-11-05",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-25",
-      "matched_keywords": [
-        "modernization"
       ]
     },
     {
@@ -715,26 +617,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-03",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:304422",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1)",
-      "description": "The Department of Public Works (Department) is seeking a general contractor for the County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1) (Project). The anticipated construction is to be performed at 455 County Center, Redwood City, CA 94063. The work to be done consists, in general, of providing all labor, materials, tools, appurtenances, and equipment required as well as any other items and details not mentioned but required by the Contract Documents and Project Specifications and as directed by the Director of Public Works or designee. The target start date and term for the proposed services are subject to negotiation of a final agreement, through the completion of the Project. The Contract Time for completion of all the Work of the Project is Two Hundred Four (204) calendar days , starting the day after the anticipated notice to proceed date, as defined as sufficiently complete in accordance with the Contract Documents and Project Specifications. Phased Milestone Completion Requirements: Milestone 1 (Level 1 Work): Substantial Completion of all Level 1 Work, and any related basement or infrastructure work necessary to fully support Level 1 occupancy and operation, is subject to a mandatory fixed completion date of May 9, 2027 (One Hundred Twenty-Five [125] calendar days from Anticipated NTP) . May 9, 2027, is a critical constraint for County operations; time is strictly of the essence, and Substantial Completion of Milestone 1 must be achieved on or before May 9, 2027, regardless of the overall Contract Time. Milestone 2 (Overall Project Final Completion): Substantial Completion of all remaining Work (Level 2, finishes, and final punch lists) shall be achieved within Two Hundred Four (204) calendar days following the NTP.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/304422",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00118",
-      "posted_date": "2026-09-17",
-      "due_date": "2026-11-18",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-15",
       "matched_keywords": [
         "modernization"
       ]
@@ -900,27 +782,6 @@
       ]
     },
     {
-      "id": "arcgis:Doc847596",
-      "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "RFP - Provider Data Management System and Services",
-      "description": "RFP - Provider Data Management System and Services",
-      "agency": "Department of Health Care Finance",
-      "state": "DC",
-      "url": "https://ocp.dc.gov/service/solicitations",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-09",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
-      "matched_keywords": [
-        "system",
-        "data"
-      ]
-    },
-    {
       "id": "eeq6-nnwe:1200288",
       "source_name": "Montgomery County MD — Solicitations",
       "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
@@ -939,27 +800,6 @@
       "matched_keywords": [
         "data",
         "digital"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:320095",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Commercial Real Estate Lease Comparable Database Subscription for San Mateo County Assessor",
-      "description": "The San Mateo County Assessor’s Office invites qualified vendors to submit proposals for unlimited access to digital commercial real estate lease comparable data through an online interface (the “Lease Database”). The resulting subscription will run from January 1 through December 31, 2027, and must provide comprehensive coverage of San Mateo County and the broader San Francisco Bay Area. Commercial appraisal staff will use the Lease Database to support mass appraisal valuations of commercial properties under the income approach to value. Located in Redwood City, California, the Assessor’s Office serves the residents and property owners of San Mateo County by valuing residential, commercial, industrial, and special-purpose properties for property tax assessment purposes. Depending on the property and the appraisal assignment, the Assessor’s Office may use one or more of the three recognized approaches to value: sales comparison, income, and cost. Valuation or reassessment may be required following a change in ownership, completion of new construction, or decline in market value. Because each approach relies on credible market or cost information, the Assessor’s Office contracts with providers of sales and property data, lease data, and construction-cost data covering San Mateo County and neighboring counties. Within this framework, reliable commercial lease comparables are essential to the application of the income approach. The data allow appraisal staff to analyze market rents and lease terms, select appropriate comparables, and document and support their valuation conclusions. This support becomes particularly important when a property owner questions a reassessed value or files a formal appeal with the County Assessment Appeals Board. The selected Lease Database must therefore be comprehensive, defensible, scalable, and suitable for application across the county’s diverse commercial property base. Although the Assessor’s Office’s current lease-data provider has met its operational needs, the Assessor’s Office is conducting a competitive solicitation for the upcoming contract term. This process will allow the Assessor’s Office to evaluate available Lease Databases and select the solution that best satisfies its data, coverage, functionality, access, training, and support requirements while providing the best overall value.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/320095",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP - Informal-00184",
-      "posted_date": "2026-10-23",
-      "due_date": "2026-11-19",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-27",
-      "matched_keywords": [
-        "application",
-        "database"
       ]
     },
     {
@@ -1005,23 +845,64 @@
       ]
     },
     {
-      "id": "opengov:smcgov:323132",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Electronic / Digital Ophthalmic Medical Equipment",
-      "description": "The County of San Mateo is requesting bids from prospective suppliers to provide and deliver advanced ophthalmic instruments, services, supplies and accessories. After an evaluation of all bid submissions, an award in the form of one or more County purchase orders is expected to be issued in association with the lowest, responsive bid received from a qualified and responsible vendor. Email Address for Protests: Protest@smcgov.org",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/323132",
+      "id": "arcgis:Doc847596",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "RFP - Provider Data Management System and Services",
+      "description": "RFP - Provider Data Management System and Services",
+      "agency": "Department of Health Care Finance",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
       "naics": "",
       "psc": "",
-      "set_aside": "2027-IFB-00210",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-16",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-12-04",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "system",
+        "data"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261030006",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "CDW - SECURITY CLASS I",
+      "description": "CDW - SECURITY CLASS I",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-06",
       "it_score": 36,
       "is_new": true,
-      "first_seen": "2026-11-05",
+      "first_seen": "2026-11-06",
       "matched_keywords": [
-        "digital"
+        "information technology"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261030005",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "CDW - SECURITY CLASS II",
+      "description": "CDW - SECURITY CLASS II",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-06",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-06",
+      "matched_keywords": [
+        "information technology"
       ]
     },
     {
@@ -1078,7 +959,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "gis"
@@ -1098,7 +979,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "data"
@@ -1118,7 +999,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "website"
@@ -1138,7 +1019,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-25",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "license"
