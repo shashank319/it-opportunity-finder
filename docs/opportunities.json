@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T18:53:24.612974+00:00",
+  "generated_at": "2026-11-07T17:22:36.993595+00:00",
   "counts": {
-    "total": 39,
+    "total": 46,
     "new": 3
   },
   "health": {
-    "ok": 21,
+    "ok": 22,
     "total": 23,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 193,
+        "count": 196,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 425,
+        "count": 452,
         "error": ""
       },
       {
@@ -106,26 +106,26 @@
       },
       {
         "source": "PlanetBids",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://api-external.prod.planetbids.com/papi/bids?bid_type_id=0&cid=15300&dept_id=0&due_date_from=&due_date_to=&keyword=&page=1&per_page=30&sort_by=&sort_order=-1&stage_id=0"
+        "ok": true,
+        "count": 53,
+        "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 189,
+        "count": 186,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 28,
+        "count": 27,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 23,
+        "count": 22,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 2,
+        "count": 3,
         "error": ""
       },
       {
@@ -169,19 +169,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -407,7 +407,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-20",
       "it_score": 63,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-06",
       "matched_keywords": [
         "application",
@@ -542,6 +542,26 @@
       ]
     },
     {
+      "id": "planetbids:39475:147369",
+      "source_name": "PlanetBids — Riverside County, CA",
+      "title": "Development of Evacuation Assessment, Plan, and Re-Entry Support Function Annexes",
+      "description": "2575",
+      "agency": "Riverside County, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/39475/bo/bo-detail/147369",
+      "naics": "",
+      "psc": "91819, 91825, 91826, 91832, 91843, 91858, 91881, 91890, 91892, 91893, 91896, 92028, 92593, 99000, 99029, 99042",
+      "set_aside": "",
+      "posted_date": "2026-10-15",
+      "due_date": "2026-11-24",
+      "it_score": 56,
+      "is_new": false,
+      "first_seen": "2026-10-16",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232703",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200292 - 7636 - SOFTWARE SERVICES - F5 TAP (BRAND ONLY) - Closing: 11/9/2026 12:00 PM",
@@ -602,6 +622,46 @@
       ]
     },
     {
+      "id": "arcgis:Doc851828",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "FY27-RFQ-OUC-Dell Monitors-DCSS IT Equipment and Software Vendors Only",
+      "description": "FY27-RFQ-OUC-Dell Monitors-DCSS IT Equipment and Software Vendors Only",
+      "agency": "Office of Unified Communications",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-12",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-07",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232970",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200315 - 1093943 -SOFTWARE- RENEWAL- ZSCALER (BRAND ONLY) - Closing: 11/13/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oFSdWIAW",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-07",
+      "due_date": "2026-11-13",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-07",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "opengov:acgov:306819",
       "source_name": "OpenGov — County of Alameda, CA",
       "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
@@ -642,13 +702,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
+      "id": "hf3r-utnq:232845",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -662,13 +722,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232845",
+      "id": "hf3r-utnq:232844",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -782,6 +842,114 @@
       ]
     },
     {
+      "id": "planetbids:27411:146695",
+      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
+      "title": "Business Impact Analysis, Disaster Recovery Plan and Business Continuity Plan Services",
+      "description": "RFP-VC-26-006",
+      "agency": "Inland Empire Utilities Agency, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/146695",
+      "naics": "",
+      "psc": "91890, 92023, 95816, 95861, 96258, 99029",
+      "set_aside": "",
+      "posted_date": "2026-09-30",
+      "due_date": "2026-11-17",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-10-01",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:144554",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
+      "description": "2049",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
+      "naics": "",
+      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
+      "set_aside": "",
+      "posted_date": "2026-08-04",
+      "due_date": "2026-11-17",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:15300:147581",
+      "source_name": "PlanetBids — City of Sacramento, CA",
+      "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
+      "description": "P27171811001",
+      "agency": "City of Sacramento, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/147581",
+      "naics": "",
+      "psc": "92002, 92021, 96207",
+      "set_aside": "",
+      "posted_date": "2026-10-23",
+      "due_date": "2026-11-18",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-10-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:146479",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Joseph P. Jensen Water Treatment Plant Infrastructure and Security Improvements",
+      "description": "1993A",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/146479",
+      "naics": "",
+      "psc": "21018, 28029, 28514, 28519, 28524, 28526, 57076, 72515, 72523, 74502, 89030, 90638, 90678, 90977, 91200, 91240, 91244, 91430, 91438, 91461, 92519, 92531, 92584, 99000, 99022",
+      "set_aside": "",
+      "posted_date": "2026-09-23",
+      "due_date": "2026-11-18",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:147987",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "REQUEST FOR BID - Trimm Brand DC Breaker Assemblies",
+      "description": "RFB-GL-481913",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147987",
+      "naics": "",
+      "psc": "20867, 28514, 28567, 28587, 28755, 69000, 69046, 69057, 69100, 73006, 90668, 92578, 94054, 94055, 94172",
+      "set_aside": "",
+      "posted_date": "2026-11-04",
+      "due_date": "2026-11-25",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-11-07",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:147443",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "REAL ESTATE APPRAISAL AND VALUATION SUPPORT SERVICES",
+      "description": "RFQual-JH-1418",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147443",
+      "naics": "",
+      "psc": "20876, 20977, 91814, 91889, 94615, 96164, 97163",
+      "set_aside": "",
+      "posted_date": "2026-10-21",
+      "due_date": "2026-12-02",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-10-21",
+      "matched_keywords": []
+    },
+    {
       "id": "eeq6-nnwe:1200288",
       "source_name": "Montgomery County MD — Solicitations",
       "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
@@ -863,46 +1031,6 @@
       "matched_keywords": [
         "system",
         "data"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261030006",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "CDW - SECURITY CLASS I",
-      "description": "CDW - SECURITY CLASS I",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-06",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-06",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261030005",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "CDW - SECURITY CLASS II",
-      "description": "CDW - SECURITY CLASS II",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-06",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-06",
-      "matched_keywords": [
-        "information technology"
       ]
     },
     {
