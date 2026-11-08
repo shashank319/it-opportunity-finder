@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T04:36:17.597100+00:00",
+  "generated_at": "2026-11-08T17:20:23.154686+00:00",
   "counts": {
     "total": 98,
     "new": 0
   },
   "health": {
-    "ok": 24,
+    "ok": 26,
     "total": 28,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 198,
+        "count": 200,
         "error": ""
       },
       {
@@ -58,9 +58,9 @@
       },
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.texas.gov', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 460,
+        "error": ""
       },
       {
         "source": "New York City — City Record (Procurement)",
@@ -70,9 +70,9 @@
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://data.cityofnewyork.us/resource/bzjf-rmtp.json?%24limit=500&%24order=due_date+DESC"
+        "ok": true,
+        "count": 111,
+        "error": ""
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 50,
+        "count": 53,
         "error": ""
       },
       {
@@ -1795,26 +1795,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232928",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-25",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232926",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
@@ -1835,21 +1815,21 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232842",
+      "id": "hf3r-utnq:232928",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+      "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-18",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-25",
       "it_score": 36,
       "is_new": false,
-      "first_seen": "2026-11-03",
+      "first_seen": "2026-11-05",
       "matched_keywords": [
         "license"
       ]
@@ -1872,6 +1852,26 @@
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "digital"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232842",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-18",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
