@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T17:34:49.515820+00:00",
+  "generated_at": "2026-11-09T21:54:35.751493+00:00",
   "counts": {
-    "total": 46,
-    "new": 0
+    "total": 53,
+    "new": 8
   },
   "health": {
     "ok": 22,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 200,
+        "count": 201,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 33,
+        "count": 48,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 460,
+        "count": 500,
         "error": ""
       },
       {
@@ -113,13 +113,13 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 186,
+        "count": 188,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 27,
+        "count": 35,
         "error": ""
       },
       {
@@ -131,7 +131,7 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 22,
+        "count": 23,
         "error": ""
       },
       {
@@ -151,14 +151,23 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 4,
-      "agency_count": 3,
+      "opportunity_count": 5,
+      "agency_count": 4,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 10,
+      "demand_score": 13,
       "examples": [
+        {
+          "title": "PUC | TM3 - Satellite Website Migration RFP",
+          "agency": "Public Utilities Commission",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-20",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
         {
           "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
           "agency": "County of Alameda, CA",
@@ -199,13 +208,13 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 4,
-      "agency_count": 2,
+      "opportunity_count": 10,
+      "agency_count": 3,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 7,
+      "demand_score": 10,
       "examples": [
         {
           "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
@@ -215,6 +224,60 @@
           "due_date": "2026-11-12",
           "it_score": 57,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "OCA DAT | TM3 – Nintex Software License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012241&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-16",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-12",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-12",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "OCA DT | TM3 Cisco Identity SW License and Support",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-13",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "OCA PUC | TM3-Citrix VAD License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012224&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-16",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "OCA AIR | TM3 - ReadyAPI License",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012240&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-16",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
         },
         {
           "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
@@ -240,6 +303,45 @@
           "state": "CA",
           "url": "https://procurement.opengov.com/portal/smcgov/projects/322004",
           "due_date": "2026-12-10",
+          "it_score": 36,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        }
+      ]
+    },
+    {
+      "name": "Website / Portal / Digital Services",
+      "opportunity_count": 3,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "PUC | TM3 - Satellite Website Migration RFP",
+          "agency": "Public Utilities Commission",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-20",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "As-Needed Website Services",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/320587",
+          "due_date": "2026-11-20",
+          "it_score": 57,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "Measure K Website Services",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/321052",
+          "due_date": "2026-11-20",
           "it_score": 36,
           "source_name": "OpenGov — County of San Mateo, CA"
         }
@@ -437,6 +539,27 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012241",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DAT | TM3 – Nintex Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012241&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-16",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232929",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200310 - 589994 - SOFTWARE SUBSCRIPTION - DATA - DELPHIX (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
@@ -455,6 +578,27 @@
       "matched_keywords": [
         "software",
         "data"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012223",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "PUC | TM3 - Satellite Website Migration RFP",
+      "description": "Seeking Bids",
+      "agency": "Public Utilities Commission",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-20",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "migration",
+        "website"
       ]
     },
     {
@@ -562,26 +706,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232703",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200292 - 7636 - SOFTWARE SERVICES - F5 TAP (BRAND ONLY) - Closing: 11/9/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ne9OYIAY",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-27",
-      "due_date": "2026-11-09",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-27",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232228",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFI NO. 9.25.26-POWER-SAL - Document Governance Software Solution",
@@ -657,6 +781,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-07",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012228",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 AvePoint Software and Services Renewl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012228&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-16",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-09",
       "matched_keywords": [
         "software"
       ]
@@ -1031,6 +1175,106 @@
       "matched_keywords": [
         "system",
         "data"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012219",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-12",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012205",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-04",
+      "due_date": "2026-11-12",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012225",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 Cisco Identity SW License and Support",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-13",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012224",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PUC | TM3-Citrix VAD License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012224&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-16",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012240",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA AIR | TM3 - ReadyAPI License",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012240&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-16",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
