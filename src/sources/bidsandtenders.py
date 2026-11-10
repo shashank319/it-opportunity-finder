@@ -63,17 +63,12 @@ class BidsAndTendersSource(Source):
                 "playwright install chromium (see README)."
             )
 
-        out: list[Opportunity] = []
         with sync_playwright() as p:
             browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
             try:
-                for ag in self.agencies:
-                    if not ag.get("enabled", True):
-                        continue
-                    out.extend(self._fetch_agency(browser, ag))
+                return self.fetch_each(self.agencies, lambda ag: self._fetch_agency(browser, ag))
             finally:
                 browser.close()
-        return out
 
     def _fetch_agency(self, browser, ag: dict) -> list[Opportunity]:
         tenant = ag["tenant"]

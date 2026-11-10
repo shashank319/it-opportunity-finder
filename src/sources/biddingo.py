@@ -39,12 +39,7 @@ class BiddingoSource(Source):
         self.timeout = int(cfg.get("timeout", 30))
 
     def fetch(self) -> list[Opportunity]:
-        out: list[Opportunity] = []
-        for ag in self.agencies:
-            if not ag.get("enabled", True):
-                continue
-            out.extend(self._fetch_agency(ag))
-        return out
+        return self.fetch_each(self.agencies, self._fetch_agency)
 
     def _fetch_agency(self, ag: dict) -> list[Opportunity]:
         slug = ag["slug"]

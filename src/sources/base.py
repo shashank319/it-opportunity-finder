@@ -17,9 +17,16 @@ so adapters can stay simple and just raise on failure.
 
 from __future__ import annotations
 
+import time
 from abc import ABC, abstractmethod
 
+import requests
+
 from ..models import Opportunity
+
+# Errors worth one retry: the site was slow, briefly down, or rate-limiting us.
+_RETRY_STATUS = {429, 500, 502, 503, 504}
+_RETRY_DELAY_SECONDS = 5
 
 
 class Source(ABC):
@@ -37,6 +44,49 @@ class Source(ABC):
         broken source will look "healthy" while returning nothing.
         """
         raise NotImplementedError
+
+    def fetch_each(self, agencies: list, fetch_one) -> list[Opportunity]:
+        """Run `fetch_one(agency)` for every enabled agency of a multi-agency
+        platform, so ONE broken agency can't take down all the others.
+
+        A transient failure (timeout, connection error, 429/5xx) is retried
+        once. An agency that still fails is skipped and recorded in
+        `self.agency_errors` (main.py shows these in the health log). Raises
+        only if EVERY agency failed, so a fully broken source still shows FAIL.
+        Set `self.agency_delay` (seconds) to pause between agencies on
+        platforms that rate-limit one host serving many tenants.
+        """
+        self.agency_errors: list[str] = []
+        out: list[Opportunity] = []
+        attempted = 0
+        first_error = None
+        for ag in agencies:
+            if not ag.get("enabled", True):
+                continue
+            if attempted and getattr(self, "agency_delay", 0):
+                time.sleep(self.agency_delay)
+            attempted += 1
+            try:
+                out.extend(_with_retry(fetch_one, ag))
+            except Exception as e:
+                label = ag.get("agency") or next(iter(ag.values()), "?")
+                self.agency_errors.append(f"{label}: {type(e).__name__}: {e}")
+                first_error = first_error or e
+        if attempted and len(self.agency_errors) == attempted:
+            raise first_error
+        return out
+
+
+def _with_retry(fetch_one, ag):
+    try:
+        return fetch_one(ag)
+    except (requests.Timeout, requests.ConnectionError):
+        pass
+    except requests.HTTPError as e:
+        if e.response is None or e.response.status_code not in _RETRY_STATUS:
+            raise
+    time.sleep(_RETRY_DELAY_SECONDS)
+    return fetch_one(ag)
 
 
 # ---------------------------------------------------------------------------
