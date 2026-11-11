@@ -376,6 +376,12 @@ sources:
       - { portal_id: 15927, agency: "City of Irvine, CA", state: CA }
       # NOTE: "City of Long Beach, CA" (portal_id 15810) was already configured above —
       # skipped as a duplicate when this batch was added.
+      - { portal_id: 67670, agency: "City of Salisbury, MD", state: MD }
+      - { portal_id: 27996, agency: "Howard County, MD", state: MD }
+      - { portal_id: 78083, agency: "PlanetBids portal 78083 (TN)", state: TN }
+      - { portal_id: 39495, agency: "PlanetBids portal 39495 (CA)", state: CA }
+      - { portal_id: 19236, agency: "PlanetBids portal 19236 (CA)", state: CA }
+      - { portal_id: 40669, agency: "PlanetBids portal 40669 (NV)", state: NV }
 
   # --- OpenGov Procurement portals ------------------------------------------
   # Public "embed" page per agency (no login). Add an agency by adding its slug
@@ -410,6 +416,41 @@ sources:
       - { slug: stpete, agency: "City of St. Petersburg, FL", state: FL }
       - { slug: cityofgainesville, agency: "City of Gainesville, FL", state: FL }
       - { slug: sarasotafl, agency: "City of Sarasota, FL", state: FL }
+      - { slug: "seminolefl", agency: "Seminole County, FL", state: FL }
+      - { slug: "volusia", agency: "Volusia County, FL", state: FL }
+      - { slug: "collier-county-fl", agency: "Collier County, FL", state: FL }
+      - { slug: "cityofpsl", agency: "City of Port St. Lucie, FL", state: FL }
+      - { slug: "claycounty", agency: "Clay County, FL", state: FL }
+      - { slug: "baycountyfl", agency: "Bay County, FL", state: FL }
+      - { slug: "cityofdoral", agency: "City of Doral, FL", state: FL }
+      - { slug: "cityofwinterpark", agency: "City of Winter Park, FL", state: FL }
+      - { slug: "lakelandgov", agency: "City of Lakeland, FL", state: FL }
+      - { slug: "cityftmyers", agency: "City of Fort Myers, FL", state: FL }
+      - { slug: "naplesgov", agency: "City of Naples, FL", state: FL }
+      - { slug: "rva", agency: "City of Richmond, VA", state: VA }
+      - { slug: "cityofchesapeakeva", agency: "City of Chesapeake, VA", state: VA }
+      - { slug: "baltimorecountymd", agency: "Baltimore County, MD", state: MD }
+      - { slug: "charlescountymd", agency: "Charles County, MD", state: MD }
+      - { slug: "wicomicocounty", agency: "Wicomico County, MD", state: MD }
+      - { slug: "middlesexcountynj", agency: "Middlesex County, NJ", state: NJ }
+      - { slug: "newarknj", agency: "City of Newark, NJ", state: NJ }
+      - { slug: "oceancounty", agency: "Ocean County, NJ", state: NJ }
+      - { slug: "dekalbcountyga", agency: "DeKalb County, GA", state: GA }
+      - { slug: "henryga", agency: "Henry County, GA", state: GA }
+      - { slug: "accgov", agency: "Athens-Clarke County, GA", state: GA }
+      - { slug: "cambridgema", agency: "City of Cambridge, MA", state: MA }
+      - { slug: "collincountytx", agency: "Collin County, TX", state: TX }
+      - { slug: "aurorail", agency: "City of Aurora, IL", state: IL }
+      - { slug: "cityofchampaign", agency: "City of Champaign, IL", state: IL }
+      - { slug: "winnebagocountywi", agency: "Winnebago County, WI", state: WI }
+      - { slug: "washington-county-or", agency: "Washington County, OR", state: OR }
+      - { slug: "murfreesborotn", agency: "City of Murfreesboro, TN", state: TN }
+      - { slug: "sbcag", agency: "Santa Barbara County Assn. of Governments, CA", state: CA }
+      - { slug: "beavertonoregon", agency: "City of Beaverton, OR", state: OR }
+      - { slug: "seattle", agency: "City of Seattle, WA", state: WA }
+      - { slug: "piercecountywa", agency: "Pierce County, WA", state: WA }
+      - { slug: norfolk, agency: "City of Norfolk, VA", state: VA }
+      - { slug: cityoffrederickmd, agency: "City of Frederick, MD", state: MD }
 
   # --- ArcGIS feature layers -------------------------------------------------
   # Some governments publish open solicitations as an ArcGIS layer with a public
@@ -432,12 +473,55 @@ sources:
   bidnetdirect:
     enabled: true
     name: "BidNet Direct"
+    agency_delay: 2           # seconds between agencies; bidnetdirect.com blocks rapid bursts (HTTP 405)
     agencies:
       - { path: "california/cityofsantaclara", agency: "City of Santa Clara, CA", state: CA }
       - { path: "california/contracostacounty", agency: "Contra Costa County, CA", state: CA }
       - { path: "new-york/city-of-albany", agency: "City of Albany, NY", state: NY }
       - { path: "new-york/city-of-schenectady", agency: "City of Schenectady, NY", state: NY }
       - { path: "florida/cityofmiami", agency: "City of Miami, FL", state: FL }
+      - { path: "new-york/city-of-yonkersyonkers-public-schools", agency: "City of Yonkers / Yonkers Public Schools, NY", state: NY }
+      - { path: "new-york/westchester-county-purchasing", agency: "Westchester County, NY", state: NY }
+      - { path: "new-york/onondaga-county", agency: "Onondaga County, NY", state: NY }
+      - { path: "new-york/albany-county", agency: "Albany County, NY", state: NY }
+      - { path: "new-york/county-of-rockland", agency: "Rockland County, NY", state: NY }
+      - { path: "new-york/county-of-dutchess", agency: "Dutchess County, NY", state: NY }
+      - { path: "new-york/saratoga-county", agency: "Saratoga County, NY", state: NY }
+      - { path: "new-york/county-of-orange", agency: "Orange County, NY", state: NY }
+      - { path: "new-york/county-of-ulster", agency: "Ulster County, NY", state: NY }
+      - { path: "new-york/cityofwhiteplains", agency: "City of White Plains, NY", state: NY }
+      - { path: "new-york/townofithaca", agency: "Town of Ithaca, NY", state: NY }
+      - { path: "florida/polkstatecollege", agency: "Polk State College, FL", state: FL }
+      - { path: "florida/cityofmiamibeach", agency: "City of Miami Beach, FL", state: FL }
+      - { path: "florida/city-of-pensacola", agency: "City of Pensacola, FL", state: FL }
+      - { path: "north-carolina/dconc", agency: "Durham City & County, NC", state: NC }
+      - { path: "new-jersey/cityofjerseycity", agency: "City of Jersey City, NJ", state: NJ }
+      - { path: "georgia/fultoncounty", agency: "Fulton County, GA", state: GA }
+      - { path: "georgia/cobbcounty", agency: "Cobb County, GA", state: GA }
+      - { path: "georgia/claytoncounty", agency: "Clayton County, GA", state: GA }
+      - { path: "georgia/cherokeecounty", agency: "Cherokee County, GA", state: GA }
+      - { path: "georgia/henrycountywaterauthority", agency: "Henry County Water Authority, GA", state: GA }
+      - { path: "georgia/hallcounty", agency: "Hall County, GA", state: GA }
+      - { path: "georgia/douglascounty", agency: "Douglas County, GA", state: GA }
+      - { path: "georgia/cityofmarietta", agency: "City of Marietta, GA", state: GA }
+      - { path: "massachusetts/cityofbrockton", agency: "City of Brockton, MA", state: MA }
+      - { path: "massachusetts/cityofframingham", agency: "City of Framingham, MA", state: MA }
+      - { path: "massachusetts/taunton", agency: "City of Taunton, MA", state: MA }
+      - { path: "texas/dallas-county", agency: "Dallas County, TX", state: TX }
+      - { path: "texas/traviscounty", agency: "Travis County, TX", state: TX }
+      - { path: "texas/montgomery-county", agency: "Montgomery County, TX", state: TX }
+      - { path: "illinois/cityofpeoria", agency: "City of Peoria, IL", state: IL }
+      - { path: "illinois/kanecounty", agency: "Kane County, IL", state: IL }
+      - { path: "illinois/peoriacounty", agency: "Peoria County, IL", state: IL }
+      - { path: "tennessee/cityofknoxville", agency: "City of Knoxville, TN", state: TN }
+      - { path: "tennessee/williamsoncounty", agency: "Williamson County, TN", state: TN }
+      - { path: "tennessee/cityofclarksville", agency: "City of Clarksville, TN", state: TN }
+      - { path: "tennessee/sullivancountytn", agency: "Sullivan County, TN", state: TN }
+      - { path: "iowa/polkcounty", agency: "Polk County, IA", state: IA }
+      - { path: "rhode-island/cityofnewport", agency: "City of Newport, RI", state: RI }
+      - { path: "mitn/jacksoncounty", agency: "Jackson County, MI", state: MI }
+      - { path: "oregon/medford", agency: "City of Medford, OR", state: OR }
+      - { path: "maryland/montgomerycounty", agency: "Montgomery County, MD", state: MD }
 
   # --- Biddingo agency portals -------------------------------------------------
   # Public, unauthenticated REST API per agency (no login). Add an agency by
@@ -457,12 +541,49 @@ sources:
   bonfire:
     enabled: true
     name: "Bonfire"
+    agency_delay: 2           # seconds between tenants; one host serves them all and rate-limits
     agencies:
       - { tenant: ventura, agency: "County of Ventura, CA", state: CA }
       - { tenant: broward, agency: "Broward County, FL", state: FL }
       - { tenant: hillsboroughcounty, agency: "Hillsborough County, FL", state: FL }
       - { tenant: kcmo, agency: "Kansas City, MO", state: MO }
       - { tenant: jacksongov, agency: "Jackson County, MO", state: MO }
+      - { tenant: pennbid, agency: "PennBid (Pennsylvania local governments)", state: PA }
+      - { tenant: "rocklandgov", agency: "Rockland County, NY", state: NY }
+      - { tenant: "leeschools", agency: "Lee County Schools, FL", state: FL }
+      - { tenant: "marionfl", agency: "Marion County, FL", state: FL }
+      - { tenant: "talgov", agency: "City of Tallahassee, FL", state: FL }
+      - { tenant: "panamacity", agency: "City of Panama City, FL", state: FL }
+      - { tenant: "fairfaxcounty", agency: "Fairfax County, VA", state: VA }
+      - { tenant: "alexandriava", agency: "City of Alexandria, VA", state: VA }
+      - { tenant: "wake", agency: "Wake County, NC", state: NC }
+      - { tenant: "forsythco", agency: "Forsyth County, NC", state: NC }
+      - { tenant: "charlottenc", agency: "City of Charlotte, NC", state: NC }
+      - { tenant: "harfordcountymd", agency: "Harford County, MD", state: MD }
+      - { tenant: "co-bergen-nj", agency: "Bergen County, NJ", state: NJ }
+      - { tenant: "chathamcountyga", agency: "Chatham County, GA", state: GA }
+      - { tenant: "alleghenycounty", agency: "Allegheny County, PA", state: PA }
+      - { tenant: "montcopa", agency: "Montgomery County, PA", state: PA }
+      - { tenant: "littlerock", agency: "City of Little Rock, AR", state: AR }
+      - { tenant: "dallascityhall", agency: "City of Dallas, TX", state: TX }
+      - { tenant: "fortworthtexas", agency: "City of Fort Worth, TX", state: TX }
+      - { tenant: "harriscountytx", agency: "Harris County, TX", state: TX }
+      - { tenant: "cor", agency: "City of Richardson, TX", state: TX }
+      - { tenant: "friscotexas", agency: "City of Frisco, TX", state: TX }
+      - { tenant: "dentoncounty", agency: "Denton County, TX", state: TX }
+      - { tenant: "fortbendcountytx", agency: "Fort Bend County, TX", state: TX }
+      - { tenant: "wilco", agency: "Williamson County, TX", state: TX }
+      - { tenant: "joliet", agency: "City of Joliet, IL", state: IL }
+      - { tenant: "cookcountyil", agency: "Cook County, IL", state: IL }
+      - { tenant: "cps", agency: "Chicago Public Schools, IL", state: IL }
+      - { tenant: "cookcountyhealth", agency: "Cook County Health, IL", state: IL }
+      - { tenant: "metra", agency: "Metra (Chicago commuter rail), IL", state: IL }
+      - { tenant: "jeffersoncitymo", agency: "City of Jefferson City, MO", state: MO }
+      - { tenant: "mcgtn", agency: "Metro Nashville / Davidson County, TN", state: TN }
+      - { tenant: "bendoregon", agency: "City of Bend, OR", state: OR }
+      - { tenant: "greshamoregon", agency: "City of Gresham, OR", state: OR }
+      - { tenant: "cityofvancouver", agency: "City of Vancouver, WA", state: WA }
+      - { tenant: "portolympia", agency: "Port of Olympia, WA", state: WA }
 
   # --- Bids&Tenders agency portals ----------------------------------------------
   # Public tenders page per agency (no login), read via a headless browser
@@ -485,10 +606,135 @@ sources:
   ionwave:
     enabled: true
     name: "Ionwave"
+    agency_delay: 2           # seconds between tenants; one host serves them all and rate-limits
     agencies:
       - { tenant: leegov, agency: "Lee County, FL", state: FL }
       - { tenant: brpurch, agency: "City of Boca Raton, FL", state: FL }
       - { tenant: columbia, agency: "City of Columbia, MO", state: MO }
+      - { tenant: cityofelgin, agency: "City of Elgin, IL", state: IL }
+      - { tenant: iastate, agency: "Iowa State University, IA", state: IA }
+      - { tenant: "arkansas", agency: "State of Arkansas, AR", state: AR }
+      - { tenant: "fayetteville-ar", agency: "City of Fayetteville, AR", state: AR }
+      - { tenant: "tarrantcountytx", agency: "Tarrant County, TX", state: TX }
+      - { tenant: "cityofirving", agency: "City of Irving, TX", state: TX }
+      - { tenant: "planotx", agency: "City of Plano, TX", state: TX }
+      - { tenant: "arlington-tx", agency: "City of Arlington, TX", state: TX }
+      - { tenant: "epcountypurchasing", agency: "El Paso County, TX", state: TX }
+      - { tenant: "lsr7ebid", agency: "Lee's Summit R-7 School District, MO", state: MO }
+      - { tenant: "stjosephmo", agency: "City of St. Joseph, MO", state: MO }
+      - { tenant: "tnstate", agency: "State of Tennessee, TN", state: TN }
+      - { tenant: "blounttn", agency: "Blount County, TN", state: TN }
+      - { tenant: "dsm", agency: "City of Des Moines, IA", state: IA }
+      - { tenant: "icgov", agency: "City of Iowa City, IA", state: IA }
+      - { tenant: "davenport", agency: "City of Davenport, IA", state: IA }
+      - { tenant: "cityofdubuque", agency: "City of Dubuque, IA", state: IA }
+      - { tenant: "amesbids", agency: "City of Ames, IA", state: IA }
+      - { tenant: "cbiabids", agency: "City of Council Bluffs, IA", state: IA }
+      - { tenant: "edmondok", agency: "City of Edmond, OK", state: OK }
+      - { tenant: "stillwater", agency: "City of Stillwater, OK", state: OK }
+      - { tenant: "nevada", agency: "State of Nevada, NV", state: NV }
+      - { tenant: washco-md, agency: "Washington County, MD", state: MD }
+
+  # --- BuySpeed (Periscope) portals --------------------------------------------
+  # Statewide / county e-procurement portals on Periscope BuySpeed (URLs with
+  # "/bso/"). All share the same public, no-login open-bid search. Add a portal
+  # by adding its host (e.g. https://oregonbuys.gov/bso/... -> "oregonbuys.gov").
+  # Each record's agency is the buying organization shown in the results.
+  buyspeed:
+    enabled: true
+    name: "BuySpeed"
+    agencies:
+      - { host: oregonbuys.gov, agency: "OregonBuys (State of Oregon)", state: OR }
+      - { host: arbuy.arkansas.gov, agency: "ARBuy (State of Arkansas)", state: AR }
+      - { host: nevadaepro.com, agency: "Nevada ePro (State of Nevada)", state: NV }
+      - { host: www.commbuys.com, agency: "COMMBUYS (Massachusetts)", state: MA }
+      - { host: www.bidbuy.illinois.gov, agency: "BidBuy (State of Illinois)", state: IL }
+      - { host: www.phlcontracts.phila.gov, agency: "PHLContracts (City of Philadelphia)", state: PA }
+      - { host: knoxbuys.buyspeed.com, agency: "KnoxBuys (Knox County, TN)", state: TN }
+      - { host: "www.njstart.gov", agency: "NJSTART (State of New Jersey), NJ", state: NJ }
+      - { host: "epro.sbcounty.gov", agency: "San Bernardino County, CA", state: CA }
+      - { host: "longbeachbuys.buyspeed.com", agency: "LongBeachBuys (City of Long Beach), CA", state: CA }
+
+  # --- Ivalua portals -------------------------------------------------------------
+  # Public "View Solicitations" grid (no login) on Ivalua-hosted portals (URLs
+  # with "/page.aspx/en/"). Add a tenant by adding its base URL. Only rows with
+  # status Open are kept; multi-lot solicitations are merged into one record.
+  ivalua:
+    enabled: true
+    name: "Ivalua"
+    agencies:
+      - { base_url: "https://sdbuynet.sandiegocounty.gov", agency: "San Diego County, CA", state: CA }
+      - { base_url: "https://passport.cityofnewyork.us", agency: "NYC PASSPort (City of New York), NY", state: NY }
+
+  # --- Oracle Fusion Cloud Procurement ("Negotiation Abstracts") --------------
+  # Public REST resource behind each agency's supplier-facing abstracts page
+  # (no sign-in). Add an agency from its abstracts URL: host -> base_url,
+  # prcBuId -> bu_id. Records link to the listing page (find by Negotiation #).
+  oracle_fusion:
+    enabled: true
+    name: "Oracle Fusion"
+    agencies:
+      - { base_url: "https://eims.fa.us2.oraclecloud.com", bu_id: "300000008806179", agency: "City of Jacksonville", state: FL }
+      - { base_url: "https://epvd.fa.us2.oraclecloud.com", bu_id: "300000007773115", agency: "Prince William County", state: VA }
+      - { base_url: "https://fa-exkk-saasfaprod1.fa.ocs.oraclecloud.com", bu_id: "300000009743672", agency: "Arlington County", state: VA }
+      - { base_url: "https://ejbs.fa.us6.oraclecloud.com", bu_id: "300000003501148", agency: "City of Virginia Beach", state: VA }
+      - { base_url: "https://ehxr.fa.us2.oraclecloud.com", bu_id: "300000001273072", agency: "City of Atlanta", state: GA }
+      - { base_url: "https://ibqhjb.fa.ocs.oraclecloud.com", bu_id: "300000006739049", agency: "Metro Nashville & Davidson County", state: TN }
+      - { base_url: "https://ibvijb.fa.ocs.oraclecloud.com", bu_id: "300000008120003", agency: "Anne Arundel County", state: MD }
+
+  # --- Infor CloudSuite supplier portals (open-for-bid events) ------------------
+  # Anonymous supplier session + the list page's own JSON load call. Add an
+  # agency by adding its open-for-bid list URL. Records link to the list page.
+  infor_sourcing:
+    enabled: true
+    name: "Infor Supplier Portal"
+    agencies:
+      - { url: "https://sms-fortlauderdale-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/list/SourcingEvent.XiOpenForBid?navigation=SourcingEvent%5BByCompany%5D%28_niu_,_niu_%29.OpenEventsNav&csk.SupplierGroup=COFL", agency: "City of Fort Lauderdale, FL", state: FL }
+      - { url: "https://sms-coralgables-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/list/SourcingEvent.XiOpenForBid?csk.SupplierGroup=cocg", agency: "City of Coral Gables, FL", state: FL }
+      - { url: "https://sms-idaho-prd.tam.inforgov.com/fsm/SupplyManagementSupplier/list/SourcingEvent.OpenForBid?csk.SupplierGroup=LUMA", agency: "State of Idaho", state: ID }
+      - { url: "https://bexarprod-lm01.cloud.infor.com:1442/lmscm/SourcingSupplier/list/SourcingEvent.OpenForBid?csk.CHP=LMPROC&csk.SupplierGroup=100", agency: "Bexar County, TX", state: TX }
+
+  # --- JAGGAER / SciQuest public event lists --------------------------------------
+  # Server-rendered "PublicEvent" page per customer org (no login). Add an org
+  # from its URL (?CustomerOrg=<org>) plus the host it's served from.
+  jaggaer_public:
+    enabled: true
+    name: "JAGGAER"
+    agencies:
+      - { org: FSU, host: bids01.jaggaer.com, agency: "Florida State University", state: FL }
+      - { org: DASIowa, host: bids.sciquest.com, agency: "State of Iowa (DAS)", state: IA }
+      - { org: Multnomah, host: bids.sciquest.com, agency: "Multnomah County, OR", state: OR }
+
+  # --- ProcureWare portals --------------------------------------------------------
+  # Tenant = subdomain of <tenant>.procureware.com. The public /Bids grid loads
+  # via an anonymous POST; only "Open for Bidding" rows are kept.
+  procureware:
+    enabled: true
+    name: "ProcureWare"
+    agencies:
+      - { tenant: hennepin, agency: "Hennepin County, MN", state: MN }
+      - { tenant: fresnousdpurchasing, agency: "Fresno Unified School District, CA", state: CA }
+      - { tenant: spokane, agency: "City of Spokane, WA", state: WA }
+      - { tenant: snoco, agency: "Snohomish County, WA", state: WA }
+
+  # --- BeaconBid agencies -----------------------------------------------------------
+  # Tag = path segment of beaconbid.com/solicitations/<tag>/open. Reads the
+  # site's anonymous GraphQL list call (undocumented — may change).
+  beaconbid:
+    enabled: true
+    name: "BeaconBid"
+    agencies:
+      - { tag: city-of-bentonville-arkansas, agency: "City of Bentonville, AR", state: AR }
+      - { tag: greene-county-mo, agency: "Greene County, MO", state: MO }
+      - { tag: city-of-memphis-95, agency: "City of Memphis, TN", state: TN }
+
+  # --- VendorLink agencies -------------------------------------------------------------
+  # agency_id = the ?a=<id> on myvendorlink.com/external/bids (Agency dropdown).
+  vendorlink:
+    enabled: true
+    name: "VendorLink"
+    agencies:
+      - { agency_id: 91, agency: "Polk County School Board, FL", state: FL }
 
   # --- QuestCDN agency portals --------------------------------------------------
   # Public, unauthenticated AJAX endpoint per agency (no login). Add an
@@ -501,6 +747,9 @@ sources:
       - { group: 7073, provider: 7073, agency: "City of Brooklyn Park, MN", state: MN }
       - { group: 7545, provider: 7545, agency: "City of Plymouth, MN", state: MN }
       - { group: 6261, provider: 6261, agency: "Dakota County, MN", state: MN }
+      - { group: 7011687, provider: 7011687, agency: "QuestCDN group 7011687, OK", state: OK }
+      - { group: 6994289, provider: 6994289, agency: "Stearns County, MN", state: MN }
+      - { group: 7956508, provider: 7956508, agency: "Dakota County, MN", state: MN }
 
   # --- RTVision Connex ----------------------------------------------------------
   # ONE shared, unauthenticated statewide feed (observed: Minnesota public-
@@ -538,6 +787,57 @@ sources:
       - { url: "https://www.springfieldmo.gov/Bids.aspx", agency: "City of Springfield, MO", state: MO }
       - { url: "https://www.jeffcomo.gov/bids.aspx", agency: "City of Jefferson, MO", state: MO }
       - { url: "https://colecounty.org/Bids.aspx", agency: "Cole County, MO", state: MO }
+      - { url: "https://www.garlandcounty.org/bids.aspx", agency: "Garland County, AR", state: AR }
+      - { url: "https://www.saratogaspringsny.gov/Bids.aspx", agency: "City of Saratoga Springs, NY", state: NY }
+      - { url: "https://www.cityofithacany.gov/bids.aspx", agency: "City of Ithaca, NY", state: NY }
+      - { url: "https://www.panamacity.gov/bids.aspx", agency: "City of Panama City, FL", state: FL }
+      - { url: "https://www.loudoun.gov/Bids.aspx", agency: "Loudoun County, VA", state: VA }
+      - { url: "https://www.spotsylvania.va.us/bids.aspx", agency: "Spotsylvania County, VA", state: VA }
+      - { url: "https://www.charlescityva.us/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open", agency: "Charles City County, VA", state: VA }
+      - { url: "https://www.pittcountync.gov/Bids.aspx", agency: "Pitt County, NC", state: NC }
+      - { url: "https://www.cityofws.org/bids.aspx", agency: "City of Winston-Salem, NC", state: NC }
+      - { url: "https://www.annapolis.gov/bids.aspx", agency: "City of Annapolis, MD", state: MD }
+      - { url: "https://www.hagerstownmd.org/bids.aspx", agency: "City of Hagerstown, MD", state: MD }
+      - { url: "https://www.collegeparkmd.gov/bids.aspx", agency: "City of College Park, MD", state: MD }
+      - { url: "https://www.cityoflaurel.org/Bids.aspx", agency: "City of Laurel, MD", state: MD }
+      - { url: "https://www.elizabethnj.org/Bids.aspx", agency: "City of Elizabeth, NJ", state: NJ }
+      - { url: "https://twp.woodbridge.nj.us/Bids.aspx?CatID=19", agency: "Woodbridge Township, NJ", state: NJ }
+      - { url: "https://www.trentonnj.org/Bids.aspx", agency: "City of Trenton, NJ", state: NJ }
+      - { url: "https://www.cliftonnj.org/bids.aspx", agency: "City of Clifton, NJ", state: NJ }
+      - { url: "https://gloucestercountynj.gov/Bids.aspx", agency: "Gloucester County, NJ", state: NJ }
+      - { url: "https://www.co.hunterdon.nj.us/Bids.aspx", agency: "Hunterdon County, NJ", state: NJ }
+      - { url: "https://www.hallcounty.org/Bids.aspx", agency: "Hall County, GA", state: GA }
+      - { url: "https://www.coweta.ga.us/bids.aspx", agency: "Coweta County, GA", state: GA }
+      - { url: "https://www.douglascountyga.gov/Bids.aspx", agency: "Douglas County, GA", state: GA }
+      - { url: "https://www.mariettaga.gov/Bids.aspx", agency: "City of Marietta, GA", state: GA }
+      - { url: "https://ma-waltham.civicplus.com/bids.aspx", agency: "City of Waltham, MA", state: MA }
+      - { url: "https://www.framinghamma.gov/bids.aspx", agency: "City of Framingham, MA", state: MA }
+      - { url: "https://www.cityofmalden.org/Bids.aspx", agency: "City of Malden, MA", state: MA }
+      - { url: "https://www.salemma.gov/Bids.aspx", agency: "City of Salem, MA", state: MA }
+      - { url: "https://www.fitchburgma.gov/Bids.aspx", agency: "City of Fitchburg, MA", state: MA }
+      - { url: "https://www.northamptonma.gov/Bids.aspx?CatID=17", agency: "City of Northampton, MA", state: MA }
+      - { url: "https://www.needhamma.gov/bids.aspx", agency: "Town of Needham, MA", state: MA }
+      - { url: "https://www.hampdenma.gov/bids.aspx", agency: "Town of Hampden, MA", state: MA }
+      - { url: "https://www.rogersar.gov/bids.aspx", agency: "City of Rogers, AR", state: AR }
+      - { url: "https://www.hotspringsar.gov/bids.aspx", agency: "City of Hot Springs, AR", state: AR }
+      - { url: "https://www.rockfordil.gov/bids.aspx", agency: "City of Rockford, IL", state: IL }
+      - { url: "https://www.northfieldmn.gov/bids.aspx", agency: "City of Northfield, MN", state: MN }
+      - { url: "https://www.stcharlescitymo.gov/Bids.aspx", agency: "City of St. Charles, MO", state: MO }
+      - { url: "https://www.sccmo.org/Bids.aspx", agency: "St. Charles County, MO", state: MO }
+      - { url: "https://www.casscounty.com/Bids.aspx", agency: "Cass County, MO", state: MO }
+      - { url: "https://www.wilsoncountytn.gov/Bids.aspx", agency: "Wilson County, TN", state: TN }
+      - { url: "https://www.washingtoncountytn.org/Bids.aspx", agency: "Washington County, TN", state: TN }
+      - { url: "https://www.blackhawkcounty.iowa.gov/bids.aspx", agency: "Black Hawk County, IA", state: IA }
+      - { url: "https://www.dubuquecountyiowa.gov/Bids.aspx", agency: "Dubuque County, IA", state: IA }
+      - { url: "https://www.storycountyiowa.gov/bids.aspx", agency: "Story County, IA", state: IA }
+      - { url: "https://clevelandcountyok.com/bids.aspx", agency: "Cleveland County, OK", state: OK }
+      - { url: "https://www.comanchecountyok.gov/bids.aspx", agency: "Comanche County, OK", state: OK }
+      - { url: "https://www.rogerscounty.org/bids.aspx", agency: "Rogers County, OK", state: OK }
+      - { url: "https://www.wagonercounty.ok.gov/bids.aspx", agency: "Wagoner County, OK", state: OK }
+      - { url: "https://www.lawtonok.gov/Bids.aspx", agency: "City of Lawton, OK", state: OK }
+      - { url: "https://www.midwestcityok.org/bids.aspx", agency: "City of Midwest City, OK", state: OK }
+      - { url: "https://www.redmond.gov/bids.aspx", agency: "City of Redmond, WA", state: WA }
+      - { url: "https://www.lancastercountypa.gov/bids.aspx", agency: "Lancaster County, PA", state: PA }
 
   # --- Schenectady County NY (one-off) -------------------------------------------
   # Drupal Views listing, server-rendered. Not generic — its field classes are
@@ -547,6 +847,222 @@ sources:
     name: "Schenectady County, NY"
     state: NY
     url: "https://www.schenectadycountyny.gov/current-bids"
+
+  # --- Los Angeles County CA (one-off) ----------------------------------------
+  # LACoBids open-solicitation list; server-rendered MVC table, fetched in one
+  # request via an oversized PageSize. Detail page is POST-only, so records
+  # link to the list filtered by solicitation number.
+  la_county:
+    enabled: true
+    name: "Los Angeles County, CA"
+    state: CA
+    url: "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList"
+
+  # --- Tennessee Central Procurement Office (one-off) -------------------------
+  # The GO-BID hub page only links out; the real lists are two server-rendered
+  # tn.gov tables (ITBs + RFPs/RFIs/RFQs). Past-due rows are filtered out.
+  tennessee_cpo:
+    enabled: true
+    name: "Tennessee Central Procurement Office"
+    state: TN
+    url: "https://www.tn.gov/generalservices/procurement/central-procurement-office--cpo-/go-bid/current-procurement-opportunities.html"
+
+  # --- Atlanta Regional Commission GA (one-off) -------------------------------
+  # WordPress custom post type "bid-opportunity" via the public WP REST API;
+  # only posts tagged opportunity-status-open are kept.
+  atlanta_regional:
+    enabled: true
+    name: "Atlanta Regional Commission, GA"
+    state: GA
+    url: "https://procurement.atlantaregional.org/"
+
+  # --- Tyler Munis Self Service vendor portals ----------------------------------
+  # Public bid search (no login) on <agency>.munisselfservice.com, filtered to
+  # open bids. Add an agency by adding its base URL. Detail pages have no stable
+  # link, so records link to the search page with the bid number in set_aside.
+  tyler_munis:
+    enabled: true
+    name: "Tyler Munis Self Service"
+    agencies:
+      - { base_url: "https://stlouiscountymovendors.munisselfservice.com", agency: "St. Louis County, MO", state: MO }
+      - { base_url: "https://guilfordcountync.munisselfservice.com", agency: "Guilford County, NC", state: NC }
+      - { base_url: "https://cityoffortsmitharvendors.munisselfservice.com", agency: "City of Fort Smith, AR", state: AR }
+
+  # --- New York Power Authority (one-off) ----------------------------------------
+  # Public JSON API behind rfp.nypa.gov (no token). fetch_details pulls each
+  # bid's abstract with one extra request per bid.
+  nypa:
+    enabled: true
+    name: "NY Power Authority"
+    statuses: ["Open"]
+    fetch_details: true
+
+  # --- DemandStar agency pages ----------------------------------------------------
+  # Public JSON API per agency (no login). Add an agency by adding its GUID (the
+  # last path segment of its demandstar.com/app/agencies/... URL). Only Active
+  # bids are kept.
+  demandstar:
+    enabled: true
+    name: "DemandStar"
+    agencies:
+      - { guid: "a1426332-7950-42c0-8d9a-ac2484613396", agency: "Pulaski County, AR", state: AR }
+      - { guid: "9a8c223d-789b-495f-b087-215855e7868d", agency: "Suffolk County, NY", state: NY }
+      - { guid: "dcd5ea52-5c6d-4b4d-a84a-448b176e7d2c", agency: "Polk County, FL", state: FL }
+      - { guid: "79dc705e-fbeb-4bfb-9346-cb58ba0849d0", agency: "Lee County Port Authority, FL", state: FL }
+      - { guid: "3ddc714d-f6d0-4e9b-a830-d992ebbf7425", agency: "Seminole County, FL", state: FL }
+      - { guid: "984c5647-851f-489c-adc8-cc664d6da36f", agency: "Volusia County, FL", state: FL }
+      - { guid: "dba839e8-c1f1-4ea4-8e46-57cbc2d9aad2", agency: "St. Lucie County, FL", state: FL }
+      - { guid: "f4a98379-4c25-4f85-9c8d-c6fbc57cd86a", agency: "Marion County, FL", state: FL }
+      - { guid: "daed0216-2e92-489f-9431-a15de0d57d2e", agency: "Pasco County Schools, FL", state: FL }
+      - { guid: "9b3055ba-d063-4a8a-9978-5efebb0ecbe0", agency: "City of Boca Raton, FL", state: FL }
+      - { guid: "b7ab11b0-809a-4309-9955-7072bb88b07c", agency: "City of Melbourne, FL", state: FL }
+      - { guid: "76f3cf41-5a4b-469c-b342-6bc258c89ae9", agency: "City of Pensacola, FL", state: FL }
+      - { guid: "1cdfbdef-2b42-45d0-8f9a-c8fd68135cb8", agency: "City of Weston, FL", state: FL }
+      - { guid: "2d60cc64-55c4-4c46-a204-e8f7e00ce5dc", agency: "Town of Fort Myers Beach, FL", state: FL }
+      - { guid: "f2557900-948a-4272-9d8b-3c54f65cc184", agency: "City of Aurora, IL", state: IL }
+      - { guid: "70e89dc1-9d40-487c-a221-33cbce981c27", agency: "City of Evanston, IL", state: IL }
+      - { guid: "38dbb825-622c-4f21-ab64-73f030439d4c", agency: "DuPage County, IL", state: IL }
+      - { guid: "fa7f8b1e-2d23-4697-8633-725716d60b75", agency: "St. Louis County, MN", state: MN }
+      - { guid: "94844ddb-cbce-4f11-82e5-f4cf977c68e6", agency: "City of Columbia, MO", state: MO }
+      - { guid: "1427eb66-d284-4655-ba3d-f5e318e97741", agency: "City of Jefferson City, MO", state: MO }
+      - { guid: "8ef095f0-e23c-47d5-88a9-9a9bbd555468", agency: "Jackson County, MO", state: MO }
+      - { guid: "0793cf5b-99d2-4ba3-8fc2-67b665c11598", agency: "Blount County, TN", state: TN }
+      - { guid: "58eb67e7-3426-4697-a3ff-51acbd261797", agency: "City of Des Moines, IA", state: IA }
+      - { guid: "1ed08ba3-b506-42fc-91f8-0fdb94bb2866", agency: "City of Cedar Rapids, IA", state: IA }
+      - { guid: "c807e334-685a-4f01-a700-89994d1d9bc3", agency: "City of Ames, IA", state: IA }
+      - { guid: "71e856f7-0668-4ca8-bc6a-f8055b218525", agency: "County of Ventura, CA", state: CA }
+
+  # --- NYS Contract Reporter (one-off) -------------------------------------------
+  # Public ad search (server-rendered, paged). categories: [16] = Information
+  # Technology only (fast); [] = every open ad (recall-first, ~1 min).
+  nyscr:
+    enabled: true
+    name: "NYS Contract Reporter"
+    categories: []
+
+  # --- Washington WEBS (one-off) ---------------------------------------------------
+  # Public BidCalendar.aspx (no login), 25 rows/page; the server is slow.
+  # by_agency: true searches each organization to fill in agency names (~5 min).
+  wa_webs:
+    enabled: true
+    name: "Washington WEBS"
+    by_agency: false
+    timeout: 60
+
+  # --- Bid Locker agency portals ---------------------------------------------------
+  # Public per-agency RSS feed (/a/<slug>/rss). discover: true finds every
+  # agency from the nationwide page each run; listed agencies add a state.
+  bidlocker:
+    enabled: true
+    name: "Bid Locker"
+    discover: true
+    agencies: []
+
+  # --- PeopleSoft public "Bidding Opportunities" pages ----------------------------
+  # Public PeopleSoft Strategic Sourcing page (no sign-in). Records link to the
+  # list page with the event ID in set_aside.
+  peoplesoft_bids:
+    enabled: true
+    name: "PeopleSoft Bids"
+    portals:
+      - { url: "https://financials.ok.gov/psc/SOKLFP1DS/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL", agency: "State of Oklahoma (OMES)", state: OK }
+      - { url: "https://supplier.miamidade.gov/psc/EXTSUPP/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL", agency: "Miami-Dade County, FL", state: FL }
+
+  # --- North Carolina eVP (one-off): Power Pages JSON grid, Open status (state agencies, universities, locals).
+  nc_evp:
+    enabled: true
+    name: "North Carolina eVP"
+    state: NC
+    url: "https://evp.nc.gov/solicitations/?status=0"
+
+  # --- Georgia Procurement Registry (one-off): DataTables JSON search, eventStatus=OPEN (state, city, county, K-12).
+  georgia_gpr:
+    enabled: true
+    name: "Georgia Procurement Registry"
+    state: GA
+    url: "https://ssl.doas.state.ga.us/gpr/index"
+
+  # --- Pennsylvania eMarketplace (one-off): ASP.NET search with all current records on one page.
+  pa_emarketplace:
+    enabled: true
+    name: "Pennsylvania eMarketplace"
+    state: PA
+    url: "https://www.emarketplace.state.pa.us/Search.aspx"
+
+  # --- Florida Vendor Bid System (one-off): MyFloridaMarketPlace public JSON search, OPEN only.
+  florida_vbs:
+    enabled: true
+    name: "Florida Vendor Bid System"
+    state: FL
+    url: "https://vendor.myfloridamarketplace.com/search/bids"
+    exclude_types: ["Agency Decision"]   # award notices, not open bids
+
+  # --- California Cal eProcure (one-off): public PeopleSoft event list (all Posted events).
+  cal_eprocure:
+    enabled: true
+    name: "California Cal eProcure"
+    state: CA
+    url: "https://caleprocure.ca.gov/psc/psfpd1/SUPPLIER/ERP/c/AUC_MANAGE_BIDS.AUC_RESP_INQ_AUC.GBL?Page=AUC_RESP_INQ_AUC&Action=U"
+
+  # --- State of Iowa — Bid Opportunities (one-off): one JSON call returns every open bid.
+  iowa_bids:
+    enabled: true
+    name: "State of Iowa — Bid Opportunities"
+    state: IA
+    url: "https://bidopportunities.iowa.gov/Home/DT_HostedBidsSearch?agencyId=&enteredSearchText="
+
+  # --- City of Austin, TX (one-off): server-rendered solicitation cards.
+  austin_tx:
+    enabled: true
+    name: "City of Austin, TX"
+    state: TX
+    url: "https://financeonline.austintexas.gov/afo/account_services/solicitation/solicitations.cfm"
+
+  # --- Illinois Higher Ed Procurement Bulletin (one-off): advanced search: competitive, published, due within a year.
+  il_higher_ed:
+    enabled: true
+    name: "Illinois Higher Ed Procurement Bulletin"
+    state: IL
+    url: "https://www.procure.stateuniv.state.il.us/search.cfm?mName=findAdvancedSearch"
+
+  # --- Camden County, NJ (one-off): paged table; closed/awarded rows skipped.
+  camden_county_nj:
+    enabled: true
+    name: "Camden County, NJ"
+    state: NJ
+    url: "https://procurements.camdencounty.com/"
+
+  # --- Custom city/county bid pages (generic heuristic parser) --------------------
+  # For agencies whose bids live on a plain web page, not a known platform.
+  # Extracts rows/links that look like solicitations, dropping nav and
+  # awarded/closed sections. Optional per-page hints: container_selector,
+  # link_selector, exclude_selector, require_due, keep_past, min_score.
+  bid_page:
+    enabled: true
+    name: "Custom bid pages"
+    agencies:
+      - { url: "https://www3.erie.gov/purchasing/form/on-line-bid-retrieval", agency: "Erie County, NY", state: NY }
+      - { url: "https://contracts.monroecounty.gov/bid/list/public", agency: "Monroe County, NY", state: NY }
+      - { url: "https://contracts.monroecounty.gov/bid/list/publicsp", agency: "Monroe County, NY", state: NY }
+      - { url: "https://contracts.monroecounty.gov/bid/list/rfps", agency: "Monroe County, NY", state: NY }
+      - { url: "https://www.polkfl.gov/business/procurement/", agency: "Polk County, FL", state: FL, require_due: true }
+      - { url: "https://www.ashevillenc.gov/department/purchasing/bids/", agency: "City of Asheville, NC", state: NC }
+      - { url: "https://www.maconbibb.us/category/bids/", agency: "Macon-Bibb County, GA", state: GA }
+      - { url: "https://fayettecountyga.gov/departments/purchasing/bids___request_for_proposals.php", agency: "Fayette County, GA", state: GA }
+      - { url: "https://www.bostonhousing.org/en/Bid-Opportunities/Current-Bid-Opportunities.aspx", agency: "Boston Housing Authority, MA", state: MA }
+      - { url: "https://www.worcesterma.gov/finance/purchasing-bids/bids/open-bids", agency: "City of Worcester, MA", state: MA }
+      - { url: "https://www.springfield-ma.gov/finance/procurement-bids/", agency: "City of Springfield, MA", state: MA }
+      - { url: "https://www.delcopa.gov/purchasing/formal-bid", agency: "Delaware County, PA", state: PA }
+      - { url: "https://www.norcopa.gov/current-rfps", agency: "Northampton County, PA", state: PA }
+      - { url: "https://www.cityofevanston.org/business/bids_proposals.php", agency: "City of Evanston, IL", state: IL, container_selector: "div.module-container table.table-bordered" }
+      - { url: "https://sangamonil.gov/departments/a-c/county-board/rfps-and-bid-information", agency: "Sangamon County, IL", state: IL }
+      - { url: "https://www.claycountymo.gov/365/Bid-Opportunities", agency: "Clay County, MO", state: MO }
+      - { url: "https://sumnercountytn.gov/departments/finance/purchasing/", agency: "Sumner County, TN", state: TN, require_due: true }
+      - { url: "https://www.countyclerk.paynecounty.org/bids-for-fy-202627", agency: "Payne County, OK", state: OK }
+      - { url: "https://muskogee.okcounties.org/bids", agency: "Muskogee County, OK", state: OK }
+      - { url: "https://cityoftulsa.org/government/departments/finance/selling-to-the-city/bid-opportunities-and-results/?t=current", agency: "City of Tulsa, OK", state: OK }
+      - { url: "https://www.clarkcountynv.gov/business/business_opportunities/current-opportunities", agency: "Clark County, NV", state: NV }
+      - { url: "https://www.thurstoncountywa.gov/ContractOpportunities", agency: "Thurston County, WA", state: WA }
 
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement

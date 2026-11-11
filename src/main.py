@@ -25,6 +25,7 @@ import os
 import sys
 import json
 import traceback
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 from .config_loader import load_config
@@ -39,24 +40,39 @@ _HERE = os.path.dirname(os.path.abspath(__file__))
 _OUTPUT_PATH = os.path.normpath(os.path.join(_HERE, "..", "docs", "opportunities.json"))
 
 
+# Sources hit different sites, so they can be fetched side by side; agencies
+# WITHIN one source stay sequential (they often share a rate-limited host).
+_FETCH_WORKERS = 8
+
+
+def _fetch_one(src) -> tuple[list[Opportunity], dict, list[str]]:
+    """Fetch one source, isolating failures. Returns (records, health, log lines)."""
+    name = getattr(src, "name", src.__class__.__name__)
+    try:
+        records = src.fetch() or []
+        # Multi-agency sources skip a broken agency instead of failing
+        # outright (Source.fetch_each); surface those partial failures.
+        skipped = getattr(src, "agency_errors", [])
+        log = [f"  [ok]   {name}: {len(records)} records"] + [f"         skipped {err}" for err in skipped]
+        return records, {"source": name, "ok": True, "count": len(records), "error": "; ".join(skipped)}, log
+    except Exception as e:
+        # Log and SKIP — never let one source crash the daily run.
+        msg = f"{type(e).__name__}: {e}"
+        log = [f"  [FAIL] {name}: {msg}", traceback.format_exc().rstrip()]
+        return [], {"source": name, "ok": False, "count": 0, "error": msg}, log
+
+
 def _fetch_all(sources) -> tuple[list[Opportunity], list[dict]]:
-    """Fetch every source, isolating failures. Returns (records, health_log)."""
+    """Fetch every source in parallel, isolating failures. Returns (records, health_log)."""
     all_records: list[Opportunity] = []
     health: list[dict] = []
 
-    for src in sources:
-        name = getattr(src, "name", src.__class__.__name__)
-        try:
-            records = src.fetch() or []
+    with ThreadPoolExecutor(max_workers=_FETCH_WORKERS) as pool:
+        # map() keeps config order, so the health log and output stay stable.
+        for records, entry, log in pool.map(_fetch_one, sources):
             all_records.extend(records)
-            health.append({"source": name, "ok": True, "count": len(records), "error": ""})
-            print(f"  [ok]   {name}: {len(records)} records")
-        except Exception as e:
-            # Log and SKIP — never let one source crash the daily run.
-            msg = f"{type(e).__name__}: {e}"
-            health.append({"source": name, "ok": False, "count": 0, "error": msg})
-            print(f"  [FAIL] {name}: {msg}")
-            traceback.print_exc()
+            health.append(entry)
+            print("\n".join(log))
 
     return all_records, health
 
