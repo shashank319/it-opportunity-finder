@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-11T04:52:16.806320+00:00",
+  "generated_at": "2026-11-11T19:00:40.761145+00:00",
   "counts": {
-    "total": 325,
-    "new": 223
+    "total": 342,
+    "new": 17
   },
   "health": {
-    "ok": 52,
+    "ok": 53,
     "total": 56,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 24,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 192,
+        "count": 197,
         "error": ""
       },
       {
@@ -52,9 +52,9 @@
       },
       {
         "source": "Texas — Spot Bid Fair FY2026",
-        "ok": false,
-        "count": 0,
-        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+        "ok": true,
+        "count": 169,
+        "error": ""
       },
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
@@ -70,9 +70,9 @@
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": true,
-        "count": 111,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -107,14 +107,14 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 77,
+        "count": 78,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 480,
-        "error": "City of Pasadena, CA: HTTPError: 404 Client Error: Not Found for url: https://procurement.opengov.com/portal/embed/pasadena/project-list?page=3"
+        "count": 513,
+        "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 277,
+        "count": 278,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 493,
+        "count": 497,
         "error": ""
       },
       {
@@ -149,13 +149,13 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 58,
-        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; Tarrant County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Arlington, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://arlington-tx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; City of St. Joseph, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://stjosephmo.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Des Moines, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://dsm.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Dubuque, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofdubuque.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 54,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
         "ok": true,
-        "count": 1389,
+        "count": 1426,
         "error": ""
       },
       {
@@ -215,7 +215,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 263,
+        "count": 266,
         "error": "City of Buffalo, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.buffalony.gov/bids.aspx; City of Yonkers, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.yonkersny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open; Scott County, MN: HTTPError: 403 Client Error: Forbidden for url: https://www.scottcountymn.gov/bids.aspx"
       },
       {
@@ -227,7 +227,7 @@
       {
         "source": "Los Angeles County, CA",
         "ok": true,
-        "count": 219,
+        "count": 221,
         "error": ""
       },
       {
@@ -263,13 +263,13 @@
       {
         "source": "NYS Contract Reporter",
         "ok": true,
-        "count": 886,
+        "count": 841,
         "error": ""
       },
       {
         "source": "Washington WEBS",
         "ok": true,
-        "count": 141,
+        "count": 135,
         "error": ""
       },
       {
@@ -281,13 +281,13 @@
       {
         "source": "PeopleSoft Bids",
         "ok": true,
-        "count": 33,
+        "count": 32,
         "error": ""
       },
       {
         "source": "Custom bid pages",
         "ok": true,
-        "count": 145,
+        "count": 146,
         "error": ""
       },
       {
@@ -299,7 +299,7 @@
       {
         "source": "Georgia Procurement Registry",
         "ok": true,
-        "count": 537,
+        "count": 535,
         "error": ""
       },
       {
@@ -316,14 +316,14 @@
       },
       {
         "source": "California Cal eProcure",
-        "ok": false,
-        "count": 0,
-        "error": "RuntimeError: Cal eProcure event grid not found (page changed?)"
+        "ok": true,
+        "count": 379,
+        "error": ""
       },
       {
         "source": "State of Iowa — Bid Opportunities",
         "ok": true,
-        "count": 44,
+        "count": 45,
         "error": ""
       },
       {
@@ -349,8 +349,8 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 28,
-      "agency_count": 19,
+      "opportunity_count": 29,
+      "agency_count": 20,
       "state_count": 8,
       "states": [
         "CA",
@@ -362,7 +362,7 @@
         "NY",
         "PA"
       ],
-      "demand_score": 65,
+      "demand_score": 68,
       "examples": [
         {
           "title": "280-10-26-0002 — RFP for City of Lexington Permitting and Development Review Software",
@@ -1032,6 +1032,75 @@
       ]
     },
     {
+      "name": "GIS / Mapping",
+      "opportunity_count": 6,
+      "agency_count": 4,
+      "state_count": 4,
+      "states": [
+        "CA",
+        "GA",
+        "NY",
+        "OK"
+      ],
+      "demand_score": 16,
+      "examples": [
+        {
+          "title": "RFP828 – Interactive Web Mapping and Dashboard Application Development",
+          "agency": "Atlanta Regional Commission",
+          "state": "GA",
+          "url": "https://procurement.atlantaregional.org/opportunities/rfp828-interactive-web-mapping-and-dashboard-application-development/",
+          "due_date": "2026-11-13",
+          "it_score": 48,
+          "source_name": "Atlanta Regional Commission, GA"
+        },
+        {
+          "title": "PE-29016-NONST-2027-000000075 — RFP828 - Interactive Web Mapping and Dashboard Application Development",
+          "agency": "Atlanta Regional Commission",
+          "state": "GA",
+          "url": "https://ssl.doas.state.ga.us/gpr/eventDetails?eSourceNumber=PE-29016-NONST-2027-000000075&sourceSystemType=gpr20",
+          "due_date": "2026-11-13",
+          "it_score": 48,
+          "source_name": "Georgia Procurement Registry"
+        },
+        {
+          "title": "GIS Data Updates & Maintenance",
+          "agency": "City of Edmond, OK",
+          "state": "OK",
+          "url": "https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1",
+          "due_date": "2026-11-25",
+          "it_score": 42,
+          "source_name": "Ionwave — City of Edmond, OK"
+        },
+        {
+          "title": "146844 SPARES FOR 34.5kV ABB GIS VCBs",
+          "agency": "Water & Power",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8so1IAA",
+          "due_date": "2026-11-19",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "High Resolution Aerial Photography & Geospatial Data Products",
+          "agency": "Rockland County, NY",
+          "state": "NY",
+          "url": "https://www.bidnetdirect.com/new-york/solicitations/open-bids/High-Resolution-Aerial-Photography-Geospatial-Data-Products/0000440727?purchasingGroupId=8411151&origin=2",
+          "due_date": "2026-11-23",
+          "it_score": 36,
+          "source_name": "BidNet Direct — Rockland County, NY"
+        },
+        {
+          "title": "High Resolution Aerial Imagery & Geospatial Data Products",
+          "agency": "Rockland County, NY",
+          "state": "NY",
+          "url": "https://rocklandgov.bonfirehub.com/opportunities/259194",
+          "due_date": "2026-11-23",
+          "it_score": 36,
+          "source_name": "Bonfire — Rockland County, NY"
+        }
+      ]
+    },
+    {
       "name": "Asset / Work Order (EAM/CMMS)",
       "opportunity_count": 4,
       "agency_count": 4,
@@ -1078,65 +1147,6 @@
           "due_date": "2026-12-02",
           "it_score": 36,
           "source_name": "OpenGov — Collier County, FL"
-        }
-      ]
-    },
-    {
-      "name": "GIS / Mapping",
-      "opportunity_count": 5,
-      "agency_count": 3,
-      "state_count": 3,
-      "states": [
-        "CA",
-        "GA",
-        "NY"
-      ],
-      "demand_score": 12,
-      "examples": [
-        {
-          "title": "RFP828 – Interactive Web Mapping and Dashboard Application Development",
-          "agency": "Atlanta Regional Commission",
-          "state": "GA",
-          "url": "https://procurement.atlantaregional.org/opportunities/rfp828-interactive-web-mapping-and-dashboard-application-development/",
-          "due_date": "2026-11-13",
-          "it_score": 48,
-          "source_name": "Atlanta Regional Commission, GA"
-        },
-        {
-          "title": "PE-29016-NONST-2027-000000075 — RFP828 - Interactive Web Mapping and Dashboard Application Development",
-          "agency": "Atlanta Regional Commission",
-          "state": "GA",
-          "url": "https://ssl.doas.state.ga.us/gpr/eventDetails?eSourceNumber=PE-29016-NONST-2027-000000075&sourceSystemType=gpr20",
-          "due_date": "2026-11-13",
-          "it_score": 48,
-          "source_name": "Georgia Procurement Registry"
-        },
-        {
-          "title": "146844 SPARES FOR 34.5kV ABB GIS VCBs",
-          "agency": "Water & Power",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8so1IAA",
-          "due_date": "2026-11-19",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "High Resolution Aerial Photography & Geospatial Data Products",
-          "agency": "Rockland County, NY",
-          "state": "NY",
-          "url": "https://www.bidnetdirect.com/new-york/solicitations/open-bids/High-Resolution-Aerial-Photography-Geospatial-Data-Products/0000440727?purchasingGroupId=8411151&origin=2",
-          "due_date": "2026-11-23",
-          "it_score": 36,
-          "source_name": "BidNet Direct — Rockland County, NY"
-        },
-        {
-          "title": "High Resolution Aerial Imagery & Geospatial Data Products",
-          "agency": "Rockland County, NY",
-          "state": "NY",
-          "url": "https://rocklandgov.bonfirehub.com/opportunities/259194",
-          "due_date": "2026-11-23",
-          "it_score": 36,
-          "source_name": "Bonfire — Rockland County, NY"
         }
       ]
     },
@@ -1289,7 +1299,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-11-30",
       "it_score": 99,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1335,7 +1345,7 @@
       "posted_date": "",
       "due_date": "2026-12-17",
       "it_score": 93,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1357,7 +1367,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-12-14",
       "it_score": 84,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cloud",
@@ -1380,7 +1390,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-12-02",
       "it_score": 84,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -1403,7 +1413,7 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-11-18",
       "it_score": 84,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1426,7 +1436,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-12-01",
       "it_score": 78,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1448,7 +1458,7 @@
       "posted_date": "2026-10-19",
       "due_date": "2026-11-16",
       "it_score": 78,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1470,7 +1480,7 @@
       "posted_date": "2026-08-19",
       "due_date": "2026-11-24",
       "it_score": 78,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -1492,7 +1502,7 @@
       "posted_date": "",
       "due_date": "2026-11-20",
       "it_score": 78,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1535,7 +1545,7 @@
       "posted_date": "2026-10-30",
       "due_date": "2026-11-23",
       "it_score": 72,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1556,7 +1566,7 @@
       "posted_date": "2026-10-14",
       "due_date": "2026-11-19",
       "it_score": 72,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1577,7 +1587,7 @@
       "posted_date": "",
       "due_date": "2026-11-18",
       "it_score": 72,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1598,7 +1608,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-11-30",
       "it_score": 69,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "workflow",
@@ -1621,7 +1631,7 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-11-20",
       "it_score": 69,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -1644,7 +1654,7 @@
       "posted_date": "2026-07-29",
       "due_date": "2030-06-02",
       "it_score": 69,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1667,7 +1677,7 @@
       "posted_date": "2026-07-28",
       "due_date": "2026-11-19",
       "it_score": 69,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "migration",
@@ -1690,7 +1700,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-12-02",
       "it_score": 63,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cloud",
@@ -1734,7 +1744,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2027-02-01",
       "it_score": 63,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1756,7 +1766,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-11-18",
       "it_score": 63,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -1778,12 +1788,34 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-11-19",
       "it_score": 63,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
         "integration",
         "digital"
+      ]
+    },
+    {
+      "id": "caleprocure:0515:0000039767",
+      "source_name": "California Cal eProcure",
+      "title": "0000039767 — Homeless Data Integration System - Maintenance and Operations (HDIS - M&O)",
+      "description": "Homeless Data Integration System - Maintenance and Operations (HDIS - M&O) | Type: RFx | Contact: Hashmat Mohmand hashmat.mohmand@state.ca.gov",
+      "agency": "State of California (BU 0515, state.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/0515/0000039767",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2027-06-04",
+      "it_score": 63,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "system",
+        "integration",
+        "data"
       ]
     },
     {
@@ -1800,7 +1832,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-03",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -1842,7 +1874,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-11-14",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1884,7 +1916,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-27",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -1905,7 +1937,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-20",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -1968,7 +2000,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-12-10",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2010,7 +2042,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-12",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2031,7 +2063,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-20",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2073,7 +2105,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-12-09",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2094,7 +2126,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-13",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2157,7 +2189,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-12-04",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -2199,7 +2231,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-27",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "integration",
@@ -2220,7 +2252,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-19",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2241,10 +2273,31 @@
       "posted_date": "2026-10-14",
       "due_date": "2026-11-16",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "content management",
+        "information technology"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:316595",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Office Furniture",
+      "description": "The Department of Information Technology is undertaking a facilities improvement project to enhance the functionality, comfort, and efficiency of its working environment. This project includes upgrading interior finishes—such as replacing worn carpeting—to create a modern, professional workspace that aligns with current departmental standards. In addition, existing work areas will be reconfigured and enhanced to better support current staffing levels and operational needs. A key component of this project is the modernization of employee workstations. Existing furniture systems will be replaced or modified to meet contemporary ergonomic standards, including the incorporation of sit‑stand functionality to promote employee wellness and productivity. These upgrades will ensure that the workspace supports both current and future operational requirements, improves overall user experience, and aligns with best practices for modern office environments. Please provide a cost proposal to furnish and install the following HON furniture items: (see attachment for detailed specification) Four (4) workstations, 5′-6″ × 6′-0″, with 49″-high panels and 15″-high frameless frosted glass at the locations shown on the plan. Three (3) workstations, 6′-6″ × 6′-0″, with 49″-high panels and 15″-high frameless frosted glass at the locations shown on the plan. One (1) L-shaped sit-stand desk, 72″ W × 78″ D, with all components shown in the furniture schedule. One (1) conference table, 72″ W × 36″ D. Fifteen (15) Herman Miller Aeron task chairs, Size B, black, or City-approved equal in accordance with Section 2.19. Include all applicable furniture, delivery, installation, and tax in the proposal. Carpet replacement will be performed separately and coordinated with furniture removal and installation.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/316595",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-Informal-0565",
+      "posted_date": "2026-10-13",
+      "due_date": "2026-11-19",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "modernization",
         "information technology"
       ]
     },
@@ -2262,7 +2315,7 @@
       "posted_date": "2026-10-13",
       "due_date": "2026-11-12",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2304,7 +2357,7 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-11-12",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2325,7 +2378,7 @@
       "posted_date": "2026-10-02",
       "due_date": "2026-11-24",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2367,7 +2420,7 @@
       "posted_date": "2026-09-22",
       "due_date": "2026-11-12",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2388,7 +2441,7 @@
       "posted_date": "2026-09-04",
       "due_date": "2026-12-21",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2409,7 +2462,7 @@
       "posted_date": "2026-08-07",
       "due_date": "2026-11-13",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -2472,7 +2525,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "saas",
@@ -2493,7 +2546,7 @@
       "posted_date": "",
       "due_date": "2026-12-02",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -2514,7 +2567,7 @@
       "posted_date": "",
       "due_date": "2026-11-18",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2535,7 +2588,7 @@
       "posted_date": "",
       "due_date": "2026-11-19",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2556,7 +2609,7 @@
       "posted_date": "",
       "due_date": "2026-11-12",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2577,7 +2630,7 @@
       "posted_date": "",
       "due_date": "2026-11-17",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2598,7 +2651,7 @@
       "posted_date": "",
       "due_date": "2026-11-17",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2619,7 +2672,7 @@
       "posted_date": "",
       "due_date": "2026-11-18",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2640,7 +2693,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2661,7 +2714,7 @@
       "posted_date": "",
       "due_date": "2026-11-25",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2682,7 +2735,7 @@
       "posted_date": "",
       "due_date": "2026-12-03",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2703,7 +2756,7 @@
       "posted_date": "",
       "due_date": "2026-12-04",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2724,7 +2777,7 @@
       "posted_date": "",
       "due_date": "2026-12-07",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -2745,11 +2798,32 @@
       "posted_date": "",
       "due_date": "2026-12-16",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
         "system"
+      ]
+    },
+    {
+      "id": "caleprocure:7730:0000040877",
+      "source_name": "California Cal eProcure",
+      "title": "0000040877 — IFB FTB-2627-00911 Genesys Software Subscriptions and Application Support Services",
+      "description": "IFB FTB-2627-00911 Genesys Software Subscriptions and Application Support Services | Type: RFx | Contact: Tanita Guereca tanita.guereca@ftb.ca.gov",
+      "agency": "State of California (BU 7730, ftb.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/7730/0000040877",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-12-31",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "software",
+        "application"
       ]
     },
     {
@@ -2806,7 +2880,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-08",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "migration"
@@ -2826,7 +2900,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-09",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -2846,7 +2920,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-18",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -2866,7 +2940,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-11-24",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -2886,7 +2960,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "migration"
@@ -2946,7 +3020,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-16",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -2966,7 +3040,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -2986,7 +3060,7 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-26",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3026,7 +3100,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-11-19",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "saas"
@@ -3046,7 +3120,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-11-18",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "erp"
@@ -3066,7 +3140,7 @@
       "posted_date": "2026-11-02",
       "due_date": "2026-11-19",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3086,7 +3160,7 @@
       "posted_date": "2026-11-02",
       "due_date": "2026-11-16",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3106,7 +3180,7 @@
       "posted_date": "2026-10-30",
       "due_date": "2026-11-17",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3126,7 +3200,7 @@
       "posted_date": "2026-10-30",
       "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3166,7 +3240,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-12-10",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3186,7 +3260,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-12",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3226,7 +3300,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-11-19",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3246,7 +3320,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-11-16",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3286,7 +3360,7 @@
       "posted_date": "2026-10-26",
       "due_date": "",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3306,7 +3380,7 @@
       "posted_date": "2026-10-26",
       "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3386,7 +3460,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-12-02",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cloud"
@@ -3486,7 +3560,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-12",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "erp"
@@ -3546,7 +3620,7 @@
       "posted_date": "2026-10-15",
       "due_date": "2026-11-16",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cloud"
@@ -3566,7 +3640,7 @@
       "posted_date": "2026-10-14",
       "due_date": "2026-11-18",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3606,7 +3680,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-11-18",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "erp"
@@ -3626,7 +3700,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "migration"
@@ -3706,7 +3780,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-11-13",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3766,10 +3840,30 @@
       "posted_date": "2026-09-09",
       "due_date": "2026-11-24",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:292413",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "P-57907 Enterprise Monitoring",
+      "description": "The City of Pasadena is seeking a vendor to provide an Enterprise Monitoring solution and associated implementation and support services. The goal of the Enterprise Monitoring project is to strengthen alert management and monitoring processes , and to proactively identify and address system performance issues before they impact customers. The City seeks a unified monitoring and observability platform that provides centralized visibility across infrastructure, networks, cloud services, databases, applications, integrations, and business services. The desired solution will correlate events and performance data across technology domains, improve operational awareness, reduce alert fatigue, accelerate root cause analysis, and enable proactive management of service health and availability. The platform should support the City's current hybrid and multi-cloud environment while providing a scalable foundation for future operational monitoring and automation initiatives.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/292413",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0480",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-11-12",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "cloud"
       ]
     },
     {
@@ -3806,10 +3900,30 @@
       "posted_date": "2026-05-07",
       "due_date": "2031-12-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cloud"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:263470",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
+      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0272",
+      "posted_date": "2026-05-06",
+      "due_date": "2026-11-19",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -3826,7 +3940,7 @@
       "posted_date": "2026-02-01",
       "due_date": "2031-01-31",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3846,7 +3960,7 @@
       "posted_date": "2026-01-01",
       "due_date": "2031-12-31",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3906,7 +4020,7 @@
       "posted_date": "2010-08-03",
       "due_date": "2099-12-31",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3926,7 +4040,7 @@
       "posted_date": "",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3946,7 +4060,7 @@
       "posted_date": "",
       "due_date": "2026-11-16",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -3966,7 +4080,7 @@
       "posted_date": "",
       "due_date": "2026-12-14",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "erp"
@@ -3986,7 +4100,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4006,7 +4120,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4026,7 +4140,7 @@
       "posted_date": "",
       "due_date": "2026-12-14",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4046,7 +4160,7 @@
       "posted_date": "",
       "due_date": "2026-11-18",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4066,7 +4180,7 @@
       "posted_date": "",
       "due_date": "2027-01-07",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "erp"
@@ -4086,7 +4200,7 @@
       "posted_date": "",
       "due_date": "2026-12-14",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4126,7 +4240,7 @@
       "posted_date": "",
       "due_date": "2026-12-02",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cloud"
@@ -4146,7 +4260,7 @@
       "posted_date": "",
       "due_date": "2026-11-13",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4166,7 +4280,7 @@
       "posted_date": "",
       "due_date": "2026-11-17",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4185,6 +4299,26 @@
       "set_aside": "",
       "posted_date": "",
       "due_date": "2026-12-03",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "lacounty:RFB-IS-27200324",
+      "source_name": "Los Angeles County, CA",
+      "title": "RFB-IS-27200324 — MANAGEENGINE SD PLUS & UEM SUBSCRIPTION - BRAND SPECIFIC",
+      "description": "MANAGEENGINE SD PLUS & UEM SUBSCRIPTION - BRAND SPECIFIC | Commodity: SOFTWARE:MINI & MAINFRAME COMPUTER- COMMUNICATIONS: NETWORKI | Type: Commodity / Service",
+      "agency": "Los Angeles County — Internal Services",
+      "state": "CA",
+      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200324",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-12-07",
       "it_score": 51,
       "is_new": true,
       "first_seen": "2026-11-11",
@@ -4206,7 +4340,7 @@
       "posted_date": "",
       "due_date": "2026-11-12",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "erp"
@@ -4226,7 +4360,7 @@
       "posted_date": "",
       "due_date": "2026-12-02",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4246,11 +4380,69 @@
       "posted_date": "",
       "due_date": "2026-12-21",
       "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "caleprocure:0840:EDIS90726",
+      "source_name": "California Cal eProcure",
+      "title": "EDIS90726 RFQ-ITS Equipment and Software Maintenance - Quadient Inserters NOTICE OF INTENT TO AWARD",
+      "description": "EDIS90726 RFQ-ITS Equipment and Software Maintenance - Quadient Inserters NOTICE OF INTENT TO AWARD | Type: RFx | Contact: Gian Viggiano gviggiano@sco.ca.gov",
+      "agency": "State of California (BU 0840, sco.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/0840/EDIS90726",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-13",
+      "it_score": 51,
       "is_new": true,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
       ]
+    },
+    {
+      "id": "caleprocure:2720:0000040879",
+      "source_name": "California Cal eProcure",
+      "title": "0000040879 — RFQ 043PR6016/19976 Plixer Software Annual Subscription",
+      "description": "RFQ 043PR6016/19976 Plixer Software Annual Subscription | Type: RFx | Contact: Ayesha Brown ayesha.brown@chp.ca.gov",
+      "agency": "State of California (BU 2720, chp.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/2720/0000040879",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-19",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "planetbids:19236:148224",
+      "source_name": "PlanetBids — PlanetBids portal 19236 (CA)",
+      "title": "On-Call Fiber-Optic Network (FON) Enhancements and Repairs",
+      "description": "SE-26-02",
+      "agency": "PlanetBids portal 19236 (CA)",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/19236/bo/bo-detail/148224",
+      "naics": "",
+      "psc": "20827, 28029, 72523, 84069, 84070, 90638, 90693, 90900, 91082, 91200, 91223, 91356, 91365, 91831, 92544, 96218, 99050",
+      "set_aside": "",
+      "posted_date": "2026-11-11",
+      "due_date": "2026-12-16",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": []
     },
     {
       "id": "planetbids:27411:148203",
@@ -4266,7 +4458,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2027-01-07",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4302,7 +4494,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-12-15",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4320,7 +4512,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-12-03",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4356,7 +4548,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-12-07",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4392,7 +4584,7 @@
       "posted_date": "2026-10-12",
       "due_date": "2026-11-19",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4410,7 +4602,7 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-11-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4464,7 +4656,7 @@
       "posted_date": "2026-09-17",
       "due_date": "2026-12-08",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4500,7 +4692,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-11-30",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "website",
@@ -4522,7 +4714,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-11-20",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -4544,7 +4736,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-13",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "application",
@@ -4566,7 +4758,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-13",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "application",
@@ -4632,7 +4824,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-12-01",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology",
@@ -4654,7 +4846,7 @@
       "posted_date": "2026-10-12",
       "due_date": "2026-11-13",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital",
@@ -4676,7 +4868,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-11-13",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital",
@@ -4698,7 +4890,7 @@
       "posted_date": "2026-10-02",
       "due_date": "2026-11-20",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "systems",
@@ -4718,6 +4910,28 @@
       "psc": "",
       "set_aside": "ITN 6769-4",
       "posted_date": "2026-09-10",
+      "due_date": "2027-01-08",
+      "it_score": 48,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "systems",
+        "ai",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "id": "caleprocure:77601:0000040452",
+      "source_name": "California Cal eProcure",
+      "title": "0000040452 — RFx Premier Artificial Intelligence (AI) Systems & Services (Florida State University ITN #6769-4)",
+      "description": "RFx Premier Artificial Intelligence (AI) Systems & Services (Florida State University ITN #6769-4) | Type: RFx | Contact: Katelynne Leisenring katelynne.leisenring@dgs.ca.gov",
+      "agency": "State of California (BU 77601, dgs.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/77601/0000040452",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
       "due_date": "2027-01-08",
       "it_score": 48,
       "is_new": true,
@@ -4742,7 +4956,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-21",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "platform",
@@ -4763,32 +4977,11 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-12-02",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
         "data"
-      ]
-    },
-    {
-      "id": "nyscr:2140560",
-      "source_name": "NYS Contract Reporter",
-      "title": "Enterprise Search Platform",
-      "description": "Enterprise Search Platform — Note: U.S. Eastern Standard Time (EST). — Division: SUNY Buffalo — Location: Buffalo, NY — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
-      "agency": "State University of New York (SUNY) — SUNY Buffalo",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140560",
-      "naics": "",
-      "psc": "",
-      "set_aside": "MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-30",
-      "it_score": 42,
-      "is_new": true,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "platform",
-        "information technology"
       ]
     },
     {
@@ -4805,10 +4998,31 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-12-09",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
+        "information technology"
+      ]
+    },
+    {
+      "id": "nyscr:2140560",
+      "source_name": "NYS Contract Reporter",
+      "title": "Enterprise Search Platform",
+      "description": "Enterprise Search Platform — Note: U.S. Eastern Standard Time (EST). — Division: SUNY Buffalo — Location: Buffalo, NY — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
+      "agency": "State University of New York (SUNY) — SUNY Buffalo",
+      "state": "NY",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140560",
+      "naics": "",
+      "psc": "",
+      "set_aside": "MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-30",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "platform",
         "information technology"
       ]
     },
@@ -4826,7 +5040,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-11-13",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "platform",
@@ -4868,7 +5082,7 @@
       "posted_date": "2026-11-03",
       "due_date": "2026-11-25",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
@@ -4889,7 +5103,7 @@
       "posted_date": "2026-10-30",
       "due_date": "2027-02-19",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -4910,7 +5124,7 @@
       "posted_date": "2026-10-29",
       "due_date": "2026-12-04",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology",
@@ -4931,7 +5145,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-11-24",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
@@ -4952,7 +5166,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-12-14",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
@@ -4973,7 +5187,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-19",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -4994,7 +5208,7 @@
       "posted_date": "2026-10-21",
       "due_date": "2026-11-18",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "development",
@@ -5036,7 +5250,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-11-19",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -5057,7 +5271,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-11-19",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
@@ -5086,6 +5300,27 @@
       ]
     },
     {
+      "id": "ionwave:edmondok:RFP27-008 GIS Data Updates Addendum 1",
+      "source_name": "Ionwave — City of Edmond, OK",
+      "title": "GIS Data Updates & Maintenance",
+      "description": "GIS Data Updates & Maintenance",
+      "agency": "City of Edmond, OK",
+      "state": "OK",
+      "url": "https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP27-008 GIS Data Updates Addendum 1",
+      "posted_date": "2026-10-12",
+      "due_date": "2026-11-25",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "data",
+        "gis"
+      ]
+    },
+    {
       "id": "bidlocker:6564",
       "source_name": "Bid Locker — University of Maryland Global Campus",
       "title": "UMGC Solicitation #92303 Custom AI-enabled Content Development",
@@ -5099,7 +5334,7 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-11-20",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "development",
@@ -5120,32 +5355,11 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
         "analytics"
-      ]
-    },
-    {
-      "id": "ionwave:nevada:27-101181 Addendum 3",
-      "source_name": "Ionwave — State of Nevada, NV",
-      "title": "Digital Signage and Wayfinding System",
-      "description": "Digital Signage and Wayfinding System",
-      "agency": "State of Nevada, NV",
-      "state": "NV",
-      "url": "https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "27-101181 Addendum 3",
-      "posted_date": "2026-09-30",
-      "due_date": "2026-11-12",
-      "it_score": 42,
-      "is_new": true,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "system",
-        "digital"
       ]
     },
     {
@@ -5162,7 +5376,7 @@
       "posted_date": "2026-09-30",
       "due_date": "2026-11-30",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cybersecurity",
@@ -5183,7 +5397,7 @@
       "posted_date": "2026-09-29",
       "due_date": "2026-12-04",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "workflow",
@@ -5246,7 +5460,7 @@
       "posted_date": "2026-09-17",
       "due_date": "2026-12-10",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -5267,11 +5481,32 @@
       "posted_date": "2026-08-25",
       "due_date": "2026-11-20",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
         "information technology"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:293584",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Rental Registry Database and Portal",
+      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/293584",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0495",
+      "posted_date": "2026-08-13",
+      "due_date": "2026-11-21",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "portal",
+        "database"
       ]
     },
     {
@@ -5288,7 +5523,7 @@
       "posted_date": "2009-04-13",
       "due_date": "2099-12-31",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "it services",
@@ -5309,7 +5544,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
@@ -5330,7 +5565,7 @@
       "posted_date": "",
       "due_date": "2026-12-01",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -5351,7 +5586,7 @@
       "posted_date": "",
       "due_date": "2026-12-15",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -5372,7 +5607,7 @@
       "posted_date": "",
       "due_date": "2026-11-13",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "app",
@@ -5393,32 +5628,11 @@
       "posted_date": "",
       "due_date": "2026-12-03",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
         "digital"
-      ]
-    },
-    {
-      "id": "buyspeed:www.commbuys.com:BD-22-1109-UMMS-UMMS-64828",
-      "source_name": "BuySpeed — COMMBUYS (Massachusetts)",
-      "title": "ANNOUNCEMENT ONLY, New Online Procurement System used by UMMS (\"Jaggaer BuyWays Event Portal\")",
-      "description": "ANNOUNCEMENT ONLY, New Online Procurement System used by UMMS (\"Jaggaer BuyWays Event Portal\")",
-      "agency": "University of Massachusetts System",
-      "state": "MA",
-      "url": "https://www.commbuys.com/bso/external/bidDetail.sda?docId=BD-22-1109-UMMS-UMMS-64828&external=true&parentUrl=close",
-      "naics": "",
-      "psc": "",
-      "set_aside": "BD-22-1109-UMMS-UMMS-64828",
-      "posted_date": "",
-      "due_date": "2031-12-31",
-      "it_score": 42,
-      "is_new": true,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "system",
-        "portal"
       ]
     },
     {
@@ -5435,7 +5649,7 @@
       "posted_date": "",
       "due_date": "2026-12-15",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "development",
@@ -5477,7 +5691,7 @@
       "posted_date": "",
       "due_date": "2026-12-01",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "automation",
@@ -5498,7 +5712,7 @@
       "posted_date": "",
       "due_date": "",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -5519,11 +5733,32 @@
       "posted_date": "",
       "due_date": "",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "application",
         "web"
+      ]
+    },
+    {
+      "id": "caleprocure:7100:0000040858",
+      "source_name": "California Cal eProcure",
+      "title": "0000040858 — EDD Request for Quote No. 133571 Public Key Infrastructure Digital Certificate Management System Services",
+      "description": "EDD Request for Quote No. 133571 Public Key Infrastructure Digital Certificate Management System Services | Type: RFx | Contact: Jenny Lo jenny.lo@edd.ca.gov",
+      "agency": "State of California (BU 7100, edd.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/7100/0000040858",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-18",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "system",
+        "digital"
       ]
     },
     {
@@ -5540,7 +5775,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-11-17",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -5580,7 +5815,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-03",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5600,7 +5835,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-03",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5620,7 +5855,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-12-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5640,7 +5875,7 @@
       "posted_date": "2026-11-09",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "ai"
@@ -5660,7 +5895,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-12-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5680,7 +5915,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2026-12-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5700,7 +5935,7 @@
       "posted_date": "2026-11-09",
       "due_date": "2027-01-05",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "ai"
@@ -5820,7 +6055,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5840,7 +6075,7 @@
       "posted_date": "2026-11-06",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5867,26 +6102,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232928",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-25",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232926",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
@@ -5904,6 +6119,26 @@
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "data"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232928",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-25",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
@@ -5940,7 +6175,7 @@
       "posted_date": "2026-11-05",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -5980,7 +6215,7 @@
       "posted_date": "2026-11-04",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6000,7 +6235,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-11-27",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6020,7 +6255,7 @@
       "posted_date": "2026-11-04",
       "due_date": "2026-12-08",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6100,7 +6335,7 @@
       "posted_date": "2026-11-01",
       "due_date": "2026-12-04",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "it services"
@@ -6180,30 +6415,10 @@
       "posted_date": "2026-10-30",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "license"
-      ]
-    },
-    {
-      "id": "nyscr:2140391",
-      "source_name": "NYS Contract Reporter",
-      "title": "LG AEROS PRODUCTS",
-      "description": "LG AEROS PRODUCTS — Location: 830 BARNHART ISLAND RD MASSENA, NY 13662 — Category: Information Technology — Ad type: Notice of sole/single source or procurement exempt from advertising",
-      "agency": "Power Authority of New York",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140391",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Notice of sole/single source or procurement exempt from advertising",
-      "posted_date": "2026-10-29",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "information technology"
       ]
     },
     {
@@ -6220,7 +6435,27 @@
       "posted_date": "2026-10-29",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
+      "id": "nyscr:2140391",
+      "source_name": "NYS Contract Reporter",
+      "title": "LG AEROS PRODUCTS",
+      "description": "LG AEROS PRODUCTS — Location: 830 BARNHART ISLAND RD MASSENA, NY 13662 — Category: Information Technology — Ad type: Notice of sole/single source or procurement exempt from advertising",
+      "agency": "Power Authority of New York",
+      "state": "NY",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140391",
+      "naics": "",
+      "psc": "",
+      "set_aside": "Notice of sole/single source or procurement exempt from advertising",
+      "posted_date": "2026-10-29",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6280,7 +6515,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-12-07",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6300,7 +6535,7 @@
       "posted_date": "2026-10-26",
       "due_date": "2026-11-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -6320,7 +6555,7 @@
       "posted_date": "2026-10-26",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -6340,7 +6575,7 @@
       "posted_date": "2026-10-26",
       "due_date": "2026-11-17",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "database"
@@ -6360,7 +6595,7 @@
       "posted_date": "2026-10-26",
       "due_date": "2026-11-18",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -6380,7 +6615,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-12",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -6400,7 +6635,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-13",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6420,7 +6655,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-13",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6440,7 +6675,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-13",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6460,7 +6695,7 @@
       "posted_date": "2026-10-22",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -6500,7 +6735,7 @@
       "posted_date": "2026-10-21",
       "due_date": "2026-11-12",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6520,7 +6755,7 @@
       "posted_date": "2026-10-21",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -6540,7 +6775,7 @@
       "posted_date": "2026-10-19",
       "due_date": "2026-11-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6560,7 +6795,7 @@
       "posted_date": "2026-10-19",
       "due_date": "2026-11-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6620,7 +6855,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-12-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6680,7 +6915,7 @@
       "posted_date": "2026-10-13",
       "due_date": "2026-11-13",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6700,7 +6935,7 @@
       "posted_date": "2026-10-13",
       "due_date": "2026-12-01",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -6720,7 +6955,7 @@
       "posted_date": "2026-10-13",
       "due_date": "2026-11-13",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6760,7 +6995,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -6840,7 +7075,7 @@
       "posted_date": "2026-10-06",
       "due_date": "2026-12-10",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -7040,30 +7275,10 @@
       "posted_date": "2026-09-23",
       "due_date": "2026-12-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
-      ]
-    },
-    {
-      "id": "ionwave:nevada:RFP 2026-024 Addendum 3",
-      "source_name": "Ionwave — State of Nevada, NV",
-      "title": "Customer Portal & AMI Technology",
-      "description": "Customer Portal & AMI Technology",
-      "agency": "State of Nevada, NV",
-      "state": "NV",
-      "url": "https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFP 2026-024 Addendum 3",
-      "posted_date": "2026-09-21",
-      "due_date": "2026-11-19",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "portal"
       ]
     },
     {
@@ -7100,7 +7315,7 @@
       "posted_date": "2026-09-15",
       "due_date": "2026-12-31",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7180,7 +7395,7 @@
       "posted_date": "2025-08-14",
       "due_date": "2030-12-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -7280,7 +7495,7 @@
       "posted_date": "",
       "due_date": "2026-11-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7300,7 +7515,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7320,7 +7535,7 @@
       "posted_date": "",
       "due_date": "2026-11-12",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "web"
@@ -7340,7 +7555,7 @@
       "posted_date": "",
       "due_date": "2026-12-11",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "database"
@@ -7360,7 +7575,7 @@
       "posted_date": "",
       "due_date": "2026-12-03",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7380,7 +7595,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "hosting"
@@ -7400,7 +7615,7 @@
       "posted_date": "",
       "due_date": "2026-11-25",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -7420,7 +7635,7 @@
       "posted_date": "",
       "due_date": "2026-11-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "ai"
@@ -7440,7 +7655,7 @@
       "posted_date": "",
       "due_date": "2026-11-22",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -7460,7 +7675,7 @@
       "posted_date": "",
       "due_date": "2026-12-08",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -7480,7 +7695,7 @@
       "posted_date": "",
       "due_date": "2026-11-24",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "artificial intelligence"
@@ -7500,7 +7715,7 @@
       "posted_date": "",
       "due_date": "2035-11-05",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cybersecurity"
@@ -7520,7 +7735,7 @@
       "posted_date": "",
       "due_date": "2026-12-07",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -7540,7 +7755,7 @@
       "posted_date": "",
       "due_date": "2026-12-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "license"
@@ -7560,7 +7775,7 @@
       "posted_date": "",
       "due_date": "2026-11-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "ai"
@@ -7580,7 +7795,7 @@
       "posted_date": "",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "hosting"
@@ -7600,7 +7815,7 @@
       "posted_date": "",
       "due_date": "2026-11-13",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "portal"
@@ -7620,7 +7835,7 @@
       "posted_date": "",
       "due_date": "2026-12-01",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "ai"
@@ -7640,7 +7855,7 @@
       "posted_date": "",
       "due_date": "2026-11-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "license"
@@ -7660,7 +7875,7 @@
       "posted_date": "",
       "due_date": "2026-11-18",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
@@ -7680,7 +7895,7 @@
       "posted_date": "",
       "due_date": "2030-06-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7700,7 +7915,7 @@
       "posted_date": "",
       "due_date": "2030-06-10",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -7720,7 +7935,7 @@
       "posted_date": "",
       "due_date": "2026-11-18",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "website"
@@ -7740,7 +7955,7 @@
       "posted_date": "",
       "due_date": "2026-12-01",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -7760,7 +7975,7 @@
       "posted_date": "",
       "due_date": "2026-11-13",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "analytics"
@@ -7780,7 +7995,7 @@
       "posted_date": "",
       "due_date": "2026-12-08",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7800,7 +8015,7 @@
       "posted_date": "",
       "due_date": "2026-12-18",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7820,7 +8035,7 @@
       "posted_date": "",
       "due_date": "2026-11-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -7840,7 +8055,7 @@
       "posted_date": "",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "records management"
@@ -7860,7 +8075,7 @@
       "posted_date": "",
       "due_date": "2026-12-04",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "web"
@@ -7880,7 +8095,7 @@
       "posted_date": "",
       "due_date": "2027-01-06",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "cybersecurity"
@@ -7900,10 +8115,150 @@
       "posted_date": "",
       "due_date": "",
       "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
+      "id": "caleprocure:0840:EUPD91526",
+      "source_name": "California Cal eProcure",
+      "title": "EUPD91526 — RFP EUPD91526 Digital Financial Assets Consulting Services",
+      "description": "RFP EUPD91526 Digital Financial Assets Consulting Services | Type: RFx | Contact: Jennifer Xiong jxiong@sco.ca.gov",
+      "agency": "State of California (BU 0840, sco.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/0840/EUPD91526",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-12",
+      "it_score": 36,
       "is_new": true,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
+      ]
+    },
+    {
+      "id": "caleprocure:3940:0000040884",
+      "source_name": "California Cal eProcure",
+      "title": "0000040884 — State Water Board - California Wetland and Riparian Area Protection Portal (CalWRAPP)",
+      "description": "State Water Board - California Wetland and Riparian Area Protection Portal (CalWRAPP) | Type: RFx | Contact: Andrea Minning andrea.minning@state.ca.gov",
+      "agency": "State of California (BU 3940, state.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/3940/0000040884",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-20",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "caleprocure:3900:0000040896",
+      "source_name": "California Cal eProcure",
+      "title": "0000040896 — RFQ #2026114 - SB option - Acronis Cyber Protect -Backup Advanced Workstation License Subscription Renewal",
+      "description": "RFQ #2026114 - SB option - Acronis Cyber Protect -Backup Advanced Workstation License Subscription Renewal | Type: RFx | Contact: Jian Huang jian.huang@arb.ca.gov",
+      "agency": "State of California (BU 3900, arb.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/3900/0000040896",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-23",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "caleprocure:4800:0000040826",
+      "source_name": "California Cal eProcure",
+      "title": "0000040826 — RFP 2026-07 Salesforce, Data 360, and MuleSoft Services",
+      "description": "RFP 2026-07 Salesforce, Data 360, and MuleSoft Services | Type: RFx | Contact: Julie Chan julie.chan@covered.ca.gov",
+      "agency": "State of California (BU 4800, covered.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/4800/0000040826",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-12-01",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "caleprocure:4265:0000037662",
+      "source_name": "California Cal eProcure",
+      "title": "0000037662 — CDPH SaPHIRE M&O - IT Services",
+      "description": "CDPH SaPHIRE M&O - IT Services | Type: RFx | Contact: Binh Thai binh.thai@state.ca.gov",
+      "agency": "State of California (BU 4265, state.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/4265/0000037662",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2027-01-06",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "it services"
+      ]
+    },
+    {
+      "id": "caleprocure:3940:0000037301",
+      "source_name": "California Cal eProcure",
+      "title": "0000037301 — Water Technical Access Portal (WaterTAP)",
+      "description": "Water Technical Access Portal (WaterTAP) | Type: RFx | Contact: Nichole Gutierrez nichole.gutierrez@state.ca.gov",
+      "agency": "State of California (BU 3940, state.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/3940/0000037301",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2027-01-15",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "portal"
+      ]
+    },
+    {
+      "id": "caleprocure:3940:0000040529",
+      "source_name": "California Cal eProcure",
+      "title": "0000040529 — Water Technical Access Portal (WaterTAP) 2.0",
+      "description": "Water Technical Access Portal (WaterTAP) 2.0 | Type: RFx | Contact: Nichole Gutierrez nichole.gutierrez@state.ca.gov",
+      "agency": "State of California (BU 3940, state.ca.gov)",
+      "state": "CA",
+      "url": "https://caleprocure.ca.gov/event/3940/0000040529",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2027-11-22",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "portal"
       ]
     }
   ]
