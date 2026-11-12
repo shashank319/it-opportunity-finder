@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T19:00:40.761145+00:00",
+  "generated_at": "2026-11-12T05:54:02.994046+00:00",
   "counts": {
     "total": 342,
-    "new": 17
+    "new": 0
   },
   "health": {
     "ok": 53,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 197,
+        "count": 196,
         "error": ""
       },
       {
@@ -40,9 +40,9 @@
       },
       {
         "source": "Baton Rouge LA — Upcoming Procurement",
-        "ok": true,
-        "count": 164,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.brla.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "Baton Rouge LA — Bid Openings",
@@ -70,9 +70,9 @@
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 111,
+        "error": ""
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -102,18 +102,18 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F08%2F2026&postedTo=11%2F11%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F09%2F2026&postedTo=11%2F12%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 78,
+        "count": 77,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 513,
+        "count": 514,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 497,
+        "count": 503,
         "error": ""
       },
       {
@@ -149,13 +149,13 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 54,
-        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 62,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
         "ok": true,
-        "count": 1426,
+        "count": 1425,
         "error": ""
       },
       {
@@ -167,7 +167,7 @@
       {
         "source": "Oracle Fusion",
         "ok": true,
-        "count": 89,
+        "count": 84,
         "error": ""
       },
       {
@@ -179,13 +179,13 @@
       {
         "source": "JAGGAER",
         "ok": true,
-        "count": 51,
+        "count": 52,
         "error": ""
       },
       {
         "source": "ProcureWare",
         "ok": true,
-        "count": 11,
+        "count": 15,
         "error": ""
       },
       {
@@ -269,7 +269,7 @@
       {
         "source": "Washington WEBS",
         "ok": true,
-        "count": 135,
+        "count": 134,
         "error": ""
       },
       {
@@ -287,7 +287,7 @@
       {
         "source": "Custom bid pages",
         "ok": true,
-        "count": 146,
+        "count": 148,
         "error": ""
       },
       {
@@ -299,7 +299,7 @@
       {
         "source": "Georgia Procurement Registry",
         "ok": true,
-        "count": 535,
+        "count": 540,
         "error": ""
       },
       {
@@ -311,25 +311,25 @@
       {
         "source": "Florida Vendor Bid System",
         "ok": true,
-        "count": 124,
+        "count": 123,
         "error": ""
       },
       {
         "source": "California Cal eProcure",
         "ok": true,
-        "count": 379,
+        "count": 376,
         "error": ""
       },
       {
         "source": "State of Iowa — Bid Opportunities",
         "ok": true,
-        "count": 45,
+        "count": 46,
         "error": ""
       },
       {
         "source": "City of Austin, TX",
         "ok": true,
-        "count": 34,
+        "count": 33,
         "error": ""
       },
       {
@@ -1810,7 +1810,7 @@
       "posted_date": "",
       "due_date": "2027-06-04",
       "it_score": 63,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -2294,7 +2294,7 @@
       "posted_date": "2026-10-13",
       "due_date": "2026-11-19",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "modernization",
@@ -2467,27 +2467,6 @@
       "matched_keywords": [
         "system",
         "erp"
-      ]
-    },
-    {
-      "id": "e5pk-us93:Software development/design/maintenance/support services",
-      "source_name": "Baton Rouge LA — Upcoming Procurement",
-      "title": "Software development/design/maintenance/support services",
-      "description": "A23-0904 Industrial Chemicals & Solvents - Wastewater & Sewer Treatment",
-      "agency": "PURCHASING",
-      "state": "LA",
-      "url": "https://www.brla.gov/298/Purchasing-Division",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software",
-        "development"
       ]
     },
     {
@@ -2819,7 +2798,7 @@
       "posted_date": "",
       "due_date": "2026-12-31",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software",
@@ -4320,7 +4299,7 @@
       "posted_date": "",
       "due_date": "2026-12-07",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4400,7 +4379,7 @@
       "posted_date": "",
       "due_date": "2026-11-13",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4420,7 +4399,7 @@
       "posted_date": "",
       "due_date": "2026-11-19",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
@@ -4440,7 +4419,7 @@
       "posted_date": "2026-11-11",
       "due_date": "2026-12-16",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -4934,7 +4913,7 @@
       "posted_date": "",
       "due_date": "2027-01-08",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "systems",
@@ -5313,7 +5292,7 @@
       "posted_date": "2026-10-12",
       "due_date": "2026-11-25",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data",
@@ -5636,6 +5615,27 @@
       ]
     },
     {
+      "id": "buyspeed:www.commbuys.com:BD-22-1109-UMMS-UMMS-64828",
+      "source_name": "BuySpeed — COMMBUYS (Massachusetts)",
+      "title": "ANNOUNCEMENT ONLY, New Online Procurement System used by UMMS (\"Jaggaer BuyWays Event Portal\")",
+      "description": "ANNOUNCEMENT ONLY, New Online Procurement System used by UMMS (\"Jaggaer BuyWays Event Portal\")",
+      "agency": "University of Massachusetts System",
+      "state": "MA",
+      "url": "https://www.commbuys.com/bso/external/bidDetail.sda?docId=BD-22-1109-UMMS-UMMS-64828&external=true&parentUrl=close",
+      "naics": "",
+      "psc": "",
+      "set_aside": "BD-22-1109-UMMS-UMMS-64828",
+      "posted_date": "",
+      "due_date": "2031-12-31",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "system",
+        "portal"
+      ]
+    },
+    {
       "id": "buyspeed:epro.sbcounty.gov:LUSD27-LUS-6587",
       "source_name": "BuySpeed — San Bernardino County, CA",
       "title": "Data Center Development Code Amendment",
@@ -5754,7 +5754,7 @@
       "posted_date": "",
       "due_date": "2026-11-18",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "system",
@@ -7222,26 +7222,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:06927W0010001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "ITS Hardware-ServiceNow",
-      "description": "ITS Hardware-ServiceNow",
-      "agency": "Dept. of Social Svcs/Human Resources Administration",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-29",
-      "matched_keywords": [
-        "servicenow"
-      ]
-    },
-    {
       "id": "dg92-zbpx:83627U0002001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "CoStar Suite All Data Subscription",
@@ -7259,6 +7239,26 @@
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "data"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:06927W0010001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "ITS Hardware-ServiceNow",
+      "description": "ITS Hardware-ServiceNow",
+      "agency": "Dept. of Social Svcs/Human Resources Administration",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "servicenow"
       ]
     },
     {
@@ -8135,7 +8135,7 @@
       "posted_date": "",
       "due_date": "2026-11-12",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -8155,7 +8155,7 @@
       "posted_date": "",
       "due_date": "2026-11-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "portal"
@@ -8175,7 +8175,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "license"
@@ -8195,7 +8195,7 @@
       "posted_date": "",
       "due_date": "2026-12-01",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
@@ -8215,7 +8215,7 @@
       "posted_date": "",
       "due_date": "2027-01-06",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "it services"
@@ -8235,7 +8235,7 @@
       "posted_date": "",
       "due_date": "2027-01-15",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "portal"
@@ -8255,7 +8255,7 @@
       "posted_date": "",
       "due_date": "2027-11-22",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "portal"
