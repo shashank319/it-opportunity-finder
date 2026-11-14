@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-14T05:06:35.080076+00:00",
+  "generated_at": "2026-11-14T17:28:29.821141+00:00",
   "counts": {
-    "total": 319,
-    "new": 5
+    "total": 302,
+    "new": 1
   },
   "health": {
-    "ok": 53,
+    "ok": 51,
     "total": 56,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 23,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 175,
+        "count": 181,
         "error": ""
       },
       {
@@ -149,8 +149,8 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 59,
-        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 70,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
@@ -185,7 +185,7 @@
       {
         "source": "ProcureWare",
         "ok": true,
-        "count": 15,
+        "count": 16,
         "error": ""
       },
       {
@@ -227,14 +227,14 @@
       {
         "source": "Los Angeles County, CA",
         "ok": true,
-        "count": 222,
+        "count": 225,
         "error": ""
       },
       {
         "source": "Tennessee Central Procurement Office",
         "ok": false,
         "count": 0,
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tn.gov/generalservices/procurement/central-procurement-office--cpo-/supplier-information/invitations-to-bid--itb-.html"
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
       },
       {
         "source": "Atlanta Regional Commission, GA",
@@ -263,14 +263,14 @@
       {
         "source": "NYS Contract Reporter",
         "ok": true,
-        "count": 883,
+        "count": 843,
         "error": ""
       },
       {
         "source": "Washington WEBS",
-        "ok": true,
-        "count": 127,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://pr-webs-vendor.des.wa.gov/BidCalendar.aspx"
       },
       {
         "source": "Bid Locker",
@@ -282,7 +282,7 @@
         "source": "PeopleSoft Bids",
         "ok": true,
         "count": 16,
-        "error": "Miami-Dade County, FL: RuntimeError: PeopleSoft bid events grid not found at https://supplier.miamidade.gov/psc/EXTSUPP/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL?&cmd=login&errorCode=115&languageCd=ENG (title: INFORMS Sign-in)"
+        "error": "Miami-Dade County, FL: RuntimeError: PeopleSoft bid events grid not found at https://supplier.miamidade.gov/psc/EXTSUPP/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL?& (title: INFORMS Sign-in)"
       },
       {
         "source": "Custom bid pages",
@@ -316,9 +316,9 @@
       },
       {
         "source": "California Cal eProcure",
-        "ok": true,
-        "count": 376,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "RuntimeError: Cal eProcure event grid not found (page changed?)"
       },
       {
         "source": "State of Iowa — Bid Opportunities",
@@ -349,8 +349,8 @@
   "product_themes": [
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 26,
-      "agency_count": 22,
+      "opportunity_count": 25,
+      "agency_count": 21,
       "state_count": 7,
       "states": [
         "CA",
@@ -361,7 +361,7 @@
         "NY",
         "PA"
       ],
-      "demand_score": 73,
+      "demand_score": 70,
       "examples": [
         {
           "title": "280-10-26-0002 — RFP for City of Lexington Permitting and Development Review Software",
@@ -799,74 +799,6 @@
       ]
     },
     {
-      "name": "Cybersecurity",
-      "opportunity_count": 6,
-      "agency_count": 6,
-      "state_count": 3,
-      "states": [
-        "MA",
-        "NY",
-        "WA"
-      ],
-      "demand_score": 21,
-      "examples": [
-        {
-          "title": "Cybersecurity Risk Assessment — Water and Wastewater Systems",
-          "agency": "Ogdensburg, City of",
-          "state": "NY",
-          "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2139581",
-          "due_date": "2026-11-20",
-          "it_score": 48,
-          "source_name": "NYS Contract Reporter"
-        },
-        {
-          "title": "R27-002 Managed Governance, Risk, Compliance and Cybersecurity Program Management Services",
-          "agency": "Nassau Community College",
-          "state": "NY",
-          "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2139496",
-          "due_date": "2026-11-30",
-          "it_score": 42,
-          "source_name": "NYS Contract Reporter"
-        },
-        {
-          "title": "NERC CIP Cyber Vulnerability Assessment (S26-20244183ED)",
-          "agency": "New York Power Authority — NY Statewide",
-          "state": "NY",
-          "url": "https://rfp.nypa.gov/#/bid-details?rfqId=6657",
-          "due_date": "2026-12-03",
-          "it_score": 36,
-          "source_name": "NY Power Authority"
-        },
-        {
-          "title": "NERC CIP Cyber Vulnerability Assessment",
-          "agency": "Power Authority of New York",
-          "state": "NY",
-          "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140636",
-          "due_date": "2026-12-03",
-          "it_score": 36,
-          "source_name": "NYS Contract Reporter"
-        },
-        {
-          "title": "2027-Cyber-01 Notice of Funding Opportunity for Rural Health Cybersecurity Grant Program",
-          "agency": "Massachusetts Technology Collaborative",
-          "state": "MA",
-          "url": "https://www.commbuys.com/bso/external/bidDetail.sda?docId=BD-27-1367-1367C-1367L-135350&external=true&parentUrl=close",
-          "due_date": "2035-11-05",
-          "it_score": 36,
-          "source_name": "BuySpeed — COMMBUYS (Massachusetts)"
-        },
-        {
-          "title": "ITPS Cybersecurity Audit (27-01)",
-          "agency": "Washington State (WEBS)",
-          "state": "WA",
-          "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57750",
-          "due_date": "2027-01-06",
-          "it_score": 36,
-          "source_name": "Washington WEBS"
-        }
-      ]
-    },
-    {
       "name": "Website / Portal / Digital Services",
       "opportunity_count": 5,
       "agency_count": 5,
@@ -982,6 +914,64 @@
           "due_date": "2026-11-20",
           "it_score": 51,
           "source_name": "Bid Locker — Howard Community College"
+        }
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "opportunity_count": 5,
+      "agency_count": 5,
+      "state_count": 2,
+      "states": [
+        "MA",
+        "NY"
+      ],
+      "demand_score": 17,
+      "examples": [
+        {
+          "title": "Cybersecurity Risk Assessment — Water and Wastewater Systems",
+          "agency": "Ogdensburg, City of",
+          "state": "NY",
+          "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2139581",
+          "due_date": "2026-11-20",
+          "it_score": 48,
+          "source_name": "NYS Contract Reporter"
+        },
+        {
+          "title": "R27-002 Managed Governance, Risk, Compliance and Cybersecurity Program Management Services",
+          "agency": "Nassau Community College",
+          "state": "NY",
+          "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2139496",
+          "due_date": "2026-11-30",
+          "it_score": 42,
+          "source_name": "NYS Contract Reporter"
+        },
+        {
+          "title": "NERC CIP Cyber Vulnerability Assessment (S26-20244183ED)",
+          "agency": "New York Power Authority — NY Statewide",
+          "state": "NY",
+          "url": "https://rfp.nypa.gov/#/bid-details?rfqId=6657",
+          "due_date": "2026-12-03",
+          "it_score": 36,
+          "source_name": "NY Power Authority"
+        },
+        {
+          "title": "NERC CIP Cyber Vulnerability Assessment",
+          "agency": "Power Authority of New York",
+          "state": "NY",
+          "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140636",
+          "due_date": "2026-12-03",
+          "it_score": 36,
+          "source_name": "NYS Contract Reporter"
+        },
+        {
+          "title": "2027-Cyber-01 Notice of Funding Opportunity for Rural Health Cybersecurity Grant Program",
+          "agency": "Massachusetts Technology Collaborative",
+          "state": "MA",
+          "url": "https://www.commbuys.com/bso/external/bidDetail.sda?docId=BD-27-1367-1367C-1367L-135350&external=true&parentUrl=close",
+          "due_date": "2035-11-05",
+          "it_score": 36,
+          "source_name": "BuySpeed — COMMBUYS (Massachusetts)"
         }
       ]
     },
@@ -1383,28 +1373,6 @@
       ]
     },
     {
-      "id": "wawebs:57673",
-      "source_name": "Washington WEBS",
-      "title": "RFP 1255813 UW IRB System (1255813)",
-      "description": "RFP 1255813 UW IRB System — The University of Washington seeks proposals from qualified vendors to provide a Software-as-a-Service (SaaS) solution to support the operations of the Human Subjects Division and Institutional Review Board (IRB). The IRB is responsible for ensuring compliance with federal, state, and institutional regulations governing human subjects research. — Contact: Filippo Montechiaro",
-      "agency": "Washington State (WEBS)",
-      "state": "WA",
-      "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57673",
-      "naics": "",
-      "psc": "",
-      "set_aside": "1255813",
-      "posted_date": "",
-      "due_date": "2026-11-20",
-      "it_score": 78,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software",
-        "system",
-        "saas"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232927",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200309 - 733058-SOFTWARE- SAAS - IDENTITY MNGMT - OKTA (BRAND ONLY) - Closing: 11/18/2026 12:00 PM",
@@ -1667,28 +1635,6 @@
         "system",
         "integration",
         "digital"
-      ]
-    },
-    {
-      "id": "caleprocure:0515:0000039767",
-      "source_name": "California Cal eProcure",
-      "title": "0000039767 — Homeless Data Integration System - Maintenance and Operations (HDIS - M&O)",
-      "description": "Homeless Data Integration System - Maintenance and Operations (HDIS - M&O) | Type: RFx | Contact: Hashmat Mohmand hashmat.mohmand@state.ca.gov",
-      "agency": "State of California (BU 0515, state.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/0515/0000039767",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2027-06-04",
-      "it_score": 63,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "system",
-        "integration",
-        "data"
       ]
     },
     {
@@ -2335,7 +2281,7 @@
       "posted_date": "",
       "due_date": "2027-01-08",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14",
       "matched_keywords": [
         "software",
@@ -2529,27 +2475,6 @@
       "matched_keywords": [
         "software",
         "system"
-      ]
-    },
-    {
-      "id": "caleprocure:7730:0000040877",
-      "source_name": "California Cal eProcure",
-      "title": "0000040877 — IFB FTB-2627-00911 Genesys Software Subscriptions and Application Support Services",
-      "description": "IFB FTB-2627-00911 Genesys Software Subscriptions and Application Support Services | Type: RFx | Contact: Tanita Guereca tanita.guereca@ftb.ca.gov",
-      "agency": "State of California (BU 7730, ftb.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/7730/0000040877",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-12-31",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software",
-        "application"
       ]
     },
     {
@@ -3786,7 +3711,7 @@
       "posted_date": "",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14",
       "matched_keywords": [
         "software"
@@ -3993,6 +3918,26 @@
       ]
     },
     {
+      "id": "lacounty:RFB-IS-27200336",
+      "source_name": "Los Angeles County, CA",
+      "title": "RFB-IS-27200336 — 2711001-IHSS Interview Transcription Tool",
+      "description": "2711001-IHSS Interview Transcription Tool | Commodity: SOFTWARE:MINI & MAINFRAME COMPUTER- COMMUNICATIONS: NETWORKI | Type: Commodity / Service",
+      "agency": "Los Angeles County — Internal Services",
+      "state": "CA",
+      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200336",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-23",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-14",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "lacounty:RFB-IS-27200321",
       "source_name": "Los Angeles County, CA",
       "title": "RFB-IS-27200321 — ATLASSIAN JSM SUBSCRIPTION (BRAND ONLY)",
@@ -4045,106 +3990,6 @@
       "set_aside": "",
       "posted_date": "",
       "due_date": "2026-12-07",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "wawebs:57736",
-      "source_name": "Washington WEBS",
-      "title": "RFI Sponsored Programs and Disclosure Software (1256129)",
-      "description": "RFI Sponsored Programs and Disclosure Software — The University of Washington seeks information from qualified suppliers of research administration software and related services, to inform institutional procurement strategy for the replacement of existing sponsored program and disclosure systems and to identify new efficiency and effectiveness opportunities. — Contact: Ben Cory",
-      "agency": "Washington State (WEBS)",
-      "state": "WA",
-      "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57736",
-      "naics": "",
-      "psc": "",
-      "set_aside": "1256129",
-      "posted_date": "",
-      "due_date": "2026-12-02",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "wawebs:57767",
-      "source_name": "Washington WEBS",
-      "title": "WSU Contract Lifecycle Management Solution RFP (CC0402)",
-      "description": "WSU Contract Lifecycle Management Solution RFP — Washington State University (WSU) is seeking proposals for a cloud-hosted, university-wide Contract Lifecycle Management (CLM) solution, including implementation, training, change management, and ongoing support services. — Contact: JoAnne Costa",
-      "agency": "Washington State (WEBS)",
-      "state": "WA",
-      "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57767",
-      "naics": "",
-      "psc": "",
-      "set_aside": "CC0402",
-      "posted_date": "",
-      "due_date": "2026-12-18",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-13",
-      "matched_keywords": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "wawebs:57687",
-      "source_name": "Washington WEBS",
-      "title": "Biostatistical Support for SHARP Research Program (K6091)",
-      "description": "Biostatistical Support for SHARP Research Program — LNI is seeking obtain biostatistical analysis services for the SHARP research program to consult with L&I on epidemiological study design, biostatistical analysis and statistical analysis software coding techniques for existing research projects. Providing summaries of best approaches and/or coding examples. — Contact: Amanda Robinson",
-      "agency": "Washington State (WEBS)",
-      "state": "WA",
-      "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57687",
-      "naics": "",
-      "psc": "",
-      "set_aside": "K6091",
-      "posted_date": "",
-      "due_date": "2026-12-21",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "wawebs:57772",
-      "source_name": "Washington WEBS",
-      "title": "WSF - POINT-OF-SALE SOLUTION (RFP 2026-1113)",
-      "description": "WSF - POINT-OF-SALE SOLUTION — WSF is issuing this Competitive Solicitation for the point-of-sale software, hardware, and services used at its terminals: staffed vehicle and passenger tollbooths, self-service ticketing kiosks, and the interface to its turnstiles (faregates), together with payment terminals, peripherals, device management, terminal cash and revenue control, and vehicle fare monitoring. — Contact: Tariq Ohab",
-      "agency": "Washington State (WEBS)",
-      "state": "WA",
-      "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57772",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFP 2026-1113",
-      "posted_date": "",
-      "due_date": "2026-12-31",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-11-14",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "caleprocure:2720:0000040879",
-      "source_name": "California Cal eProcure",
-      "title": "0000040879 — RFQ 043PR6016/19976 Plixer Software Annual Subscription",
-      "description": "RFQ 043PR6016/19976 Plixer Software Annual Subscription | Type: RFx | Contact: Ayesha Brown ayesha.brown@chp.ca.gov",
-      "agency": "State of California (BU 2720, chp.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/2720/0000040879",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-19",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-11",
@@ -4555,28 +4400,6 @@
       ]
     },
     {
-      "id": "caleprocure:77601:0000040452",
-      "source_name": "California Cal eProcure",
-      "title": "0000040452 — RFx Premier Artificial Intelligence (AI) Systems & Services (Florida State University ITN #6769-4)",
-      "description": "RFx Premier Artificial Intelligence (AI) Systems & Services (Florida State University ITN #6769-4) | Type: RFx | Contact: Katelynne Leisenring katelynne.leisenring@dgs.ca.gov",
-      "agency": "State of California (BU 77601, dgs.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/77601/0000040452",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2027-01-08",
-      "it_score": 48,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "systems",
-        "ai",
-        "artificial intelligence"
-      ]
-    },
-    {
       "id": "nyscr:2140706",
       "source_name": "NYS Contract Reporter",
       "title": "BlazeMeter Continuous Testing Platform",
@@ -4826,6 +4649,27 @@
       "matched_keywords": [
         "development",
         "data"
+      ]
+    },
+    {
+      "id": "eeq6-nnwe:1200288",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "description": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "agency": "Department of Health & Human Svcs",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "N",
+      "posted_date": "2026-10-19",
+      "due_date": "2026-11-20",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "data",
+        "digital"
       ]
     },
     {
@@ -5333,27 +5177,6 @@
       ]
     },
     {
-      "id": "caleprocure:7100:0000040858",
-      "source_name": "California Cal eProcure",
-      "title": "0000040858 — EDD Request for Quote No. 133571 Public Key Infrastructure Digital Certificate Management System Services",
-      "description": "EDD Request for Quote No. 133571 Public Key Infrastructure Digital Certificate Management System Services | Type: RFx | Contact: Jenny Lo jenny.lo@edd.ca.gov",
-      "agency": "State of California (BU 7100, edd.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/7100/0000040858",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-18",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "system",
-        "digital"
-      ]
-    },
-    {
       "id": "bidnetdirect:new-york/county-of-rockland:RFQ-RC-2026-116",
       "source_name": "BidNet Direct — Rockland County, NY",
       "title": "Airship Case management Camera and device license",
@@ -5387,7 +5210,7 @@
       "posted_date": "2026-11-13",
       "due_date": "2026-12-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14",
       "matched_keywords": [
         "information technology"
@@ -5407,7 +5230,7 @@
       "posted_date": "2026-11-13",
       "due_date": "2026-12-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14",
       "matched_keywords": [
         "license"
@@ -5754,26 +5577,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232926",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW2IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232928",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
@@ -5794,6 +5597,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232926",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW2IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-19",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
       "id": "nyscr:2140567",
       "source_name": "NYS Contract Reporter",
       "title": "Extension for Figma Licenses - C000906",
@@ -5805,26 +5628,6 @@
       "psc": "",
       "set_aside": "Notice of sole/single source or procurement exempt from advertising",
       "posted_date": "2026-11-05",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "nyscr:2140528",
-      "source_name": "NYS Contract Reporter",
-      "title": "OP108001",
-      "description": "OP108001 — Category: Information Technology — Ad type: Notice of sole/single source or procurement exempt from advertising",
-      "agency": "Law, NYS Dept. of",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140528",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Notice of sole/single source or procurement exempt from advertising",
-      "posted_date": "2026-11-04",
       "due_date": "",
       "it_score": 36,
       "is_new": false,
@@ -5874,26 +5677,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232841",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-17",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232842",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
@@ -5911,6 +5694,26 @@
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232841",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-17",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "digital"
       ]
     },
     {
@@ -6694,26 +6497,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:06927W0010001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "ITS Hardware-ServiceNow",
-      "description": "ITS Hardware-ServiceNow",
-      "agency": "Dept. of Social Svcs/Human Resources Administration",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-29",
-      "matched_keywords": [
-        "servicenow"
-      ]
-    },
-    {
       "id": "dg92-zbpx:83627U0002001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "CoStar Suite All Data Subscription",
@@ -6731,6 +6514,26 @@
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "data"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:06927W0010001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "ITS Hardware-ServiceNow",
+      "description": "ITS Hardware-ServiceNow",
+      "agency": "Dept. of Social Svcs/Human Resources Administration",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "servicenow"
       ]
     },
     {
@@ -7494,46 +7297,6 @@
       ]
     },
     {
-      "id": "wawebs:57745",
-      "source_name": "Washington WEBS",
-      "title": "RFI - Chromebook Web Content Filtering & Student Safety Monitoring (RFIQ26-07TL)",
-      "description": "RFI - Chromebook Web Content Filtering & Student Safety Monitoring — Edmonds School District is requesting information from qualified vendors regarding Chromebook Web Content Filtering and Student Safety Monitoring Services (RFIQ26-07TL). The District seeks information on available solutions, technical capabilities, student safety monitoring features, and pricing. Please see the attached RFI for details and submission requirements. Responses are due December 4, 2026. — Contact: Oksana Firsov",
-      "agency": "Washington State (WEBS)",
-      "state": "WA",
-      "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57745",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFIQ26-07TL",
-      "posted_date": "",
-      "due_date": "2026-12-04",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "web"
-      ]
-    },
-    {
-      "id": "wawebs:57750",
-      "source_name": "Washington WEBS",
-      "title": "ITPS Cybersecurity Audit (27-01)",
-      "description": "ITPS Cybersecurity Audit — Services to conduct a comprehensive IT security audit to evaluate existing WSIB IT security policies and practices under Statewide Contract 08215. — Contact: Jim Gayton",
-      "agency": "Washington State (WEBS)",
-      "state": "WA",
-      "url": "https://pr-webs-vendor.des.wa.gov/Search_BidDetails.aspx?ID=57750",
-      "naics": "",
-      "psc": "",
-      "set_aside": "27-01",
-      "posted_date": "",
-      "due_date": "2027-01-06",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "cybersecurity"
-      ]
-    },
-    {
       "id": "bidpage:www.countyclerk.paynecounty.org:2027-19-PAYNE",
       "source_name": "Custom bid pages — Payne County, OK",
       "title": "BID #2027-19-PAYNE COUNTY DIGITAL BALLOTS",
@@ -7551,126 +7314,6 @@
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
-      ]
-    },
-    {
-      "id": "caleprocure:3940:0000040884",
-      "source_name": "California Cal eProcure",
-      "title": "0000040884 — State Water Board - California Wetland and Riparian Area Protection Portal (CalWRAPP)",
-      "description": "State Water Board - California Wetland and Riparian Area Protection Portal (CalWRAPP) | Type: RFx | Contact: Andrea Minning andrea.minning@state.ca.gov",
-      "agency": "State of California (BU 3940, state.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/3940/0000040884",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "portal"
-      ]
-    },
-    {
-      "id": "caleprocure:3900:0000040896",
-      "source_name": "California Cal eProcure",
-      "title": "0000040896 — RFQ #2026114 - SB option - Acronis Cyber Protect -Backup Advanced Workstation License Subscription Renewal",
-      "description": "RFQ #2026114 - SB option - Acronis Cyber Protect -Backup Advanced Workstation License Subscription Renewal | Type: RFx | Contact: Jian Huang jian.huang@arb.ca.gov",
-      "agency": "State of California (BU 3900, arb.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/3900/0000040896",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-23",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
-      "id": "caleprocure:4800:0000040826",
-      "source_name": "California Cal eProcure",
-      "title": "0000040826 — RFP 2026-07 Salesforce, Data 360, and MuleSoft Services",
-      "description": "RFP 2026-07 Salesforce, Data 360, and MuleSoft Services | Type: RFx | Contact: Julie Chan julie.chan@covered.ca.gov",
-      "agency": "State of California (BU 4800, covered.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/4800/0000040826",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-12-01",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "caleprocure:4265:0000037662",
-      "source_name": "California Cal eProcure",
-      "title": "0000037662 — CDPH SaPHIRE M&O - IT Services",
-      "description": "CDPH SaPHIRE M&O - IT Services | Type: RFx | Contact: Binh Thai binh.thai@state.ca.gov",
-      "agency": "State of California (BU 4265, state.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/4265/0000037662",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2027-01-06",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "it services"
-      ]
-    },
-    {
-      "id": "caleprocure:3940:0000037301",
-      "source_name": "California Cal eProcure",
-      "title": "0000037301 — Water Technical Access Portal (WaterTAP)",
-      "description": "Water Technical Access Portal (WaterTAP) | Type: RFx | Contact: Nichole Gutierrez nichole.gutierrez@state.ca.gov",
-      "agency": "State of California (BU 3940, state.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/3940/0000037301",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2027-01-15",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "portal"
-      ]
-    },
-    {
-      "id": "caleprocure:3940:0000040529",
-      "source_name": "California Cal eProcure",
-      "title": "0000040529 — Water Technical Access Portal (WaterTAP) 2.0",
-      "description": "Water Technical Access Portal (WaterTAP) 2.0 | Type: RFx | Contact: Nichole Gutierrez nichole.gutierrez@state.ca.gov",
-      "agency": "State of California (BU 3940, state.ca.gov)",
-      "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/3940/0000040529",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2027-11-22",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "portal"
       ]
     }
   ]
