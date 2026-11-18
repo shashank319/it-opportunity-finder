@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T20:13:25.893227+00:00",
+  "generated_at": "2026-11-18T06:02:19.518703+00:00",
   "counts": {
-    "total": 334,
-    "new": 13
+    "total": 331,
+    "new": 7
   },
   "health": {
     "ok": 52,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 182,
+        "count": 175,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 48,
+        "count": 51,
         "error": ""
       },
       {
@@ -34,21 +34,21 @@
       },
       {
         "source": "Mesa AZ — Purchasing Solicitations",
-        "ok": true,
-        "count": 500,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='citydata.mesaaz.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "Baton Rouge LA — Upcoming Procurement",
-        "ok": true,
-        "count": 164,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
       },
       {
         "source": "Baton Rouge LA — Bid Openings",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.brla.gov', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 500,
+        "error": ""
       },
       {
         "source": "Texas — Spot Bid Fair FY2026",
@@ -82,9 +82,9 @@
       },
       {
         "source": "Delaware — Open Bids (Statewide)",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.delaware.gov', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 42,
+        "error": ""
       },
       {
         "source": "Montgomery County MD — Open Solicitations (Contracts)",
@@ -102,24 +102,24 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F14%2F2026&postedTo=11%2F17%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F15%2F2026&postedTo=11%2F18%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 78,
+        "count": 80,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 508,
+        "count": 505,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 40,
+        "count": 38,
         "error": ""
       },
       {
@@ -131,13 +131,13 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 24,
+        "count": 25,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 479,
+        "count": 481,
         "error": ""
       },
       {
@@ -149,31 +149,31 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 94,
-        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Des Moines, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://dsm.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 64,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Arlington, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://arlington-tx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; City of St. Joseph, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://stjosephmo.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Des Moines, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://dsm.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Dubuque, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofdubuque.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
         "ok": true,
-        "count": 1361,
+        "count": 1358,
         "error": ""
       },
       {
         "source": "Ivalua",
         "ok": true,
-        "count": 52,
+        "count": 54,
         "error": ""
       },
       {
         "source": "Oracle Fusion",
         "ok": true,
-        "count": 77,
+        "count": 75,
         "error": ""
       },
       {
         "source": "Infor Supplier Portal",
         "ok": true,
-        "count": 27,
+        "count": 26,
         "error": ""
       },
       {
@@ -185,7 +185,7 @@
       {
         "source": "ProcureWare",
         "ok": true,
-        "count": 17,
+        "count": 13,
         "error": ""
       },
       {
@@ -203,7 +203,7 @@
       {
         "source": "QuestCDN",
         "ok": true,
-        "count": 10,
+        "count": 11,
         "error": ""
       },
       {
@@ -215,7 +215,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 289,
+        "count": 290,
         "error": "City of Buffalo, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.buffalony.gov/bids.aspx; City of Yonkers, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.yonkersny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open; Scott County, MN: HTTPError: 403 Client Error: Forbidden for url: https://www.scottcountymn.gov/bids.aspx"
       },
       {
@@ -227,7 +227,7 @@
       {
         "source": "Los Angeles County, CA",
         "ok": true,
-        "count": 227,
+        "count": 228,
         "error": ""
       },
       {
@@ -269,55 +269,55 @@
       {
         "source": "Washington WEBS",
         "ok": true,
-        "count": 135,
+        "count": 132,
         "error": ""
       },
       {
         "source": "Bid Locker",
         "ok": true,
-        "count": 63,
+        "count": 60,
         "error": ""
       },
       {
         "source": "PeopleSoft Bids",
         "ok": true,
-        "count": 35,
+        "count": 34,
         "error": ""
       },
       {
         "source": "Custom bid pages",
         "ok": true,
-        "count": 144,
+        "count": 135,
         "error": ""
       },
       {
         "source": "North Carolina eVP",
         "ok": true,
-        "count": 245,
+        "count": 247,
         "error": ""
       },
       {
         "source": "Georgia Procurement Registry",
         "ok": true,
-        "count": 537,
+        "count": 539,
         "error": ""
       },
       {
         "source": "Pennsylvania eMarketplace",
         "ok": true,
-        "count": 228,
+        "count": 229,
         "error": ""
       },
       {
         "source": "Florida Vendor Bid System",
         "ok": true,
-        "count": 121,
+        "count": 119,
         "error": ""
       },
       {
         "source": "California Cal eProcure",
         "ok": true,
-        "count": 378,
+        "count": 358,
         "error": ""
       },
       {
@@ -329,13 +329,13 @@
       {
         "source": "City of Austin, TX",
         "ok": true,
-        "count": 28,
+        "count": 27,
         "error": ""
       },
       {
         "source": "Illinois Higher Ed Procurement Bulletin",
         "ok": true,
-        "count": 21,
+        "count": 19,
         "error": ""
       },
       {
@@ -1295,7 +1295,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-12-16",
       "it_score": 78,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "application",
@@ -1383,7 +1383,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-11-25",
       "it_score": 72,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "software",
@@ -1712,7 +1712,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2027-01-05",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "information technology",
@@ -1783,6 +1783,27 @@
       ]
     },
     {
+      "id": "opengov:ocgov:324284",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "HVAS BAS System Software Maintenance",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/324284",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3171702-MB",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-12-16",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software",
+        "system"
+      ]
+    },
+    {
       "id": "opengov:dekalbcountyga:324077",
       "source_name": "OpenGov — DeKalb County, GA",
       "title": "Supervisory Control and Data Acquisition (SCADA) Controls & Instrumentation",
@@ -1843,27 +1864,6 @@
       "matched_keywords": [
         "software",
         "digital"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232929",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200310 - 589994 - SOFTWARE SUBSCRIPTION - DATA - DELPHIX (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW5IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-17",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "software",
-        "data"
       ]
     },
     {
@@ -2224,27 +2224,6 @@
       ]
     },
     {
-      "id": "e5pk-us93:Software development/design/maintenance/support services",
-      "source_name": "Baton Rouge LA — Upcoming Procurement",
-      "title": "Software development/design/maintenance/support services",
-      "description": "A23-0904 Industrial Chemicals & Solvents - Wastewater & Sewer Treatment",
-      "agency": "PURCHASING",
-      "state": "LA",
-      "url": "https://www.brla.gov/298/Purchasing-Division",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software",
-        "development"
-      ]
-    },
-    {
       "id": "bonfire:broward:261033",
       "source_name": "Bonfire — Broward County, FL",
       "title": "Request for Information: Film Permit Application Software",
@@ -2371,48 +2350,6 @@
       ]
     },
     {
-      "id": "lacounty:RFB-IS-27200302",
-      "source_name": "Los Angeles County, CA",
-      "title": "RFB-IS-27200302 — DIGITAL COLLECTOR RENEWAL (BRAND ONLY)",
-      "description": "DIGITAL COLLECTOR RENEWAL (BRAND ONLY) | Commodity: SOFTWARE-MICROCOMPUTER-INTEGRATED | Type: Commodity / Service",
-      "agency": "Los Angeles County — Internal Services",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200302",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-17",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software",
-        "digital"
-      ]
-    },
-    {
-      "id": "lacounty:RFB-IS-27200310",
-      "source_name": "Los Angeles County, CA",
-      "title": "RFB-IS-27200310 — 589994 - SOFTWARE SUBSCRIPTION - DATA - DELPHIX (BRAND ONLY)",
-      "description": "589994 - SOFTWARE SUBSCRIPTION - DATA - DELPHIX (BRAND ONLY) | Commodity: MAINTENANCE/SUPPORT - SOFTWARE | Type: Commodity / Service",
-      "agency": "Los Angeles County — Internal Services",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200310",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-17",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software",
-        "data"
-      ]
-    },
-    {
       "id": "lacounty:RFB-IS-27200301",
       "source_name": "Los Angeles County, CA",
       "title": "RFB-IS-27200301 — Red Hat License Renewal - Brand Specific",
@@ -2497,27 +2434,6 @@
       ]
     },
     {
-      "id": "lacounty:712 SH",
-      "source_name": "Los Angeles County, CA",
-      "title": "712 SH — RFP - Integrated Justice Information System",
-      "description": "RFP - Integrated Justice Information System | Commodity: SERVICE - APPLICATIONS SOFTWARE (FOR MINICOMPUTER SYSTEMS) | Type: Commodity / Service",
-      "agency": "Los Angeles County — Sheriff",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=712%20SH",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-12-04",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software",
-        "system"
-      ]
-    },
-    {
       "id": "lacounty:RFP-DA-IT01",
       "source_name": "Los Angeles County, CA",
       "title": "RFP-DA-IT01 — Case Management System (CMS) Solution",
@@ -2551,6 +2467,27 @@
       "set_aside": "",
       "posted_date": "",
       "due_date": "2026-12-16",
+      "it_score": 57,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "software",
+        "system"
+      ]
+    },
+    {
+      "id": "lacounty:712 SH",
+      "source_name": "Los Angeles County, CA",
+      "title": "712 SH — RFP - Integrated Justice Information System",
+      "description": "RFP - Integrated Justice Information System | Commodity: SERVICE - APPLICATIONS SOFTWARE (FOR MINICOMPUTER SYSTEMS) | Type: Commodity / Service",
+      "agency": "Los Angeles County — Sheriff",
+      "state": "CA",
+      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=712%20SH",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2027-01-05",
       "it_score": 57,
       "is_new": false,
       "first_seen": "2026-11-11",
@@ -2612,32 +2549,12 @@
       "psc": "91819, 91825, 91826, 91832, 91843, 91858, 91881, 91890, 91892, 91893, 91896, 92028, 92593, 99000, 99029, 99042",
       "set_aside": "",
       "posted_date": "2026-10-15",
-      "due_date": "2026-11-24",
+      "due_date": "2026-12-30",
       "it_score": 56,
       "is_new": false,
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:233110",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200335 - 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL - - Closing: 11/23/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ogsf8IAA",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-17",
-      "due_date": "2026-11-23",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-11-17",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -2654,7 +2571,27 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-11-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
+      "first_seen": "2026-11-17",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233110",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200335 - 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL - - Closing: 11/23/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ogsf8IAA",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-17",
+      "due_date": "2026-11-23",
+      "it_score": 51,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "software"
@@ -2674,7 +2611,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "software"
@@ -2721,6 +2658,26 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012258",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA POL | TM3 – Magnet Graykey Software Lic. RNWL",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012258&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-13",
+      "due_date": "2026-11-20",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "dg92-zbpx:83626S0004001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "Axon Body Cameras, Software & Maintenance Services",
@@ -2756,6 +2713,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-10",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012234",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA LIB | TM3 Equidox Software Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012234&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-10",
+      "due_date": "2026-11-18",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-18",
       "matched_keywords": [
         "software"
       ]
@@ -2973,26 +2950,6 @@
       "set_aside": "RFB-WC-26349",
       "posted_date": "2026-11-02",
       "due_date": "2026-11-19",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "procureware:snoco:SS-26-0864AD",
-      "source_name": "ProcureWare — Snohomish County, WA",
-      "title": "Software, VertiGiS Geocortex Maintenance & Support",
-      "description": "Software, VertiGiS Geocortex Maintenance & Support | Sole Source | Categories: 09201",
-      "agency": "Snohomish County, WA",
-      "state": "WA",
-      "url": "https://snoco.procureware.com/Bids/0335aaa1-6f94-4222-a304-5fddc47b70b6",
-      "naics": "",
-      "psc": "",
-      "set_aside": "SS-26-0864AD",
-      "posted_date": "2026-10-30",
-      "due_date": "2026-11-17",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-11",
@@ -3861,6 +3818,26 @@
       ]
     },
     {
+      "id": "buyspeed:nevadaepro.com:04SOS-S4088",
+      "source_name": "BuySpeed — Nevada ePro (State of Nevada)",
+      "title": "Mail Ballot Tracking Software",
+      "description": "Mail Ballot Tracking Software",
+      "agency": "Secretary of State's Office",
+      "state": "NV",
+      "url": "https://nevadaepro.com/bso/external/bidDetail.sda?docId=04SOS-S4088&external=true&parentUrl=close",
+      "naics": "",
+      "psc": "",
+      "set_aside": "04SOS-S4088",
+      "posted_date": "",
+      "due_date": "2026-12-18",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "buyspeed:www.bidbuy.illinois.gov:27-592SFM-AMIN5-B-54833",
       "source_name": "BuySpeed — BidBuy (State of Illinois)",
       "title": "CHANGE ORDER NOTICE - Bar Coded Evidence Analysis Statistics and Tracking Software",
@@ -3981,26 +3958,6 @@
       ]
     },
     {
-      "id": "lacounty:RFB-IS-27200303",
-      "source_name": "Los Angeles County, CA",
-      "title": "RFB-IS-27200303 — MONDAY.COM ENTERPRISE SUBSCRIPTION RENEWAL (BRAND ONLY)",
-      "description": "MONDAY.COM ENTERPRISE SUBSCRIPTION RENEWAL (BRAND ONLY) | Commodity: SOFTWARE-MICROCOMPUTER-COMMUNICATIONS: NETWORKING, LINKING-E | Type: Commodity / Service",
-      "agency": "Los Angeles County — Internal Services",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200303",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "lacounty:RFB-IS-27200336",
       "source_name": "Los Angeles County, CA",
       "title": "RFB-IS-27200336 — 2711001-IHSS Interview Transcription Tool",
@@ -4034,7 +3991,7 @@
       "posted_date": "",
       "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "software"
@@ -4054,7 +4011,7 @@
       "posted_date": "",
       "due_date": "2026-11-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "software"
@@ -4239,6 +4196,24 @@
       "matched_keywords": [
         "software"
       ]
+    },
+    {
+      "id": "planetbids:13982:148309",
+      "source_name": "PlanetBids — Port of San Diego, CA",
+      "title": "REGIONAL HARBOR MONITORING PROGRAM",
+      "description": "26-25JJP",
+      "agency": "Port of San Diego, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/13982/bo/bo-detail/148309",
+      "naics": "",
+      "psc": "17513, 91843, 92684, 95885, 96148, 96222, 96873, 98900, 98975",
+      "set_aside": "",
+      "posted_date": "2026-11-17",
+      "due_date": "2027-01-07",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": []
     },
     {
       "id": "planetbids:39495:148298",
@@ -4436,24 +4411,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-11-11",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:27411:146695",
-      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
-      "title": "Business Impact Analysis, Disaster Recovery Plan and Business Continuity Plan Services",
-      "description": "RFP-VC-26-006",
-      "agency": "Inland Empire Utilities Agency, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/146695",
-      "naics": "",
-      "psc": "91890, 92023, 95816, 95861, 96258, 99029",
-      "set_aside": "",
-      "posted_date": "2026-09-30",
-      "due_date": "2026-11-17",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-30",
       "matched_keywords": []
     },
     {
@@ -4700,7 +4657,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-12-08",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "system",
@@ -4721,7 +4678,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2027-01-13",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "system",
@@ -5582,7 +5539,7 @@
       "posted_date": "2026-11-17",
       "due_date": "",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "data"
@@ -5602,10 +5559,30 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-12-09",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "information technology"
+      ]
+    },
+    {
+      "id": "gagpr:PE-76110-NONST-2027-000000162",
+      "source_name": "Georgia Procurement Registry",
+      "title": "PE-76110-NONST-2027-000000162 — E-Rate Internet and SIP Trunk via Digital Realty",
+      "description": "E-Rate Internet and SIP Trunk via Digital Realty",
+      "agency": "Atlanta Public Schools",
+      "state": "GA",
+      "url": "https://ssl.doas.state.ga.us/gpr/eventDetails?eSourceNumber=PE-76110-NONST-2027-000000162&sourceSystemType=gpr20",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-17",
+      "due_date": "2026-12-17",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "digital"
       ]
     },
     {
@@ -5622,7 +5599,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2027-01-11",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "data"
@@ -5809,26 +5786,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:233014",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "141132 STOREFRONT, DIGITAL",
-      "description": "Commodity",
-      "agency": "Water & Power",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oNvFJIA0",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-10",
-      "due_date": "2026-11-17",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
       "id": "dg92-zbpx:85821P0004004R001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "DELOITTE - SECURITY CLASS II",
@@ -5989,10 +5946,10 @@
       ]
     },
     {
-      "id": "dg92-zbpx:85821P0004002R001",
+      "id": "dg92-zbpx:85821P0004007R001",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "CDW - SECURITY CLASS II",
-      "description": "CDW - SECURITY CLASS II",
+      "title": "CDW - SECURITY CLASS I",
+      "description": "CDW - SECURITY CLASS I",
       "agency": "Information Technology and Telecommunications",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
@@ -6009,10 +5966,10 @@
       ]
     },
     {
-      "id": "dg92-zbpx:85821P0004007R001",
+      "id": "dg92-zbpx:85821P0004002R001",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "CDW - SECURITY CLASS I",
-      "description": "CDW - SECURITY CLASS I",
+      "title": "CDW - SECURITY CLASS II",
+      "description": "CDW - SECURITY CLASS II",
       "agency": "Information Technology and Telecommunications",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
@@ -6146,26 +6103,6 @@
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "information technology"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232841",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-17",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "digital"
       ]
     },
     {
@@ -6446,26 +6383,6 @@
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "nyscr:2140227",
-      "source_name": "NYS Contract Reporter",
-      "title": "Electronic Information – Database Subscriptions for Libraries",
-      "description": "Electronic Information – Database Subscriptions for Libraries — Division: SUNY Stony Brook West Campus — Location: Stony Brook University — Category: Educational & Recreational — Ad type: General",
-      "agency": "State University of New York (SUNY) — SUNY Stony Brook West Campus",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140227",
-      "naics": "",
-      "psc": "",
-      "set_aside": "General",
-      "posted_date": "2026-10-26",
-      "due_date": "2026-11-17",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "database"
       ]
     },
     {
@@ -6969,26 +6886,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:06927W0010001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "ITS Hardware-ServiceNow",
-      "description": "ITS Hardware-ServiceNow",
-      "agency": "Dept. of Social Svcs/Human Resources Administration",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-29",
-      "matched_keywords": [
-        "servicenow"
-      ]
-    },
-    {
       "id": "dg92-zbpx:83627U0002001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "CoStar Suite All Data Subscription",
@@ -7006,6 +6903,26 @@
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "data"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:06927W0010001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "ITS Hardware-ServiceNow",
+      "description": "ITS Hardware-ServiceNow",
+      "agency": "Dept. of Social Svcs/Human Resources Administration",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "servicenow"
       ]
     },
     {
@@ -7286,6 +7203,26 @@
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "hosting"
+      ]
+    },
+    {
+      "id": "bonfire:dentoncounty:262248",
+      "source_name": "Bonfire — Denton County, TX",
+      "title": "Print/Mail Production Digital Press Cooperative Lease",
+      "description": "Print/Mail Production Digital Press Cooperative Lease",
+      "agency": "Denton County, TX",
+      "state": "TX",
+      "url": "https://dentoncounty.bonfirehub.com/opportunities/262248",
+      "naics": "",
+      "psc": "",
+      "set_aside": "ITB #26-2920",
+      "posted_date": "",
+      "due_date": "2026-12-03",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "digital"
       ]
     },
     {
