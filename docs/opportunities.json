@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-19T19:49:31.680469+00:00",
+  "generated_at": "2026-11-20T05:51:18.748277+00:00",
   "counts": {
-    "total": 339,
-    "new": 15
+    "total": 330,
+    "new": 8
   },
   "health": {
-    "ok": 54,
+    "ok": 52,
     "total": 56,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 26,
+        "count": 24,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 185,
+        "count": 181,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
-        "ok": true,
-        "count": 51,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.sf.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "Oregon — Active Statewide Price Agreements",
@@ -46,9 +46,9 @@
       },
       {
         "source": "Baton Rouge LA — Bid Openings",
-        "ok": true,
-        "count": 500,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.brla.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "Texas — Spot Bid Fair FY2026",
@@ -102,30 +102,30 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F16%2F2026&postedTo=11%2F19%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F17%2F2026&postedTo=11%2F20%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 83,
+        "count": 81,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 516,
+        "count": 503,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 37,
+        "count": 39,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 252,
+        "count": 243,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 480,
+        "count": 469,
         "error": ""
       },
       {
@@ -149,25 +149,25 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 72,
-        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; Tarrant County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Arlington, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://arlington-tx.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Dubuque, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofdubuque.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 54,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; Tarrant County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Arlington, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://arlington-tx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; City of St. Joseph, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://stjosephmo.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Des Moines, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://dsm.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Dubuque, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofdubuque.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
         "ok": true,
-        "count": 1331,
+        "count": 1338,
         "error": ""
       },
       {
         "source": "Ivalua",
         "ok": true,
-        "count": 56,
+        "count": 57,
         "error": ""
       },
       {
         "source": "Oracle Fusion",
         "ok": true,
-        "count": 88,
+        "count": 90,
         "error": ""
       },
       {
@@ -179,7 +179,7 @@
       {
         "source": "JAGGAER",
         "ok": true,
-        "count": 50,
+        "count": 48,
         "error": ""
       },
       {
@@ -191,7 +191,7 @@
       {
         "source": "BeaconBid",
         "ok": true,
-        "count": 11,
+        "count": 9,
         "error": ""
       },
       {
@@ -209,14 +209,14 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 8,
+        "count": 9,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 277,
-        "error": "City of Buffalo, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.buffalony.gov/bids.aspx; City of Yonkers, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.yonkersny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open; Scott County, MN: HTTPError: 403 Client Error: Forbidden for url: https://www.scottcountymn.gov/bids.aspx; City of Trenton, NJ: HTTPError: 403 Client Error: Forbidden for url: https://www.trentonnj.org/Bids.aspx"
+        "count": 283,
+        "error": "City of Buffalo, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.buffalony.gov/bids.aspx; City of Yonkers, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.yonkersny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open; Scott County, MN: HTTPError: 403 Client Error: Forbidden for url: https://www.scottcountymn.gov/bids.aspx"
       },
       {
         "source": "Schenectady County, NY",
@@ -239,7 +239,7 @@
       {
         "source": "Atlanta Regional Commission, GA",
         "ok": true,
-        "count": 3,
+        "count": 2,
         "error": ""
       },
       {
@@ -251,13 +251,13 @@
       {
         "source": "NY Power Authority",
         "ok": true,
-        "count": 29,
+        "count": 30,
         "error": ""
       },
       {
         "source": "DemandStar",
         "ok": true,
-        "count": 59,
+        "count": 60,
         "error": ""
       },
       {
@@ -269,37 +269,37 @@
       {
         "source": "Washington WEBS",
         "ok": true,
-        "count": 134,
+        "count": 128,
         "error": ""
       },
       {
         "source": "Bid Locker",
         "ok": true,
-        "count": 59,
+        "count": 57,
         "error": ""
       },
       {
         "source": "PeopleSoft Bids",
         "ok": true,
-        "count": 33,
+        "count": 32,
         "error": ""
       },
       {
         "source": "Custom bid pages",
         "ok": true,
-        "count": 118,
+        "count": 117,
         "error": ""
       },
       {
         "source": "North Carolina eVP",
         "ok": true,
-        "count": 223,
+        "count": 230,
         "error": ""
       },
       {
         "source": "Georgia Procurement Registry",
         "ok": true,
-        "count": 525,
+        "count": 532,
         "error": ""
       },
       {
@@ -311,31 +311,31 @@
       {
         "source": "Florida Vendor Bid System",
         "ok": true,
-        "count": 118,
+        "count": 114,
         "error": ""
       },
       {
         "source": "California Cal eProcure",
         "ok": true,
-        "count": 363,
+        "count": 353,
         "error": ""
       },
       {
         "source": "State of Iowa — Bid Opportunities",
         "ok": true,
-        "count": 40,
+        "count": 35,
         "error": ""
       },
       {
         "source": "City of Austin, TX",
         "ok": true,
-        "count": 28,
+        "count": 23,
         "error": ""
       },
       {
         "source": "Illinois Higher Ed Procurement Bulletin",
         "ok": true,
-        "count": 19,
+        "count": 17,
         "error": ""
       },
       {
@@ -456,18 +456,28 @@
     },
     {
       "name": "ERP / Finance / HR",
-      "opportunity_count": 9,
-      "agency_count": 9,
-      "state_count": 5,
+      "opportunity_count": 10,
+      "agency_count": 10,
+      "state_count": 6,
       "states": [
         "CA",
+        "GA",
         "IL",
         "NC",
         "NY",
         "TX"
       ],
-      "demand_score": 32,
+      "demand_score": 36,
       "examples": [
+        {
+          "title": "PE-72200-NONST-2027-000000093 — Enterprise Resource Planning (ERP) Software & Services",
+          "agency": "Rockdale County Board Of Commissioners",
+          "state": "GA",
+          "url": "https://ssl.doas.state.ga.us/gpr/eventDetails?eSourceNumber=PE-72200-NONST-2027-000000093&sourceSystemType=gpr20",
+          "due_date": "2026-11-23",
+          "it_score": 72,
+          "source_name": "Georgia Procurement Registry"
+        },
         {
           "title": "RFP2358982691 ERP Requirement Development and Selection Support",
           "agency": "LAUSD",
@@ -553,16 +563,15 @@
     },
     {
       "name": "Cybersecurity",
-      "opportunity_count": 8,
-      "agency_count": 8,
-      "state_count": 4,
+      "opportunity_count": 7,
+      "agency_count": 7,
+      "state_count": 3,
       "states": [
         "MA",
-        "NV",
         "NY",
         "WA"
       ],
-      "demand_score": 28,
+      "demand_score": 24,
       "examples": [
         {
           "title": "Cybersecurity Risk Assessment — Water and Wastewater Systems",
@@ -608,15 +617,6 @@
           "due_date": "2026-12-03",
           "it_score": 36,
           "source_name": "NYS Contract Reporter"
-        },
-        {
-          "title": "RFP for Cybersecurity Managed Detection & Response",
-          "agency": "State of Nevada, NV",
-          "state": "NV",
-          "url": "https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1",
-          "due_date": "2026-11-19",
-          "it_score": 36,
-          "source_name": "Ionwave — State of Nevada, NV"
         },
         {
           "title": "2027-Cyber-01 Notice of Funding Opportunity for Rural Health Cybersecurity Grant Program",
@@ -708,75 +708,6 @@
       ]
     },
     {
-      "name": "Data / Analytics / Dashboards",
-      "opportunity_count": 6,
-      "agency_count": 6,
-      "state_count": 4,
-      "states": [
-        "DC",
-        "FL",
-        "NY",
-        "TX"
-      ],
-      "demand_score": 22,
-      "examples": [
-        {
-          "title": "JPL Cloud-Based Authentication and Usage Analytics Solution",
-          "agency": "City of Jacksonville",
-          "state": "FL",
-          "url": "https://eims.fa.us2.oraclecloud.com/fscmUI/faces/NegotiationAbstracts?prcBuId=300000008806179",
-          "due_date": "2026-11-26",
-          "it_score": 57,
-          "source_name": "Oracle Fusion — City of Jacksonville"
-        },
-        {
-          "title": "DOT-SS-27-2005-JB — Traffic Data Exchange Platform (TRD X)",
-          "agency": "Florida Department of Transportation (FDOT)",
-          "state": "FL",
-          "url": "https://vendor.myfloridamarketplace.com/search/bids/detail/17378",
-          "due_date": "2026-11-25",
-          "it_score": 42,
-          "source_name": "Florida Vendor Bid System"
-        },
-        {
-          "title": "RFP for Sustainability Data Analytics Services",
-          "agency": "Research Foundation of the State University of New York",
-          "state": "NY",
-          "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2139973",
-          "due_date": "2026-11-19",
-          "it_score": 42,
-          "source_name": "NYS Contract Reporter"
-        },
-        {
-          "title": "RFP - Provider Data Management System and Services",
-          "agency": "Department of Health Care Finance",
-          "state": "DC",
-          "url": "https://ocp.dc.gov/service/solicitations",
-          "due_date": "2026-12-04",
-          "it_score": 42,
-          "source_name": "Washington DC — Solicitations (PASS)"
-        },
-        {
-          "title": "RFP - Integrated Law Enforcement Data Platform for the Harris County Sheriff's Office",
-          "agency": "Harris County, TX",
-          "state": "TX",
-          "url": "https://harriscountytx.bonfirehub.com/opportunities/235035",
-          "due_date": "2026-11-23",
-          "it_score": 42,
-          "source_name": "Bonfire — Harris County, TX"
-        },
-        {
-          "title": "Bid Extension: RFP for Provider Data Management services",
-          "agency": "NYC Health + Hospitals",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        }
-      ]
-    },
-    {
       "name": "311 / Case & Constituent Management",
       "opportunity_count": 6,
       "agency_count": 6,
@@ -811,7 +742,7 @@
           "agency": "Los Angeles County — Office of District Attorney",
           "state": "CA",
           "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFP-DA-IT01",
-          "due_date": "2026-12-07",
+          "due_date": "2026-12-14",
           "it_score": 57,
           "source_name": "Los Angeles County, CA"
         },
@@ -845,27 +776,77 @@
       ]
     },
     {
-      "name": "Website / Portal / Digital Services",
+      "name": "Data / Analytics / Dashboards",
       "opportunity_count": 5,
       "agency_count": 5,
       "state_count": 4,
       "states": [
-        "CA",
+        "DC",
         "FL",
-        "MA",
-        "NY"
+        "NY",
+        "TX"
       ],
       "demand_score": 19,
       "examples": [
         {
-          "title": "PUC | TM3 - Satellite Website Migration RFP",
-          "agency": "Public Utilities Commission",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-20",
+          "title": "Jax Public Library Cloud-Based Authentication and Usage Analytics Solution",
+          "agency": "City of Jacksonville",
+          "state": "FL",
+          "url": "https://eims.fa.us2.oraclecloud.com/fscmUI/faces/NegotiationAbstracts?prcBuId=300000008806179",
+          "due_date": "2026-11-30",
           "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
+          "source_name": "Oracle Fusion — City of Jacksonville"
         },
+        {
+          "title": "DOT-SS-27-2005-JB — Traffic Data Exchange Platform (TRD X)",
+          "agency": "Florida Department of Transportation (FDOT)",
+          "state": "FL",
+          "url": "https://vendor.myfloridamarketplace.com/search/bids/detail/17378",
+          "due_date": "2026-11-25",
+          "it_score": 42,
+          "source_name": "Florida Vendor Bid System"
+        },
+        {
+          "title": "RFP - Provider Data Management System and Services",
+          "agency": "Department of Health Care Finance",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-12-04",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
+        },
+        {
+          "title": "RFP - Integrated Law Enforcement Data Platform for the Harris County Sheriff's Office",
+          "agency": "Harris County, TX",
+          "state": "TX",
+          "url": "https://harriscountytx.bonfirehub.com/opportunities/235035",
+          "due_date": "2026-11-23",
+          "it_score": 42,
+          "source_name": "Bonfire — Harris County, TX"
+        },
+        {
+          "title": "Bid Extension: RFP for Provider Data Management services",
+          "agency": "NYC Health + Hospitals",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        }
+      ]
+    },
+    {
+      "name": "Website / Portal / Digital Services",
+      "opportunity_count": 4,
+      "agency_count": 4,
+      "state_count": 3,
+      "states": [
+        "FL",
+        "MA",
+        "NY"
+      ],
+      "demand_score": 15,
+      "examples": [
         {
           "title": "Clerk of Court Website Redesign, Hosting, Security & Digital Customer Experience",
           "agency": "St. Lucie County, FL",
@@ -880,7 +861,7 @@
           "agency": "Department of Transitional Assistance",
           "state": "MA",
           "url": "https://www.commbuys.com/bso/external/bidDetail.sda?docId=BD-27-1112-WEL60-60000-135069&external=true&parentUrl=close",
-          "due_date": "2026-12-02",
+          "due_date": "2026-12-04",
           "it_score": 42,
           "source_name": "BuySpeed — COMMBUYS (Massachusetts)"
         },
@@ -906,15 +887,15 @@
     },
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 5,
-      "agency_count": 5,
+      "opportunity_count": 4,
+      "agency_count": 4,
       "state_count": 3,
       "states": [
         "CA",
         "FL",
         "PA"
       ],
-      "demand_score": 18,
+      "demand_score": 15,
       "examples": [
         {
           "title": "SERS RFI 26-040 — Pension Admin System Modernization Data Assessment",
@@ -924,15 +905,6 @@
           "due_date": "2026-11-30",
           "it_score": 84,
           "source_name": "Pennsylvania eMarketplace"
-        },
-        {
-          "title": "PUC | TM3 - Satellite Website Migration RFP",
-          "agency": "Public Utilities Commission",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-20",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
         },
         {
           "title": "Entra ID Single Sign-on (SSO) Migration",
@@ -1364,7 +1336,7 @@
       "posted_date": "",
       "due_date": "2026-11-30",
       "it_score": 78,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "software",
@@ -1408,7 +1380,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2027-01-07",
       "it_score": 72,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "software",
@@ -1497,6 +1469,27 @@
       "matched_keywords": [
         "software",
         "cloud"
+      ]
+    },
+    {
+      "id": "gagpr:PE-72200-NONST-2027-000000093",
+      "source_name": "Georgia Procurement Registry",
+      "title": "PE-72200-NONST-2027-000000093 — Enterprise Resource Planning (ERP) Software & Services",
+      "description": "Enterprise Resource Planning (ERP) Software & Services",
+      "agency": "Rockdale County Board Of Commissioners",
+      "state": "GA",
+      "url": "https://ssl.doas.state.ga.us/gpr/eventDetails?eSourceNumber=PE-72200-NONST-2027-000000093&sourceSystemType=gpr20",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-14",
+      "due_date": "2026-11-23",
+      "it_score": 72,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "software",
+        "erp"
       ]
     },
     {
@@ -1635,25 +1628,25 @@
       ]
     },
     {
-      "id": "iowa:e9a04acc-8d99-40ee-b9de-4e57eb71ee10",
-      "source_name": "State of Iowa — Bid Opportunities",
-      "title": "RFI-532-2541-2027 — DPS Digital Evidence Management System (DEMS)",
-      "description": "The Iowa Department of Management (DOM), on behalf of the Iowa Department of Public Safety (DPS), is issuing this Request for Information (RFI) to research available Digital Evidence Management System (DEMS) platforms and implementation approaches. DPS seeks solutions capable of supporting centralized digital evidence intake, storage, management, sharing, retention, legal hold, immutable audit trails, and chain-of-custody controls across the agency. DPS is researching a centralized DEMS to standardize metadata and hashing practices, streamline evidentiary and records-retention workflows, and build a unified, agency-wide platform that supports consistent, efficient evidence handling as the agency continues to grow. Responses to this RFI will inform DPS's market analysis, technical and security due diligence, integration planning, rough order-of-magnitude cost and level-of-effort estimates and planning for a future procurement.",
-      "agency": "State of Iowa — Department of Management - IT",
-      "state": "IA",
-      "url": "https://bidopportunities.iowa.gov/Home/BidInfo?bidId=e9a04acc-8d99-40ee-b9de-4e57eb71ee10",
+      "id": "buyspeed:www.commbuys.com:BD-27-1031-OFFIC-OLRH-135516",
+      "source_name": "BuySpeed — COMMBUYS (Massachusetts)",
+      "title": "M27006 Third-Party Data System Integration with Metrik",
+      "description": "M27006 Third-Party Data System Integration with Metrik",
+      "agency": "Department of Public Health",
+      "state": "MA",
+      "url": "https://www.commbuys.com/bso/external/bidDetail.sda?docId=BD-27-1031-OFFIC-OLRH-135516&external=true&parentUrl=close",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-16",
-      "due_date": "2026-11-19",
+      "set_aside": "BD-27-1031-OFFIC-OLRH-135516",
+      "posted_date": "",
+      "due_date": "2026-12-04",
       "it_score": 63,
-      "is_new": false,
-      "first_seen": "2026-11-11",
+      "is_new": true,
+      "first_seen": "2026-11-20",
       "matched_keywords": [
         "system",
         "integration",
-        "digital"
+        "data"
       ]
     },
     {
@@ -1692,7 +1685,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-11-30",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "integration",
@@ -1713,7 +1706,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-12-14",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "integration",
@@ -1721,21 +1714,21 @@
       ]
     },
     {
-      "id": "oraclefusion:eims.fa.us2.oraclecloud.com:18406-27",
+      "id": "oraclefusion:eims.fa.us2.oraclecloud.com:18410-27",
       "source_name": "Oracle Fusion — City of Jacksonville",
-      "title": "JPL Cloud-Based Authentication and Usage Analytics Solution",
-      "description": "[ITQ] JPL Cloud-Based Authentication and Usage Analytics Solution",
+      "title": "Jax Public Library Cloud-Based Authentication and Usage Analytics Solution",
+      "description": "[ITQ] Jax Public Library Cloud-Based Authentication and Usage Analytics Solution",
       "agency": "City of Jacksonville",
       "state": "FL",
       "url": "https://eims.fa.us2.oraclecloud.com/fscmUI/faces/NegotiationAbstracts?prcBuId=300000008806179",
       "naics": "",
       "psc": "",
-      "set_aside": "18406-27",
-      "posted_date": "2026-11-18",
-      "due_date": "2026-11-26",
+      "set_aside": "18410-27",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-11-30",
       "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-18",
+      "is_new": true,
+      "first_seen": "2026-11-20",
       "matched_keywords": [
         "cloud",
         "analytics"
@@ -1860,7 +1853,7 @@
       "posted_date": "2026-11-12",
       "due_date": "2026-12-16",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "software",
@@ -1970,27 +1963,6 @@
       "matched_keywords": [
         "software",
         "digital"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012223",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "PUC | TM3 - Satellite Website Migration RFP",
-      "description": "Seeking Bids",
-      "agency": "Public Utilities Commission",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-20",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "migration",
-        "website"
       ]
     },
     {
@@ -2179,27 +2151,6 @@
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "content management",
-        "information technology"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:316595",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Office Furniture",
-      "description": "The Department of Information Technology is undertaking a facilities improvement project to enhance the functionality, comfort, and efficiency of its working environment. This project includes upgrading interior finishes—such as replacing worn carpeting—to create a modern, professional workspace that aligns with current departmental standards. In addition, existing work areas will be reconfigured and enhanced to better support current staffing levels and operational needs. A key component of this project is the modernization of employee workstations. Existing furniture systems will be replaced or modified to meet contemporary ergonomic standards, including the incorporation of sit‑stand functionality to promote employee wellness and productivity. These upgrades will ensure that the workspace supports both current and future operational requirements, improves overall user experience, and aligns with best practices for modern office environments. Please provide a cost proposal to furnish and install the following HON furniture items: (see attachment for detailed specification) Four (4) workstations, 5′-6″ × 6′-0″, with 49″-high panels and 15″-high frameless frosted glass at the locations shown on the plan. Three (3) workstations, 6′-6″ × 6′-0″, with 49″-high panels and 15″-high frameless frosted glass at the locations shown on the plan. One (1) L-shaped sit-stand desk, 72″ W × 78″ D, with all components shown in the furniture schedule. One (1) conference table, 72″ W × 36″ D. Fifteen (15) Herman Miller Aeron task chairs, Size B, black, or City-approved equal in accordance with Section 2.19. Include all applicable furniture, delivery, installation, and tax in the proposal. Carpet replacement will be performed separately and coordinated with furniture removal and installation.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/316595",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-Informal-0565",
-      "posted_date": "2026-10-13",
-      "due_date": "2026-11-19",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "modernization",
         "information technology"
       ]
     },
@@ -2509,7 +2460,7 @@
       "psc": "",
       "set_aside": "",
       "posted_date": "",
-      "due_date": "2026-12-07",
+      "due_date": "2026-12-14",
       "it_score": 57,
       "is_new": false,
       "first_seen": "2026-11-11",
@@ -2635,10 +2586,30 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-11-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "erp"
+      ]
+    },
+    {
+      "id": "ncevp:f8f73d3d-57e4-f111-84ea-001dd80d92a5",
+      "source_name": "North Carolina eVP",
+      "title": "Doc2447191839 — 30-270093-ITD Everbridge Safety Connection (Saas) Renewal - IT Sourcing Event",
+      "description": "Procurement of the annual renewal for Everbridge Safety Connection (SaaS) for the NC DHHS, Privacy and Security Office.",
+      "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES - DHHS",
+      "state": "NC",
+      "url": "https://evp.nc.gov/solicitations/details/?id=f8f73d3d-57e4-f111-84ea-001dd80d92a5",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-12-07",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-20",
+      "matched_keywords": [
+        "saas"
       ]
     },
     {
@@ -2655,28 +2626,8 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-12-01",
       "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-11-19",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:233133",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200333 - 1095222-UIPATH SOFTWARE RENEWAL - BRAND SPECIFIC - Closing: 11/24/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000okJ9NIAU",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-18",
-      "due_date": "2026-11-24",
-      "it_score": 51,
       "is_new": false,
-      "first_seen": "2026-11-18",
+      "first_seen": "2026-11-19",
       "matched_keywords": [
         "software"
       ]
@@ -2694,6 +2645,26 @@
       "set_aside": "",
       "posted_date": "2026-11-18",
       "due_date": "2026-12-01",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233133",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200333 - 1095222-UIPATH SOFTWARE RENEWAL - BRAND SPECIFIC - Closing: 11/24/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000okJ9NIAU",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-18",
+      "due_date": "2026-11-24",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-18",
@@ -2762,26 +2733,6 @@
       ]
     },
     {
-      "id": "ionwave:cityofirving:026T-27",
-      "source_name": "Ionwave — City of Irving, TX",
-      "title": "Open-Source Intelligence (OSINT) and Public Safety Threat Monitoring Software",
-      "description": "Open-Source Intelligence (OSINT) and Public Safety Threat Monitoring Software",
-      "agency": "City of Irving, TX",
-      "state": "TX",
-      "url": "https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "026T-27",
-      "posted_date": "2026-11-17",
-      "due_date": "2026-12-10",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-19",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "bidnetdirect:new-york/westchester-county-purchasing:RFQ-WC260796",
       "source_name": "BidNet Direct — Westchester County, NY",
       "title": "AIRPORT SECURITY SOFTWARE MAINTENANCE RENEWAL",
@@ -2819,46 +2770,6 @@
       "first_seen": "2026-11-16",
       "matched_keywords": [
         "erp"
-      ]
-    },
-    {
-      "id": "ionwave:cityofirving:027C-27",
-      "source_name": "Ionwave — City of Irving, TX",
-      "title": "List Manager Software Replacement",
-      "description": "List Manager Software Replacement",
-      "agency": "City of Irving, TX",
-      "state": "TX",
-      "url": "https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "027C-27",
-      "posted_date": "2026-11-16",
-      "due_date": "2026-12-16",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-19",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012258",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA POL | TM3 – Magnet Graykey Software Lic. RNWL",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012258&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-13",
-      "due_date": "2026-11-20",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-18",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -3062,26 +2973,6 @@
       ]
     },
     {
-      "id": "bidnetdirect:new-york/county-of-orange:RFB-OC187-26",
-      "source_name": "BidNet Direct — Orange County, NY",
-      "title": "Vasion Print SaaS Licenses or Equivalent",
-      "description": "Vasion Print SaaS Licenses or Equivalent",
-      "agency": "Orange County, NY",
-      "state": "NY",
-      "url": "https://www.bidnetdirect.com/new-york/solicitations/open-bids/Vasion-Print-SaaS-Licenses-or-Equivalent/0000442427?purchasingGroupId=8411151&origin=2",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFB-OC187-26",
-      "posted_date": "2026-11-04",
-      "due_date": "2026-11-19",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "saas"
-      ]
-    },
-    {
       "id": "ncevp:b32752c9-99d8-f111-a05c-001dd80bcb64",
       "source_name": "North Carolina eVP",
       "title": "274-IT2026-05 — ERP Temporary Staffing Service",
@@ -3177,26 +3068,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-29",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "nyscr:2140352",
-      "source_name": "NYS Contract Reporter",
-      "title": "Care Guideline Software",
-      "description": "Care Guideline Software — Division: SUNY Downstate Health Sciences University — Location: 450 Clarkson Avenue Brooklyn NY 11203 — Category: Medical & Health Care — Ad type: Discretionary procurements less than $150,000",
-      "agency": "State University of New York (SUNY) — SUNY Downstate Health Sciences University",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140352",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Discretionary procurements less than $150,000",
-      "posted_date": "2026-10-28",
-      "due_date": "2026-11-19",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
       "matched_keywords": [
         "software"
       ]
@@ -3942,6 +3813,26 @@
       ]
     },
     {
+      "id": "buyspeed:www.bidbuy.illinois.gov:27-416CMS-BOSS4-B-53834",
+      "source_name": "BuySpeed — BidBuy (State of Illinois)",
+      "title": "Renewal Notice: GASB 87 Software Services",
+      "description": "Renewal Notice: GASB 87 Software Services",
+      "agency": "CMS - Central Management Services",
+      "state": "IL",
+      "url": "https://www.bidbuy.illinois.gov/bso/external/bidDetail.sda?docId=27-416CMS-BOSS4-B-53834&external=true&parentUrl=close",
+      "naics": "",
+      "psc": "",
+      "set_aside": "27-416CMS-BOSS4-B-53834",
+      "posted_date": "",
+      "due_date": "2026-12-03",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-20",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "buyspeed:www.bidbuy.illinois.gov:26-448DOIT-INFOT-B-53319",
       "source_name": "BuySpeed — BidBuy (State of Illinois)",
       "title": "ERP Production Support RFP",
@@ -4002,26 +3893,6 @@
       ]
     },
     {
-      "id": "lacounty:RFB-IS-27200336",
-      "source_name": "Los Angeles County, CA",
-      "title": "RFB-IS-27200336 — 2711001-IHSS Interview Transcription Tool",
-      "description": "2711001-IHSS Interview Transcription Tool | Commodity: SOFTWARE:MINI & MAINFRAME COMPUTER- COMMUNICATIONS: NETWORKI | Type: Commodity / Service",
-      "agency": "Los Angeles County — Internal Services",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200336",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-23",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-14",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "lacounty:RFB-IS-27200335",
       "source_name": "Los Angeles County, CA",
       "title": "RFB-IS-27200335 — 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL -",
@@ -4037,6 +3908,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-17",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "lacounty:RFB-IS-27200336",
+      "source_name": "Los Angeles County, CA",
+      "title": "RFB-IS-27200336 — 2711001-IHSS Interview Transcription Tool",
+      "description": "2711001-IHSS Interview Transcription Tool | Commodity: SOFTWARE:MINI & MAINFRAME COMPUTER- COMMUNICATIONS: NETWORKI | Type: Commodity / Service",
+      "agency": "Los Angeles County — Internal Services",
+      "state": "CA",
+      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200336",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-23",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-14",
       "matched_keywords": [
         "software"
       ]
@@ -4095,7 +3986,7 @@
       "posted_date": "",
       "due_date": "2026-11-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "erp"
@@ -4282,21 +4173,21 @@
       ]
     },
     {
-      "id": "caleprocure:2720:0000040879",
+      "id": "caleprocure:5175:0000040996",
       "source_name": "California Cal eProcure",
-      "title": "0000040879 — RFQ 043PR6016/19976 Plixer Software Annual Subscription",
-      "description": "RFQ 043PR6016/19976 Plixer Software Annual Subscription | Type: RFx | Contact: Ayesha Brown ayesha.brown@chp.ca.gov",
-      "agency": "State of California (BU 2720, chp.ca.gov)",
+      "title": "0000040996 — RFQ 1222 Microfocus Software Support",
+      "description": "RFQ 1222 Microfocus Software Support | Type: RFx | Contact: Danh Ngo danh.ngo@dcss.ca.gov",
+      "agency": "State of California (BU 5175, dcss.ca.gov)",
       "state": "CA",
-      "url": "https://caleprocure.ca.gov/event/2720/0000040879",
+      "url": "https://caleprocure.ca.gov/event/5175/0000040996",
       "naics": "",
       "psc": "",
       "set_aside": "",
       "posted_date": "",
-      "due_date": "2026-11-19",
+      "due_date": "2026-12-04",
       "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
+      "is_new": true,
+      "first_seen": "2026-11-20",
       "matched_keywords": [
         "software"
       ]
@@ -4464,24 +4355,6 @@
       "matched_keywords": []
     },
     {
-      "id": "planetbids:39495:147203",
-      "source_name": "PlanetBids — PlanetBids portal 39495 (CA)",
-      "title": "Industrial and Logistics Revenue and Economic Opportunity Feasibility Study",
-      "description": "RFP F-27-1063",
-      "agency": "PlanetBids portal 39495 (CA)",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/39495/bo/bo-detail/147203",
-      "naics": "",
-      "psc": "493110, 518210, 531120, 531390, 541211, 541219, 541330, 541370, 541611, 541614, 541618, 541690, 541720, 541910, 541990",
-      "set_aside": "",
-      "posted_date": "2026-10-12",
-      "due_date": "2026-11-19",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:19236:146674",
       "source_name": "PlanetBids — PlanetBids portal 19236 (CA)",
       "title": "HD-S3203 HARBOR FLEET ZERO EMISSIONS INFRASTRUCTURE",
@@ -4601,7 +4474,7 @@
       "id": "nyscr:2140195",
       "source_name": "NYS Contract Reporter",
       "title": "Implementation & Development Services for Department of Health (DOH) Lead Rental System",
-      "description": "Implementation & Development Services for Department of Health (DOH) Lead Rental System — Division: Vendor sourcing and management — Location: Remote and Albany — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
+      "description": "Implementation & Development Services for Department of Health (DOH) Lead Rental System — Note: Please note the due date has been changed from November 20, 2026 to November 30, 2026. — Division: Vendor sourcing and management — Location: Remote and Albany — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
       "agency": "Information Technology Services, NYS Office of — Vendor sourcing and management",
       "state": "NY",
       "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140195",
@@ -4609,7 +4482,7 @@
       "psc": "",
       "set_aside": "MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
       "posted_date": "2026-10-23",
-      "due_date": "2026-11-20",
+      "due_date": "2026-11-30",
       "it_score": 48,
       "is_new": false,
       "first_seen": "2026-11-11",
@@ -4765,7 +4638,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-12-11",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "platform",
@@ -5088,27 +4961,6 @@
       ]
     },
     {
-      "id": "nyscr:2140135",
-      "source_name": "NYS Contract Reporter",
-      "title": "RFI Fire Investigation Reporting Management System",
-      "description": "RFI Fire Investigation Reporting Management System — Division: Administration — Location: Statewide — Category: Information Technology — Ad type: Requests for information (RFI) and Requests for Comment (RFC)",
-      "agency": "Homeland Security and Emergency Services, NYS Division of — Administration",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140135",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Requests for information (RFI) and Requests for Comment (RFC)",
-      "posted_date": "2026-10-22",
-      "due_date": "2026-11-19",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "system",
-        "information technology"
-      ]
-    },
-    {
       "id": "eeq6-nnwe:1200288",
       "source_name": "Montgomery County MD — Solicitations",
       "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
@@ -5127,48 +4979,6 @@
       "matched_keywords": [
         "data",
         "digital"
-      ]
-    },
-    {
-      "id": "jaggaer:DASIowa:RFI-532-2541-2027",
-      "source_name": "JAGGAER — State of Iowa (DAS)",
-      "title": "DPS Digital Evidence Management System RFI",
-      "description": "DOMRFI — The Iowa Dept of Public Safety seeks information about available digital evidence management system platforms and implementation approaches. Responses will be used to inform a potential procurement.",
-      "agency": "State of Iowa (DAS)",
-      "state": "IA",
-      "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=DASIowa",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFI-532-2541-2027",
-      "posted_date": "2026-10-16",
-      "due_date": "2026-11-19",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "system",
-        "digital"
-      ]
-    },
-    {
-      "id": "nyscr:2139973",
-      "source_name": "NYS Contract Reporter",
-      "title": "RFP for Sustainability Data Analytics Services",
-      "description": "RFP for Sustainability Data Analytics Services — Location: All work is expected to be performed remotely. — Category: Environmental — Ad type: General",
-      "agency": "Research Foundation of the State University of New York",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2139973",
-      "naics": "",
-      "psc": "",
-      "set_aside": "General",
-      "posted_date": "2026-10-16",
-      "due_date": "2026-11-19",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "data",
-        "analytics"
       ]
     },
     {
@@ -5498,9 +5308,9 @@
       "psc": "",
       "set_aside": "BD-27-1112-WEL60-60000-135069",
       "posted_date": "",
-      "due_date": "2026-12-02",
+      "due_date": "2026-12-04",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "website",
@@ -5689,10 +5499,30 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-12-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "digital"
+      ]
+    },
+    {
+      "id": "oraclefusion:eims.fa.us2.oraclecloud.com:18409-27",
+      "source_name": "Oracle Fusion — City of Jacksonville",
+      "title": "Jacksonville Public Library Reference Solutions Database",
+      "description": "[ITQ] Access to Reference Solutions database platform for use in the library and outside of the library (remote access) through authentication protocol via OpenAthens and EZProxy",
+      "agency": "City of Jacksonville",
+      "state": "FL",
+      "url": "https://eims.fa.us2.oraclecloud.com/fscmUI/faces/NegotiationAbstracts?prcBuId=300000008806179",
+      "naics": "",
+      "psc": "",
+      "set_aside": "18409-27",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-11-30",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-20",
+      "matched_keywords": [
+        "database"
       ]
     },
     {
@@ -5709,8 +5539,28 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-12-03",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "ncevp:1ac3ca5e-75e4-f111-84e8-001dd80072e8",
+      "source_name": "North Carolina eVP",
+      "title": "54-CA-12220240 — Mobile Pavement Marking Retroreflectivity Data Collection Services",
+      "description": "This purpose of this Invitation for Bids (IFB) is to solicit bids from Vendors that have been pre-qualified in accordance with “Mobile Retroreflectivity” (Discipline Code 212) for the collection of mobile pavement marking retro reflectivity data for the NC Department of Transportation Signing and Delineation Unit. Data collected will be used to assist the Department in managing its entire pavement marking asset and may be used in the Quality Control/Quality Assurance of pavement markings placed on the NCDOT highway system by contract.",
+      "agency": "DEPARTMENT OF TRANSPORTATION",
+      "state": "NC",
+      "url": "https://evp.nc.gov/solicitations/details/?id=1ac3ca5e-75e4-f111-84e8-001dd80072e8",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-12-04",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-20",
       "matched_keywords": [
         "data"
       ]
@@ -5729,7 +5579,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2027-01-07",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "ai"
@@ -5749,7 +5599,7 @@
       "posted_date": "2026-11-18",
       "due_date": "2026-11-24",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "license"
@@ -6196,26 +6046,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:85821P0004007R001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "CDW - SECURITY CLASS I",
-      "description": "CDW - SECURITY CLASS I",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-06",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
       "id": "dg92-zbpx:85821P0004002R001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "CDW - SECURITY CLASS II",
@@ -6236,21 +6066,21 @@
       ]
     },
     {
-      "id": "arc:RFP884",
-      "source_name": "Atlanta Regional Commission, GA",
-      "title": "RFP884 (abbr.) – Uninterruptible Power Supply (UPS) Replacement",
-      "description": "The Atlanta Regional Commission (ARC) is the regional planning and intergovernmental coordination agency for the metro Atlanta region. The ARC Office of Information Technology provides technology services to internal departments and partner agencies, with a focus on maintaining a secure, reliable, and highly available network infrastructure that protects the Agency’s data assets. The offices at 229 Peachtree Street NE, Suite 100 rely on a centralized UPS to maintain the server room and IDF closets during a loss of electrical power supply. The existing unit is a Schneider Electric MGE Galaxy 5000, 40 kVA, with a 480 VAC three-phase input and output. Schneider discontinued the Galaxy 5000 line in July 2021, so parts and service support are limited. Therefore, ARC is requesting proposals to furnish, deliver, install, and commission one three-phase Uninterruptible Power Supply (UPS) to replace its existing unit, with the work complete by December 31, 2026. Because the unit must be delivered and installed by year end, every proposal must state the lead time for delivery and for installation, and proposals that cannot meet December 31, 2026 may be found non-responsive.",
-      "agency": "Atlanta Regional Commission",
-      "state": "GA",
-      "url": "https://procurement.atlantaregional.org/opportunities/rfp884-abbr-uninterruptible-power-supply-ups-replacement/",
+      "id": "dg92-zbpx:85821P0004007R001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "CDW - SECURITY CLASS I",
+      "description": "CDW - SECURITY CLASS I",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
       "posted_date": "2026-11-06",
-      "due_date": "2026-11-19",
+      "due_date": "",
       "it_score": 36,
       "is_new": false,
-      "first_seen": "2026-11-11",
+      "first_seen": "2026-11-06",
       "matched_keywords": [
         "information technology"
       ]
@@ -6273,26 +6103,6 @@
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "license"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232926",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW2IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "data"
       ]
     },
     {
@@ -6373,26 +6183,6 @@
       "first_seen": "2026-11-09",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "ionwave:nevada:CCDOA RFP: 27-001",
-      "source_name": "Ionwave — State of Nevada, NV",
-      "title": "RFP for Cybersecurity Managed Detection & Response",
-      "description": "RFP for Cybersecurity Managed Detection & Response",
-      "agency": "State of Nevada, NV",
-      "state": "NV",
-      "url": "https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "CCDOA RFP: 27-001",
-      "posted_date": "2026-11-02",
-      "due_date": "2026-11-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-13",
-      "matched_keywords": [
-        "cybersecurity"
       ]
     },
     {
@@ -7076,26 +6866,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:83627U0002001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "CoStar Suite All Data Subscription",
-      "description": "CoStar Suite All Data Subscription",
-      "agency": "Finance",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-29",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
       "id": "dg92-zbpx:06927W0010001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "ITS Hardware-ServiceNow",
@@ -7113,6 +6883,26 @@
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "servicenow"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:83627U0002001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "CoStar Suite All Data Subscription",
+      "description": "CoStar Suite All Data Subscription",
+      "agency": "Finance",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -7709,7 +7499,7 @@
       "posted_date": "",
       "due_date": "2026-11-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "digital"
@@ -7733,6 +7523,26 @@
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
+      ]
+    },
+    {
+      "id": "buyspeed:www.bidbuy.illinois.gov:26-482DPH-POLPL-B-54175",
+      "source_name": "BuySpeed — BidBuy (State of Illinois)",
+      "title": "State Use - Vital Records Data Entry Services",
+      "description": "State Use - Vital Records Data Entry Services",
+      "agency": "DPH - Public Health",
+      "state": "IL",
+      "url": "https://www.bidbuy.illinois.gov/bso/external/bidDetail.sda?docId=26-482DPH-POLPL-B-54175&external=true&parentUrl=close",
+      "naics": "",
+      "psc": "",
+      "set_aside": "26-482DPH-POLPL-B-54175",
+      "posted_date": "",
+      "due_date": "2026-12-08",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-20",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -7808,26 +7618,6 @@
       "set_aside": "",
       "posted_date": "",
       "due_date": "2026-12-18",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "lacounty:RFB-IS-27200300",
-      "source_name": "Los Angeles County, CA",
-      "title": "RFB-IS-27200300 — STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME",
-      "description": "STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME | Commodity: TELECOMMUNICATION EQUIPMENT (VIA SATELLITE) FOR POLICE AND E | Type: Commodity / Service",
-      "agency": "Los Angeles County — Internal Services",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200300",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-19",
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-11",
