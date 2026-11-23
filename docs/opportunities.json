@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T18:49:33.365333+00:00",
+  "generated_at": "2026-11-23T05:55:50.940884+00:00",
   "counts": {
-    "total": 325,
+    "total": 329,
     "new": 0
   },
   "health": {
@@ -28,15 +28,15 @@
       },
       {
         "source": "Oregon — Active Statewide Price Agreements",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.oregon.gov', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 494,
+        "error": ""
       },
       {
         "source": "Mesa AZ — Purchasing Solicitations",
-        "ok": true,
-        "count": 500,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='citydata.mesaaz.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "Baton Rouge LA — Upcoming Procurement",
@@ -102,7 +102,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F19%2F2026&postedTo=11%2F22%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F20%2F2026&postedTo=11%2F23%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -149,13 +149,13 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 57,
-        "error": "Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; Tarrant County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Arlington, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://arlington-tx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; City of St. Joseph, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://stjosephmo.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Des Moines, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://dsm.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Dubuque, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofdubuque.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 67,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
         "ok": true,
-        "count": 1319,
+        "count": 1322,
         "error": ""
       },
       {
@@ -209,7 +209,7 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 9,
+        "count": 10,
         "error": ""
       },
       {
@@ -867,6 +867,56 @@
       ]
     },
     {
+      "name": "GIS / Mapping",
+      "opportunity_count": 4,
+      "agency_count": 3,
+      "state_count": 3,
+      "states": [
+        "IL",
+        "NY",
+        "OK"
+      ],
+      "demand_score": 12,
+      "examples": [
+        {
+          "title": "Multi-Jurisdictional GIS Coordination and CAD Map Integration Services",
+          "agency": "Kane County, IL",
+          "state": "IL",
+          "url": "https://www.bidnetdirect.com/illinois/solicitations/open-bids/Multi-Jurisdictional-GIS-Coordination-and-CAD-Map-Integration-Services/0000444071?purchasingGroupId=88021351&origin=2",
+          "due_date": "2026-12-14",
+          "it_score": 57,
+          "source_name": "BidNet Direct — Kane County, IL"
+        },
+        {
+          "title": "GIS Data Updates & Maintenance",
+          "agency": "City of Edmond, OK",
+          "state": "OK",
+          "url": "https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1",
+          "due_date": "2026-11-25",
+          "it_score": 42,
+          "source_name": "Ionwave — City of Edmond, OK"
+        },
+        {
+          "title": "High Resolution Aerial Photography & Geospatial Data Products",
+          "agency": "Rockland County, NY",
+          "state": "NY",
+          "url": "https://www.bidnetdirect.com/new-york/solicitations/open-bids/High-Resolution-Aerial-Photography-Geospatial-Data-Products/0000440727?purchasingGroupId=8411151&origin=2",
+          "due_date": "2026-11-23",
+          "it_score": 36,
+          "source_name": "BidNet Direct — Rockland County, NY"
+        },
+        {
+          "title": "High Resolution Aerial Imagery & Geospatial Data Products",
+          "agency": "Rockland County, NY",
+          "state": "NY",
+          "url": "https://rocklandgov.bonfirehub.com/opportunities/259194",
+          "due_date": "2026-11-23",
+          "it_score": 36,
+          "source_name": "Bonfire — Rockland County, NY"
+        }
+      ]
+    },
+    {
       "name": "Asset / Work Order (EAM/CMMS)",
       "opportunity_count": 3,
       "agency_count": 3,
@@ -903,46 +953,6 @@
           "due_date": "2026-12-02",
           "it_score": 36,
           "source_name": "OpenGov — Collier County, FL"
-        }
-      ]
-    },
-    {
-      "name": "GIS / Mapping",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 2,
-      "states": [
-        "IL",
-        "NY"
-      ],
-      "demand_score": 8,
-      "examples": [
-        {
-          "title": "Multi-Jurisdictional GIS Coordination and CAD Map Integration Services",
-          "agency": "Kane County, IL",
-          "state": "IL",
-          "url": "https://www.bidnetdirect.com/illinois/solicitations/open-bids/Multi-Jurisdictional-GIS-Coordination-and-CAD-Map-Integration-Services/0000444071?purchasingGroupId=88021351&origin=2",
-          "due_date": "2026-12-14",
-          "it_score": 57,
-          "source_name": "BidNet Direct — Kane County, IL"
-        },
-        {
-          "title": "High Resolution Aerial Photography & Geospatial Data Products",
-          "agency": "Rockland County, NY",
-          "state": "NY",
-          "url": "https://www.bidnetdirect.com/new-york/solicitations/open-bids/High-Resolution-Aerial-Photography-Geospatial-Data-Products/0000440727?purchasingGroupId=8411151&origin=2",
-          "due_date": "2026-11-23",
-          "it_score": 36,
-          "source_name": "BidNet Direct — Rockland County, NY"
-        },
-        {
-          "title": "High Resolution Aerial Imagery & Geospatial Data Products",
-          "agency": "Rockland County, NY",
-          "state": "NY",
-          "url": "https://rocklandgov.bonfirehub.com/opportunities/259194",
-          "due_date": "2026-11-23",
-          "it_score": 36,
-          "source_name": "Bonfire — Rockland County, NY"
         }
       ]
     },
@@ -3419,6 +3429,46 @@
       ]
     },
     {
+      "id": "knjg-wn2a:0532",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "725-60",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2020-05-22",
+      "due_date": "2029-05-31",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:0522",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "839-74",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2020-03-30",
+      "due_date": "2029-03-29",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "paemkt:COSTARS 6",
       "source_name": "Pennsylvania eMarketplace",
       "title": "COSTARS 6 — Software",
@@ -3719,26 +3769,6 @@
       ]
     },
     {
-      "id": "lacounty:RFB-IS-27200335",
-      "source_name": "Los Angeles County, CA",
-      "title": "RFB-IS-27200335 — 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL -",
-      "description": "1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL - | Commodity: TRAINING - IN-SERVICE (FOR EMPLOYEES) | Type: Commodity / Service",
-      "agency": "Los Angeles County — Internal Services",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200335",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-11-23",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-17",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "lacounty:RFB-IS-27200336",
       "source_name": "Los Angeles County, CA",
       "title": "RFB-IS-27200336 — 2711001-IHSS Interview Transcription Tool",
@@ -3754,6 +3784,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-14",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "lacounty:RFB-IS-27200335",
+      "source_name": "Los Angeles County, CA",
+      "title": "RFB-IS-27200335 — 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL -",
+      "description": "1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL - | Commodity: TRAINING - IN-SERVICE (FOR EMPLOYEES) | Type: Commodity / Service",
+      "agency": "Los Angeles County — Internal Services",
+      "state": "CA",
+      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200335",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-23",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-17",
       "matched_keywords": [
         "software"
       ]
@@ -4928,6 +4978,27 @@
       "matched_keywords": [
         "data",
         "information technology"
+      ]
+    },
+    {
+      "id": "ionwave:edmondok:RFP27-008 GIS Data Updates Addendum 1",
+      "source_name": "Ionwave — City of Edmond, OK",
+      "title": "GIS Data Updates & Maintenance",
+      "description": "GIS Data Updates & Maintenance",
+      "agency": "City of Edmond, OK",
+      "state": "OK",
+      "url": "https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RFP27-008 GIS Data Updates Addendum 1",
+      "posted_date": "2026-10-12",
+      "due_date": "2026-11-25",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "data",
+        "gis"
       ]
     },
     {
@@ -6895,6 +6966,46 @@
       ]
     },
     {
+      "id": "knjg-wn2a:1662",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Wireless Voice, Data & Accessories",
+      "description": "725-30",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2021-04-01",
+      "due_date": "2029-08-11",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:8346",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "INFORMATION TECHNOLOGY RESEARCH AND ADVISORY SERVICES (ITRAS)",
+      "description": "918-06",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2018-11-27",
+      "due_date": "2028-10-31",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
       "id": "arcgis:Doc852656",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "MPD Integrated Transportation Safety Research, Data Analysis, MCSAP Program Management & Evaluation Services",
@@ -7067,26 +7178,6 @@
       "set_aside": "S-976000-00018379",
       "posted_date": "",
       "due_date": "2026-11-25",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
-      "id": "buyspeed:oregonbuys.gov:S-580100-00018205",
-      "source_name": "BuySpeed — OregonBuys (State of Oregon)",
-      "title": "RFP 2026-27-03 Digital Marketing Services",
-      "description": "RFP 2026-27-03 Digital Marketing Services",
-      "agency": "Eastern Oregon University",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/bso/external/bidDetail.sda?docId=S-580100-00018205&external=true&parentUrl=close",
-      "naics": "",
-      "psc": "",
-      "set_aside": "S-580100-00018205",
-      "posted_date": "",
-      "due_date": "2026-11-22",
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-11",
