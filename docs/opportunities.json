@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-27T06:53:35.833824+00:00",
+  "generated_at": "2026-11-27T20:28:30.289934+00:00",
   "counts": {
-    "total": 327,
-    "new": 0
+    "total": 329,
+    "new": 1
   },
   "health": {
-    "ok": 52,
+    "ok": 54,
     "total": 56,
     "sources": [
       {
@@ -28,9 +28,9 @@
       },
       {
         "source": "Oregon — Active Statewide Price Agreements",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.oregon.gov', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 494,
+        "error": ""
       },
       {
         "source": "Mesa AZ — Purchasing Solicitations",
@@ -70,9 +70,9 @@
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 111,
+        "error": ""
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 486,
+        "count": 484,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 259,
+        "count": 263,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 479,
+        "count": 486,
         "error": ""
       },
       {
@@ -149,13 +149,13 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 62,
-        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 51,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; Tarrant County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Arlington, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://arlington-tx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; City of St. Joseph, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://stjosephmo.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Des Moines, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://dsm.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Dubuque, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofdubuque.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
         "ok": true,
-        "count": 1354,
+        "count": 1355,
         "error": ""
       },
       {
@@ -179,7 +179,7 @@
       {
         "source": "JAGGAER",
         "ok": true,
-        "count": 58,
+        "count": 62,
         "error": ""
       },
       {
@@ -215,7 +215,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 289,
+        "count": 292,
         "error": "City of Buffalo, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.buffalony.gov/bids.aspx; City of Yonkers, NY: HTTPError: 403 Client Error: Forbidden for url: https://www.yonkersny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open; Scott County, MN: HTTPError: 403 Client Error: Forbidden for url: https://www.scottcountymn.gov/bids.aspx"
       },
       {
@@ -227,14 +227,14 @@
       {
         "source": "Los Angeles County, CA",
         "ok": true,
-        "count": 239,
+        "count": 237,
         "error": ""
       },
       {
         "source": "Tennessee Central Procurement Office",
         "ok": false,
         "count": 0,
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tn.gov/generalservices/procurement/central-procurement-office--cpo-/supplier-information/invitations-to-bid--itb-.html"
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
       },
       {
         "source": "Atlanta Regional Commission, GA",
@@ -263,7 +263,7 @@
       {
         "source": "NYS Contract Reporter",
         "ok": true,
-        "count": 883,
+        "count": 903,
         "error": ""
       },
       {
@@ -299,13 +299,13 @@
       {
         "source": "Georgia Procurement Registry",
         "ok": true,
-        "count": 537,
+        "count": 534,
         "error": ""
       },
       {
         "source": "Pennsylvania eMarketplace",
         "ok": true,
-        "count": 196,
+        "count": 195,
         "error": ""
       },
       {
@@ -317,13 +317,13 @@
       {
         "source": "California Cal eProcure",
         "ok": true,
-        "count": 356,
+        "count": 357,
         "error": ""
       },
       {
         "source": "State of Iowa — Bid Opportunities",
         "ok": true,
-        "count": 51,
+        "count": 53,
         "error": ""
       },
       {
@@ -2189,27 +2189,6 @@
       ]
     },
     {
-      "id": "gagpr:PE-66062-NONST-2027-000000506",
-      "source_name": "Georgia Procurement Registry",
-      "title": "PE-66062-NONST-2027-000000506 — Pre-Advertisement Notice for Inspection Truck Data Storage and Integration",
-      "description": "Pre-Advertisement Notice for Inspection Truck Data Storage and Integration",
-      "agency": "Atlanta, City Of",
-      "state": "GA",
-      "url": "https://ssl.doas.state.ga.us/gpr/eventDetails?eSourceNumber=PE-66062-NONST-2027-000000506&sourceSystemType=gpr20",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-22",
-      "due_date": "2026-11-27",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "integration",
-        "data"
-      ]
-    },
-    {
       "id": "dg92-zbpx:85627W0064001",
       "source_name": "New York City — City Record (Procurement)",
       "title": "UC4 Automation Engine Software Licenses",
@@ -2701,26 +2680,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-21",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "ionwave:tarrantcountytx:F2027057",
-      "source_name": "Ionwave — Tarrant County, TX",
-      "title": "Annual Purchase for Octopus Deploy Software Renewal",
-      "description": "Annual Purchase for Octopus Deploy Software Renewal",
-      "agency": "Tarrant County, TX",
-      "state": "TX",
-      "url": "https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "F2027057",
-      "posted_date": "2026-11-20",
-      "due_date": "2026-12-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-23",
       "matched_keywords": [
         "software"
       ]
@@ -3486,6 +3445,46 @@
       ]
     },
     {
+      "id": "knjg-wn2a:0532",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "725-60",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2020-05-22",
+      "due_date": "2029-05-31",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:0522",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "839-74",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2020-03-30",
+      "due_date": "2029-03-29",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "paemkt:COSTARS 6",
       "source_name": "Pennsylvania eMarketplace",
       "title": "COSTARS 6 — Software",
@@ -3906,26 +3905,6 @@
       ]
     },
     {
-      "id": "lacounty:RFB-IS-27200363",
-      "source_name": "Los Angeles County, CA",
-      "title": "RFB-IS-27200363 — 937052 PALO ALTO LICENSING AND MAINTENANCE/RFS 269968",
-      "description": "937052 PALO ALTO LICENSING AND MAINTENANCE/RFS 269968 | Commodity: MAINTENANCE/SUPPORT - SOFTWARE | Type: Commodity / Service",
-      "agency": "Los Angeles County — Internal Services",
-      "state": "CA",
-      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200363",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "2026-12-02",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-22",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "lacounty:RFB-IS-27200321",
       "source_name": "Los Angeles County, CA",
       "title": "RFB-IS-27200321 — ATLASSIAN JSM SUBSCRIPTION (BRAND ONLY)",
@@ -3941,6 +3920,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-13",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "lacounty:RFB-IS-27200363",
+      "source_name": "Los Angeles County, CA",
+      "title": "RFB-IS-27200363 — 937052 PALO ALTO LICENSING AND MAINTENANCE/RFS 269968",
+      "description": "937052 PALO ALTO LICENSING AND MAINTENANCE/RFS 269968 | Commodity: MAINTENANCE/SUPPORT - SOFTWARE | Type: Commodity / Service",
+      "agency": "Los Angeles County — Internal Services",
+      "state": "CA",
+      "url": "https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList?TextSearch=RFB-IS-27200363",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-12-02",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-22",
       "matched_keywords": [
         "software"
       ]
@@ -4658,27 +4657,6 @@
       ]
     },
     {
-      "id": "nyscr:2141083",
-      "source_name": "NYS Contract Reporter",
-      "title": "Assessment Management and Secure Examination Platform Solution",
-      "description": "Assessment Management and Secure Examination Platform Solution — Note: Any proposals received after the deadline will not be considered. — Division: SUNY Stony Brook West Campus — Location: SUNY Stony Brook — Category: Information Technology — Ad type: General",
-      "agency": "State University of New York (SUNY) — SUNY Stony Brook West Campus",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141083",
-      "naics": "",
-      "psc": "",
-      "set_aside": "General",
-      "posted_date": "2026-11-20",
-      "due_date": "2026-12-23",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-11-20",
-      "matched_keywords": [
-        "platform",
-        "information technology"
-      ]
-    },
-    {
       "id": "nyscr:2141049",
       "source_name": "NYS Contract Reporter",
       "title": "OP203051 Cybersecurity",
@@ -4696,6 +4674,27 @@
       "first_seen": "2026-11-20",
       "matched_keywords": [
         "cybersecurity",
+        "information technology"
+      ]
+    },
+    {
+      "id": "nyscr:2141083",
+      "source_name": "NYS Contract Reporter",
+      "title": "Assessment Management and Secure Examination Platform Solution",
+      "description": "Assessment Management and Secure Examination Platform Solution — Note: Any proposals received after the deadline will not be considered. — Division: SUNY Stony Brook West Campus — Location: SUNY Stony Brook — Category: Information Technology — Ad type: General",
+      "agency": "State University of New York (SUNY) — SUNY Stony Brook West Campus",
+      "state": "NY",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141083",
+      "naics": "",
+      "psc": "",
+      "set_aside": "General",
+      "posted_date": "2026-11-20",
+      "due_date": "2026-12-23",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-11-20",
+      "matched_keywords": [
+        "platform",
         "information technology"
       ]
     },
@@ -5309,27 +5308,6 @@
       ]
     },
     {
-      "id": "buyspeed:www.commbuys.com:BD-27-1107-TCOCP-TCOCP-135394",
-      "source_name": "BuySpeed — COMMBUYS (Massachusetts)",
-      "title": "FocalPoint Web-Based Record Information Search Platform",
-      "description": "FocalPoint Web-Based Record Information Search Platform",
-      "agency": "Trial Court",
-      "state": "MA",
-      "url": "https://www.commbuys.com/bso/external/bidDetail.sda?docId=BD-27-1107-TCOCP-TCOCP-135394&external=true&parentUrl=close",
-      "naics": "",
-      "psc": "",
-      "set_aside": "BD-27-1107-TCOCP-TCOCP-135394",
-      "posted_date": "",
-      "due_date": "2026-11-27",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-11-13",
-      "matched_keywords": [
-        "web",
-        "platform"
-      ]
-    },
-    {
       "id": "buyspeed:www.commbuys.com:BD-27-1142-143-143-135313",
       "source_name": "BuySpeed — COMMBUYS (Massachusetts)",
       "title": "IFB - DIGITAL PRESERVATION SYSTEMS",
@@ -5582,6 +5560,46 @@
       ]
     },
     {
+      "id": "nyscr:2141245",
+      "source_name": "NYS Contract Reporter",
+      "title": "NBRC CATALYST FIBER CONSTRUCTION",
+      "description": "NBRC CATALYST FIBER CONSTRUCTION — Division: Open Access Telecom Network (OATN) — Category: Information Technology — Ad type: General",
+      "agency": "Development Authority of the North Country — Open Access Telecom Network (OATN)",
+      "state": "NY",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141245",
+      "naics": "",
+      "psc": "",
+      "set_aside": "General",
+      "posted_date": "2026-11-27",
+      "due_date": "2026-12-23",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-27",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
+      "id": "nyscr:2140945",
+      "source_name": "NYS Contract Reporter",
+      "title": "NYS-Certified SDVOB Subcontracting Opportunity – CUNY Electronic Sourcing (E-Sourcing) Solution",
+      "description": "NYS-Certified SDVOB Subcontracting Opportunity – CUNY Electronic Sourcing (E-Sourcing) Solution — Location: New York - multiple locations — Category: Information Technology — Ad type: Contractor Ads",
+      "agency": "",
+      "state": "NY",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140945",
+      "naics": "",
+      "psc": "",
+      "set_aside": "Contractor Ads",
+      "posted_date": "2026-11-24",
+      "due_date": "2026-11-30",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-24",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
       "id": "nyscr:2141153",
       "source_name": "NYS Contract Reporter",
       "title": "IFB# C000684 Atlassian Products and Implementation",
@@ -5614,26 +5632,6 @@
       "set_aside": "General",
       "posted_date": "2026-11-24",
       "due_date": "2026-12-16",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-24",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "nyscr:2140945",
-      "source_name": "NYS Contract Reporter",
-      "title": "NYS-Certified SDVOB Subcontracting Opportunity – CUNY Electronic Sourcing (E-Sourcing) Solution",
-      "description": "NYS-Certified SDVOB Subcontracting Opportunity – CUNY Electronic Sourcing (E-Sourcing) Solution — Location: New York - multiple locations — Category: Information Technology — Ad type: Contractor Ads",
-      "agency": "",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140945",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Contractor Ads",
-      "posted_date": "2026-11-24",
-      "due_date": "2026-11-30",
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-24",
@@ -5682,43 +5680,23 @@
       ]
     },
     {
-      "id": "nyscr:2141074",
+      "id": "nyscr:2141057",
       "source_name": "NYS Contract Reporter",
-      "title": "IFB C002391 Digital Evidence Solution and Magnet Forensics Investigative Tools & Licenses",
-      "description": "IFB C002391 Digital Evidence Solution and Magnet Forensics Investigative Tools & Licenses — Note: Bidder question due by COB December 1, 2026 — Location: 1220 Washington Ave, Bldg 22 Albany, NY 12226 — Category: Administrative & Technical — Ad type: General",
-      "agency": "Police, NYS Dept. of",
+      "title": "Altera Digital Health Inc.",
+      "description": "Altera Digital Health Inc. — Division: SUNY Downstate Health Sciences University — Location: 450 Clarkson Ave. Brooklyn, NY 11203 — Category: Administrative & Technical — Ad type: Notice of sole/single source or procurement exempt from advertising",
+      "agency": "State University of New York (SUNY) — SUNY Downstate Health Sciences University",
       "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141074",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141057",
       "naics": "",
       "psc": "",
-      "set_aside": "General",
+      "set_aside": "Notice of sole/single source or procurement exempt from advertising",
       "posted_date": "2026-11-20",
-      "due_date": "2026-12-22",
+      "due_date": "",
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-20",
       "matched_keywords": [
         "digital"
-      ]
-    },
-    {
-      "id": "nyscr:2141086",
-      "source_name": "NYS Contract Reporter",
-      "title": "Audio Visual Equipment for SUNY Geneseo's Sturges Hall",
-      "description": "Audio Visual Equipment for SUNY Geneseo's Sturges Hall — Note: A mandatory site visit will be held on Tuesday, November 24th at 2:00 PM EST. Please contact the Campus if you plan to attend. — Division: SUNY Geneseo — Location: Sturges Hall, 1 College Circle, Geneseo, NY 14454 — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
-      "agency": "State University of New York (SUNY) — SUNY Geneseo",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141086",
-      "naics": "",
-      "psc": "",
-      "set_aside": "MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
-      "posted_date": "2026-11-20",
-      "due_date": "2026-12-14",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-20",
-      "matched_keywords": [
-        "information technology"
       ]
     },
     {
@@ -5742,18 +5720,38 @@
       ]
     },
     {
-      "id": "nyscr:2141057",
+      "id": "nyscr:2141086",
       "source_name": "NYS Contract Reporter",
-      "title": "Altera Digital Health Inc.",
-      "description": "Altera Digital Health Inc. — Division: SUNY Downstate Health Sciences University — Location: 450 Clarkson Ave. Brooklyn, NY 11203 — Category: Administrative & Technical — Ad type: Notice of sole/single source or procurement exempt from advertising",
-      "agency": "State University of New York (SUNY) — SUNY Downstate Health Sciences University",
+      "title": "Audio Visual Equipment for SUNY Geneseo's Sturges Hall",
+      "description": "Audio Visual Equipment for SUNY Geneseo's Sturges Hall — Note: A mandatory site visit will be held on Tuesday, November 24th at 2:00 PM EST. Please contact the Campus if you plan to attend. — Division: SUNY Geneseo — Location: Sturges Hall, 1 College Circle, Geneseo, NY 14454 — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
+      "agency": "State University of New York (SUNY) — SUNY Geneseo",
       "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141057",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141086",
       "naics": "",
       "psc": "",
-      "set_aside": "Notice of sole/single source or procurement exempt from advertising",
+      "set_aside": "MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
       "posted_date": "2026-11-20",
-      "due_date": "",
+      "due_date": "2026-12-14",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-20",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
+      "id": "nyscr:2141074",
+      "source_name": "NYS Contract Reporter",
+      "title": "IFB C002391 Digital Evidence Solution and Magnet Forensics Investigative Tools & Licenses",
+      "description": "IFB C002391 Digital Evidence Solution and Magnet Forensics Investigative Tools & Licenses — Note: Bidder question due by COB December 1, 2026 — Location: 1220 Washington Ave, Bldg 22 Albany, NY 12226 — Category: Administrative & Technical — Ad type: General",
+      "agency": "Police, NYS Dept. of",
+      "state": "NY",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2141074",
+      "naics": "",
+      "psc": "",
+      "set_aside": "General",
+      "posted_date": "2026-11-20",
+      "due_date": "2026-12-22",
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-20",
@@ -6242,26 +6240,6 @@
       ]
     },
     {
-      "id": "nyscr:2140680",
-      "source_name": "NYS Contract Reporter",
-      "title": "Dun & Bradstreet Hoovers",
-      "description": "Dun & Bradstreet Hoovers — Division: Procurement Unit — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
-      "agency": "Insurance Fund - NYS — Procurement Unit",
-      "state": "NY",
-      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140680",
-      "naics": "",
-      "psc": "",
-      "set_aside": "MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
-      "posted_date": "2026-11-09",
-      "due_date": "2026-12-02",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
       "id": "nyscr:2140662",
       "source_name": "NYS Contract Reporter",
       "title": "NetScout nGeniusONE and InfiniStream",
@@ -6302,6 +6280,26 @@
       ]
     },
     {
+      "id": "nyscr:2140680",
+      "source_name": "NYS Contract Reporter",
+      "title": "Dun & Bradstreet Hoovers",
+      "description": "Dun & Bradstreet Hoovers — Division: Procurement Unit — Category: Information Technology — Ad type: MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
+      "agency": "Insurance Fund - NYS — Procurement Unit",
+      "state": "NY",
+      "url": "https://www.nyscr.ny.gov/Ads/Search?Keyword=2140680",
+      "naics": "",
+      "psc": "",
+      "set_aside": "MWBE or SDVOB Discretionary procurement between $150,000 to $1,500,000",
+      "posted_date": "2026-11-09",
+      "due_date": "2026-12-02",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
       "id": "ncevp:15a8450c-4fdc-f111-84ea-001dd80db495",
       "source_name": "North Carolina eVP",
       "title": "Doc2440747988 — IT Sourcing Event DEQ AI Permitting Pilot",
@@ -6322,10 +6320,10 @@
       ]
     },
     {
-      "id": "dg92-zbpx:85821P0004007R001",
+      "id": "dg92-zbpx:85821P0004002R001",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "CDW - SECURITY CLASS I",
-      "description": "CDW - SECURITY CLASS I",
+      "title": "CDW - SECURITY CLASS II",
+      "description": "CDW - SECURITY CLASS II",
       "agency": "Information Technology and Telecommunications",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
@@ -6342,10 +6340,10 @@
       ]
     },
     {
-      "id": "dg92-zbpx:85821P0004002R001",
+      "id": "dg92-zbpx:85821P0004007R001",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "CDW - SECURITY CLASS II",
-      "description": "CDW - SECURITY CLASS II",
+      "title": "CDW - SECURITY CLASS I",
+      "description": "CDW - SECURITY CLASS I",
       "agency": "Information Technology and Telecommunications",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
@@ -7017,6 +7015,46 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-11",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:1662",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Wireless Voice, Data & Accessories",
+      "description": "725-30",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2021-04-01",
+      "due_date": "2029-08-11",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:8346",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "INFORMATION TECHNOLOGY RESEARCH AND ADVISORY SERVICES (ITRAS)",
+      "description": "918-06",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2018-11-27",
+      "due_date": "2028-10-31",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-23",
       "matched_keywords": [
         "information technology"
       ]
