@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T20:42:29.012951+00:00",
+  "generated_at": "2026-11-27T06:53:35.833824+00:00",
   "counts": {
-    "total": 333,
-    "new": 3
+    "total": 327,
+    "new": 0
   },
   "health": {
-    "ok": 54,
+    "ok": 52,
     "total": 56,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 188,
+        "count": 186,
         "error": ""
       },
       {
@@ -28,9 +28,9 @@
       },
       {
         "source": "Oregon — Active Statewide Price Agreements",
-        "ok": true,
-        "count": 494,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.oregon.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "Mesa AZ — Purchasing Solicitations",
@@ -70,9 +70,9 @@
       },
       {
         "source": "New York City — Current RFP (MOCS)",
-        "ok": true,
-        "count": 111,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "New York State — SUCF Advertised Procurements",
@@ -102,7 +102,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F23%2F2026&postedTo=11%2F26%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F24%2F2026&postedTo=11%2F27%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 487,
+        "count": 486,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 256,
+        "count": 259,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 480,
+        "count": 479,
         "error": ""
       },
       {
@@ -149,13 +149,13 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 45,
-        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; Tarrant County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Arlington, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://arlington-tx.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; City of St. Joseph, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://stjosephmo.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Des Moines, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://dsm.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Dubuque, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofdubuque.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Edmond, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://edmondok.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1; Washington County, MD: HTTPError: 429 Client Error: Too Many Requests for url: https://washco-md.ionwave.net/SourcingEvents.aspx?SourceType=1"
+        "count": 62,
+        "error": "City of Elgin, IL: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofelgin.ionwave.net/SourcingEvents.aspx?SourceType=1; Iowa State University, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://iastate.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Arkansas, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Fayetteville, AR: HTTPError: 429 Client Error: Too Many Requests for url: https://fayetteville-ar.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Irving, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Plano, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://planotx.ionwave.net/SourcingEvents.aspx?SourceType=1; El Paso County, TX: HTTPError: 429 Client Error: Too Many Requests for url: https://epcountypurchasing.ionwave.net/SourcingEvents.aspx?SourceType=1; Lee's Summit R-7 School District, MO: HTTPError: 429 Client Error: Too Many Requests for url: https://lsr7ebid.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Tennessee, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://tnstate.ionwave.net/SourcingEvents.aspx?SourceType=1; Blount County, TN: HTTPError: 429 Client Error: Too Many Requests for url: https://blounttn.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Iowa City, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://icgov.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Davenport, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Ames, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://amesbids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Council Bluffs, IA: HTTPError: 429 Client Error: Too Many Requests for url: https://cbiabids.ionwave.net/SourcingEvents.aspx?SourceType=1; City of Stillwater, OK: HTTPError: 429 Client Error: Too Many Requests for url: https://stillwater.ionwave.net/SourcingEvents.aspx?SourceType=1; State of Nevada, NV: HTTPError: 429 Client Error: Too Many Requests for url: https://nevada.ionwave.net/SourcingEvents.aspx?SourceType=1"
       },
       {
         "source": "BuySpeed",
         "ok": true,
-        "count": 1357,
+        "count": 1354,
         "error": ""
       },
       {
@@ -234,7 +234,7 @@
         "source": "Tennessee Central Procurement Office",
         "ok": false,
         "count": 0,
-        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tn.gov/generalservices/procurement/central-procurement-office--cpo-/supplier-information/invitations-to-bid--itb-.html"
       },
       {
         "source": "Atlanta Regional Commission, GA",
@@ -281,7 +281,7 @@
       {
         "source": "PeopleSoft Bids",
         "ok": true,
-        "count": 31,
+        "count": 30,
         "error": ""
       },
       {
@@ -2599,7 +2599,7 @@
       "posted_date": "2026-11-26",
       "due_date": "2026-12-09",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26",
       "matched_keywords": [
         "software"
@@ -2701,6 +2701,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-21",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "ionwave:tarrantcountytx:F2027057",
+      "source_name": "Ionwave — Tarrant County, TX",
+      "title": "Annual Purchase for Octopus Deploy Software Renewal",
+      "description": "Annual Purchase for Octopus Deploy Software Renewal",
+      "agency": "Tarrant County, TX",
+      "state": "TX",
+      "url": "https://tarrantcountytx.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "F2027057",
+      "posted_date": "2026-11-20",
+      "due_date": "2026-12-17",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-23",
       "matched_keywords": [
         "software"
       ]
@@ -2846,26 +2866,6 @@
       ]
     },
     {
-      "id": "ionwave:cityofirving:026T-27",
-      "source_name": "Ionwave — City of Irving, TX",
-      "title": "Open-Source Intelligence (OSINT) and Public Safety Threat Monitoring Software",
-      "description": "Open-Source Intelligence (OSINT) and Public Safety Threat Monitoring Software",
-      "agency": "City of Irving, TX",
-      "state": "TX",
-      "url": "https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "026T-27",
-      "posted_date": "2026-11-17",
-      "due_date": "2026-12-10",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-19",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "bidnetdirect:north-carolina/dconc:RFP 27-004",
       "source_name": "BidNet Direct — Durham City & County, NC",
       "title": "ERP Implementation Partner",
@@ -2883,26 +2883,6 @@
       "first_seen": "2026-11-16",
       "matched_keywords": [
         "erp"
-      ]
-    },
-    {
-      "id": "ionwave:cityofirving:027C-27",
-      "source_name": "Ionwave — City of Irving, TX",
-      "title": "List Manager Software Replacement",
-      "description": "List Manager Software Replacement",
-      "agency": "City of Irving, TX",
-      "state": "TX",
-      "url": "https://cityofirving.ionwave.net/SourcingEvents.aspx?SourceType=1",
-      "naics": "",
-      "psc": "",
-      "set_aside": "027C-27",
-      "posted_date": "2026-11-16",
-      "due_date": "2026-12-16",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-19",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -2998,26 +2978,6 @@
       "set_aside": "012-DW-0127",
       "posted_date": "2026-11-10",
       "due_date": "2026-12-18",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "peoplesoft:financials.ok.gov:EV00000992",
-      "source_name": "PeopleSoft Bids — State of Oklahoma (OMES)",
-      "title": "Inventory: All in-one inventory mgmt. software",
-      "description": "Inventory: All in-one inventory mgmt. software — Department of Agriculture — RFx EV00000992",
-      "agency": "Department of Agriculture",
-      "state": "OK",
-      "url": "https://financials.ok.gov/psc/SOKLFP1DS/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL",
-      "naics": "",
-      "psc": "",
-      "set_aside": "EV00000992",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-26",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-11",
@@ -3521,46 +3481,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "knjg-wn2a:0532",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "Satellite Phones, Services and Additional Software and Equipment",
-      "description": "725-60",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2020-05-22",
-      "due_date": "2029-05-31",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "knjg-wn2a:0522",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "Satellite Phones, Services and Additional Software and Equipment",
-      "description": "839-74",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2020-03-30",
-      "due_date": "2029-03-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-23",
       "matched_keywords": [
         "software"
       ]
@@ -4079,7 +3999,7 @@
       "posted_date": "",
       "due_date": "2026-12-09",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26",
       "matched_keywords": [
         "software"
@@ -4099,7 +4019,7 @@
       "posted_date": "",
       "due_date": "2026-12-11",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26",
       "matched_keywords": [
         "software"
@@ -7097,46 +7017,6 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "knjg-wn2a:1662",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "Wireless Voice, Data & Accessories",
-      "description": "725-30",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2021-04-01",
-      "due_date": "2029-08-11",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "knjg-wn2a:8346",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "INFORMATION TECHNOLOGY RESEARCH AND ADVISORY SERVICES (ITRAS)",
-      "description": "918-06",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2018-11-27",
-      "due_date": "2028-10-31",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-23",
       "matched_keywords": [
         "information technology"
       ]
